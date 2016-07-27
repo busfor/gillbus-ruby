@@ -1,0 +1,296 @@
+<DATA>
+    <TICKET>
+        <TICKET_NUMBER>14482</TICKET_NUMBER>
+        <SYSTEM_NUMBER>14482</SYSTEM_NUMBER>
+        <ORDER_NUMBER>29581</ORDER_NUMBER>
+        <ORDER_ID>exampleorder_554</ORDER_ID>
+        <TICKET_STATUS>2</TICKET_STATUS>
+        <IS_BAGGAGE>false</IS_BAGGAGE>
+        <POLICY_NUMBER/>
+        <EXCHANGE_BLANK>false</EXCHANGE_BLANK>
+        <ENABLE_CHANGE_TRIP_DATE>true</ENABLE_CHANGE_TRIP_DATE>
+        <PASSENGER_FULL_NAME>Трофименко А.</PASSENGER_FULL_NAME>
+        <PASSENGER_FIRST_NAME>Алексей</PASSENGER_FIRST_NAME>
+        <PASSENGER_LAST_NAME>Трофименко</PASSENGER_LAST_NAME>
+        <PASSENGER_BIRTHDAY/>
+        <PASSENGER_STUDENT_TICKET/>
+        <PASSENGER_PHONE/>
+        <PASSENGER_PASSPORT/>
+        <AGENT_NAME>ДЕМ Для Агентств</AGENT_NAME>
+        <AGENT_PHONE>+00(044)496-08-00</AGENT_PHONE>
+        <CARRIER_NAME>ДЕМ Для Агентств</CARRIER_NAME>
+        <CARRIER_PHONE>+00(044)496-08-00</CARRIER_PHONE>
+        <BUS_MODEL>R Neoplan9</BUS_MODEL>
+        <CARRIAGE_NUMBER/>
+        <NUMBER_SEAT>33C</NUMBER_SEAT>
+        <TRIP_NUMBER>КийОдесса</TRIP_NUMBER>
+        <TRIP_MODE>1</TRIP_MODE>
+        <INTERNATIONAL_TRIP>false</INTERNATIONAL_TRIP>
+        <START_CITY>Киев</START_CITY>
+        <START_DATE>15.12.2014</START_DATE>
+        <START_TIME>08:00</START_TIME>
+        <END_CITY>Одесса</END_CITY>
+        <END_TIME>15:20</END_TIME>
+        <TYPE_TARIFF_NAME>Y</TYPE_TARIFF_NAME>
+        <TYPE_TARIFF_FULL_NAME>Базовый тариф</TYPE_TARIFF_FULL_NAME>
+        <TYPE_TARIFF_DESCRIPTION>Базовый тариф стоимости проезда одного пассажира в одном направлении.</TYPE_TARIFF_DESCRIPTION>
+        <TARIFF>0.31</TARIFF>
+        <TARIFF_VAT>0.09</TARIFF_VAT>
+        <FOREIGN_TARIFF>0</FOREIGN_TARIFF>
+        <FOREIGN_TARIFF_VAT>0</FOREIGN_TARIFF_VAT>
+        <NOTE/>
+        <BARCODE>АГН000014482АГН</BARCODE>
+        <END_DATE>15.12.2014</END_DATE>
+        <STATION_NAME/>
+        <STATION_END_NAME/>
+        <INSURANCE_NAME>Страховая Компания</INSURANCE_NAME>
+        <INSURANCE_PHONE/>
+        <AGENT_REG>35389109</AGENT_REG>
+        <CARRIER_REG>35389109</CARRIER_REG>
+        <INSURANCE_REG>0000000000</INSURANCE_REG>
+        <TOTAL_TARIFF>0.31</TOTAL_TARIFF>
+        <TOTAL_TARIFF_IN_CURRENCY>0.31</TOTAL_TARIFF_IN_CURRENCY>
+        <TOTAL_TARIFF_VAT>0.09</TOTAL_TARIFF_VAT>
+        <TOTAL_TARIFF_VAT_IN_CURRENCY>0.09</TOTAL_TARIFF_VAT_IN_CURRENCY>
+        <TARIFF_CUR_CODE>UAH</TARIFF_CUR_CODE>
+        <TARIFF_CUR_RATE/>
+        <TOTAL_AMOUNT>20.46</TOTAL_AMOUNT>
+        <TOTAL_AMOUNT_VAT>3.43</TOTAL_AMOUNT_VAT>
+        <SALE_CUR_CODE>UAH</SALE_CUR_CODE>
+        <CUSTOMER_NAME/>
+        <CUSTOMER_PHONE/>
+        <CUSTOMER_ADDRESS/>
+        <AGENT_ADDRESS>г Киев, ул Якіра, д 13-б</AGENT_ADDRESS>
+        <CARRIER_ADDRESS>г Киев, ул Якіра, д 13-б</CARRIER_ADDRESS>
+        <STATION_ADDRESS/>
+        <STATION_END_ADDRESS/>
+        <INSURANCE_ADDRESS>г Москва, ул 123</INSURANCE_ADDRESS>
+        <AGENT_CODE>АГН</AGENT_CODE>
+        <AGENT_CITY>Киев</AGENT_CITY>
+        <CARRIER_CODE>АГН</CARRIER_CODE>
+        <BEGIN_AVIACODE>IEV</BEGIN_AVIACODE>
+        <END_AVIACODE>ODS</END_AVIACODE>
+        <XT>0.06</XT>
+        <XT_VAT>0.01</XT_VAT>
+        <RETURN_CAUSE>
+            <ID>9865925BC03335F0E040A8C063037E33</ID>
+            <APPROXIMATE_AMOUNT>20.38</APPROXIMATE_AMOUNT>
+            <CAUSE>Добровільно за 10 хвилин  до відправлення рейсу</CAUSE>
+        </RETURN_CAUSE>
+        <RETURN_CAUSE>
+            <ID>9865925BC03B35F0E040A8C063037E33</ID>
+            <APPROXIMATE_AMOUNT>20.34</APPROXIMATE_AMOUNT>
+            <CAUSE>Добровільно за час менше ніж 10 хвилин до відправлення рейсу</CAUSE>
+        </RETURN_CAUSE>
+        <RETURN_CAUSE>
+            <ID>9865925BC04335F0E040A8C063037E33</ID>
+            <APPROXIMATE_AMOUNT>20.06</APPROXIMATE_AMOUNT>
+            <CAUSE>Добровільно, через 3 години після відправлення рейсу</CAUSE>
+        </RETURN_CAUSE>
+        <RETURN_CAUSE>
+            <ID>9865925BC04B35F0E040A8C063037E33</ID>
+            <APPROXIMATE_AMOUNT>20.46</APPROXIMATE_AMOUNT>
+            <CAUSE>Примусово, відміна рейсу, нижчий клас автобусу</CAUSE>
+        </RETURN_CAUSE>
+        <RETURN_CAUSE>
+            <ID>9865925BC05335F0E040A8C063037E33</ID>
+            <APPROXIMATE_AMOUNT>20.46</APPROXIMATE_AMOUNT>
+            <CAUSE>Обєктивні причини, хвороба, нещасний випадок</CAUSE>
+        </RETURN_CAUSE>
+        <RETURN_CAUSE>
+            <ID>9865925BC05B35F0E040A8C063037E33</ID>
+            <APPROXIMATE_AMOUNT>20.46</APPROXIMATE_AMOUNT>
+            <CAUSE>Добровільно за 24 години до відправлення рейсу</CAUSE>
+        </RETURN_CAUSE>
+        <RETURN_CAUSE>
+            <ID>9865925BC06335F0E040A8C063037E33</ID>
+            <APPROXIMATE_AMOUNT>20.41</APPROXIMATE_AMOUNT>
+            <CAUSE>Добровільно за 2 години до відправлення рейсу</CAUSE>
+        </RETURN_CAUSE>
+        <RETURN_CAUSE>
+            <ID>FDAE2B8415FC3F2FE040A8C0630226E4</ID>
+            <APPROXIMATE_AMOUNT>20.46</APPROXIMATE_AMOUNT>
+            <CAUSE>Принудительно. Отмена рейса</CAUSE>
+        </RETURN_CAUSE>
+        <COMMISSION>
+            <TYPE>2</TYPE>
+            <CODE>YS</CODE>
+            <DESCRIPTION>Страховой сбор</DESCRIPTION>
+            <VALUE>0.06</VALUE>
+            <VAT>0.01</VAT>
+            <CURRENCY>UAH</CURRENCY>
+            <RATE>0</RATE>
+            <VALUE_IN_CURRENCY>0.05</VALUE_IN_CURRENCY>
+            <VAT_IN_CURRENCY>0.01</VAT_IN_CURRENCY>
+        </COMMISSION>
+        <COMMISSION>
+            <TYPE>6</TYPE>
+            <CODE>XP3</CODE>
+            <DESCRIPTION>Сервисный сбор</DESCRIPTION>
+            <VALUE>20</VALUE>
+            <VAT>3.33</VAT>
+            <CURRENCY>UAH</CURRENCY>
+            <RATE>0</RATE>
+            <VALUE_IN_CURRENCY>16.67</VALUE_IN_CURRENCY>
+            <VAT_IN_CURRENCY>3.33</VAT_IN_CURRENCY>
+        </COMMISSION>
+        <COMMISSION>
+            <TYPE>-2</TYPE>
+            <CODE>XT</CODE>
+            <DESCRIPTION>Сумма других сборов</DESCRIPTION>
+            <VALUE>0.06</VALUE>
+            <VAT>0.01</VAT>
+            <CURRENCY>UAH</CURRENCY>
+            <RATE>0</RATE>
+            <VALUE_IN_CURRENCY>0.05</VALUE_IN_CURRENCY>
+            <VAT_IN_CURRENCY>0.01</VAT_IN_CURRENCY>
+        </COMMISSION>
+    </TICKET>
+    <TICKET>
+        <TICKET_NUMBER>14483</TICKET_NUMBER>
+        <SYSTEM_NUMBER>14483</SYSTEM_NUMBER>
+        <ORDER_NUMBER>29581</ORDER_NUMBER>
+        <ORDER_ID>exampleorder_554</ORDER_ID>
+        <TICKET_STATUS>2</TICKET_STATUS>
+        <IS_BAGGAGE>false</IS_BAGGAGE>
+        <POLICY_NUMBER/>
+        <EXCHANGE_BLANK>false</EXCHANGE_BLANK>
+        <ENABLE_CHANGE_TRIP_DATE>true</ENABLE_CHANGE_TRIP_DATE>
+        <PASSENGER_FULL_NAME>Чуйкина А.</PASSENGER_FULL_NAME>
+        <PASSENGER_FIRST_NAME>Анна</PASSENGER_FIRST_NAME>
+        <PASSENGER_LAST_NAME>Чуйкина</PASSENGER_LAST_NAME>
+        <PASSENGER_BIRTHDAY/>
+        <PASSENGER_STUDENT_TICKET/>
+        <PASSENGER_PHONE/>
+        <PASSENGER_PASSPORT/>
+        <AGENT_NAME>ДЕМ Для Агентств</AGENT_NAME>
+        <AGENT_PHONE>+00(044)496-08-00</AGENT_PHONE>
+        <CARRIER_NAME>ДЕМ Для Агентств</CARRIER_NAME>
+        <CARRIER_PHONE>+00(044)496-08-00</CARRIER_PHONE>
+        <BUS_MODEL>R Neoplan9</BUS_MODEL>
+        <CARRIAGE_NUMBER/>
+        <NUMBER_SEAT>37</NUMBER_SEAT>
+        <TRIP_NUMBER>КийОдесса</TRIP_NUMBER>
+        <TRIP_MODE>1</TRIP_MODE>
+        <INTERNATIONAL_TRIP>false</INTERNATIONAL_TRIP>
+        <START_CITY>Киев</START_CITY>
+        <START_DATE>15.12.2014</START_DATE>
+        <START_TIME>08:00</START_TIME>
+        <END_CITY>Одесса</END_CITY>
+        <END_TIME>15:20</END_TIME>
+        <TYPE_TARIFF_NAME>Y</TYPE_TARIFF_NAME>
+        <TYPE_TARIFF_FULL_NAME>Базовый тариф</TYPE_TARIFF_FULL_NAME>
+        <TYPE_TARIFF_DESCRIPTION>Базовый тариф стоимости проезда одного пассажира в одном направлении.</TYPE_TARIFF_DESCRIPTION>
+        <TARIFF>0.31</TARIFF>
+        <TARIFF_VAT>0.09</TARIFF_VAT>
+        <FOREIGN_TARIFF>0</FOREIGN_TARIFF>
+        <FOREIGN_TARIFF_VAT>0</FOREIGN_TARIFF_VAT>
+        <NOTE/>
+        <BARCODE>АГН000014483АГН</BARCODE>
+        <END_DATE>15.12.2014</END_DATE>
+        <STATION_NAME/>
+        <STATION_END_NAME/>
+        <INSURANCE_NAME>Страховая Компания</INSURANCE_NAME>
+        <INSURANCE_PHONE/>
+        <AGENT_REG>35389109</AGENT_REG>
+        <CARRIER_REG>35389109</CARRIER_REG>
+        <INSURANCE_REG>0000000000</INSURANCE_REG>
+        <TOTAL_TARIFF>0.31</TOTAL_TARIFF>
+        <TOTAL_TARIFF_IN_CURRENCY>0.31</TOTAL_TARIFF_IN_CURRENCY>
+        <TOTAL_TARIFF_VAT>0.09</TOTAL_TARIFF_VAT>
+        <TOTAL_TARIFF_VAT_IN_CURRENCY>0.09</TOTAL_TARIFF_VAT_IN_CURRENCY>
+        <TARIFF_CUR_CODE>UAH</TARIFF_CUR_CODE>
+        <TARIFF_CUR_RATE/>
+        <TOTAL_AMOUNT>20.46</TOTAL_AMOUNT>
+        <TOTAL_AMOUNT_VAT>3.43</TOTAL_AMOUNT_VAT>
+        <SALE_CUR_CODE>UAH</SALE_CUR_CODE>
+        <CUSTOMER_NAME/>
+        <CUSTOMER_PHONE/>
+        <CUSTOMER_ADDRESS/>
+        <AGENT_ADDRESS>г Киев, ул Якіра, д 13-б</AGENT_ADDRESS>
+        <CARRIER_ADDRESS>г Киев, ул Якіра, д 13-б</CARRIER_ADDRESS>
+        <STATION_ADDRESS/>
+        <STATION_END_ADDRESS/>
+        <INSURANCE_ADDRESS>г Москва, ул 123</INSURANCE_ADDRESS>
+        <AGENT_CODE>АГН</AGENT_CODE>
+        <AGENT_CITY>Киев</AGENT_CITY>
+        <CARRIER_CODE>АГН</CARRIER_CODE>
+        <BEGIN_AVIACODE>IEV</BEGIN_AVIACODE>
+        <END_AVIACODE>ODS</END_AVIACODE>
+        <XT>0.06</XT>
+        <XT_VAT>0.01</XT_VAT>
+        <RETURN_CAUSE>
+            <ID>9865925BC03335F0E040A8C063037E33</ID>
+            <APPROXIMATE_AMOUNT>20.38</APPROXIMATE_AMOUNT>
+            <CAUSE>Добровільно за 10 хвилин  до відправлення рейсу</CAUSE>
+        </RETURN_CAUSE>
+        <RETURN_CAUSE>
+            <ID>9865925BC03B35F0E040A8C063037E33</ID>
+            <APPROXIMATE_AMOUNT>20.34</APPROXIMATE_AMOUNT>
+            <CAUSE>Добровільно за час менше ніж 10 хвилин до відправлення рейсу</CAUSE>
+        </RETURN_CAUSE>
+        <RETURN_CAUSE>
+            <ID>9865925BC04335F0E040A8C063037E33</ID>
+            <APPROXIMATE_AMOUNT>20.06</APPROXIMATE_AMOUNT>
+            <CAUSE>Добровільно, через 3 години після відправлення рейсу</CAUSE>
+        </RETURN_CAUSE>
+        <RETURN_CAUSE>
+            <ID>9865925BC04B35F0E040A8C063037E33</ID>
+            <APPROXIMATE_AMOUNT>20.46</APPROXIMATE_AMOUNT>
+            <CAUSE>Примусово, відміна рейсу, нижчий клас автобусу</CAUSE>
+        </RETURN_CAUSE>
+        <RETURN_CAUSE>
+            <ID>9865925BC05335F0E040A8C063037E33</ID>
+            <APPROXIMATE_AMOUNT>20.46</APPROXIMATE_AMOUNT>
+            <CAUSE>Обєктивні причини, хвороба, нещасний випадок</CAUSE>
+        </RETURN_CAUSE>
+        <RETURN_CAUSE>
+            <ID>9865925BC05B35F0E040A8C063037E33</ID>
+            <APPROXIMATE_AMOUNT>20.46</APPROXIMATE_AMOUNT>
+            <CAUSE>Добровільно за 24 години до відправлення рейсу</CAUSE>
+        </RETURN_CAUSE>
+        <RETURN_CAUSE>
+            <ID>9865925BC06335F0E040A8C063037E33</ID>
+            <APPROXIMATE_AMOUNT>20.41</APPROXIMATE_AMOUNT>
+            <CAUSE>Добровільно за 2 години до відправлення рейсу</CAUSE>
+        </RETURN_CAUSE>
+        <RETURN_CAUSE>
+            <ID>FDAE2B8415FC3F2FE040A8C0630226E4</ID>
+            <APPROXIMATE_AMOUNT>20.46</APPROXIMATE_AMOUNT>
+            <CAUSE>Принудительно. Отмена рейса</CAUSE>
+        </RETURN_CAUSE>
+        <COMMISSION>
+            <TYPE>2</TYPE>
+            <CODE>YS</CODE>
+            <DESCRIPTION>Страховой сбор</DESCRIPTION>
+            <VALUE>0.06</VALUE>
+            <VAT>0.01</VAT>
+            <CURRENCY>UAH</CURRENCY>
+            <RATE>0</RATE>
+            <VALUE_IN_CURRENCY>0.05</VALUE_IN_CURRENCY>
+            <VAT_IN_CURRENCY>0.01</VAT_IN_CURRENCY>
+        </COMMISSION>
+        <COMMISSION>
+            <TYPE>6</TYPE>
+            <CODE>XP3</CODE>
+            <DESCRIPTION>Сервисный сбор</DESCRIPTION>
+            <VALUE>20</VALUE>
+            <VAT>3.33</VAT>
+            <CURRENCY>UAH</CURRENCY>
+            <RATE>0</RATE>
+            <VALUE_IN_CURRENCY>16.67</VALUE_IN_CURRENCY>
+            <VAT_IN_CURRENCY>3.33</VAT_IN_CURRENCY>
+        </COMMISSION>
+        <COMMISSION>
+            <TYPE>-2</TYPE>
+            <CODE>XT</CODE>
+            <DESCRIPTION>Сумма других сборов</DESCRIPTION>
+            <VALUE>0.06</VALUE>
+            <VAT>0.01</VAT>
+            <CURRENCY>UAH</CURRENCY>
+            <RATE>0</RATE>
+            <VALUE_IN_CURRENCY>0.05</VALUE_IN_CURRENCY>
+            <VAT_IN_CURRENCY>0.01</VAT_IN_CURRENCY>
+        </COMMISSION>
+    </TICKET>
+</DATA>

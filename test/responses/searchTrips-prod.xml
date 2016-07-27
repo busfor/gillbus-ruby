@@ -1,0 +1,193 @@
+<DATA>
+    <COMPLETED>true</COMPLETED>
+    <TRIP>
+        <ID>3451212695530327295</ID>
+        <RES_ID>10</RES_ID>
+        <NUMBER>2197</NUMBER>
+        <START_CITY_NAME>Москва</START_CITY_NAME>
+        <END_CITY_NAME>Санкт-Петербург</END_CITY_NAME>
+        <START_DATE>23.08.2014</START_DATE>
+        <END_DATE>24.08.2014</END_DATE>
+        <START_TIME>19:00</START_TIME>
+        <END_TIME>06:30</END_TIME>
+        <BUS_MODEL/>
+        <PLACES_COUNT>18</PLACES_COUNT>
+        <FREE_PLACES_COUNT>3</FREE_PLACES_COUNT>
+        <FREE_BUSY_PLACES>3/18</FREE_BUSY_PLACES>
+        <CARRIER_NAME>ИП Унанян И.А.</CARRIER_NAME>
+        <TIME_IN_ROAD>11:30</TIME_IN_ROAD>
+        <STATION_BEGIN_NAME>Москва</STATION_BEGIN_NAME>
+        <STATION_BEGIN_ADDRESS>Москва, Рязанский переулок, д. 13, стр. 1</STATION_BEGIN_ADDRESS>
+        <STATION_END_NAME>Санкт-Петербург</STATION_END_NAME>
+        <STATION_END_ADDRESS>м. Купчино </STATION_END_ADDRESS>
+        <RESERVATION_ENABLED>true</RESERVATION_ENABLED>
+        <SALE_ENABLED>true</SALE_ENABLED>
+        <RETURN_ENABLED>false</RETURN_ENABLED>
+        <TIME_FOR_CANCEL>25</TIME_FOR_CANCEL>
+        <TRIP_FULL_SALE>false</TRIP_FULL_SALE>
+        <CAN_DISCOUNT>true</CAN_DISCOUNT>
+        <INTERNATIONAL>false</INTERNATIONAL>
+        <JOIN_BOOK_BUY>false</JOIN_BOOK_BUY>
+        <TRIP_MODE>1</TRIP_MODE>
+        <IMAGE_URL>null</IMAGE_URL>
+        <START_POINT_TYPE>null</START_POINT_TYPE>
+        <VEHICLE_DESCRIPTION>null</VEHICLE_DESCRIPTION>
+        <VEHICLE_FEATURES>null</VEHICLE_FEATURES>
+        <TOTAL_COST>1410.0</TOTAL_COST>
+        <CURRENCY>RUB</CURRENCY>
+        <CURRENCY_CODE>643</CURRENCY_CODE>
+        <TARIFF>
+            <SHORT_NAME>Y</SHORT_NAME>
+            <FULL_NAME/>
+            <START_DATE/>
+            <END_DATE/>
+            <DESCRIPTION/>
+            <TIME_TO_BUY_RESERVED>0</TIME_TO_BUY_RESERVED>
+            <TIME_TO_STOP_BOOKING>0</TIME_TO_STOP_BOOKING>
+            <COST>1410</COST>
+            <AFTER_DISPATCH_NO_RETURN>false</AFTER_DISPATCH_NO_RETURN>
+            <PASSENGER_BIRTHDAY/>
+            <PASSENGER_ISIC_NUMBER/>
+            <PASSENGER_STUDENT_TICKET/>
+        </TARIFF>
+        <POINT>
+            <NUMBER>0</NUMBER>
+            <GEOGRAPHY_NAME>Москва</GEOGRAPHY_NAME>
+            <NAME>Москва</NAME>
+            <ADDRESS>Москва, Рязанский переулок, д. 13, стр. 1</ADDRESS>
+            <ARRIVAL_DATE>23.08.2014</ARRIVAL_DATE>
+            <ARRIVAL_TIME>19:00</ARRIVAL_TIME>
+            <DISPATCH_DATE/>
+            <DISPATCH_TIME/>
+            <CHECK_POINT>false</CHECK_POINT>
+        </POINT>
+        <POINT>
+            <NUMBER>1</NUMBER>
+            <GEOGRAPHY_NAME>Вышний Волочек</GEOGRAPHY_NAME>
+            <NAME>Вышний Волочек</NAME>
+            <ADDRESS>трасса (М10)</ADDRESS>
+            <ARRIVAL_DATE>24.08.2014</ARRIVAL_DATE>
+            <ARRIVAL_TIME>00:00</ARRIVAL_TIME>
+            <DISPATCH_DATE/>
+            <DISPATCH_TIME/>
+            <CHECK_POINT>false</CHECK_POINT>
+        </POINT>
+        <POINT>
+            <NUMBER>2</NUMBER>
+            <GEOGRAPHY_NAME>Великий Новгород</GEOGRAPHY_NAME>
+            <NAME>Великий Новгород</NAME>
+            <ADDRESS>трасса (Подберезье, поворот на Великий Новгород)</ADDRESS>
+            <ARRIVAL_DATE>24.08.2014</ARRIVAL_DATE>
+            <ARRIVAL_TIME>03:30</ARRIVAL_TIME>
+            <DISPATCH_DATE/>
+            <DISPATCH_TIME/>
+            <CHECK_POINT>false</CHECK_POINT>
+        </POINT>
+        <POINT>
+            <NUMBER>3</NUMBER>
+            <GEOGRAPHY_NAME>Санкт-Петербург</GEOGRAPHY_NAME>
+            <NAME>Санкт-Петербург</NAME>
+            <ADDRESS>м. Купчино </ADDRESS>
+            <ARRIVAL_DATE>24.08.2014</ARRIVAL_DATE>
+            <ARRIVAL_TIME>06:30</ARRIVAL_TIME>
+            <DISPATCH_DATE/>
+            <DISPATCH_TIME/>
+            <CHECK_POINT>false</CHECK_POINT>
+        </POINT>
+    </TRIP>
+    <TRIP>
+        <ID>-3986171261205069729</ID>
+        <RES_ID>10</RES_ID>
+        <NUMBER>2093</NUMBER>
+        <START_CITY_NAME>Москва</START_CITY_NAME>
+        <END_CITY_NAME>Санкт-Петербург</END_CITY_NAME>
+        <START_DATE>23.08.2014</START_DATE>
+        <END_DATE>24.08.2014</END_DATE>
+        <START_TIME>21:10</START_TIME>
+        <END_TIME>08:40</END_TIME>
+        <BUS_MODEL/>
+        <PLACES_COUNT>18</PLACES_COUNT>
+        <FREE_PLACES_COUNT>10</FREE_PLACES_COUNT>
+        <FREE_BUSY_PLACES>10/18</FREE_BUSY_PLACES>
+        <CARRIER_NAME>ИП Унанян И.А.</CARRIER_NAME>
+        <TIME_IN_ROAD>11:30</TIME_IN_ROAD>
+        <STATION_BEGIN_NAME>Москва</STATION_BEGIN_NAME>
+        <STATION_BEGIN_ADDRESS>Москва, Рязанский переулок, д. 13, стр. 1</STATION_BEGIN_ADDRESS>
+        <STATION_END_NAME>Санкт-Петербург</STATION_END_NAME>
+        <STATION_END_ADDRESS>м. Купчино </STATION_END_ADDRESS>
+        <RESERVATION_ENABLED>true</RESERVATION_ENABLED>
+        <SALE_ENABLED>true</SALE_ENABLED>
+        <RETURN_ENABLED>false</RETURN_ENABLED>
+        <TIME_FOR_CANCEL>25</TIME_FOR_CANCEL>
+        <TRIP_FULL_SALE>false</TRIP_FULL_SALE>
+        <CAN_DISCOUNT>true</CAN_DISCOUNT>
+        <INTERNATIONAL>false</INTERNATIONAL>
+        <JOIN_BOOK_BUY>false</JOIN_BOOK_BUY>
+        <TRIP_MODE>1</TRIP_MODE>
+        <IMAGE_URL>null</IMAGE_URL>
+        <START_POINT_TYPE>null</START_POINT_TYPE>
+        <VEHICLE_DESCRIPTION>null</VEHICLE_DESCRIPTION>
+        <VEHICLE_FEATURES>null</VEHICLE_FEATURES>
+        <TOTAL_COST>1410</TOTAL_COST>
+        <CURRENCY>RUB</CURRENCY>
+        <CURRENCY_CODE>643</CURRENCY_CODE>
+        <TARIFF>
+            <SHORT_NAME>Y</SHORT_NAME>
+            <FULL_NAME/>
+            <START_DATE/>
+            <END_DATE/>
+            <DESCRIPTION/>
+            <TIME_TO_BUY_RESERVED>0</TIME_TO_BUY_RESERVED>
+            <TIME_TO_STOP_BOOKING>0</TIME_TO_STOP_BOOKING>
+            <COST>1410</COST>
+            <AFTER_DISPATCH_NO_RETURN>false</AFTER_DISPATCH_NO_RETURN>
+            <PASSENGER_BIRTHDAY/>
+            <PASSENGER_ISIC_NUMBER/>
+            <PASSENGER_STUDENT_TICKET/>
+        </TARIFF>
+        <POINT>
+            <NUMBER>0</NUMBER>
+            <GEOGRAPHY_NAME>Москва</GEOGRAPHY_NAME>
+            <NAME>Москва</NAME>
+            <ADDRESS>Москва, Рязанский переулок, д. 13, стр. 1</ADDRESS>
+            <ARRIVAL_DATE>23.08.2014</ARRIVAL_DATE>
+            <ARRIVAL_TIME>21:10</ARRIVAL_TIME>
+            <DISPATCH_DATE/>
+            <DISPATCH_TIME/>
+            <CHECK_POINT>false</CHECK_POINT>
+        </POINT>
+        <POINT>
+            <NUMBER>1</NUMBER>
+            <GEOGRAPHY_NAME>Вышний Волочек</GEOGRAPHY_NAME>
+            <NAME>Вышний Волочек</NAME>
+            <ADDRESS>трасса (М10)</ADDRESS>
+            <ARRIVAL_DATE>24.08.2014</ARRIVAL_DATE>
+            <ARRIVAL_TIME>02:10</ARRIVAL_TIME>
+            <DISPATCH_DATE/>
+            <DISPATCH_TIME/>
+            <CHECK_POINT>false</CHECK_POINT>
+        </POINT>
+        <POINT>
+            <NUMBER>2</NUMBER>
+            <GEOGRAPHY_NAME>Великий Новгород</GEOGRAPHY_NAME>
+            <NAME>Великий Новгород</NAME>
+            <ADDRESS>трасса (Подберезье, поворот на Великий Новгород)</ADDRESS>
+            <ARRIVAL_DATE>24.08.2014</ARRIVAL_DATE>
+            <ARRIVAL_TIME>05:40</ARRIVAL_TIME>
+            <DISPATCH_DATE/>
+            <DISPATCH_TIME/>
+            <CHECK_POINT>false</CHECK_POINT>
+        </POINT>
+        <POINT>
+            <NUMBER>3</NUMBER>
+            <GEOGRAPHY_NAME>Санкт-Петербург</GEOGRAPHY_NAME>
+            <NAME>Санкт-Петербург</NAME>
+            <ADDRESS>м. Купчино </ADDRESS>
+            <ARRIVAL_DATE>24.08.2014</ARRIVAL_DATE>
+            <ARRIVAL_TIME>08:40</ARRIVAL_TIME>
+            <DISPATCH_DATE/>
+            <DISPATCH_TIME/>
+            <CHECK_POINT>false</CHECK_POINT>
+        </POINT>
+    </TRIP>
+</DATA>

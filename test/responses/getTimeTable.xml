@@ -1,0 +1,81 @@
+<DATA>
+    <TRIP>
+        <NUMBER>ЯРМ005 Киев-Коблево</NUMBER>
+        <START_CITY_NAME>Киев</START_CITY_NAME>
+        <END_CITY_NAME>Коблево</END_CITY_NAME>
+        <START_DATE>24.07.2015</START_DATE>
+        <END_DATE>31.08.2015</END_DATE>
+        <START_TIME>07:30</START_TIME>
+        <END_TIME>14:30</END_TIME>
+        <BUS_MODEL>Neoplan 313 SHD</BUS_MODEL>
+        <CARRIER_INFO>"Ярмола А.Г." ФОП +38(044)5965112</CARRIER_INFO>
+        <NUMBER_SEATS>38</NUMBER_SEATS>
+        <FREQUENCY>3</FREQUENCY>
+        <INTERNATIONAL>false</INTERNATIONAL>
+        <TRIP_MODE>1</TRIP_MODE>
+        <SEGMENT>
+            <START_NAME>Киев</START_NAME>
+            <END_NAME>Одесса</END_NAME>
+            <START_TIME>07:30</START_TIME>
+            <END_TIME>12:55</END_TIME>
+            <DAYS>0</DAYS>
+            <BASE_COST>270</BASE_COST>
+        </SEGMENT>
+        <SEGMENT>
+            <START_NAME>Киев</START_NAME>
+            <END_NAME>Южный(ОД)</END_NAME>
+            <START_TIME>07:30</START_TIME>
+            <END_TIME>13:55</END_TIME>
+            <DAYS>0</DAYS>
+            <BASE_COST>300</BASE_COST>
+        </SEGMENT>
+        <SEGMENT>
+            <START_NAME>Киев</START_NAME>
+            <END_NAME>Коблево</END_NAME>
+            <START_TIME>07:30</START_TIME>
+            <END_TIME>14:30</END_TIME>
+            <DAYS>0</DAYS>
+            <BASE_COST>320</BASE_COST>
+        </SEGMENT>
+        <DAY_OR_DATE>1</DAY_OR_DATE>
+        <DAY_OR_DATE>6</DAY_OR_DATE>
+    </TRIP>
+    <TRIP>
+        <NUMBER>ПВЮ004/2 Затока-Киев</NUMBER>
+        <START_CITY_NAME>Затока</START_CITY_NAME>
+        <END_CITY_NAME>Киев</END_CITY_NAME>
+        <START_DATE>26.06.2015</START_DATE>
+        <END_DATE>30.09.2015</END_DATE>
+        <START_TIME>22:00</START_TIME>
+        <END_TIME>06:20</END_TIME>
+        <BUS_MODEL>Volkswagen</BUS_MODEL>
+        <CARRIER_INFO>"Притула В.Ю." ФОП </CARRIER_INFO>
+        <NUMBER_SEATS>18</NUMBER_SEATS>
+        <FREQUENCY>2</FREQUENCY>
+        <INTERNATIONAL>false</INTERNATIONAL>
+        <TRIP_MODE>1</TRIP_MODE>
+        <SEGMENT>
+            <START_NAME>Затока</START_NAME>
+            <END_NAME>Киев</END_NAME>
+            <START_TIME>22:00</START_TIME>
+            <END_TIME>06:20</END_TIME>
+            <DAYS>1</DAYS>
+            <BASE_COST>320</BASE_COST>
+        </SEGMENT>
+        <SEGMENT>
+            <START_NAME>Одесса</START_NAME>
+            <END_NAME>Киев</END_NAME>
+            <START_TIME>23:15</START_TIME>
+            <END_TIME>06:20</END_TIME>
+            <DAYS>1</DAYS>
+            <BASE_COST>300</BASE_COST>
+        </SEGMENT>
+        <DAY_OR_DATE>16.08.2015</DAY_OR_DATE>
+        <DAY_OR_DATE>23.08.2015</DAY_OR_DATE>
+        <DAY_OR_DATE>30.08.2015</DAY_OR_DATE>
+        <DAY_OR_DATE>06.09.2015</DAY_OR_DATE>
+        <DAY_OR_DATE>13.09.2015</DAY_OR_DATE>
+        <DAY_OR_DATE>20.09.2015</DAY_OR_DATE>
+        <DAY_OR_DATE>27.09.2015</DAY_OR_DATE>
+    </TRIP>
+</DATA>

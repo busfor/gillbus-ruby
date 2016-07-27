@@ -1,0 +1,808 @@
+<DATA>
+    <COMPLETED>true</COMPLETED>
+    <TRIP>
+        <ID>008400441955386673537</ID>
+        <RES_ID>0</RES_ID>
+        <NUMBER>ЕВК003/Шт, ROV003 Івано-Франківськ-Щецин WiFi</NUMBER>
+        <START_CITY_NAME>Киев</START_CITY_NAME>
+        <END_CITY_NAME>Щецин</END_CITY_NAME>
+        <START_DATE>26.06.2015</START_DATE>
+        <END_DATE>27.06.2015</END_DATE>
+        <START_TIME>08:30</START_TIME>
+        <END_TIME>16:00</END_TIME>
+        <BUS_MODEL>Neoplan(Free), Setra</BUS_MODEL>
+        <BUS_CLASS/>
+        <TRIP_SEATS_MAP>true</TRIP_SEATS_MAP>
+        <SHOW_PICKUP_DROPOFF>false</SHOW_PICKUP_DROPOFF>
+        <PLACES_COUNT>49</PLACES_COUNT>
+        <FREE_PLACES_COUNT>5</FREE_PLACES_COUNT>
+        <FREE_BUSY_PLACES>5/49</FREE_BUSY_PLACES>
+        <CARRIER_ID>931B7F89F0D547EBE040A8C01E023315</CARRIER_ID>
+        <CARRIER_NAME> "Евроклуб" ТОВ, "Романишин О. В."ФОП</CARRIER_NAME>
+        <TIME_IN_ROAD>31:30</TIME_IN_ROAD>
+        <STATION_BEGIN_ID>928F32EDA523026FE040A8C01E02395E</STATION_BEGIN_ID>
+        <STATION_BEGIN_NAME>АС "Дачна"</STATION_BEGIN_NAME>
+        <STATION_BEGIN_ADDRESS>прт. Победы, 142</STATION_BEGIN_ADDRESS>
+        <STATION_END_ID>93A85E6A852855AFE040A8C01E02029E</STATION_END_ID>
+        <STATION_END_NAME>Автовокзал</STATION_END_NAME>
+        <STATION_END_ADDRESS>pl. Grodnicki,1</STATION_END_ADDRESS>
+        <RESERVATION_ENABLED>true</RESERVATION_ENABLED>
+        <SALE_ENABLED>true</SALE_ENABLED>
+        <RETURN_ENABLED>false</RETURN_ENABLED>
+        <TIME_FOR_CANCEL>25</TIME_FOR_CANCEL>
+        <TRIP_FULL_SALE>false</TRIP_FULL_SALE>
+        <CAN_DISCOUNT>true</CAN_DISCOUNT>
+        <INTERNATIONAL>true</INTERNATIONAL>
+        <JOIN_BOOK_BUY>false</JOIN_BOOK_BUY>
+        <TRIP_MODE>8</TRIP_MODE>
+        <SPECIAL_CONDITIONS/>
+        <IMAGE_URL>null</IMAGE_URL>
+        <START_POINT_TYPE>null</START_POINT_TYPE>
+        <VEHICLE_DESCRIPTION>null</VEHICLE_DESCRIPTION>
+        <VEHICLE_FEATURES>null</VEHICLE_FEATURES>
+        <TOTAL_COST>1160</TOTAL_COST>
+        <CURRENCY>UAH</CURRENCY>
+        <CURRENCY_CODE>980</CURRENCY_CODE>
+        <SEGMENT>
+            <SEGMENT_NUMBER>0</SEGMENT_NUMBER>
+            <BACK_SEGMENT>false</BACK_SEGMENT>
+            <ID>-5978085412589320946</ID>
+            <RES_ID>0</RES_ID>
+            <NUMBER>ЕВК003/Шт</NUMBER>
+            <START_CITY_NAME>Киев</START_CITY_NAME>
+            <END_CITY_NAME>Львов</END_CITY_NAME>
+            <START_DATE>26.06.2015</START_DATE>
+            <END_DATE>26.06.2015</END_DATE>
+            <START_TIME>08:30</START_TIME>
+            <END_TIME>15:30</END_TIME>
+            <BUS_MODEL>Neoplan(Free)</BUS_MODEL>
+            <BUS_CLASS/>
+            <TRIP_SEATS_MAP>true</TRIP_SEATS_MAP>
+            <SHOW_PICKUP_DROPOFF>false</SHOW_PICKUP_DROPOFF>
+            <PLACES_COUNT>49</PLACES_COUNT>
+            <FREE_PLACES_COUNT>18</FREE_PLACES_COUNT>
+            <FREE_BUSY_PLACES>18/49</FREE_BUSY_PLACES>
+            <CARRIER_ID>931B7F89F0D547EBE040A8C01E023315</CARRIER_ID>
+            <CARRIER_NAME> "Евроклуб" ТОВ</CARRIER_NAME>
+            <TIME_IN_ROAD>07:00</TIME_IN_ROAD>
+            <STATION_BEGIN_ID>928F32EDA523026FE040A8C01E02395E</STATION_BEGIN_ID>
+            <STATION_BEGIN_NAME>АС "Дачна"</STATION_BEGIN_NAME>
+            <STATION_BEGIN_ADDRESS>прт. Победы, 142</STATION_BEGIN_ADDRESS>
+            <STATION_END_ID>93A85E6A852855AFE040A8C01E02029E</STATION_END_ID>
+            <STATION_END_NAME>Львів Стрійский АВ</STATION_END_NAME>
+            <STATION_END_ADDRESS>Вул. Стрийська, 109</STATION_END_ADDRESS>
+            <RESERVATION_ENABLED>true</RESERVATION_ENABLED>
+            <SALE_ENABLED>true</SALE_ENABLED>
+            <RETURN_ENABLED>false</RETURN_ENABLED>
+            <TIME_FOR_CANCEL>25</TIME_FOR_CANCEL>
+            <TRIP_FULL_SALE>false</TRIP_FULL_SALE>
+            <CAN_DISCOUNT>true</CAN_DISCOUNT>
+            <INTERNATIONAL>false</INTERNATIONAL>
+            <JOIN_BOOK_BUY>false</JOIN_BOOK_BUY>
+            <TRIP_MODE>1</TRIP_MODE>
+            <SPECIAL_CONDITIONS/>
+            <IMAGE_URL>null</IMAGE_URL>
+            <START_POINT_TYPE>null</START_POINT_TYPE>
+            <VEHICLE_DESCRIPTION>null</VEHICLE_DESCRIPTION>
+            <VEHICLE_FEATURES>null</VEHICLE_FEATURES>
+            <TOTAL_COST>280</TOTAL_COST>
+            <CURRENCY>UAH</CURRENCY>
+            <CURRENCY_CODE>980</CURRENCY_CODE>
+            <TARIFF>
+                <SHORT_NAME>Y</SHORT_NAME>
+                <FULL_NAME>Базовый тариф</FULL_NAME>
+                <START_DATE>22.10.2010</START_DATE>
+                <END_DATE>31.12.2015</END_DATE>
+                <DESCRIPTION>Базовый тариф стоимости проезда одного пассажиров в одном направлении
+</DESCRIPTION>
+                <TIME_TO_BUY_RESERVED>120</TIME_TO_BUY_RESERVED>
+                <TIME_TO_STOP_BOOKING>48</TIME_TO_STOP_BOOKING>
+                <TIME_TO_PAY_RESERVATION>24.06.2015 08:30:00</TIME_TO_PAY_RESERVATION>
+                <COST>280</COST>
+                <AFTER_DISPATCH_NO_RETURN>true</AFTER_DISPATCH_NO_RETURN>
+                <PASSENGER_BIRTHDAY/>
+                <PASSENGER_ISIC_NUMBER/>
+                <PASSENGER_STUDENT_TICKET/>
+                <RETURN_CAUSE>Принудительный возврат билета. Отмена рейса. Непредоставление места в автобусе.. Возвращается 100% стоимости билета</RETURN_CAUSE>
+                <RETURN_CAUSE>Добровольно, более 10 дней от отправления рейса. Удерживается при возврате: 20% тарифа; 20% станционного; 20% страхового; 100% агентского; 100% информационного; 100% сервисного; 100% бланкового; 100% перевозчика</RETURN_CAUSE>
+                <RETURN_CAUSE>Добровольно, от 10 до 2 дней до отправления. Удерживается при возврате: 30% тарифа; 30% станционного; 30% страхового; 100% агентского; 100% информационного; 100% сервисного; 100% бланкового; 100% перевозчика</RETURN_CAUSE>
+                <RETURN_CAUSE>Добровольно, от 2 до 1 суток до отправления. Удерживается при возврате: 50% тарифа; 50% станционного; 50% страхового; 100% агентского; 100% информационного; 100% сервисного; 100% бланкового; 100% перевозчика</RETURN_CAUSE>
+            </TARIFF>
+            <POINT>
+                <NUMBER>0</NUMBER>
+                <GEOGRAPHY_NAME>Киев</GEOGRAPHY_NAME>
+                <NAME>АС "Дачна"</NAME>
+                <ADDRESS>прт. Победы, 142</ADDRESS>
+                <ARRIVAL_DATE>26.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME/>
+                <DISPATCH_DATE>26.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>08:30</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>0</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>1</NUMBER>
+                <GEOGRAPHY_NAME>Львов</GEOGRAPHY_NAME>
+                <NAME>Львів Стрійский АВ</NAME>
+                <ADDRESS>Вул. Стрийська, 109</ADDRESS>
+                <ARRIVAL_DATE>26.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>15:30</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME/>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>1</DISTANCE>
+            </POINT>
+        </SEGMENT>
+        <SEGMENT>
+            <SEGMENT_NUMBER>1</SEGMENT_NUMBER>
+            <BACK_SEGMENT>false</BACK_SEGMENT>
+            <ID>-7590806050145877745</ID>
+            <RES_ID>0</RES_ID>
+            <NUMBER>ROV003 Івано-Франківськ-Щецин WiFi</NUMBER>
+            <START_CITY_NAME>Львов</START_CITY_NAME>
+            <END_CITY_NAME>Щецин</END_CITY_NAME>
+            <START_DATE>26.06.2015</START_DATE>
+            <END_DATE>27.06.2015</END_DATE>
+            <START_TIME>22:40</START_TIME>
+            <END_TIME>16:00</END_TIME>
+            <BUS_MODEL>Setra</BUS_MODEL>
+            <BUS_CLASS/>
+            <TRIP_SEATS_MAP>true</TRIP_SEATS_MAP>
+            <SHOW_PICKUP_DROPOFF>false</SHOW_PICKUP_DROPOFF>
+            <PLACES_COUNT>58</PLACES_COUNT>
+            <FREE_PLACES_COUNT>5</FREE_PLACES_COUNT>
+            <FREE_BUSY_PLACES>5/58</FREE_BUSY_PLACES>
+            <CARRIER_ID>F3DE9FBBD579630EE040B85960526308</CARRIER_ID>
+            <CARRIER_NAME>"Романишин О. В."ФОП</CARRIER_NAME>
+            <TIME_IN_ROAD>17:20</TIME_IN_ROAD>
+            <STATION_BEGIN_ID>0137FEAE6873BC1FE0508E5B35578CB9</STATION_BEGIN_ID>
+            <STATION_BEGIN_NAME>Ж/Д вокзал Львів</STATION_BEGIN_NAME>
+            <STATION_BEGIN_ADDRESS>пл. Двірцева 1</STATION_BEGIN_ADDRESS>
+            <STATION_END_ID>170C60B81C14FEFFE0508E5B3557F89C</STATION_END_ID>
+            <STATION_END_NAME>Автовокзал</STATION_END_NAME>
+            <STATION_END_ADDRESS>pl. Grodnicki,1</STATION_END_ADDRESS>
+            <RESERVATION_ENABLED>true</RESERVATION_ENABLED>
+            <SALE_ENABLED>true</SALE_ENABLED>
+            <RETURN_ENABLED>false</RETURN_ENABLED>
+            <TIME_FOR_CANCEL>25</TIME_FOR_CANCEL>
+            <TRIP_FULL_SALE>false</TRIP_FULL_SALE>
+            <CAN_DISCOUNT>true</CAN_DISCOUNT>
+            <INTERNATIONAL>true</INTERNATIONAL>
+            <JOIN_BOOK_BUY>false</JOIN_BOOK_BUY>
+            <TRIP_MODE>1</TRIP_MODE>
+            <SPECIAL_CONDITIONS>Wi-Fi</SPECIAL_CONDITIONS>
+            <IMAGE_URL>null</IMAGE_URL>
+            <START_POINT_TYPE>null</START_POINT_TYPE>
+            <VEHICLE_DESCRIPTION>null</VEHICLE_DESCRIPTION>
+            <VEHICLE_FEATURES>null</VEHICLE_FEATURES>
+            <TOTAL_COST>880</TOTAL_COST>
+            <CURRENCY>UAH</CURRENCY>
+            <CURRENCY_CODE>980</CURRENCY_CODE>
+            <TARIFF>
+                <SHORT_NAME>Y</SHORT_NAME>
+                <FULL_NAME>Базовый тариф</FULL_NAME>
+                <START_DATE>05.03.2014</START_DATE>
+                <END_DATE>31.12.2015</END_DATE>
+                <DESCRIPTION>Базовый тариф стоимости проезда одного пассажиров в одном направлении
+</DESCRIPTION>
+                <TIME_TO_BUY_RESERVED>120</TIME_TO_BUY_RESERVED>
+                <TIME_TO_STOP_BOOKING>48</TIME_TO_STOP_BOOKING>
+                <TIME_TO_PAY_RESERVATION>24.06.2015 22:40:00</TIME_TO_PAY_RESERVATION>
+                <COST>880</COST>
+                <AFTER_DISPATCH_NO_RETURN>true</AFTER_DISPATCH_NO_RETURN>
+                <PASSENGER_BIRTHDAY/>
+                <PASSENGER_ISIC_NUMBER/>
+                <PASSENGER_STUDENT_TICKET/>
+                <RETURN_CAUSE>Принудительный возврат билета. Отмена рейса.. Возвращается 100% стоимости билета</RETURN_CAUSE>
+                <RETURN_CAUSE>Добровольно, не менее 24 часов до отправления рейса. Удерживается при возврате: ; 100% агентского; 100% информационного; 100% сервисного; 100% бланкового; 100% перевозчика</RETURN_CAUSE>
+            </TARIFF>
+            <POINT>
+                <NUMBER>0</NUMBER>
+                <GEOGRAPHY_NAME>Львов</GEOGRAPHY_NAME>
+                <NAME>Ж/Д вокзал Львів</NAME>
+                <ADDRESS>пл. Двірцева 1</ADDRESS>
+                <ARRIVAL_DATE>26.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>22:30</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>22:40</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>0</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>1</NUMBER>
+                <GEOGRAPHY_NAME>Краковец КПП (Украина/Польша)</GEOGRAPHY_NAME>
+                <NAME/>
+                <ADDRESS/>
+                <ARRIVAL_DATE>27.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>00:25</ARRIVAL_TIME>
+                <DISPATCH_DATE>27.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>01:10</DISPATCH_TIME>
+                <CHECK_POINT>true</CHECK_POINT>
+                <DISTANCE>60</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>2</NUMBER>
+                <GEOGRAPHY_NAME>Жешув</GEOGRAPHY_NAME>
+                <NAME>Жешув АС</NAME>
+                <ADDRESS>вул. Гроттгера, 1</ADDRESS>
+                <ARRIVAL_DATE>27.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>01:40</ARRIVAL_TIME>
+                <DISPATCH_DATE>27.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>01:50</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>151</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>3</NUMBER>
+                <GEOGRAPHY_NAME>Сандомир</GEOGRAPHY_NAME>
+                <NAME>ul. 11 Listopada 30</NAME>
+                <ADDRESS/>
+                <ARRIVAL_DATE>27.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>03:00</ARRIVAL_TIME>
+                <DISPATCH_DATE>27.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>03:10</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>239</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>4</NUMBER>
+                <GEOGRAPHY_NAME>Радом</GEOGRAPHY_NAME>
+                <NAME>Dw. Autob. </NAME>
+                <ADDRESS>ul. Prazmowskiego, 8</ADDRESS>
+                <ARRIVAL_DATE>27.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>04:40</ARRIVAL_TIME>
+                <DISPATCH_DATE>27.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>04:50</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>348</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>5</NUMBER>
+                <GEOGRAPHY_NAME>Груец</GEOGRAPHY_NAME>
+                <NAME>Автовокзал</NAME>
+                <ADDRESS/>
+                <ARRIVAL_DATE>27.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>05:50</ARRIVAL_TIME>
+                <DISPATCH_DATE>27.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>06:00</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>406</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>6</NUMBER>
+                <GEOGRAPHY_NAME>Варшава</GEOGRAPHY_NAME>
+                <NAME>Автовокзал "Западный"</NAME>
+                <ADDRESS>ал. Иерусалим 144</ADDRESS>
+                <ARRIVAL_DATE>27.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>07:20</ARRIVAL_TIME>
+                <DISPATCH_DATE>27.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>07:40</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>451</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>7</NUMBER>
+                <GEOGRAPHY_NAME>Варшава аэропорт</GEOGRAPHY_NAME>
+                <NAME>Терминал Т1 02</NAME>
+                <ADDRESS/>
+                <ARRIVAL_DATE>27.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>07:50</ARRIVAL_TIME>
+                <DISPATCH_DATE>27.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>08:00</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>456</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>8</NUMBER>
+                <GEOGRAPHY_NAME>Лодзь</GEOGRAPHY_NAME>
+                <NAME>Plac Niepodleglosci</NAME>
+                <ADDRESS/>
+                <ARRIVAL_DATE>27.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>09:10</ARRIVAL_TIME>
+                <DISPATCH_DATE>27.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>09:20</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>581</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>9</NUMBER>
+                <GEOGRAPHY_NAME>Конин</GEOGRAPHY_NAME>
+                <NAME>Dworzec PKP</NAME>
+                <ADDRESS/>
+                <ARRIVAL_DATE>27.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>10:40</ARRIVAL_TIME>
+                <DISPATCH_DATE>27.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>10:50</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>693</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>10</NUMBER>
+                <GEOGRAPHY_NAME>Познань</GEOGRAPHY_NAME>
+                <NAME>Poznan Glowny</NAME>
+                <ADDRESS>ul.Stanislava Matyi 2</ADDRESS>
+                <ARRIVAL_DATE>27.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>11:50</ARRIVAL_TIME>
+                <DISPATCH_DATE>27.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>12:00</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>784</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>11</NUMBER>
+                <GEOGRAPHY_NAME>Гожув Велькопольский</GEOGRAPHY_NAME>
+                <NAME>Автовокзал</NAME>
+                <ADDRESS>ul. Podmiejska, 20</ADDRESS>
+                <ARRIVAL_DATE>27.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>13:30</ARRIVAL_TIME>
+                <DISPATCH_DATE>27.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>13:40</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>947</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>12</NUMBER>
+                <GEOGRAPHY_NAME>Щецин</GEOGRAPHY_NAME>
+                <NAME>Автовокзал</NAME>
+                <ADDRESS>pl. Grodnicki,1</ADDRESS>
+                <ARRIVAL_DATE>27.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>16:00</ARRIVAL_TIME>
+                <DISPATCH_DATE>27.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME/>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>1055</DISTANCE>
+            </POINT>
+        </SEGMENT>
+    </TRIP>
+    <TRIP>
+        <ID>008185246647012444972</ID>
+        <RES_ID>0</RES_ID>
+        <NUMBER>ПВЛ001 Киев-Львов, ROV003 Івано-Франківськ-Щецин WiFi</NUMBER>
+        <START_CITY_NAME>Киев</START_CITY_NAME>
+        <END_CITY_NAME>Щецин</END_CITY_NAME>
+        <START_DATE>26.06.2015</START_DATE>
+        <END_DATE>27.06.2015</END_DATE>
+        <START_TIME>11:30</START_TIME>
+        <END_TIME>16:00</END_TIME>
+        <BUS_MODEL>Volkswagen, Setra</BUS_MODEL>
+        <BUS_CLASS/>
+        <TRIP_SEATS_MAP>true</TRIP_SEATS_MAP>
+        <SHOW_PICKUP_DROPOFF>false</SHOW_PICKUP_DROPOFF>
+        <PLACES_COUNT>18</PLACES_COUNT>
+        <FREE_PLACES_COUNT>5</FREE_PLACES_COUNT>
+        <FREE_BUSY_PLACES>5/18</FREE_BUSY_PLACES>
+        <CARRIER_ID>17C132CC47FDAA8BE0508E5B355783A8</CARRIER_ID>
+        <CARRIER_NAME>"Павлюк Віталій Іванович" ФОП, "Романишин О. В."ФОП</CARRIER_NAME>
+        <TIME_IN_ROAD>28:30</TIME_IN_ROAD>
+        <STATION_BEGIN_ID>A559E9C1EF3D633AE040A8C06303585A</STATION_BEGIN_ID>
+        <STATION_BEGIN_NAME>Автостанция "Киев" </STATION_BEGIN_NAME>
+        <STATION_BEGIN_ADDRESS>ул. С. Петлюры, Центральный ж/д вокзал</STATION_BEGIN_ADDRESS>
+        <STATION_END_ID>DF1A6327AD2DAF10E040B859605266AD</STATION_END_ID>
+        <STATION_END_NAME>Автовокзал</STATION_END_NAME>
+        <STATION_END_ADDRESS>pl. Grodnicki,1</STATION_END_ADDRESS>
+        <RESERVATION_ENABLED>true</RESERVATION_ENABLED>
+        <SALE_ENABLED>true</SALE_ENABLED>
+        <RETURN_ENABLED>false</RETURN_ENABLED>
+        <TIME_FOR_CANCEL>25</TIME_FOR_CANCEL>
+        <TRIP_FULL_SALE>false</TRIP_FULL_SALE>
+        <CAN_DISCOUNT>true</CAN_DISCOUNT>
+        <INTERNATIONAL>true</INTERNATIONAL>
+        <JOIN_BOOK_BUY>false</JOIN_BOOK_BUY>
+        <TRIP_MODE>8</TRIP_MODE>
+        <SPECIAL_CONDITIONS/>
+        <IMAGE_URL>null</IMAGE_URL>
+        <START_POINT_TYPE>null</START_POINT_TYPE>
+        <VEHICLE_DESCRIPTION>null</VEHICLE_DESCRIPTION>
+        <VEHICLE_FEATURES>null</VEHICLE_FEATURES>
+        <TOTAL_COST>1167.5</TOTAL_COST>
+        <CURRENCY>UAH</CURRENCY>
+        <CURRENCY_CODE>980</CURRENCY_CODE>
+        <SEGMENT>
+            <SEGMENT_NUMBER>0</SEGMENT_NUMBER>
+            <BACK_SEGMENT>false</BACK_SEGMENT>
+            <ID>-6876541528567755274</ID>
+            <RES_ID>0</RES_ID>
+            <NUMBER>ПВЛ001 Киев-Львов</NUMBER>
+            <START_CITY_NAME>Киев</START_CITY_NAME>
+            <END_CITY_NAME>Львов</END_CITY_NAME>
+            <START_DATE>26.06.2015</START_DATE>
+            <END_DATE>26.06.2015</END_DATE>
+            <START_TIME>11:30</START_TIME>
+            <END_TIME>19:30</END_TIME>
+            <BUS_MODEL>Volkswagen</BUS_MODEL>
+            <BUS_CLASS/>
+            <TRIP_SEATS_MAP>true</TRIP_SEATS_MAP>
+            <SHOW_PICKUP_DROPOFF>false</SHOW_PICKUP_DROPOFF>
+            <PLACES_COUNT>18</PLACES_COUNT>
+            <FREE_PLACES_COUNT>13</FREE_PLACES_COUNT>
+            <FREE_BUSY_PLACES>13/18</FREE_BUSY_PLACES>
+            <CARRIER_ID>17C132CC47FDAA8BE0508E5B355783A8</CARRIER_ID>
+            <CARRIER_NAME>"Павлюк Віталій Іванович" ФОП</CARRIER_NAME>
+            <TIME_IN_ROAD>08:00</TIME_IN_ROAD>
+            <STATION_BEGIN_ID>A559E9C1EF3D633AE040A8C06303585A</STATION_BEGIN_ID>
+            <STATION_BEGIN_NAME>Автостанция "Киев" </STATION_BEGIN_NAME>
+            <STATION_BEGIN_ADDRESS>ул. С. Петлюры, Центральный ж/д вокзал</STATION_BEGIN_ADDRESS>
+            <STATION_END_ID>DF1A6327AD2DAF10E040B859605266AD</STATION_END_ID>
+            <STATION_END_NAME>АС Львів 8</STATION_END_NAME>
+            <STATION_END_ADDRESS>Пл. Дворцовая, 1 (Центральный железнодорожный вокзал) платформа №1</STATION_END_ADDRESS>
+            <RESERVATION_ENABLED>true</RESERVATION_ENABLED>
+            <SALE_ENABLED>true</SALE_ENABLED>
+            <RETURN_ENABLED>false</RETURN_ENABLED>
+            <TIME_FOR_CANCEL>25</TIME_FOR_CANCEL>
+            <TRIP_FULL_SALE>false</TRIP_FULL_SALE>
+            <CAN_DISCOUNT>true</CAN_DISCOUNT>
+            <INTERNATIONAL>false</INTERNATIONAL>
+            <JOIN_BOOK_BUY>false</JOIN_BOOK_BUY>
+            <TRIP_MODE>1</TRIP_MODE>
+            <SPECIAL_CONDITIONS/>
+            <IMAGE_URL>null</IMAGE_URL>
+            <START_POINT_TYPE>null</START_POINT_TYPE>
+            <VEHICLE_DESCRIPTION>null</VEHICLE_DESCRIPTION>
+            <VEHICLE_FEATURES>null</VEHICLE_FEATURES>
+            <TOTAL_COST>287.5</TOTAL_COST>
+            <CURRENCY>UAH</CURRENCY>
+            <CURRENCY_CODE>980</CURRENCY_CODE>
+            <TARIFF>
+                <SHORT_NAME>Y</SHORT_NAME>
+                <FULL_NAME>Базовый тариф</FULL_NAME>
+                <START_DATE/>
+                <END_DATE/>
+                <DESCRIPTION>Базовый тариф стоимости проезда одного пассажиров в одном направлении
+</DESCRIPTION>
+                <TIME_TO_BUY_RESERVED>120</TIME_TO_BUY_RESERVED>
+                <TIME_TO_STOP_BOOKING>6</TIME_TO_STOP_BOOKING>
+                <TIME_TO_PAY_RESERVATION>26.06.2015 05:30:00</TIME_TO_PAY_RESERVATION>
+                <COST>287.5</COST>
+                <AFTER_DISPATCH_NO_RETURN>true</AFTER_DISPATCH_NO_RETURN>
+                <PASSENGER_BIRTHDAY/>
+                <PASSENGER_ISIC_NUMBER/>
+                <PASSENGER_STUDENT_TICKET/>
+                <RETURN_CAUSE>Добровольно, не менее 24 часов до отправления рейса. Удерживается при возврате: ; 100% агентского; 100% информационного; 100% сервисного; 100% бланкового; 100% перевозчика</RETURN_CAUSE>
+                <RETURN_CAUSE>Добровольно, от 10 минут до 2 часов до отправления рейса. Удерживается при возврате: 20% тарифа; 20% станционного; 20% страхового; 100% агентского; 100% информационного; 100% сервисного; 100% бланкового; 100% перевозчика</RETURN_CAUSE>
+                <RETURN_CAUSE>Принудительно, отмена рейса. Удерживается при возврате: ; 100% перевозчика</RETURN_CAUSE>
+                <RETURN_CAUSE>Добровольно, от 2 до 24 часов до отправления рейса. Удерживается при возврате: 10% тарифа; 10% станционного; 10% страхового; 100% агентского; 100% информационного; 100% сервисного; 100% бланкового; 100% перевозчика</RETURN_CAUSE>
+                <RETURN_CAUSE>Добровольно, менее 10 минут до отправления рейса. Удерживается при возврате: 30% тарифа; 30% станционного; 30% страхового; 100% агентского; 100% информационного; 100% сервисного; 100% бланкового; 100% перевозчика</RETURN_CAUSE>
+            </TARIFF>
+            <POINT>
+                <NUMBER>0</NUMBER>
+                <GEOGRAPHY_NAME>Киев</GEOGRAPHY_NAME>
+                <NAME>Автостанция "Киев" </NAME>
+                <ADDRESS>ул. С. Петлюры, Центральный ж/д вокзал</ADDRESS>
+                <ARRIVAL_DATE>26.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME/>
+                <DISPATCH_DATE>26.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>11:30</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>0</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>1</NUMBER>
+                <GEOGRAPHY_NAME>Житомир</GEOGRAPHY_NAME>
+                <NAME>Заправка "Shell"</NAME>
+                <ADDRESS>Біла Центрального автовокзала</ADDRESS>
+                <ARRIVAL_DATE>26.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>13:20</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>13:30</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>1</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>2</NUMBER>
+                <GEOGRAPHY_NAME>Новоград-Волынский</GEOGRAPHY_NAME>
+                <NAME>Навпроти Центрального Автовокзалу</NAME>
+                <ADDRESS/>
+                <ARRIVAL_DATE>26.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>14:20</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>14:30</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>2</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>3</NUMBER>
+                <GEOGRAPHY_NAME>Ровно</GEOGRAPHY_NAME>
+                <NAME>Магазин "Сільпо"</NAME>
+                <ADDRESS>Біля Центрального Автовокзалу</ADDRESS>
+                <ARRIVAL_DATE>26.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>15:30</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>15:40</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>3</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>4</NUMBER>
+                <GEOGRAPHY_NAME>Дубно</GEOGRAPHY_NAME>
+                <NAME>Центральна площа "Рікос"</NAME>
+                <ADDRESS/>
+                <ARRIVAL_DATE>26.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>16:15</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>16:25</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>4</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>5</NUMBER>
+                <GEOGRAPHY_NAME>Радивилов</GEOGRAPHY_NAME>
+                <NAME>Центральний магазин "Троянда"</NAME>
+                <ADDRESS/>
+                <ARRIVAL_DATE>26.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>17:05</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>17:15</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>5</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>6</NUMBER>
+                <GEOGRAPHY_NAME>Броды</GEOGRAPHY_NAME>
+                <NAME>Залізничний вокзал</NAME>
+                <ADDRESS/>
+                <ARRIVAL_DATE>26.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>17:20</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>17:30</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>6</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>7</NUMBER>
+                <GEOGRAPHY_NAME>Золочев</GEOGRAPHY_NAME>
+                <NAME>Магазин "Делікат"</NAME>
+                <ADDRESS/>
+                <ARRIVAL_DATE>26.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>18:10</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>18:20</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>7</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>8</NUMBER>
+                <GEOGRAPHY_NAME>Буск</GEOGRAPHY_NAME>
+                <NAME>Міська Рада</NAME>
+                <ADDRESS/>
+                <ARRIVAL_DATE>26.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>18:20</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>18:30</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>8</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>9</NUMBER>
+                <GEOGRAPHY_NAME>Львов</GEOGRAPHY_NAME>
+                <NAME>АС Львів 8</NAME>
+                <ADDRESS>Пл. Дворцовая, 1 (Центральный железнодорожный вокзал) платформа №1</ADDRESS>
+                <ARRIVAL_DATE>26.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>19:30</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME/>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>9</DISTANCE>
+            </POINT>
+        </SEGMENT>
+        <SEGMENT>
+            <SEGMENT_NUMBER>1</SEGMENT_NUMBER>
+            <BACK_SEGMENT>false</BACK_SEGMENT>
+            <ID>-7590806050145877745</ID>
+            <RES_ID>0</RES_ID>
+            <NUMBER>ROV003 Івано-Франківськ-Щецин WiFi</NUMBER>
+            <START_CITY_NAME>Львов</START_CITY_NAME>
+            <END_CITY_NAME>Щецин</END_CITY_NAME>
+            <START_DATE>26.06.2015</START_DATE>
+            <END_DATE>27.06.2015</END_DATE>
+            <START_TIME>22:40</START_TIME>
+            <END_TIME>16:00</END_TIME>
+            <BUS_MODEL>Setra</BUS_MODEL>
+            <BUS_CLASS/>
+            <TRIP_SEATS_MAP>true</TRIP_SEATS_MAP>
+            <SHOW_PICKUP_DROPOFF>false</SHOW_PICKUP_DROPOFF>
+            <PLACES_COUNT>58</PLACES_COUNT>
+            <FREE_PLACES_COUNT>5</FREE_PLACES_COUNT>
+            <FREE_BUSY_PLACES>5/58</FREE_BUSY_PLACES>
+            <CARRIER_ID>F3DE9FBBD579630EE040B85960526308</CARRIER_ID>
+            <CARRIER_NAME>"Романишин О. В."ФОП</CARRIER_NAME>
+            <TIME_IN_ROAD>17:20</TIME_IN_ROAD>
+            <STATION_BEGIN_ID>0137FEAE6873BC1FE0508E5B35578CB9</STATION_BEGIN_ID>
+            <STATION_BEGIN_NAME>Ж/Д вокзал Львів</STATION_BEGIN_NAME>
+            <STATION_BEGIN_ADDRESS>пл. Двірцева 1</STATION_BEGIN_ADDRESS>
+            <STATION_END_ID>170C60B81C14FEFFE0508E5B3557F89C</STATION_END_ID>
+            <STATION_END_NAME>Автовокзал</STATION_END_NAME>
+            <STATION_END_ADDRESS>pl. Grodnicki,1</STATION_END_ADDRESS>
+            <RESERVATION_ENABLED>true</RESERVATION_ENABLED>
+            <SALE_ENABLED>true</SALE_ENABLED>
+            <RETURN_ENABLED>false</RETURN_ENABLED>
+            <TIME_FOR_CANCEL>25</TIME_FOR_CANCEL>
+            <TRIP_FULL_SALE>false</TRIP_FULL_SALE>
+            <CAN_DISCOUNT>true</CAN_DISCOUNT>
+            <INTERNATIONAL>true</INTERNATIONAL>
+            <JOIN_BOOK_BUY>false</JOIN_BOOK_BUY>
+            <TRIP_MODE>1</TRIP_MODE>
+            <SPECIAL_CONDITIONS>Wi-Fi</SPECIAL_CONDITIONS>
+            <IMAGE_URL>null</IMAGE_URL>
+            <START_POINT_TYPE>null</START_POINT_TYPE>
+            <VEHICLE_DESCRIPTION>null</VEHICLE_DESCRIPTION>
+            <VEHICLE_FEATURES>null</VEHICLE_FEATURES>
+            <TOTAL_COST>880</TOTAL_COST>
+            <CURRENCY>UAH</CURRENCY>
+            <CURRENCY_CODE>980</CURRENCY_CODE>
+            <TARIFF>
+                <SHORT_NAME>Y</SHORT_NAME>
+                <FULL_NAME>Базовый тариф</FULL_NAME>
+                <START_DATE>05.03.2014</START_DATE>
+                <END_DATE>31.12.2015</END_DATE>
+                <DESCRIPTION>Базовый тариф стоимости проезда одного пассажиров в одном направлении
+</DESCRIPTION>
+                <TIME_TO_BUY_RESERVED>120</TIME_TO_BUY_RESERVED>
+                <TIME_TO_STOP_BOOKING>48</TIME_TO_STOP_BOOKING>
+                <TIME_TO_PAY_RESERVATION>24.06.2015 22:40:00</TIME_TO_PAY_RESERVATION>
+                <COST>880</COST>
+                <AFTER_DISPATCH_NO_RETURN>true</AFTER_DISPATCH_NO_RETURN>
+                <PASSENGER_BIRTHDAY/>
+                <PASSENGER_ISIC_NUMBER/>
+                <PASSENGER_STUDENT_TICKET/>
+                <RETURN_CAUSE>Принудительный возврат билета. Отмена рейса.. Возвращается 100% стоимости билета</RETURN_CAUSE>
+                <RETURN_CAUSE>Добровольно, не менее 24 часов до отправления рейса. Удерживается при возврате: ; 100% агентского; 100% информационного; 100% сервисного; 100% бланкового; 100% перевозчика</RETURN_CAUSE>
+            </TARIFF>
+            <POINT>
+                <NUMBER>0</NUMBER>
+                <GEOGRAPHY_NAME>Львов</GEOGRAPHY_NAME>
+                <NAME>Ж/Д вокзал Львів</NAME>
+                <ADDRESS>пл. Двірцева 1</ADDRESS>
+                <ARRIVAL_DATE>26.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>22:30</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>22:40</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>0</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>1</NUMBER>
+                <GEOGRAPHY_NAME>Краковец КПП (Украина/Польша)</GEOGRAPHY_NAME>
+                <NAME/>
+                <ADDRESS/>
+                <ARRIVAL_DATE>27.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>00:25</ARRIVAL_TIME>
+                <DISPATCH_DATE>27.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>01:10</DISPATCH_TIME>
+                <CHECK_POINT>true</CHECK_POINT>
+                <DISTANCE>60</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>2</NUMBER>
+                <GEOGRAPHY_NAME>Жешув</GEOGRAPHY_NAME>
+                <NAME>Жешув АС</NAME>
+                <ADDRESS>вул. Гроттгера, 1</ADDRESS>
+                <ARRIVAL_DATE>27.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>01:40</ARRIVAL_TIME>
+                <DISPATCH_DATE>27.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>01:50</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>151</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>3</NUMBER>
+                <GEOGRAPHY_NAME>Сандомир</GEOGRAPHY_NAME>
+                <NAME>ul. 11 Listopada 30</NAME>
+                <ADDRESS/>
+                <ARRIVAL_DATE>27.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>03:00</ARRIVAL_TIME>
+                <DISPATCH_DATE>27.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>03:10</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>239</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>4</NUMBER>
+                <GEOGRAPHY_NAME>Радом</GEOGRAPHY_NAME>
+                <NAME>Dw. Autob. </NAME>
+                <ADDRESS>ul. Prazmowskiego, 8</ADDRESS>
+                <ARRIVAL_DATE>27.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>04:40</ARRIVAL_TIME>
+                <DISPATCH_DATE>27.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>04:50</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>348</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>5</NUMBER>
+                <GEOGRAPHY_NAME>Груец</GEOGRAPHY_NAME>
+                <NAME>Автовокзал</NAME>
+                <ADDRESS/>
+                <ARRIVAL_DATE>27.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>05:50</ARRIVAL_TIME>
+                <DISPATCH_DATE>27.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>06:00</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>406</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>6</NUMBER>
+                <GEOGRAPHY_NAME>Варшава</GEOGRAPHY_NAME>
+                <NAME>Автовокзал "Западный"</NAME>
+                <ADDRESS>ал. Иерусалим 144</ADDRESS>
+                <ARRIVAL_DATE>27.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>07:20</ARRIVAL_TIME>
+                <DISPATCH_DATE>27.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>07:40</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>451</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>7</NUMBER>
+                <GEOGRAPHY_NAME>Варшава аэропорт</GEOGRAPHY_NAME>
+                <NAME>Терминал Т1 02</NAME>
+                <ADDRESS/>
+                <ARRIVAL_DATE>27.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>07:50</ARRIVAL_TIME>
+                <DISPATCH_DATE>27.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>08:00</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>456</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>8</NUMBER>
+                <GEOGRAPHY_NAME>Лодзь</GEOGRAPHY_NAME>
+                <NAME>Plac Niepodleglosci</NAME>
+                <ADDRESS/>
+                <ARRIVAL_DATE>27.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>09:10</ARRIVAL_TIME>
+                <DISPATCH_DATE>27.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>09:20</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>581</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>9</NUMBER>
+                <GEOGRAPHY_NAME>Конин</GEOGRAPHY_NAME>
+                <NAME>Dworzec PKP</NAME>
+                <ADDRESS/>
+                <ARRIVAL_DATE>27.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>10:40</ARRIVAL_TIME>
+                <DISPATCH_DATE>27.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>10:50</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>693</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>10</NUMBER>
+                <GEOGRAPHY_NAME>Познань</GEOGRAPHY_NAME>
+                <NAME>Poznan Glowny</NAME>
+                <ADDRESS>ul.Stanislava Matyi 2</ADDRESS>
+                <ARRIVAL_DATE>27.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>11:50</ARRIVAL_TIME>
+                <DISPATCH_DATE>27.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>12:00</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>784</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>11</NUMBER>
+                <GEOGRAPHY_NAME>Гожув Велькопольский</GEOGRAPHY_NAME>
+                <NAME>Автовокзал</NAME>
+                <ADDRESS>ul. Podmiejska, 20</ADDRESS>
+                <ARRIVAL_DATE>27.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>13:30</ARRIVAL_TIME>
+                <DISPATCH_DATE>27.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME>13:40</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>947</DISTANCE>
+            </POINT>
+            <POINT>
+                <NUMBER>12</NUMBER>
+                <GEOGRAPHY_NAME>Щецин</GEOGRAPHY_NAME>
+                <NAME>Автовокзал</NAME>
+                <ADDRESS>pl. Grodnicki,1</ADDRESS>
+                <ARRIVAL_DATE>27.06.2015</ARRIVAL_DATE>
+                <ARRIVAL_TIME>16:00</ARRIVAL_TIME>
+                <DISPATCH_DATE>27.06.2015</DISPATCH_DATE>
+                <DISPATCH_TIME/>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>1055</DISTANCE>
+            </POINT>
+        </SEGMENT>
+    </TRIP>
+</DATA>
