@@ -4,7 +4,5 @@ source 'https://rubygems.org'
 gemspec
 
 group :development do
-  gem 'guard', github: 'guard/guard'
-  gem 'guard-minitest', github: 'guard/guard-minitest'
   gem 'ox'
 end
