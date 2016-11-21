@@ -68,6 +68,11 @@ class Gillbus
       # Параметр игнорируется, при fullSearch = true.
       attr_accessor :wait_timeout
 
+      # onlyBranded
+      # Признак отображения в результате поиска только фирменных рейсов.
+      # По умолчанию отображаются все рейсы.
+      attr_accessor :only_branded
+
       def params
         pax = (passengers || []).map.with_index { |p, i| PassengerDiscount.wrap(p).params("passenger#{i}") }.reduce({}, :merge)
         compact(
@@ -82,6 +87,7 @@ class Gillbus
           backStartDateSearch: date(back_start_date_search),
           ticketCount:         ticket_count,
           waitTimeout:         wait_timeout,
+          onlyBranded:         bool(only_branded),
           **pax
         )
       end
