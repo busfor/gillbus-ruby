@@ -15,7 +15,7 @@ class Gillbus
   attr_accessor :session_id
 
   def login(password:, locale: nil)
-    response = session_login password: password, locale: locale
+    session_login password: password, locale: locale
     self
   end
 
