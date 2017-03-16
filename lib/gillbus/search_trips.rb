@@ -51,15 +51,24 @@ class Gillbus
       # Количество оформляемых билетов. От 1 до k.
       attr_accessor :ticket_count
 
-      # TODO
       # passenger0studentTicket... passengerNstudentTicket (не обязательный)
       # Номер студенческого билета пассажира с порядковым номером 0... N.
+      #
+      # passenger0studentYea... passengerNstudentYear (не обязательный)
+      # Курс, на котором учится пассажир с порядковым номером 0…N, если он студент. Для просчета более выгодной скидки.
       #
       # passenger0birthday... passengerNbirthday (не обязательный)
       # Дата рождения пассажира с порядковым номером 0...N.
       #
       # passenger0ISIC... passengerNISIC (не обязательный)
       # Номер ISIC пассажира с порядковым номером 0...N.
+
+      # В passengers записывается структура вида
+      # [
+      #   {birthday: ..., student_ticket:..., student_year:..., isic:... },
+      #   {birthday: ..., student_ticket:..., student_year:..., isic:... },
+      # ]
+      # Далее она преобразуется к формату gillbus методом passengers_data
       attr_accessor :passengers
 
       # waitTimeout
@@ -74,7 +83,6 @@ class Gillbus
       attr_accessor :only_branded
 
       def params
-        pax = (passengers || []).map.with_index { |p, i| PassengerDiscount.wrap(p).params("passenger#{i}") }.reduce({}, :merge)
         compact(
           selectedModes:       modes(selected_modes),
           connectionIds:       list(connection_ids),
@@ -88,9 +96,27 @@ class Gillbus
           ticketCount:         ticket_count,
           waitTimeout:         wait_timeout,
           onlyBranded:         bool(only_branded),
-          **pax
+          **passengers_data,
         )
       end
+
+      # В passengers_data преобразуем passengers к виду для передачи в gillbus:
+      #  {
+      #   :passenger0birthday=>"01.01.1990",
+      #   :passenger0studentTicket=>"STUDENTTICKET#1",
+      #   :passenger0studentYear=>1,
+      #   :passenger0ISIC=>"ISIC#1",
+      #   :passenger1birthday=>"02.02.1990",
+      #   :passenger1studentTicket=>"STUDENTTICKET#2",
+      #   :passenger1studentYear=>2,
+      #   :passenger1ISIC=>"ISIC#2"
+      # }
+      def passengers_data
+        (passengers || []).map.with_index do |p, i|
+          PassengerDiscount.wrap(p).params("passenger#{i}")
+        end.reduce({}, :merge)
+      end
+
     end
 
     class Response < BaseResponse

@@ -6,15 +6,38 @@ class SearchTripsRequestTest < Minitest::Test
     req = Gillbus::SearchTrips::Request.new(
       start_date_search: Date.new(2013, 2, 4),
       selected_modes: [:avia, :connections],
-      round_trip: true
+      round_trip: true,
+      passengers: [
+        {
+          birthday: Date.parse('1990-01-01'),
+          student_ticket: 'STUDENTTICKET#1',
+          student_year: 1,
+          isic: 'ISIC#1',
+        },
+        {
+          birthday: Date.parse('1990-02-02'),
+          student_ticket: 'STUDENTTICKET#2',
+          student_year: 2,
+          isic: 'ISIC#2',
+        }
+      ],
     )
 
-    assert_equal req.params,
-      {
-        startDateSearch: "04.02.2013",
-        selectedModes: "3;8",
-        roundTrip: "1"
-      }
+    expected_params = {
+      startDateSearch: "04.02.2013",
+      selectedModes: "3;8",
+      roundTrip: "1",
+      passenger0birthday: '01.01.1990',
+      passenger0studentTicket: 'STUDENTTICKET#1',
+      passenger0studentYear: 1,
+      passenger0ISIC: 'ISIC#1',
+      passenger1birthday: '02.02.1990',
+      passenger1studentTicket: 'STUDENTTICKET#2',
+      passenger1studentYear: 2,
+      passenger1ISIC: 'ISIC#2',
+    }
+
+    assert_equal expected_params, req.params
   end
 
 end
