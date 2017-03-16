@@ -15,7 +15,11 @@ class Gillbus
   module Fields
 
     def parser_class
-      @parser_class || Gillbus::Parser
+      if defined? @parser_class
+        @parser_class || Gillbus::Parser
+      else
+        Gillbus::Parser
+      end
     end
 
     def parse(doc, instance=new)
