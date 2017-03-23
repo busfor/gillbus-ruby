@@ -9,7 +9,9 @@
         <START_DATE>26.06.2015</START_DATE>
         <END_DATE>27.06.2015</END_DATE>
         <START_TIME>08:30</START_TIME>
+        <START_TIMEZONE>Europe/Kiev</START_TIMEZONE>
         <END_TIME>16:00</END_TIME>
+        <END_TIMEZONE>Europe/Kiev</END_TIMEZONE>
         <BUS_MODEL>Neoplan(Free), Setra</BUS_MODEL>
         <BUS_CLASS/>
         <TRIP_SEATS_MAP>true</TRIP_SEATS_MAP>
