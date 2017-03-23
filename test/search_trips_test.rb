@@ -73,6 +73,8 @@ class SearchTripsResponseTest < Minitest::Test
     assert_equal Date.new(2014,8,23), response.trips.first.start_date
     assert_equal Money.new(1410_00, "RUB"), response.trips.first.total_cost
     assert_equal Money.new(1410_00, "RUB"), response.trips.first.tariffs.first.cost
+    assert_equal 'Europe/Moscow', response.trips.first.start_timezone
+    assert_equal 'Europe/Moscow', response.trips.first.end_timezone
   end
 
   def test_faking_response
@@ -88,6 +90,8 @@ class SearchTripsResponseTest < Minitest::Test
     response = get_trips_with_segments
     assert response.completed
     assert_equal 2, response.trips.size
+    assert_equal 'Europe/Kiev', response.trips.first.start_timezone
+    assert_equal 'Europe/Kiev', response.trips.first.end_timezone
     assert_equal 2, response.trips.first.segments.size
   end
 

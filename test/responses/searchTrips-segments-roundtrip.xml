@@ -9,7 +9,9 @@
         <START_DATE>27.06.2015</START_DATE>
         <END_DATE>02.07.2015</END_DATE>
         <START_TIME>05:30</START_TIME>
+        <START_TIMEZONE>Europe/Kiev</START_TIMEZONE>
         <END_TIME>18:30</END_TIME>
+        <END_TIMEZONE>Europe/Kiev</END_TIMEZONE>
         <BUS_MODEL>MAN(VIP), Neoplan(Free), Volkswagen</BUS_MODEL>
         <BUS_CLASS/>
         <TRIP_SEATS_MAP>true</TRIP_SEATS_MAP>

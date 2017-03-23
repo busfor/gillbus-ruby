@@ -29,8 +29,14 @@ class Gillbus
     # => "22:50"
     field :start_time, :time
 
+    # => "Europe/Moscow"
+    field :start_timezone
+
     # => "08:00"
     field :end_time, :time
+
+    # => "Europe/Kiev"
+    field :end_timezone
 
     # => "Сетра S 315 НDH"
     field :bus_model
