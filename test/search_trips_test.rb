@@ -13,12 +13,14 @@ class SearchTripsRequestTest < Minitest::Test
           student_ticket: 'STUDENTTICKET#1',
           student_year: 1,
           isic: 'ISIC#1',
+          with_seat: true,
         },
         {
           birthday: Date.parse('1990-02-02'),
           student_ticket: 'STUDENTTICKET#2',
           student_year: 2,
           isic: 'ISIC#2',
+          with_seat: false,
         }
       ],
     )
@@ -31,10 +33,12 @@ class SearchTripsRequestTest < Minitest::Test
       passenger0studentTicket: 'STUDENTTICKET#1',
       passenger0studentYear: 1,
       passenger0ISIC: 'ISIC#1',
+      passenger0withSeat: '1',
       passenger1birthday: '02.02.1990',
       passenger1studentTicket: 'STUDENTTICKET#2',
       passenger1studentYear: 2,
       passenger1ISIC: 'ISIC#2',
+      passenger1withSeat: '0',
     }
 
     assert_equal expected_params, req.params
