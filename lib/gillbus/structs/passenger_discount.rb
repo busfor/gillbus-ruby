@@ -25,12 +25,19 @@ class Gillbus
     # Номер ISIC пассажира с порядковым номером 0...N.
     attr_accessor :isic
 
+    # passenger0withSeat...passengerNwithSeat (не обязательный), boolean
+    # Признак обязательного предоставления места пассажиру с порядковым номером 0…N.
+    # По-умолчанию false. Если true, то пассажиру будет подобран тариф
+    # с предоставлением места, если такой имеется.
+    attr_accessor :with_seat
+
     def params(prefix="")
       compact(
         birthday: date(birthday),
         studentTicket: student_ticket,
         studentYear: student_year,
         ISIC: isic,
+        withSeat: bool(with_seat),
       ).map {|k, v| [:"#{prefix}#{k}", v] }.to_h
     end
   end
