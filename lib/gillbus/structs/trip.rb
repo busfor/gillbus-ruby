@@ -131,6 +131,9 @@ class Gillbus
     # => "1100"
     field :total_cost, :money
 
+    # => "false"
+    field :fake_time_in_road, :bool
+
     # => "RUB"
     field :currency
 
