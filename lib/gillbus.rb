@@ -45,6 +45,7 @@ class Gillbus
   require 'gillbus/structs/tariff'
   require 'gillbus/structs/segment'
   require 'gillbus/structs/timetable_segment'
+  require 'gillbus/structs/options'
   require 'gillbus/structs/trip'
   require 'gillbus/structs/timetable_trip'
 

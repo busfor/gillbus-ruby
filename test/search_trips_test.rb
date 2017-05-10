@@ -79,6 +79,8 @@ class SearchTripsResponseTest < Minitest::Test
     assert_equal Money.new(1410_00, "RUB"), response.trips.first.tariffs.first.cost
     assert_equal 'Europe/Moscow', response.trips.first.start_timezone
     assert_equal 'Europe/Moscow', response.trips.first.end_timezone
+    assert_equal true, response.trips.first.fake_time_in_road
+    assert_equal ['Кофе', 'Wi-Fi'], response.trips.first.options.options
   end
 
   def test_faking_response
