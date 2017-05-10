@@ -20,7 +20,7 @@ class Gillbus
           if key.is_a?(Regexp)
             doc.select { |k| k =~ key }
           elsif root
-            doc.dig root, key
+            doc[root] && doc[root][key]
           else
             doc[key]
           end
