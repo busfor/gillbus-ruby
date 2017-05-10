@@ -80,10 +80,7 @@ class SearchTripsResponseTest < Minitest::Test
     assert_equal 'Europe/Moscow', response.trips.first.start_timezone
     assert_equal 'Europe/Moscow', response.trips.first.end_timezone
     assert_equal true, response.trips.first.fake_time_in_road
-<<<<<<< HEAD
     assert_equal ['Кофе', 'Wi-Fi'], response.trips.first.options.options
-=======
->>>>>>> master
   end
 
   def test_faking_response
