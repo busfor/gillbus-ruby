@@ -97,6 +97,10 @@
             <DISPATCH_TIME/>
             <CHECK_POINT>false</CHECK_POINT>
         </POINT>
+        <OPTIONS>
+            <OPTION>Кофе</OPTION>
+            <OPTION>Wi-Fi</OPTION>
+        </OPTIONS>
     </TRIP>
     <TRIP>
         <ID>-3986171261205069729</ID>

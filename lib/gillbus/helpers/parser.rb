@@ -15,10 +15,12 @@ class Gillbus
     end
 
     def parse
-      fields.each do |name:, key:, type:|
+      fields.each do |name:, key:, type:, root:|
         raw_value =
           if key.is_a?(Regexp)
             doc.select { |k| k =~ key }
+          elsif root
+            doc[root] && doc[root][key]
           else
             doc[key]
           end
