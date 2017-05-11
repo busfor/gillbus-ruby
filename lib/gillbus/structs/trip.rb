@@ -90,6 +90,9 @@ class Gillbus
     field :reservation_enabled, :bool
 
     # => "true"
+    field :recommended, :bool
+
+    # => "true"
     field :sale_enabled, :bool
 
     # => "false"

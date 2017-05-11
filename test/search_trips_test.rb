@@ -81,6 +81,8 @@ class SearchTripsResponseTest < Minitest::Test
     assert_equal 'Europe/Moscow', response.trips.first.end_timezone
     assert_equal true, response.trips.first.fake_time_in_road
     assert_equal ['Кофе', 'Wi-Fi'], response.trips.first.options
+    assert_equal false, response.trips[1].recommended
+    assert_equal true, response.trips.first.recommended
   end
 
   def test_faking_response
