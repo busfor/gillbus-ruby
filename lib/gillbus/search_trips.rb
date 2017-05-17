@@ -102,7 +102,7 @@ class Gillbus
           ticketCount:         ticket_count,
           waitTimeout:         wait_timeout,
           onlyBranded:         bool(only_branded),
-          tripOptions:         trip_options,
+          tripOptions:         bool(trip_options),
           **passengers_data,
         )
       end
