@@ -14,6 +14,7 @@ class Gillbus
       field :name
       field :country_id
       field :country_name
+      field :name_full
     end
 
     class Response < BaseResponse
