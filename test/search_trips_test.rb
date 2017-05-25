@@ -56,6 +56,10 @@ class SearchTripsResponseTest < Minitest::Test
     Gillbus::SearchTrips::Response.parse_string(File.read('test/responses/searchTrips-prod.xml'))
   end
 
+  def get_successful_search_trips_with_bad_data
+    Gillbus::SearchTrips::Response.parse_string(File.read('test/responses/searchTrips-prod-invalid.xml'))
+  end
+
   def get_trips_with_segments
     Gillbus::SearchTrips::Response.parse_string(File.read('test/responses/searchTrips-segments.xml'))
   end
@@ -83,6 +87,12 @@ class SearchTripsResponseTest < Minitest::Test
     assert_equal ['Кофе', 'Wi-Fi'], response.trips.first.options
     assert_equal false, response.trips[1].recommended
     assert_equal true, response.trips.first.recommended
+  end
+
+  def test_fields_parsing_bad_data
+    response = get_successful_search_trips_with_bad_data
+    assert response.error?
+    assert_includes response.response.to_s, '23/08/2014'
   end
 
   def test_faking_response
