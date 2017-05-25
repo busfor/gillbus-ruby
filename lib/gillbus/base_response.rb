@@ -35,7 +35,7 @@ class Gillbus
       xml.key?("DATA") or return ParseError.new(xml_string)
       data = xml["DATA"] || {}
       parse(data)
-    rescue MultiXml::ParseError
+    rescue MultiXml::ParseError, ArgumentError
       ParseError.new(xml_string)
     end
 

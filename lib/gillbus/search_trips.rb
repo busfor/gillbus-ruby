@@ -82,6 +82,12 @@ class Gillbus
       # По умолчанию отображаются все рейсы.
       attr_accessor :only_branded
 
+      # tripOptions
+      # Признак отображения списка услугрейса.
+      # true - в результате будут возвращены услуги рейса.
+      # По умолчанию услуги не возвращаются.
+      attr_accessor :trip_options
+
       def params
         compact(
           selectedModes:       modes(selected_modes),
@@ -96,6 +102,7 @@ class Gillbus
           ticketCount:         ticket_count,
           waitTimeout:         wait_timeout,
           onlyBranded:         bool(only_branded),
+          tripOptions:         bool(trip_options),
           **passengers_data,
         )
       end
