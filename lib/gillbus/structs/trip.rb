@@ -65,6 +65,9 @@ class Gillbus
     # => "RU \"ПЕТРОКОМ - АВТО ПЛЮС\" ООО"
     field :carrier_name
 
+    # => "какая-то важная информация"
+    field :carrier_information
+
     # => "09:10"
     field :time_in_road, :time
 
