@@ -44,7 +44,7 @@ class Gillbus
     field :passenger_student_ticket
 
     # => "..."
-    field :return_cause
+    field :return_cause, :string_with_possible_attributes
 
     # => "66.61"
     field :note
@@ -52,6 +52,16 @@ class Gillbus
     parser do
       def money(val)
         Monetize.parse(val, doc[:_currency])
+      end
+
+      def string_with_possible_attributes(val)
+        val.map do |cause|
+          if cause.kind_of? Hash
+            cause['__content__']
+          else
+            cause
+          end
+        end
       end
     end
 
