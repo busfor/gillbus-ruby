@@ -87,6 +87,8 @@ class SearchTripsResponseTest < Minitest::Test
     assert_equal ['Кофе', 'Wi-Fi'], response.trips.first.options
     assert_equal false, response.trips[1].recommended
     assert_equal true, response.trips.first.recommended
+    assert_equal ['cause 1', 'cause 2'], response.trips.first.tariffs.first.return_cause
+    assert_equal ['cause 1'], response.trips[1].tariffs.first.return_cause
   end
 
   def test_fields_parsing_bad_data
