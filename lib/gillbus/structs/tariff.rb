@@ -55,7 +55,7 @@ class Gillbus
       end
 
       def string_with_possible_attributes(val)
-        val.map do |cause|
+        [val].flatten.map do |cause|
           if cause.kind_of? Hash
             cause['__content__']
           else

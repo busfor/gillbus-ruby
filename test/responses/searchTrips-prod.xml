@@ -155,6 +155,7 @@
             <PASSENGER_BIRTHDAY/>
             <PASSENGER_ISIC_NUMBER/>
             <PASSENGER_STUDENT_TICKET/>
+            <RETURN_CAUSE id='asdasd'>cause 1</RETURN_CAUSE>
         </TARIFF>
         <POINT>
             <NUMBER>0</NUMBER>
