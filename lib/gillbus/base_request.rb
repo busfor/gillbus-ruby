@@ -17,6 +17,10 @@ class Gillbus
       {}
     end
 
+    def method
+      :post
+    end
+
     private
 
     def list(items)
@@ -42,7 +46,7 @@ class Gillbus
         "uk" => "ukr",
         "th" => "tai",
         "pl" => "pol",
-        
+
         # temporary, until changed in busfor
         "ua" => "ukr",
       }[ locale.to_s ] || locale.to_s
