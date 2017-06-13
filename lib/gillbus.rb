@@ -25,7 +25,13 @@ class Gillbus
       response_class = klass::Response
       request = request_class.new(*args)
       headers = {'Cookie' => "JSESSIONID=#{session_id}"} if session_id
-      http_response = driver.post( request.path, request.params, headers )
+      http_response =
+        case request.method
+        when :get
+          driver.get( request.path, request.params, headers )
+        else
+          driver.post( request.path, request.params, headers )
+        end
       result = response_class.parse_string(http_response.body.force_encoding('utf-8'))
       if cookie_string = http_response.headers["Set-Cookie"]
         returned_session_id = CGI::Cookie.parse(cookie_string)['JSESSIONID'].first
