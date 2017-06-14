@@ -70,6 +70,7 @@ class Gillbus
   require 'gillbus/search_trips'
   require 'gillbus/get_trips'
   require 'gillbus/get_trip_seats'
+  require 'gillbus/get_bus_image'
   require 'gillbus/get_trip_segments'
   require 'gillbus/get_required_fields'
   require 'gillbus/lock_seats'
