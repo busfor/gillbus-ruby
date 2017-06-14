@@ -26,5 +26,5 @@ class Gillbus
     end
 
   end
-
 end
+
