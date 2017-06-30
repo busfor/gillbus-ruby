@@ -18,6 +18,7 @@ class ErrorTest < Minitest::Test
     assert error_response.error?
     assert_equal 4, error_response.error_code
     assert_equal "Session not created error!", error_response.error_message
+    assert_equal "We'r fucked", error_response.external_error_message
   end
 
   def test_malformed_errorness

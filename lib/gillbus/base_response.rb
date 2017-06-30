@@ -11,6 +11,7 @@ class Gillbus
 
     attr_accessor :error_code
     attr_accessor :error_message
+    attr_accessor :external_error_message
 
     def error?
       ! error_code.nil?
@@ -21,6 +22,7 @@ class Gillbus
       if data["MESSAGE"]
         instance.error_code = data["MESSAGE"]["CODE"].to_i
         instance.error_message = data["MESSAGE"]["TEXT"]
+        instance.external_error_message = data["MESSAGE"]["EXT_TEXT"]
       else
         super(data, instance)
       end
