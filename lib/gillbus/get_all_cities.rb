@@ -5,6 +5,18 @@ class Gillbus
 
     class Request < BaseRequest
       def path; '/online2/getAllCities' end
+
+      # completeListSities (не обязательный, по умолчанию false)
+      # Признак получения полного списка населённых пунктов.
+      # Если установлен в true, будет возвращён полный список НП
+      # (за исключением ограничений на уровне консолидатора).
+      attr_accessor :complete_list_cities
+
+      def params
+        compact(
+          completeListSities: bool(complete_list_cities),
+        )
+      end
     end
 
     class City
