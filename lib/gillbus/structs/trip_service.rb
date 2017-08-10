@@ -5,7 +5,7 @@ class Gillbus
     include UpdateAttrs
 
     # уникальный идентификатор услуги со справочника
-    field :id, :int
+    field :id, :int, key: 'id'
 
     # название услуги в автобусе
     field :name, :string, key: '__content__'
