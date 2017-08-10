@@ -134,6 +134,8 @@ class Gillbus
 
     field :segments, [Segment], key: "SEGMENT"
 
+    field :options, TripOptions, key: 'OPTIONS'
+
     def start_at
       ActiveSupport::TimeZone["Europe/Kiev"].parse("#{data["START_DATE"]} #{data["START_TIME"]}")
     end
