@@ -131,6 +131,19 @@ class SearchTripsResponseTest < Minitest::Test
     assert_equal other_options, options.other
   end
 
+  def test_empty_options_parsing
+    response = get_successful_search_trips
+    options = response.trips.last.options
+
+    assert_equal [], options.services
+    assert_equal [], options.luggage
+    assert_equal [], options.seating
+    assert_equal [], options.technical_stops
+    assert_equal [], options.critical_info
+    assert_equal [], options.resource_options
+    assert_equal [], options.other
+  end
+
   def test_fields_parsing_bad_data
     response = get_successful_search_trips_with_bad_data
     assert response.error?

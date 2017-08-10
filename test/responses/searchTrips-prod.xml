@@ -225,5 +225,7 @@
             <DISPATCH_TIME/>
             <CHECK_POINT>false</CHECK_POINT>
         </POINT>
+        <OPTIONS>
+        </OPTIONS>
     </TRIP>
 </DATA>
