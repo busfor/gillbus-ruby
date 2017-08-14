@@ -102,8 +102,8 @@
         </POINT>
         <OPTIONS>
             <TRIP_SERVICES>
-                <TRIP_SERVICE id="1">Кофе</TRIP_SERVICE>
-                <TRIP_SERVICE id="15">Wi-Fi</TRIP_SERVICE>
+                <TRIP_SERVICE ID="1">Кофе</TRIP_SERVICE>
+                <TRIP_SERVICE ID="15">Wi-Fi</TRIP_SERVICE>
             </TRIP_SERVICES>
             <LUGGAGE>
                 <ITEM>В стоимость входит провоз 2 единиц багажа свыше 80 кг.</ITEM>
