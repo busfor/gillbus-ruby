@@ -76,6 +76,11 @@ class SearchTripsResponseTest < Minitest::Test
     assert_equal 2, response.trips.size
   end
 
+  def test_custom_status
+    response = get_successful_search_trips
+    assert_equal 0, response.trips.first.custom_status
+  end
+
   def test_fields_parsing
     response = get_successful_search_trips
     assert_equal Date.new(2014,8,23), response.trips.first.start_date
