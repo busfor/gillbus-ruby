@@ -116,6 +116,9 @@ class Gillbus
     # => "1"
     field :trip_mode, :int
 
+    # => "1"
+    field :custom_status, :int
+
     # => "null"
     field :image_url
 
