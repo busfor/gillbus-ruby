@@ -93,6 +93,7 @@ class SearchTripsResponseTest < Minitest::Test
     assert_equal true, response.trips.first.recommended
     assert_equal ['cause 1', 'cause 2'], response.trips.first.tariffs.first.return_cause
     assert_equal ['cause 1'], response.trips[1].tariffs.first.return_cause
+    assert_equal true, response.trips[1].tariffs.first.is_exclusive_price
   end
 
   def test_options_parsing
@@ -134,6 +135,8 @@ class SearchTripsResponseTest < Minitest::Test
     assert_equal critical_info, options.critical_info
     assert_equal resource_options, options.resource_options
     assert_equal other_options, options.other
+    assert options.advertising
+    assert options.busfor_recommend
   end
 
   def test_empty_options_parsing
