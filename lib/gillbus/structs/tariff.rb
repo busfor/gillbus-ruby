@@ -49,6 +49,8 @@ class Gillbus
     # => "66.61"
     field :note
 
+    field :is_exclusive_price, :bool
+
     parser do
       def money(val)
         Monetize.parse(val, doc[:_currency])

@@ -128,6 +128,10 @@
                 <ITEM>Трансфер</ITEM>
                 <ITEM>Cкидка при покупке раунд-трипа</ITEM>
             </OTHER>
+            <PROMO>
+                <ITEM>BUSFOR_RECOMMEND</ITEM>
+                <ITEM>ADVERTISING</ITEM>
+            </PROMO>
         </OPTIONS>
     </TRIP>
     <TRIP>
@@ -182,6 +186,7 @@
             <PASSENGER_ISIC_NUMBER/>
             <PASSENGER_STUDENT_TICKET/>
             <RETURN_CAUSE id='asdasd'>cause 1</RETURN_CAUSE>
+            <IS_EXCLUSIVE_PRICE>true</IS_EXCLUSIVE_PRICE>
         </TARIFF>
         <POINT>
             <NUMBER>0</NUMBER>

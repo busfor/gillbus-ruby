@@ -25,5 +25,20 @@ class Gillbus
     # информация, отмеченная как "прочее"
     field :other, [:string], root: 'OTHER', key: 'ITEM'
 
+    # признак рекламируемого рейса, передается как <PROMO><ITEM>ADVERTISING</ITEM></PROMO>
+    field :advertising, :adertising_bool, root: 'PROMO', key: 'ITEM'
+
+    # признак рекомендованого рейса, передается как <PROMO><ITEM>BUSFOR_RECOMMEND</ITEM></PROMO>
+    field :busfor_recommend, :recommend_bool, root: 'PROMO', key: 'ITEM'
+
+    parser do # better not to let flag value out of this gem
+      def adertising_bool(vals)
+        vals.include?('ADVERTISING')
+      end
+
+      def recommend_bool(vals)
+        vals.include?('BUSFOR_RECOMMEND')
+      end
+    end
   end
 end
