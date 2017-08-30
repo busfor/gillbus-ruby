@@ -151,7 +151,6 @@ class SearchTripsResponseTest < Minitest::Test
     assert_equal [], options.critical_info
     assert_equal [], options.resource_options
     assert_equal [], options.other
->>>>>>> master
   end
 
   def test_fields_parsing_bad_data
