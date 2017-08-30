@@ -42,6 +42,7 @@ class Gillbus
   require 'gillbus/helpers/parser'
 
   require 'gillbus/structs/point'
+  require 'gillbus/structs/tariff/return_cause'
   require 'gillbus/structs/tariff'
   require 'gillbus/structs/segment'
   require 'gillbus/structs/timetable_segment'

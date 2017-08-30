@@ -44,7 +44,7 @@ class Gillbus
     field :passenger_student_ticket
 
     # => "..."
-    field :return_cause, :string_with_possible_attributes
+    field :return_cause, [ReturnCause]
 
     # => "66.61"
     field :note
@@ -64,6 +64,5 @@ class Gillbus
         end
       end
     end
-
   end
 end
