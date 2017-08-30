@@ -31,6 +31,7 @@
         <INTERNATIONAL>false</INTERNATIONAL>
         <JOIN_BOOK_BUY>false</JOIN_BOOK_BUY>
         <TRIP_MODE>1</TRIP_MODE>
+        <CUSTOM_STATUS>0</CUSTOM_STATUS>
         <IMAGE_URL>null</IMAGE_URL>
         <START_POINT_TYPE>null</START_POINT_TYPE>
         <FAKE_TIME_IN_ROAD>true</FAKE_TIME_IN_ROAD>
@@ -101,8 +102,36 @@
             <CHECK_POINT>false</CHECK_POINT>
         </POINT>
         <OPTIONS>
-            <OPTION>Кофе</OPTION>
-            <OPTION>Wi-Fi</OPTION>
+            <TRIP_SERVICES>
+                <TRIP_SERVICE ID="1">Кофе</TRIP_SERVICE>
+                <TRIP_SERVICE ID="15">Wi-Fi</TRIP_SERVICE>
+            </TRIP_SERVICES>
+            <LUGGAGE>
+                <ITEM>В стоимость входит провоз 2 единиц багажа свыше 80 кг.</ITEM>
+                <ITEM>Ручная кладь 20см x 40см x 30см входит в стоимость билета.</ITEM>
+                <ITEM>Превышение по багажу оплачивается в размере 1% от стоимости тарифа.</ITEM>
+            </LUGGAGE>
+            <TECHNICAL_STOP>
+                <ITEM>Технические остановки осуществляются каждые 2-3 часа.</ITEM>
+            </TECHNICAL_STOP>
+            <CRITICAL_INFO>
+                <ITEM>ВНИМАНИЕ: Особые условия паспортного режима пересечения пропускного пункта (только с паспортами РБ и РФ).</ITEM>
+            </CRITICAL_INFO>
+            <SEATING>
+                <ITEM>Свободная рассадка.</ITEM>
+            </SEATING>
+            <RESOURCE_TRIP_OPTION>
+                <ITEM>Посадка начинается за 10 мин.</ITEM>
+            </RESOURCE_TRIP_OPTION>
+            <OTHER>
+                <ITEM>Переправа</ITEM>
+                <ITEM>Трансфер</ITEM>
+                <ITEM>Cкидка при покупке раунд-трипа</ITEM>
+            </OTHER>
+            <PROMO>
+                <ITEM>BUSFOR_RECOMMEND</ITEM>
+                <ITEM>ADVERTISING</ITEM>
+            </PROMO>
         </OPTIONS>
     </TRIP>
     <TRIP>
@@ -135,6 +164,7 @@
         <JOIN_BOOK_BUY>false</JOIN_BOOK_BUY>
         <RECOMMENDED>false</RECOMMENDED>
         <TRIP_MODE>1</TRIP_MODE>
+        <CUSTOM_STATUS>0</CUSTOM_STATUS>
         <IMAGE_URL>null</IMAGE_URL>
         <START_POINT_TYPE>null</START_POINT_TYPE>
         <VEHICLE_DESCRIPTION>null</VEHICLE_DESCRIPTION>
@@ -156,6 +186,7 @@
             <PASSENGER_ISIC_NUMBER/>
             <PASSENGER_STUDENT_TICKET/>
             <RETURN_CAUSE id='asdasd'>cause 1</RETURN_CAUSE>
+            <IS_EXCLUSIVE_PRICE>true</IS_EXCLUSIVE_PRICE>
         </TARIFF>
         <POINT>
             <NUMBER>0</NUMBER>
@@ -201,5 +232,7 @@
             <DISPATCH_TIME/>
             <CHECK_POINT>false</CHECK_POINT>
         </POINT>
+        <OPTIONS>
+        </OPTIONS>
     </TRIP>
 </DATA>

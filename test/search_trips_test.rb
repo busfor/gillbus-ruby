@@ -76,6 +76,11 @@ class SearchTripsResponseTest < Minitest::Test
     assert_equal 2, response.trips.size
   end
 
+  def test_custom_status
+    response = get_successful_search_trips
+    assert_equal 0, response.trips.first.custom_status
+  end
+
   def test_fields_parsing
     response = get_successful_search_trips
     assert_equal Date.new(2014,8,23), response.trips.first.start_date
@@ -84,12 +89,69 @@ class SearchTripsResponseTest < Minitest::Test
     assert_equal 'Europe/Moscow', response.trips.first.start_timezone
     assert_equal 'Europe/Moscow', response.trips.first.end_timezone
     assert_equal true, response.trips.first.fake_time_in_road
-    assert_equal ['Кофе', 'Wi-Fi'], response.trips.first.options
     assert_equal false, response.trips[1].recommended
     assert_equal true, response.trips.first.recommended
     assert_equal ['cause 1', 'cause 2'], response.trips.first.tariffs.first.return_cause.map(&:cause)
     assert_equal [true, false], response.trips.first.tariffs.first.return_cause.map(&:lossless)
     assert_equal ['cause 1'], response.trips[1].tariffs.first.return_cause.map(&:cause)
+    assert_equal true, response.trips[1].tariffs.first.is_exclusive_price
+  end
+
+  def test_options_parsing
+    response = get_successful_search_trips
+    options = response.trips.first.options
+
+    services = {
+      1 => 'Кофе',
+      15 => 'Wi-Fi'
+    }
+    luggage_options = [
+      'В стоимость входит провоз 2 единиц багажа свыше 80 кг.',
+      'Ручная кладь 20см x 40см x 30см входит в стоимость билета.',
+      'Превышение по багажу оплачивается в размере 1% от стоимости тарифа.'
+    ]
+    seating_options = [
+      'Свободная рассадка.'
+    ]
+    technical_stops = [
+      'Технические остановки осуществляются каждые 2-3 часа.'
+    ]
+    critical_info = [
+      'ВНИМАНИЕ: Особые условия паспортного режима пересечения пропускного пункта (только с паспортами РБ и РФ).'
+    ]
+    resource_options = [
+      'Посадка начинается за 10 мин.'
+    ]
+    other_options = [
+      'Переправа',
+      'Трансфер',
+      'Cкидка при покупке раунд-трипа'
+    ]
+
+    assert_equal services.values, options.services.map(&:name)
+    assert_equal services.keys, options.services.map(&:id)
+    assert_equal luggage_options, options.luggage
+    assert_equal seating_options, options.seating
+    assert_equal technical_stops, options.technical_stops
+    assert_equal critical_info, options.critical_info
+    assert_equal resource_options, options.resource_options
+    assert_equal other_options, options.other
+    assert options.advertising
+    assert options.busfor_recommend
+  end
+
+  def test_empty_options_parsing
+    response = get_successful_search_trips
+    options = response.trips.last.options
+
+    assert_equal [], options.services
+    assert_equal [], options.luggage
+    assert_equal [], options.seating
+    assert_equal [], options.technical_stops
+    assert_equal [], options.critical_info
+    assert_equal [], options.resource_options
+    assert_equal [], options.other
+>>>>>>> master
   end
 
   def test_fields_parsing_bad_data

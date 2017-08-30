@@ -41,6 +41,8 @@ class Gillbus
   require 'gillbus/helpers/update_attrs'
   require 'gillbus/helpers/parser'
 
+  require 'gillbus/structs/trip_service'
+  require 'gillbus/structs/trip_options'
   require 'gillbus/structs/point'
   require 'gillbus/structs/tariff/return_cause'
   require 'gillbus/structs/tariff'

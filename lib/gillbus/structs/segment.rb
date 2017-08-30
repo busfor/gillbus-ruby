@@ -104,6 +104,9 @@ class Gillbus
     # => "1"
     field :trip_mode, :int
 
+    # => "1"
+    field :custom_status, :int
+
     # => "null"
     field :image_url
 
@@ -133,6 +136,8 @@ class Gillbus
     field :points, [Point], key: "POINT"
 
     field :segments, [Segment], key: "SEGMENT"
+
+    field :options, TripOptions, key: 'OPTIONS'
 
     def start_at
       ActiveSupport::TimeZone["Europe/Kiev"].parse("#{data["START_DATE"]} #{data["START_TIME"]}")
