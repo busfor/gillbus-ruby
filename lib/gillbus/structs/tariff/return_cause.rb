@@ -16,6 +16,7 @@ class Gillbus
           instance.lossless = doc['lossless'] == 'true'
         else
           instance.cause = doc
+          instance.lossless = false
         end
         instance
       end

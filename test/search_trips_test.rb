@@ -92,7 +92,7 @@ class SearchTripsResponseTest < Minitest::Test
     assert_equal false, response.trips[1].recommended
     assert_equal true, response.trips.first.recommended
     assert_equal ['cause 1', 'cause 2', 'cause 3'], response.trips.first.tariffs.first.return_cause.map(&:cause)
-    assert_equal [true, false, nil], response.trips.first.tariffs.first.return_cause.map(&:lossless)
+    assert_equal [true, false, false], response.trips.first.tariffs.first.return_cause.map(&:lossless)
     assert_equal ['cause 1'], response.trips[1].tariffs.first.return_cause.map(&:cause)
     assert_equal true, response.trips[1].tariffs.first.is_exclusive_price
   end
