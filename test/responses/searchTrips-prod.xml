@@ -54,8 +54,9 @@
             <PASSENGER_BIRTHDAY/>
             <PASSENGER_ISIC_NUMBER/>
             <PASSENGER_STUDENT_TICKET/>
-            <RETURN_CAUSE>cause 1</RETURN_CAUSE>
+            <RETURN_CAUSE lossless='true'>cause 1</RETURN_CAUSE>
             <RETURN_CAUSE id='asdasd'>cause 2</RETURN_CAUSE>
+            <RETURN_CAUSE>cause 3</RETURN_CAUSE>
         </TARIFF>
         <POINT>
             <NUMBER>0</NUMBER>
