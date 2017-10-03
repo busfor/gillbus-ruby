@@ -95,6 +95,7 @@ class SearchTripsResponseTest < Minitest::Test
     assert_equal [true, false, false], response.trips.first.tariffs.first.return_cause.map(&:lossless)
     assert_equal ['cause 1'], response.trips[1].tariffs.first.return_cause.map(&:cause)
     assert_equal true, response.trips[1].tariffs.first.is_exclusive_price
+    assert_equal 'http://example.com/123', response.trips.first.redirect_url
   end
 
   def test_options_parsing

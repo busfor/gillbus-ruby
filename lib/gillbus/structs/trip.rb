@@ -140,6 +140,8 @@ class Gillbus
     # => "false"
     field :fake_time_in_road, :bool
 
+    field :redirect_url
+    
     # => "RUB"
     field :currency
 

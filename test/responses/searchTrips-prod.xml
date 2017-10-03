@@ -41,6 +41,7 @@
         <TOTAL_COST>1410.0</TOTAL_COST>
         <CURRENCY>RUB</CURRENCY>
         <CURRENCY_CODE>643</CURRENCY_CODE>
+        <REDIRECT_URL>http://example.com/123</REDIRECT_URL>
         <TARIFF>
             <SHORT_NAME>Y</SHORT_NAME>
             <FULL_NAME/>
