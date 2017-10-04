@@ -17,6 +17,9 @@ class Gillbus
     # Value of collecting in sale currency
     field :value, :money
 
+    # VAT rate
+    field :vat_value
+
     # Value of collecting VAT in sale currency
     field :vat, :money
 

@@ -265,6 +265,7 @@
             <DESCRIPTION>Страховой сбор</DESCRIPTION>
             <VALUE>0.06</VALUE>
             <VAT>0.01</VAT>
+            <VAT_VALUE>18</VAT_VALUE>
             <CURRENCY>UAH</CURRENCY>
             <RATE>0</RATE>
             <VALUE_IN_CURRENCY>0.05</VALUE_IN_CURRENCY>
@@ -276,6 +277,7 @@
             <DESCRIPTION>Сервисный сбор</DESCRIPTION>
             <VALUE>20</VALUE>
             <VAT>3.33</VAT>
+            <VAT_VALUE>0</VAT_VALUE>
             <CURRENCY>UAH</CURRENCY>
             <RATE>0</RATE>
             <VALUE_IN_CURRENCY>16.67</VALUE_IN_CURRENCY>
@@ -287,6 +289,7 @@
             <DESCRIPTION>Сумма других сборов</DESCRIPTION>
             <VALUE>0.06</VALUE>
             <VAT>0.01</VAT>
+            <VAT_VALUE>0</VAT_VALUE>
             <CURRENCY>UAH</CURRENCY>
             <RATE>0</RATE>
             <VALUE_IN_CURRENCY>0.05</VALUE_IN_CURRENCY>

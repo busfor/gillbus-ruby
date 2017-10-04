@@ -21,4 +21,8 @@ class FindOrderTest < Minitest::Test
   def test_return_causes
     assert_equal(Money.new(20_38, 'UAH'), find_order.tickets.first.return_causes.first.approximate_amount)
   end
+
+  def test_comission_vat_value
+    assert_equal("18", find_order.tickets.last.commissions.first.vat_value)
+  end
 end
