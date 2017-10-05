@@ -121,6 +121,10 @@ class Gillbus
     # => 0.0
     field :foreign_tariff_vat, :decimal
 
+    # The VAT rate
+    # => 0.0
+    field :vat_value
+
     field :note
 
     # Ticket barcode

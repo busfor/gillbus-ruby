@@ -36,6 +36,7 @@
         <TYPE_TARIFF_DESCRIPTION>Базовый тариф стоимости проезда одного пассажира в одном направлении.</TYPE_TARIFF_DESCRIPTION>
         <TARIFF>0.31</TARIFF>
         <TARIFF_VAT>0.09</TARIFF_VAT>
+        <VAT_VALUE>0</VAT_VALUE>
         <FOREIGN_TARIFF>0</FOREIGN_TARIFF>
         <FOREIGN_TARIFF_VAT>0</FOREIGN_TARIFF_VAT>
         <NOTE/>
