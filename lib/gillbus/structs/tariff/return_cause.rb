@@ -9,7 +9,7 @@ class Gillbus
 
       field :cause, :string
 
-      def self.parse(doc)
+      def self.parse(doc, _, _)
         instance = super
         if doc.kind_of? Hash
           instance.cause = doc['__content__']

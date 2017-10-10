@@ -22,11 +22,13 @@ class Gillbus
       end
     end
 
-    def parse(doc, instance=new)
+    def parse(doc, instance = new, parent = nil)
+      instance ||= new
       parser_class.new(
         doc: doc,
         instance: instance,
-        fields: field_definitions
+        fields: field_definitions,
+        parent: parent
       ).parse
       instance
     end

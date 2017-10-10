@@ -156,7 +156,7 @@ class Gillbus
     # to hold unserialized data
     attr_accessor :data
 
-    def self.parse(doc)
+    def self.parse(doc, _, _)
       instance = super
       instance.data = doc
       instance
