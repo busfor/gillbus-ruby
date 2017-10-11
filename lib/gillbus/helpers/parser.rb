@@ -7,11 +7,13 @@ class Gillbus
     attr_accessor :doc
     attr_accessor :instance
     attr_accessor :fields
+    attr_accessor :parent
 
-    def initialize(instance:, doc:, fields:)
+    def initialize(instance:, doc:, fields:, parent:)
       @instance = instance
       @doc = doc
       @fields = fields
+      @parent = parent
     end
 
     def parse
@@ -45,7 +47,7 @@ class Gillbus
     def make_one(type, val)
       return if val.nil?
       if type.is_a? Class
-        type.parse(val)
+        type.parse(val, nil, instance)
       else
         send type, val
       end

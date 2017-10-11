@@ -6,6 +6,10 @@ class FindOrderTest < Minitest::Test
     Gillbus::FindOrder::Response.parse_string(File.read('test/responses/findOrder.xml'))
   end
 
+  def find_order2
+    Gillbus::FindOrder::Response.parse_string(File.read('test/responses/bookingDifferentCurrencies.xml'))
+  end
+
   def test_number
     assert_equal("14482", find_order.tickets.first.ticket_number)
   end
@@ -28,5 +32,9 @@ class FindOrderTest < Minitest::Test
 
   def test_vat_value
     assert_equal("0", find_order.tickets.first.vat_value)
+  end
+
+  def test_comission_currency
+    assert_equal(Money.new(51_55, 'RUB'), find_order2.tickets.last.commissions.last.value)
   end
 end
