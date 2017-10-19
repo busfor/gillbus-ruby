@@ -1,0 +1,512 @@
+<DATA>
+    <TICKET>
+        <FINAL_PRICE_GREATER>false</FINAL_PRICE_GREATER>
+        <CREATED_DATE>19.10.2017 13:10:49</CREATED_DATE>
+        <UPDATED_DATE>19.10.2017 13:10:49</UPDATED_DATE>
+        <TICKET_NUMBER>1951410</TICKET_NUMBER>
+        <TICKET_SERIES>11111111</TICKET_SERIES>
+        <CARRIER_TICKET_NUMBER/>
+        <SYSTEM_NUMBER>1951410</SYSTEM_NUMBER>
+        <ORDER_NUMBER>1584700</ORDER_NUMBER>
+        <ORDER_ID>dev-66475562</ORDER_ID>
+        <TICKET_STATUS>8</TICKET_STATUS>
+        <IS_BAGGAGE>false</IS_BAGGAGE>
+        <POLICY_NUMBER/>
+        <EXCHANGE_BLANK>false</EXCHANGE_BLANK>
+        <ENABLE_CHANGE_TRIP_DATE>true</ENABLE_CHANGE_TRIP_DATE>
+        <PASSENGER_FULL_NAME>Тест123 2232Тест Тест</PASSENGER_FULL_NAME>
+        <PASSENGER_FIRST_NAME>2232Тест</PASSENGER_FIRST_NAME>
+        <PASSENGER_LAST_NAME>Тест123</PASSENGER_LAST_NAME>
+        <PASSENGER_BIRTHDAY>01.01.1908</PASSENGER_BIRTHDAY>
+        <PASSENGER_STUDENT_TICKET/>
+        <PASSENGER_PHONE>+79161017268</PASSENGER_PHONE>
+        <PASSENGER_PASSPORT>1231231231</PASSENGER_PASSPORT>
+        <PASSENGER_DOCUMENT_TYPE>1</PASSENGER_DOCUMENT_TYPE>
+        <PASSENGER_PICKUPDROPOFF/>
+        <AGENT_NAME>"Басфор" ООО</AGENT_NAME>
+        <AGENT_PHONE>+74953747677</AGENT_PHONE>
+        <CARRIER_NAME>"ВАСИЛЬКОВТРАНСАВТО" ЧП</CARRIER_NAME>
+        <CARRIER_PHONE>+380457127827</CARRIER_PHONE>
+        <BUS_MODEL>Сетра 328</BUS_MODEL>
+        <PLATFORM/>
+        <BUS_CLASS>3</BUS_CLASS>
+        <CARRIAGE_NUMBER/>
+        <NUMBER_SEAT>24</NUMBER_SEAT>
+        <MINUTES_FOR_BUYOUT>40</MINUTES_FOR_BUYOUT>
+        <TOTAL>2500.02</TOTAL>
+        <TOTAL_CURRENCY>RUB</TOTAL_CURRENCY>
+        <TOTAL_CURRENCY_CODE>643</TOTAL_CURRENCY_CODE>
+        <TRIP_NUMBER>TEST - ВТА894 Трускавец - Киев</TRIP_NUMBER>
+        <TRIP_MODE>1</TRIP_MODE>
+        <INTERNATIONAL_TRIP>false</INTERNATIONAL_TRIP>
+        <START_TIMEZONE/>
+        <END_TIMEZONE/>
+        <START_CITY>Львов</START_CITY>
+        <START_DATE>19.10.2017</START_DATE>
+        <START_TIME>19:30</START_TIME>
+        <END_CITY>Киев</END_CITY>
+        <END_DATE>20.10.2017</END_DATE>
+        <END_TIME>05:00</END_TIME>
+        <STATION_ID>93A85E6A852855AFE040A8C01E02029E</STATION_ID>
+        <STATION_NAME>г. Львов, Стрийский автовокзал</STATION_NAME>
+        <STATION_END_NAME>Центральный автовокзал</STATION_END_NAME>
+        <TYPE_TARIFF_NAME>Y</TYPE_TARIFF_NAME>
+        <TYPE_TARIFF_FULL_NAME>Базовый тариф</TYPE_TARIFF_FULL_NAME>
+        <TYPE_TARIFF_DESCRIPTION>Базовый тариф стоимости проезда одного пассажиров в одном направлении</TYPE_TARIFF_DESCRIPTION>
+        <TARIFF>666.67</TARIFF>
+        <VAT_VALUE>0</VAT_VALUE>
+        <TARIFF_VAT>0</TARIFF_VAT>
+        <FOREIGN_TARIFF>0</FOREIGN_TARIFF>
+        <FOREIGN_TARIFF_VAT>0</FOREIGN_TARIFF_VAT>
+        <NOTE/>
+        <BARCODE>ВТА001951410BSF</BARCODE>
+        <INSURANCE_NAME/>
+        <INSURANCE_PHONE/>
+        <AGENT_REG>92511895</AGENT_REG>
+        <CARRIER_REG>34374306</CARRIER_REG>
+        <INSURANCE_REG/>
+        <TOTAL_TARIFF>666.67</TOTAL_TARIFF>
+        <TOTAL_TARIFF_IN_CURRENCY>300</TOTAL_TARIFF_IN_CURRENCY>
+        <TOTAL_TARIFF_VAT>0</TOTAL_TARIFF_VAT>
+        <TOTAL_TARIFF_VAT_IN_CURRENCY>0</TOTAL_TARIFF_VAT_IN_CURRENCY>
+        <TARIFF_CUR_CODE>UAH</TARIFF_CUR_CODE>
+        <TARIFF_CUR_RATE>2.22222222222</TARIFF_CUR_RATE>
+        <TOTAL_AMOUNT>833.34</TOTAL_AMOUNT>
+        <TOTAL_AGENT_INCOME>66.67</TOTAL_AGENT_INCOME>
+        <TOTAL_AMOUNT_VAT>25.42</TOTAL_AMOUNT_VAT>
+        <SALE_CUR_CODE>RUB</SALE_CUR_CODE>
+        <CUSTOMER_NAME/>
+        <CUSTOMER_PHONE/>
+        <CUSTOMER_ADDRESS/>
+        <AGENT_ADDRESS>г Москва, ул проспект Вернадского, д 8 А, оф 4 этаж</AGENT_ADDRESS>
+        <CARRIER_ADDRESS>г Васильков, ул Фрунзе, д 51-А</CARRIER_ADDRESS>
+        <STATION_ADDRESS>ул. Стрийская, 109</STATION_ADDRESS>
+        <STATION_END_ADDRESS>метро Демеевская; проспект Науки; дом 1/2</STATION_END_ADDRESS>
+        <INSURANCE_ADDRESS/>
+        <AGENT_CODE>BSF</AGENT_CODE>
+        <AGENT_CITY>Москва</AGENT_CITY>
+        <CARRIER_CODE>ВТА</CARRIER_CODE>
+        <BEGIN_AVIACODE>LWO</BEGIN_AVIACODE>
+        <END_AVIACODE>IEV</END_AVIACODE>
+        <XT>0</XT>
+        <XT_VAT>0</XT_VAT>
+        <SERVICE_TYPE>Автобусный</SERVICE_TYPE>
+        <RETURN_CAUSE>
+            <ID>A2FD124AAEA24B65E040A8C0630352B0</ID>
+            <APPROXIMATE_AMOUNT>833.34</APPROXIMATE_AMOUNT>
+            <CAUSE>Принудительно, при отмене рейса, при непредоставлении места.</CAUSE>
+        </RETURN_CAUSE>
+        <RETURN_CAUSE>
+            <ID>35C5919A80B419C0E0530300F00ACB13</ID>
+            <APPROXIMATE_AMOUNT>433.33</APPROXIMATE_AMOUNT>
+            <CAUSE>Добровольно,  более чем за 72 ч., до отправления рейса</CAUSE>
+        </RETURN_CAUSE>
+        <RETURN_CAUSE>
+            <ID>35C5766BA72B1996E0530300F00A92CA</ID>
+            <APPROXIMATE_AMOUNT>-66.67</APPROXIMATE_AMOUNT>
+            <CAUSE>Добровольно,  менее чем за 4 ч., до отправления рейса ВОЗВРАТ НЕ ДОПУСКАЕТСЯ</CAUSE>
+        </RETURN_CAUSE>
+        <RETURN_CAUSE>
+            <ID>35C572D81EC71998E0530300F00A9C5E</ID>
+            <APPROXIMATE_AMOUNT>266.67</APPROXIMATE_AMOUNT>
+            <CAUSE>Добровольно,  более чем за 24 ч.,  менее чем за 72 ч., до отправления рейса</CAUSE>
+        </RETURN_CAUSE>
+        <RETURN_CAUSE>
+            <ID>35C57D92BFA71986E0530300F00A88FD</ID>
+            <APPROXIMATE_AMOUNT>100</APPROXIMATE_AMOUNT>
+            <CAUSE>Добровольно,  более чем за 4 ч.,  менее чем за 24 ч., до отправления рейса</CAUSE>
+        </RETURN_CAUSE>
+        <COMMISSION>
+            <TYPE>-1</TYPE>
+            <CODE>XP</CODE>
+            <DESCRIPTION>Агентский сбор</DESCRIPTION>
+            <VALUE>166.67</VALUE>
+            <VAT_VALUE>0</VAT_VALUE>
+            <VAT>25.42</VAT>
+            <CURRENCY>RUB</CURRENCY>
+            <RATE>0</RATE>
+            <VALUE_IN_CURRENCY>141.25</VALUE_IN_CURRENCY>
+            <VAT_IN_CURRENCY>25.42</VAT_IN_CURRENCY>
+        </COMMISSION>
+        <COMMISSION>
+            <TYPE>3</TYPE>
+            <CODE>XP2</CODE>
+            <DESCRIPTION>Агентский сбор №2</DESCRIPTION>
+            <VALUE>0</VALUE>
+            <VAT_VALUE>18</VAT_VALUE>
+            <VAT>0</VAT>
+            <CURRENCY>UAH</CURRENCY>
+            <RATE>2.22222222222</RATE>
+            <VALUE_IN_CURRENCY>25.42</VALUE_IN_CURRENCY>
+            <VAT_IN_CURRENCY>4.58</VAT_IN_CURRENCY>
+        </COMMISSION>
+        <ALL_COMMISSIONS>
+            <COMMISSION>
+                <TYPE>3</TYPE>
+                <CODE>XP2</CODE>
+                <DESCRIPTION>Агентский сбор №2</DESCRIPTION>
+                <IN_OUT_TYPE>3</IN_OUT_TYPE>
+                <VALUE>56.49</VALUE>
+                <VAT_VALUE>18</VAT_VALUE>
+                <VAT>10.18</VAT>
+                <CURRENCY>UAH</CURRENCY>
+                <RATE>2.22222222222</RATE>
+                <VALUE_IN_CURRENCY>25.42</VALUE_IN_CURRENCY>
+                <VAT_IN_CURRENCY>4.58</VAT_IN_CURRENCY>
+            </COMMISSION>
+            <COMMISSION>
+                <TYPE>5</TYPE>
+                <CODE>XP1</CODE>
+                <DESCRIPTION>Агентский сбор №1</DESCRIPTION>
+                <IN_OUT_TYPE>2</IN_OUT_TYPE>
+                <VALUE>141.25</VALUE>
+                <VAT_VALUE>18</VAT_VALUE>
+                <VAT>25.42</VAT>
+                <CURRENCY>UAH</CURRENCY>
+                <RATE>2.22222222222</RATE>
+                <VALUE_IN_CURRENCY>63.56</VALUE_IN_CURRENCY>
+                <VAT_IN_CURRENCY>11.44</VAT_IN_CURRENCY>
+            </COMMISSION>
+        </ALL_COMMISSIONS>
+    </TICKET>
+    <TICKET>
+        <FINAL_PRICE_GREATER>false</FINAL_PRICE_GREATER>
+        <CREATED_DATE>19.10.2017 13:10:49</CREATED_DATE>
+        <UPDATED_DATE>19.10.2017 13:10:49</UPDATED_DATE>
+        <TICKET_NUMBER>1951411</TICKET_NUMBER>
+        <TICKET_SERIES>11111111</TICKET_SERIES>
+        <CARRIER_TICKET_NUMBER/>
+        <SYSTEM_NUMBER>1951411</SYSTEM_NUMBER>
+        <ORDER_NUMBER>1584700</ORDER_NUMBER>
+        <ORDER_ID>dev-66475562</ORDER_ID>
+        <TICKET_STATUS>8</TICKET_STATUS>
+        <IS_BAGGAGE>false</IS_BAGGAGE>
+        <POLICY_NUMBER/>
+        <EXCHANGE_BLANK>false</EXCHANGE_BLANK>
+        <ENABLE_CHANGE_TRIP_DATE>true</ENABLE_CHANGE_TRIP_DATE>
+        <PASSENGER_FULL_NAME>Тест Тест Тест</PASSENGER_FULL_NAME>
+        <PASSENGER_FIRST_NAME>Тест</PASSENGER_FIRST_NAME>
+        <PASSENGER_LAST_NAME>Тест</PASSENGER_LAST_NAME>
+        <PASSENGER_BIRTHDAY>01.01.1980</PASSENGER_BIRTHDAY>
+        <PASSENGER_STUDENT_TICKET/>
+        <PASSENGER_PHONE>+79161017268</PASSENGER_PHONE>
+        <PASSENGER_PASSPORT>1231231231</PASSENGER_PASSPORT>
+        <PASSENGER_DOCUMENT_TYPE>1</PASSENGER_DOCUMENT_TYPE>
+        <PASSENGER_PICKUPDROPOFF/>
+        <AGENT_NAME>"Басфор" ООО</AGENT_NAME>
+        <AGENT_PHONE>+74953747677</AGENT_PHONE>
+        <CARRIER_NAME>"ВАСИЛЬКОВТРАНСАВТО" ЧП</CARRIER_NAME>
+        <CARRIER_PHONE>+380457127827</CARRIER_PHONE>
+        <BUS_MODEL>Сетра 328</BUS_MODEL>
+        <PLATFORM/>
+        <BUS_CLASS>3</BUS_CLASS>
+        <CARRIAGE_NUMBER/>
+        <NUMBER_SEAT>28</NUMBER_SEAT>
+        <MINUTES_FOR_BUYOUT>40</MINUTES_FOR_BUYOUT>
+        <TOTAL>2500.02</TOTAL>
+        <TOTAL_CURRENCY>RUB</TOTAL_CURRENCY>
+        <TOTAL_CURRENCY_CODE>643</TOTAL_CURRENCY_CODE>
+        <TRIP_NUMBER>TEST - ВТА894 Трускавец - Киев</TRIP_NUMBER>
+        <TRIP_MODE>1</TRIP_MODE>
+        <INTERNATIONAL_TRIP>false</INTERNATIONAL_TRIP>
+        <START_TIMEZONE/>
+        <END_TIMEZONE/>
+        <START_CITY>Львов</START_CITY>
+        <START_DATE>19.10.2017</START_DATE>
+        <START_TIME>19:30</START_TIME>
+        <END_CITY>Киев</END_CITY>
+        <END_DATE>20.10.2017</END_DATE>
+        <END_TIME>05:00</END_TIME>
+        <STATION_ID>93A85E6A852855AFE040A8C01E02029E</STATION_ID>
+        <STATION_NAME>г. Львов, Стрийский автовокзал</STATION_NAME>
+        <STATION_END_NAME>Центральный автовокзал</STATION_END_NAME>
+        <TYPE_TARIFF_NAME>Y</TYPE_TARIFF_NAME>
+        <TYPE_TARIFF_FULL_NAME>Базовый тариф</TYPE_TARIFF_FULL_NAME>
+        <TYPE_TARIFF_DESCRIPTION>Базовый тариф стоимости проезда одного пассажиров в одном направлении</TYPE_TARIFF_DESCRIPTION>
+        <TARIFF>666.67</TARIFF>
+        <VAT_VALUE>0</VAT_VALUE>
+        <TARIFF_VAT>0</TARIFF_VAT>
+        <FOREIGN_TARIFF>0</FOREIGN_TARIFF>
+        <FOREIGN_TARIFF_VAT>0</FOREIGN_TARIFF_VAT>
+        <NOTE/>
+        <BARCODE>ВТА001951411BSF</BARCODE>
+        <INSURANCE_NAME/>
+        <INSURANCE_PHONE/>
+        <AGENT_REG>92511895</AGENT_REG>
+        <CARRIER_REG>34374306</CARRIER_REG>
+        <INSURANCE_REG/>
+        <TOTAL_TARIFF>666.67</TOTAL_TARIFF>
+        <TOTAL_TARIFF_IN_CURRENCY>300</TOTAL_TARIFF_IN_CURRENCY>
+        <TOTAL_TARIFF_VAT>0</TOTAL_TARIFF_VAT>
+        <TOTAL_TARIFF_VAT_IN_CURRENCY>0</TOTAL_TARIFF_VAT_IN_CURRENCY>
+        <TARIFF_CUR_CODE>UAH</TARIFF_CUR_CODE>
+        <TARIFF_CUR_RATE>2.22222222222</TARIFF_CUR_RATE>
+        <TOTAL_AMOUNT>833.34</TOTAL_AMOUNT>
+        <TOTAL_AGENT_INCOME>66.67</TOTAL_AGENT_INCOME>
+        <TOTAL_AMOUNT_VAT>25.42</TOTAL_AMOUNT_VAT>
+        <SALE_CUR_CODE>RUB</SALE_CUR_CODE>
+        <CUSTOMER_NAME/>
+        <CUSTOMER_PHONE/>
+        <CUSTOMER_ADDRESS/>
+        <AGENT_ADDRESS>г Москва, ул проспект Вернадского, д 8 А, оф 4 этаж</AGENT_ADDRESS>
+        <CARRIER_ADDRESS>г Васильков, ул Фрунзе, д 51-А</CARRIER_ADDRESS>
+        <STATION_ADDRESS>ул. Стрийская, 109</STATION_ADDRESS>
+        <STATION_END_ADDRESS>метро Демеевская; проспект Науки; дом 1/2</STATION_END_ADDRESS>
+        <INSURANCE_ADDRESS/>
+        <AGENT_CODE>BSF</AGENT_CODE>
+        <AGENT_CITY>Москва</AGENT_CITY>
+        <CARRIER_CODE>ВТА</CARRIER_CODE>
+        <BEGIN_AVIACODE>LWO</BEGIN_AVIACODE>
+        <END_AVIACODE>IEV</END_AVIACODE>
+        <XT>0</XT>
+        <XT_VAT>0</XT_VAT>
+        <SERVICE_TYPE>Автобусный</SERVICE_TYPE>
+        <RETURN_CAUSE>
+            <ID>A2FD124AAEA24B65E040A8C0630352B0</ID>
+            <APPROXIMATE_AMOUNT>833.34</APPROXIMATE_AMOUNT>
+            <CAUSE>Принудительно, при отмене рейса, при непредоставлении места.</CAUSE>
+        </RETURN_CAUSE>
+        <RETURN_CAUSE>
+            <ID>35C5919A80B419C0E0530300F00ACB13</ID>
+            <APPROXIMATE_AMOUNT>433.33</APPROXIMATE_AMOUNT>
+            <CAUSE>Добровольно,  более чем за 72 ч., до отправления рейса</CAUSE>
+        </RETURN_CAUSE>
+        <RETURN_CAUSE>
+            <ID>35C5766BA72B1996E0530300F00A92CA</ID>
+            <APPROXIMATE_AMOUNT>-66.67</APPROXIMATE_AMOUNT>
+            <CAUSE>Добровольно,  менее чем за 4 ч., до отправления рейса ВОЗВРАТ НЕ ДОПУСКАЕТСЯ</CAUSE>
+        </RETURN_CAUSE>
+        <RETURN_CAUSE>
+            <ID>35C572D81EC71998E0530300F00A9C5E</ID>
+            <APPROXIMATE_AMOUNT>266.67</APPROXIMATE_AMOUNT>
+            <CAUSE>Добровольно,  более чем за 24 ч.,  менее чем за 72 ч., до отправления рейса</CAUSE>
+        </RETURN_CAUSE>
+        <RETURN_CAUSE>
+            <ID>35C57D92BFA71986E0530300F00A88FD</ID>
+            <APPROXIMATE_AMOUNT>100</APPROXIMATE_AMOUNT>
+            <CAUSE>Добровольно,  более чем за 4 ч.,  менее чем за 24 ч., до отправления рейса</CAUSE>
+        </RETURN_CAUSE>
+        <COMMISSION>
+            <TYPE>-1</TYPE>
+            <CODE>XP</CODE>
+            <DESCRIPTION>Агентский сбор</DESCRIPTION>
+            <VALUE>166.67</VALUE>
+            <VAT_VALUE>0</VAT_VALUE>
+            <VAT>25.42</VAT>
+            <CURRENCY>RUB</CURRENCY>
+            <RATE>0</RATE>
+            <VALUE_IN_CURRENCY>141.25</VALUE_IN_CURRENCY>
+            <VAT_IN_CURRENCY>25.42</VAT_IN_CURRENCY>
+        </COMMISSION>
+        <COMMISSION>
+            <TYPE>3</TYPE>
+            <CODE>XP2</CODE>
+            <DESCRIPTION>Агентский сбор №2</DESCRIPTION>
+            <VALUE>0</VALUE>
+            <VAT_VALUE>18</VAT_VALUE>
+            <VAT>0</VAT>
+            <CURRENCY>UAH</CURRENCY>
+            <RATE>2.22222222222</RATE>
+            <VALUE_IN_CURRENCY>25.42</VALUE_IN_CURRENCY>
+            <VAT_IN_CURRENCY>4.58</VAT_IN_CURRENCY>
+        </COMMISSION>
+        <ALL_COMMISSIONS>
+            <COMMISSION>
+                <TYPE>3</TYPE>
+                <CODE>XP2</CODE>
+                <DESCRIPTION>Агентский сбор №2</DESCRIPTION>
+                <IN_OUT_TYPE>3</IN_OUT_TYPE>
+                <VALUE>56.49</VALUE>
+                <VAT_VALUE>18</VAT_VALUE>
+                <VAT>10.18</VAT>
+                <CURRENCY>UAH</CURRENCY>
+                <RATE>2.22222222222</RATE>
+                <VALUE_IN_CURRENCY>25.42</VALUE_IN_CURRENCY>
+                <VAT_IN_CURRENCY>4.58</VAT_IN_CURRENCY>
+            </COMMISSION>
+            <COMMISSION>
+                <TYPE>5</TYPE>
+                <CODE>XP1</CODE>
+                <DESCRIPTION>Агентский сбор №1</DESCRIPTION>
+                <IN_OUT_TYPE>2</IN_OUT_TYPE>
+                <VALUE>141.25</VALUE>
+                <VAT_VALUE>18</VAT_VALUE>
+                <VAT>25.42</VAT>
+                <CURRENCY>UAH</CURRENCY>
+                <RATE>2.22222222222</RATE>
+                <VALUE_IN_CURRENCY>63.56</VALUE_IN_CURRENCY>
+                <VAT_IN_CURRENCY>11.44</VAT_IN_CURRENCY>
+            </COMMISSION>
+        </ALL_COMMISSIONS>
+    </TICKET>
+    <TICKET>
+        <FINAL_PRICE_GREATER>false</FINAL_PRICE_GREATER>
+        <CREATED_DATE>19.10.2017 13:10:49</CREATED_DATE>
+        <UPDATED_DATE>19.10.2017 13:10:50</UPDATED_DATE>
+        <TICKET_NUMBER>1951412</TICKET_NUMBER>
+        <TICKET_SERIES>11111111</TICKET_SERIES>
+        <CARRIER_TICKET_NUMBER/>
+        <SYSTEM_NUMBER>1951412</SYSTEM_NUMBER>
+        <ORDER_NUMBER>1584700</ORDER_NUMBER>
+        <ORDER_ID>dev-66475562</ORDER_ID>
+        <TICKET_STATUS>8</TICKET_STATUS>
+        <IS_BAGGAGE>false</IS_BAGGAGE>
+        <POLICY_NUMBER/>
+        <EXCHANGE_BLANK>false</EXCHANGE_BLANK>
+        <ENABLE_CHANGE_TRIP_DATE>true</ENABLE_CHANGE_TRIP_DATE>
+        <PASSENGER_FULL_NAME>Qweqwe Qweqq Qwe</PASSENGER_FULL_NAME>
+        <PASSENGER_FIRST_NAME>qweqq</PASSENGER_FIRST_NAME>
+        <PASSENGER_LAST_NAME>qweqwe</PASSENGER_LAST_NAME>
+        <PASSENGER_BIRTHDAY>01.01.2013</PASSENGER_BIRTHDAY>
+        <PASSENGER_STUDENT_TICKET/>
+        <PASSENGER_PHONE>+79161017268</PASSENGER_PHONE>
+        <PASSENGER_PASSPORT>123123123</PASSENGER_PASSPORT>
+        <PASSENGER_DOCUMENT_TYPE>4</PASSENGER_DOCUMENT_TYPE>
+        <PASSENGER_PICKUPDROPOFF/>
+        <AGENT_NAME>"Басфор" ООО</AGENT_NAME>
+        <AGENT_PHONE>+74953747677</AGENT_PHONE>
+        <CARRIER_NAME>"ВАСИЛЬКОВТРАНСАВТО" ЧП</CARRIER_NAME>
+        <CARRIER_PHONE>+380457127827</CARRIER_PHONE>
+        <BUS_MODEL>Сетра 328</BUS_MODEL>
+        <PLATFORM/>
+        <BUS_CLASS>3</BUS_CLASS>
+        <CARRIAGE_NUMBER/>
+        <NUMBER_SEAT>32</NUMBER_SEAT>
+        <MINUTES_FOR_BUYOUT>40</MINUTES_FOR_BUYOUT>
+        <TOTAL>2500.02</TOTAL>
+        <TOTAL_CURRENCY>RUB</TOTAL_CURRENCY>
+        <TOTAL_CURRENCY_CODE>643</TOTAL_CURRENCY_CODE>
+        <TRIP_NUMBER>TEST - ВТА894 Трускавец - Киев</TRIP_NUMBER>
+        <TRIP_MODE>1</TRIP_MODE>
+        <INTERNATIONAL_TRIP>false</INTERNATIONAL_TRIP>
+        <START_TIMEZONE/>
+        <END_TIMEZONE/>
+        <START_CITY>Львов</START_CITY>
+        <START_DATE>19.10.2017</START_DATE>
+        <START_TIME>19:30</START_TIME>
+        <END_CITY>Киев</END_CITY>
+        <END_DATE>20.10.2017</END_DATE>
+        <END_TIME>05:00</END_TIME>
+        <STATION_ID>93A85E6A852855AFE040A8C01E02029E</STATION_ID>
+        <STATION_NAME>г. Львов, Стрийский автовокзал</STATION_NAME>
+        <STATION_END_NAME>Центральный автовокзал</STATION_END_NAME>
+        <TYPE_TARIFF_NAME>Y</TYPE_TARIFF_NAME>
+        <TYPE_TARIFF_FULL_NAME>Базовый тариф</TYPE_TARIFF_FULL_NAME>
+        <TYPE_TARIFF_DESCRIPTION>Базовый тариф стоимости проезда одного пассажиров в одном направлении</TYPE_TARIFF_DESCRIPTION>
+        <TARIFF>666.67</TARIFF>
+        <VAT_VALUE>0</VAT_VALUE>
+        <TARIFF_VAT>0</TARIFF_VAT>
+        <FOREIGN_TARIFF>0</FOREIGN_TARIFF>
+        <FOREIGN_TARIFF_VAT>0</FOREIGN_TARIFF_VAT>
+        <NOTE/>
+        <BARCODE>ВТА001951412BSF</BARCODE>
+        <INSURANCE_NAME/>
+        <INSURANCE_PHONE/>
+        <AGENT_REG>92511895</AGENT_REG>
+        <CARRIER_REG>34374306</CARRIER_REG>
+        <INSURANCE_REG/>
+        <TOTAL_TARIFF>666.67</TOTAL_TARIFF>
+        <TOTAL_TARIFF_IN_CURRENCY>300</TOTAL_TARIFF_IN_CURRENCY>
+        <TOTAL_TARIFF_VAT>0</TOTAL_TARIFF_VAT>
+        <TOTAL_TARIFF_VAT_IN_CURRENCY>0</TOTAL_TARIFF_VAT_IN_CURRENCY>
+        <TARIFF_CUR_CODE>UAH</TARIFF_CUR_CODE>
+        <TARIFF_CUR_RATE>2.22222222222</TARIFF_CUR_RATE>
+        <TOTAL_AMOUNT>833.34</TOTAL_AMOUNT>
+        <TOTAL_AGENT_INCOME>66.67</TOTAL_AGENT_INCOME>
+        <TOTAL_AMOUNT_VAT>25.42</TOTAL_AMOUNT_VAT>
+        <SALE_CUR_CODE>RUB</SALE_CUR_CODE>
+        <CUSTOMER_NAME/>
+        <CUSTOMER_PHONE/>
+        <CUSTOMER_ADDRESS/>
+        <AGENT_ADDRESS>г Москва, ул проспект Вернадского, д 8 А, оф 4 этаж</AGENT_ADDRESS>
+        <CARRIER_ADDRESS>г Васильков, ул Фрунзе, д 51-А</CARRIER_ADDRESS>
+        <STATION_ADDRESS>ул. Стрийская, 109</STATION_ADDRESS>
+        <STATION_END_ADDRESS>метро Демеевская; проспект Науки; дом 1/2</STATION_END_ADDRESS>
+        <INSURANCE_ADDRESS/>
+        <AGENT_CODE>BSF</AGENT_CODE>
+        <AGENT_CITY>Москва</AGENT_CITY>
+        <CARRIER_CODE>ВТА</CARRIER_CODE>
+        <BEGIN_AVIACODE>LWO</BEGIN_AVIACODE>
+        <END_AVIACODE>IEV</END_AVIACODE>
+        <XT>0</XT>
+        <XT_VAT>0</XT_VAT>
+        <SERVICE_TYPE>Автобусный</SERVICE_TYPE>
+        <RETURN_CAUSE>
+            <ID>A2FD124AAEA24B65E040A8C0630352B0</ID>
+            <APPROXIMATE_AMOUNT>833.34</APPROXIMATE_AMOUNT>
+            <CAUSE>Принудительно, при отмене рейса, при непредоставлении места.</CAUSE>
+        </RETURN_CAUSE>
+        <RETURN_CAUSE>
+            <ID>35C5919A80B419C0E0530300F00ACB13</ID>
+            <APPROXIMATE_AMOUNT>433.33</APPROXIMATE_AMOUNT>
+            <CAUSE>Добровольно,  более чем за 72 ч., до отправления рейса</CAUSE>
+        </RETURN_CAUSE>
+        <RETURN_CAUSE>
+            <ID>35C5766BA72B1996E0530300F00A92CA</ID>
+            <APPROXIMATE_AMOUNT>-66.67</APPROXIMATE_AMOUNT>
+            <CAUSE>Добровольно,  менее чем за 4 ч., до отправления рейса ВОЗВРАТ НЕ ДОПУСКАЕТСЯ</CAUSE>
+        </RETURN_CAUSE>
+        <RETURN_CAUSE>
+            <ID>35C572D81EC71998E0530300F00A9C5E</ID>
+            <APPROXIMATE_AMOUNT>266.67</APPROXIMATE_AMOUNT>
+            <CAUSE>Добровольно,  более чем за 24 ч.,  менее чем за 72 ч., до отправления рейса</CAUSE>
+        </RETURN_CAUSE>
+        <RETURN_CAUSE>
+            <ID>35C57D92BFA71986E0530300F00A88FD</ID>
+            <APPROXIMATE_AMOUNT>100</APPROXIMATE_AMOUNT>
+            <CAUSE>Добровольно,  более чем за 4 ч.,  менее чем за 24 ч., до отправления рейса</CAUSE>
+        </RETURN_CAUSE>
+        <COMMISSION>
+            <TYPE>-1</TYPE>
+            <CODE>XP</CODE>
+            <DESCRIPTION>Агентский сбор</DESCRIPTION>
+            <VALUE>166.67</VALUE>
+            <VAT_VALUE>0</VAT_VALUE>
+            <VAT>25.42</VAT>
+            <CURRENCY>RUB</CURRENCY>
+            <RATE>0</RATE>
+            <VALUE_IN_CURRENCY>141.25</VALUE_IN_CURRENCY>
+            <VAT_IN_CURRENCY>25.42</VAT_IN_CURRENCY>
+        </COMMISSION>
+        <COMMISSION>
+            <TYPE>3</TYPE>
+            <CODE>XP2</CODE>
+            <DESCRIPTION>Агентский сбор №2</DESCRIPTION>
+            <VALUE>0</VALUE>
+            <VAT_VALUE>18</VAT_VALUE>
+            <VAT>0</VAT>
+            <CURRENCY>UAH</CURRENCY>
+            <RATE>2.22222222222</RATE>
+            <VALUE_IN_CURRENCY>25.42</VALUE_IN_CURRENCY>
+            <VAT_IN_CURRENCY>4.58</VAT_IN_CURRENCY>
+        </COMMISSION>
+        <ALL_COMMISSIONS>
+            <COMMISSION>
+                <TYPE>3</TYPE>
+                <CODE>XP2</CODE>
+                <DESCRIPTION>Агентский сбор №2</DESCRIPTION>
+                <IN_OUT_TYPE>3</IN_OUT_TYPE>
+                <VALUE>56.49</VALUE>
+                <VAT_VALUE>18</VAT_VALUE>
+                <VAT>10.18</VAT>
+                <CURRENCY>UAH</CURRENCY>
+                <RATE>2.22222222222</RATE>
+                <VALUE_IN_CURRENCY>25.42</VALUE_IN_CURRENCY>
+                <VAT_IN_CURRENCY>4.58</VAT_IN_CURRENCY>
+            </COMMISSION>
+            <COMMISSION>
+                <TYPE>5</TYPE>
+                <CODE>XP1</CODE>
+                <DESCRIPTION>Агентский сбор №1</DESCRIPTION>
+                <IN_OUT_TYPE>2</IN_OUT_TYPE>
+                <VALUE>141.25</VALUE>
+                <VAT_VALUE>18</VAT_VALUE>
+                <VAT>25.42</VAT>
+                <CURRENCY>UAH</CURRENCY>
+                <RATE>2.22222222222</RATE>
+                <VALUE_IN_CURRENCY>63.56</VALUE_IN_CURRENCY>
+                <VAT_IN_CURRENCY>11.44</VAT_IN_CURRENCY>
+            </COMMISSION>
+        </ALL_COMMISSIONS>
+    </TICKET>
+</DATA>
