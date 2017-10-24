@@ -87,5 +87,5 @@ class Gillbus
   require 'gillbus/find_order'
   require 'gillbus/get_order_status'
   require 'gillbus/logout'
-
+  require 'gillbus/return_position'
 end
