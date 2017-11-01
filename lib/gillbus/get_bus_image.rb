@@ -5,9 +5,7 @@ class Gillbus
 
     class Request < BaseRequest
 
-      def path; '/online2/GetBusImage' end
-
-      def method; :get end
+      def path; '/online2/getBusImage' end
 
       # busId
       # Уникальный ИД заказа, переданный при отложенной продаже.
@@ -21,10 +19,16 @@ class Gillbus
 
     end
 
-    class Response < BaseResponse
-      field :image_urls, [:string], key: 'URL'
+    class Image
+      extend Fields
+      include UpdateAttrs
+
+      field :url
+      field :thumb_url
     end
 
+    class Response < BaseResponse
+      field :images, [Image], key: 'IMAGE'
+    end
   end
 end
-

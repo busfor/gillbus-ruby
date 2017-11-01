@@ -44,6 +44,9 @@ class Gillbus
     # => "VIP"
     field :bus_class
 
+    # => "168689517A076A9AE0508E5B3557184F"
+    field :bus_id
+
     # => true
     field :has_transfer, :bool
 
@@ -141,7 +144,7 @@ class Gillbus
     field :fake_time_in_road, :bool
 
     field :redirect_url
-    
+
     # => "RUB"
     field :currency
 
