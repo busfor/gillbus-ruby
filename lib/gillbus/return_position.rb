@@ -33,9 +33,9 @@ class Gillbus
         field :confirmation, :yesno_bool
         field :reason_id
         field :date
+        field :failures
       end
 
-      field :failures
       field :return_position, ReturnPosition
     end
   end
