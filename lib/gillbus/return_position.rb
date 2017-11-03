@@ -35,6 +35,7 @@ class Gillbus
         field :date
       end
 
+      field :failures
       field :return_position, ReturnPosition
     end
   end
