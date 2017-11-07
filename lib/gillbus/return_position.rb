@@ -36,7 +36,7 @@ class Gillbus
         field :failures
       end
 
-      field :return_position, ReturnPosition
+      field :return_positions, [ReturnPosition], key: 'RETURN_POSITION'
     end
   end
 end
