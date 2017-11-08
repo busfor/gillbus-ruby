@@ -14,11 +14,11 @@ class ReturnPositionTest < Minitest::Test
   end
 
   def test_success_response
-    assert success_response.return_position.confirmation
+    assert success_response.return_positions.first.confirmation
   end
 
   def test_failure_response
-    refute failure_response.return_position.confirmation
+    refute failure_response.return_positions.first.confirmation
   end
 
   private
