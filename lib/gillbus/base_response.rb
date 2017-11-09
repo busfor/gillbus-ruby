@@ -12,6 +12,7 @@ class Gillbus
     attr_accessor :error_code
     attr_accessor :error_message
     attr_accessor :external_error_message
+    attr_accessor :request_time
 
     def error?
       ! error_code.nil?
