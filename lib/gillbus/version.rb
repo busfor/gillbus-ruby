@@ -1,3 +1,3 @@
 class Gillbus
-  VERSION = "0.16.5"
+  VERSION = "0.16.6"
 end
