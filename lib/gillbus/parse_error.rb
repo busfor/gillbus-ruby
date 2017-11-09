@@ -5,6 +5,7 @@ class Gillbus::ParseError
   end
   attr_reader :response
   attr_accessor :session_id
+  attr_accessor :request_time
   def error?; true; end
   def error_code; 0; end
   def error_message; "Malformed response"; end
