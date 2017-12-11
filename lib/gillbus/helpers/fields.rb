@@ -42,8 +42,8 @@ class Gillbus
       @fields ||= []
     end
 
-    def field(name, type=:string, key: name.to_s.upcase, root: nil)
-      field_definitions << {name: name, key: key, type: type, root: root}
+    def field(name, type = :string, key: name.to_s.upcase, root: nil)
+      field_definitions << { name: name, key: key, type: type, root: root }
       attr_accessor name
     end
   end

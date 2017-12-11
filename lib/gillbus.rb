@@ -18,12 +18,12 @@ class Gillbus
     self
   end
 
-  def self.register klass, method_name
+  def self.register(klass, method_name)
     define_method method_name do |*args|
       request_class = klass::Request
       response_class = klass::Response
       request = request_class.new(*args)
-      headers = {'Cookie' => "JSESSIONID=#{session_id}"} if session_id
+      headers = { 'Cookie' => "JSESSIONID=#{session_id}" } if session_id
       request_time_start = Time.now
       http_response = driver.public_send(request.method, request.path, request.params, headers)
       request_time_end = Time.now

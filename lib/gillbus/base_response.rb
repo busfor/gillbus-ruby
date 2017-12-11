@@ -14,10 +14,10 @@ class Gillbus
     attr_accessor :request_time
 
     def error?
-      ! error_code.nil?
+      !error_code.nil?
     end
 
-    def self.parse(data, instance=new)
+    def self.parse(data, instance = new)
       # ugly
       if data['MESSAGE']
         instance.error_code = data['MESSAGE']['CODE'].to_i
@@ -34,7 +34,7 @@ class Gillbus
     def self.parse_string(xml_string)
       xml = MultiXml.parse(xml_string)
       # <DATA/> is a valid response
-      xml.key?('DATA') or return ParseError.new(xml_string)
+      xml.key?('DATA') || (return ParseError.new(xml_string))
       data = xml['DATA'] || {}
       parse(data)
     rescue MultiXml::ParseError, ArgumentError

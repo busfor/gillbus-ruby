@@ -1,4 +1,4 @@
-# FIXME it's possible I got currency for some fields wrong.
+# FIXME: it's possible I got currency for some fields wrong.
 class Gillbus
   class Commission
     extend Fields

@@ -285,7 +285,6 @@ class Gillbus
       def return_cause(val)
         ReturnCause.parse(val.merge(_currency: doc['SALE_CUR_CODE']))
       end
-
     end
   end
 end

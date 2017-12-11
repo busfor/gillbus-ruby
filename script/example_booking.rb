@@ -9,11 +9,11 @@ require 'securerandom'
 GILLBUS_SERVER = 'http://mdc.demo.gillbus.com'.freeze
 GILLBUS_PASSWORD = '3DVG/x1AOk+xwNlAEXytMCxZMsb73r39DOg97k8b8c4YaMrlOar071diefS0IyZT'.freeze
 
-driver = Faraday.new(url: GILLBUS_SERVER) { |c|
+driver = Faraday.new(url: GILLBUS_SERVER) do |c|
   c.response :logger, Logger.new(STDOUT), bodies: true
   c.request :url_encoded
   c.adapter Faraday.default_adapter
-}
+end
 
 g = Gillbus.new(driver: driver).login(
   password: GILLBUS_PASSWORD,
@@ -27,7 +27,6 @@ cities = g.get_cities.cities
 kiiv_id = cities.find { |c| c.name == 'Киев' }.id
 lviv_id = cities.find { |c| c.name == 'Львов' }.id
 
-
 # searchTrips
 
 tomorrow = Date.today + 1
@@ -37,8 +36,8 @@ trips = g.search_trips(
   start_date_search: tomorrow,
   ticket_count: 2,
   passengers: [
-    { birthday: Date.new(1983,4,19) },
-    { birthday: Date.new(2007,10,15) },
+    { birthday: Date.new(1983, 4, 19) },
+    { birthday: Date.new(2007, 10, 15) },
   ],
 ).trips
 
@@ -79,4 +78,3 @@ puts 'saving ' + filename
 File.open filename, 'wb' do |f|
   f << ot.ticket
 end
-

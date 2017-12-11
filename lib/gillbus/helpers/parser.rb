@@ -31,7 +31,7 @@ class Gillbus
       instance
     end
 
-  private
+    private
 
     def make_one_or_many(type, val)
       # [:type]

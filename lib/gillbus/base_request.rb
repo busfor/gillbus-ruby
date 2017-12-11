@@ -2,7 +2,7 @@ require 'date'
 
 class Gillbus
   class BaseRequest
-    def initialize(attrs={})
+    def initialize(attrs = {})
       attrs.each do |k, v|
         send "#{k}=", v
       end
@@ -48,7 +48,7 @@ class Gillbus
 
         # temporary, until changed in busfor
         'ua' => 'ukr',
-      }[ locale.to_s ] || locale.to_s
+      }[locale.to_s] || locale.to_s
     end
 
     MODES = {
@@ -80,19 +80,19 @@ class Gillbus
 
     def modes(items)
       list(
-        Array(items).map { |item|
+        Array(items).map do |item|
           if item.is_a? Symbol
-            MODES[item] or
-              fail ArgumentError, "unknown search mode #{item.inspect}", caller
+            MODES[item] ||
+              raise(ArgumentError, "unknown search mode #{item.inspect}", caller)
           else
             item
           end
-        },
+        end,
       )
     end
 
     def compact(hash)
-      hash.each do |k,v|
+      hash.each do |k, v|
         hash.delete k if v.nil?
       end
       hash

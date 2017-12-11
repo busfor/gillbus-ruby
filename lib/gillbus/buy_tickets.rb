@@ -10,7 +10,7 @@ class Gillbus
       attr_accessor :order_id
 
       def params
-        {orderId: order_id}
+        { orderId: order_id }
       end
     end
 

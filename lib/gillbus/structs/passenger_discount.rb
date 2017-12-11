@@ -30,7 +30,7 @@ class Gillbus
     # с предоставлением места, если такой имеется.
     attr_accessor :with_seat
 
-    def params(prefix='')
+    def params(prefix = '')
       compact(
         birthday: date(birthday),
         studentTicket: student_ticket,

@@ -10,7 +10,7 @@ class Gillbus
 
       def self.parse(doc, _ = nil, _ = nil)
         instance = super
-        if doc.kind_of? Hash
+        if doc.is_a? Hash
           instance.cause = doc['__content__']
           instance.lossless = doc['lossless'] == 'true'
         else

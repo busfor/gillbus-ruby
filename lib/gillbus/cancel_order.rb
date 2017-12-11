@@ -21,7 +21,6 @@ class Gillbus
       end
     end
 
-
     class Response < BaseResponse
       class OrderCancel
         extend Fields
