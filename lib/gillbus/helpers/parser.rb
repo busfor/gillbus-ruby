@@ -9,11 +9,12 @@ class Gillbus
     attr_accessor :fields
     attr_accessor :parent
 
-    def initialize(instance:, doc:, fields:, parent:)
+    def initialize(instance:, doc:, fields:, parent:, options: {})
       @instance = instance
       @doc = doc
       @fields = fields
       @parent = parent
+      @options = options
     end
 
     def parse
@@ -47,7 +48,7 @@ class Gillbus
     def make_one(type, val)
       return if val.nil?
       if type.is_a? Class
-        type.parse(val, nil, instance)
+        type.parse(val, instance: nil, parent: instance, options: @options)
       else
         send type, val
       end
@@ -93,7 +94,8 @@ class Gillbus
     end
 
     def datetime(val)
-      ActiveSupport::TimeZone["Europe/Kiev"].parse(val)
+      tz = @options[:timezone] || "Europe/Kiev"
+      ActiveSupport::TimeZone[tz].parse(val)
     end
 
     def decimal(val)

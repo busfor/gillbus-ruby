@@ -4,9 +4,10 @@ require "faraday"
 class Gillbus
 
   # driver: e.g. Faraday.new(url: 'http://demo.gillbus.com')
-  def initialize(driver:, session_id: nil)
+  def initialize(driver:, session_id: nil, timezone: nil)
     @driver = driver
     @session_id = session_id
+    @timezone = timezone
   end
 
   # Faraday instance
@@ -28,7 +29,7 @@ class Gillbus
       request_time_start = Time.now
       http_response = driver.public_send( request.method, request.path, request.params, headers )
       request_time_end = Time.now
-      result = response_class.parse_string(http_response.body.force_encoding('utf-8'))
+      result = response_class.parse_string(http_response.body.force_encoding('utf-8'), timezone: timezone)
       if cookie_string = http_response.headers["Set-Cookie"]
         returned_session_id = CGI::Cookie.parse(cookie_string)['JSESSIONID'].first
         self.session_id = returned_session_id
