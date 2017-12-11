@@ -98,6 +98,16 @@ class SearchTripsResponseTest < Minitest::Test
     assert_equal 'http://example.com/123', response.trips.first.redirect_url
   end
 
+  def test_start_at_parsing
+    response = get_successful_search_trips
+
+    trip1_start_at = ActiveSupport::TimeZone['Europe/Moscow'].parse('23.08.2014 19:00')
+    trip2_start_at = ActiveSupport::TimeZone['Europe/Kiev'].parse('23.08.2014 21:10')
+
+    assert_equal trip1_start_at, response.trips[0].start_at
+    assert_equal trip2_start_at, response.trips[1].start_at
+  end
+
   def test_options_parsing
     response = get_successful_search_trips
     options = response.trips.first.options
