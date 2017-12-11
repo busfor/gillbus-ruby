@@ -4,7 +4,6 @@ class Gillbus
     Gillbus.register self, :get_time_table
 
     class Request < BaseRequest
-
       def path; '/online2/getTimeTable' end
 
       attr_accessor :locale
@@ -22,7 +21,6 @@ class Gillbus
           endDateSearch: date(end_date_search),
         )
       end
-
     end
 
     class Response < BaseResponse

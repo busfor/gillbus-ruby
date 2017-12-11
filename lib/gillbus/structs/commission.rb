@@ -1,7 +1,6 @@
 # FIXME it's possible I got currency for some fields wrong.
 class Gillbus
   class Commission
-
     extend Fields
     include UpdateAttrs
 
@@ -59,6 +58,5 @@ class Gillbus
         Monetize.parse(val, doc['CURRENCY'])
       end
     end
-
   end
 end

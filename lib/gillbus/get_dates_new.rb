@@ -4,7 +4,6 @@ class Gillbus
     Gillbus.register self, :get_dates_new
 
     class Request < BaseRequest
-
       def path; '/online2/getDatesNew' end
 
       attr_accessor :start_city_id
@@ -24,7 +23,6 @@ class Gillbus
           selectedModes: modes(selected_modes),
         )
       end
-
     end
 
     class Response < BaseResponse

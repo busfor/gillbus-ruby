@@ -5,7 +5,6 @@ class Gillbus
     Gillbus.register self, :get_order_ticket
 
     class Request < BaseRequest
-
       def path; '/online2/getOrderTicket' end
 
       # orderId
@@ -47,7 +46,6 @@ class Gillbus
     end
 
     class Response < BaseResponse
-
       field :ticket, :ticket
 
       parser do
@@ -55,7 +53,6 @@ class Gillbus
           Base64.decode64(val)
         end
       end
-
     end
 
   end

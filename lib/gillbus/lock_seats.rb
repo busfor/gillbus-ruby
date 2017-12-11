@@ -4,7 +4,6 @@ class Gillbus
     Gillbus.register self, :lock_seats
 
     class Request < BaseRequest
-
       def path; '/online2/lockSeats' end
 
       # tripId
@@ -54,7 +53,6 @@ class Gillbus
     end
 
     class Response < BaseResponse
-
       # seat lock, time limit, in seconds
       field :time_limit, :milliseconds
       # [{Symbol => Boolean}] необходимые для ввода типы документов?
@@ -75,7 +73,6 @@ class Gillbus
           result
         end
       end
-
     end
 
   end

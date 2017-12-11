@@ -4,7 +4,6 @@ class Gillbus
     Gillbus.register self, :cancel_order
 
     class Request < BaseRequest
-
       def path; '/online2/cancelOrder' end
 
       # orderNumber
@@ -21,14 +20,11 @@ class Gillbus
           cancelReason: cancel_reason,
         )
       end
-
     end
 
 
     class Response < BaseResponse
-
       class OrderCancel
-
         extend Fields
 
         # The order number
@@ -43,13 +39,10 @@ class Gillbus
         # The request’s performing date
         # String. FIXME (Kiiv timezone?)
         field :date
-
       end
 
       field :order_cancel, OrderCancel
-
     end
 
   end
-
 end

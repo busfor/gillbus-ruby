@@ -1,6 +1,5 @@
 class Gillbus
   class Item
-
     extend Fields
     include UpdateAttrs
 
@@ -9,6 +8,5 @@ class Gillbus
     field :is_direct, :bool
     # Признак рейса с пересадкой
     field :is_transfer, :bool
-
   end
 end

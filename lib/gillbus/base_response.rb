@@ -2,7 +2,6 @@ require 'multi_xml'
 
 class Gillbus
   class BaseResponse
-
     extend Fields
     include UpdateAttrs
 
@@ -41,6 +40,5 @@ class Gillbus
     rescue MultiXml::ParseError, ArgumentError
       ParseError.new(xml_string)
     end
-
   end
 end

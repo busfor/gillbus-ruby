@@ -1,7 +1,6 @@
 require 'test_helper'
 
 class GetBusImageTest < Minitest::Test
-
   def get_bus_image
     Gillbus::GetBusImage::Response.parse_string(File.read('test/responses/getBusImage.xml'))
   end

@@ -1,7 +1,6 @@
 require 'test_helper'
 
 class GetCountriesTest < Minitest::Test
-
   def get_countries
     Gillbus::GetCountries::Response.parse_string(File.read('test/responses/getCountries.xml'))
   end

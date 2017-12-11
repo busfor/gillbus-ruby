@@ -1,7 +1,6 @@
 require 'test_helper'
 
 class GetTripSegmentsTest < Minitest::Test
-
   def get_trip_segments
     Gillbus::GetTripSegments::Response.parse_string(File.read('test/responses/getTripSegments.xml'))
   end

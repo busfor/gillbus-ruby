@@ -1,7 +1,6 @@
 require 'test_helper'
 
 class GetTimeTableTest < Minitest::Test
-
   def get_time_table
     Gillbus::GetTimeTable::Response.parse_string(File.read('test/responses/getTimeTable.xml'))
   end

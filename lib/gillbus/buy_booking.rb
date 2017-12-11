@@ -4,7 +4,6 @@ class Gillbus
     Gillbus.register self, :buy_booking
 
     class Request < BaseRequest
-
       def path; '/online2/buyBooking' end
 
       # paymentMethod (не обязательный)
@@ -48,13 +47,10 @@ class Gillbus
           **orders
         )
       end
-
     end
 
     class Response < BaseResponse
-
       class TicketConfirmation
-
         extend Fields
 
         field :number, :int
@@ -63,11 +59,9 @@ class Gillbus
         field :order_id
         field :confirmation, :yesno_bool
         field :position_numbers, [:int], key: 'POSITION_NUMBER'
-
       end
 
       field :ticket, TicketConfirmation
-
     end
 
   end

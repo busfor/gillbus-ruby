@@ -1,6 +1,5 @@
 class Gillbus
   class Tariff
-
     extend Fields
     include UpdateAttrs
 

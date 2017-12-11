@@ -2,7 +2,6 @@ require "gillbus/version"
 require "faraday"
 
 class Gillbus
-
   # driver: e.g. Faraday.new(url: 'http://demo.gillbus.com')
   def initialize(driver:, session_id: nil)
     @driver = driver

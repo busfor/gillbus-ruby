@@ -4,9 +4,7 @@ class Gillbus
     Gillbus.register self, :get_countries
 
     class Request < BaseRequest
-
       def path; '/online2/getCountries' end
-
     end
 
     class Country

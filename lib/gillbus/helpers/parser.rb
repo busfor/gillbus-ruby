@@ -3,7 +3,6 @@ require 'active_support/time'
 
 class Gillbus
   class Parser
-
     attr_accessor :doc
     attr_accessor :instance
     attr_accessor :fields
@@ -99,6 +98,5 @@ class Gillbus
     def decimal(val)
       BigDecimal.new(val)
     end
-
   end
 end

@@ -2,7 +2,6 @@ require 'test_helper'
 require 'pry'
 
 class ReserveTicketsTest < Minitest::Test
-
   def reserve_tickets
     Gillbus::ReserveTickets::Response.parse_string(File.read('test/responses/reserveTickets.xml'))
   end
@@ -18,5 +17,4 @@ class ReserveTicketsTest < Minitest::Test
   def test_date_to_pay
     assert_equal(DateTime.new(2013, 5, 22, 20, 30, 0, '+3'), reserve_tickets.tickets.first.date_to_pay)
   end
-
 end

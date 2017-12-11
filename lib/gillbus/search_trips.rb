@@ -4,7 +4,6 @@ class Gillbus
     Gillbus.register self, :search_trips
 
     class Request < BaseRequest
-
       def path; '/online2/searchTrips' end
 
       # selectedModes (не обязательный)
@@ -123,7 +122,6 @@ class Gillbus
           PassengerDiscount.wrap(p).params("passenger#{i}")
         end.reduce({}, :merge)
       end
-
     end
 
     class Response < BaseResponse

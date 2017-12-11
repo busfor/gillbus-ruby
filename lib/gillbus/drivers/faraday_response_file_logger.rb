@@ -1,6 +1,5 @@
 class Gillbus
   class FaradayResponseFileLogger < Faraday::Middleware
-
     def initialize(app, dir = '.')
       @dir = dir
       super(app)
@@ -14,6 +13,5 @@ class Gillbus
         File.write(@dir + '/' + sanitized_path, env.body) if env.body != ''
       end
     end
-
   end
 end

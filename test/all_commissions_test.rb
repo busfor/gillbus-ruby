@@ -1,7 +1,6 @@
 require 'test_helper'
 
 class AllCommissionsTest < Minitest::Test
-
   def response
     Gillbus::FindOrder::Response.parse_string(File.read('test/responses/ticketsBookingAllCommissions.xml'))
   end

@@ -1,7 +1,6 @@
 require "test_helper"
 
 class CancelOrderTest < Minitest::Test
-
   def cancel_order
     Gillbus::CancelOrder::Response.parse_string(File.read('test/responses/cancelOrder.xml'))
   end

@@ -4,7 +4,6 @@ class Gillbus
     Gillbus.register self, :get_cities
 
     class Request < BaseRequest
-
       def path; '/online2/getCities' end
 
       attr_accessor :start_city_id
@@ -14,7 +13,6 @@ class Gillbus
           startCityId: start_city_id,
         }
       end
-
     end
 
     class City

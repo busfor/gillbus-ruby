@@ -3,7 +3,6 @@ class Gillbus
     Gillbus.register self, :return_position
 
     class Request < BaseRequest
-
       def path; '/online2/returnPosition' end
 
       # ticketCount

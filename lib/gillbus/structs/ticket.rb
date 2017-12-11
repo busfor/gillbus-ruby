@@ -1,6 +1,5 @@
 class Gillbus
   class Ticket
-
     extend Fields
     include UpdateAttrs
 

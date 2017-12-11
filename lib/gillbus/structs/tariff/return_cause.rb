@@ -1,7 +1,6 @@
 class Gillbus
   class Tariff
     class ReturnCause
-
       extend Fields
       include UpdateAttrs
 

@@ -1,7 +1,6 @@
 require 'test_helper'
 
 class SearchTripsRequestTest < Minitest::Test
-
   def test_params
     req = Gillbus::SearchTrips::Request.new(
       start_date_search: Date.new(2013, 2, 4),
@@ -43,11 +42,9 @@ class SearchTripsRequestTest < Minitest::Test
 
     assert_equal expected_params, req.params
   end
-
 end
 
 class SearchTripsResponseTest < Minitest::Test
-
   def get_empty_search_trips
     Gillbus::SearchTrips::Response.parse_string(File.read('test/responses/searchTrips-empty.xml'))
   end
@@ -188,5 +185,4 @@ class SearchTripsResponseTest < Minitest::Test
     assert_equal true, response.trips.first.fake_time_in_road
     assert_equal 2, response.trips.first.segments.size
   end
-
 end

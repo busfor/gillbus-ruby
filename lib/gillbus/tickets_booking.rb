@@ -4,7 +4,6 @@ class Gillbus
     Gillbus.register self, :tickets_booking
 
     class Request < BaseRequest
-
       def path; '/online2/ticketsBooking' end
 
       # orderId
@@ -78,7 +77,6 @@ class Gillbus
 
       # not a request, just a record for BookTickets
       class Passenger < BaseRequest
-
         # passenger0studentTicket... passengerNstudentTicket (не обязательный)
         # Номер студенческого билета пассажира с порядковым номером 0... N.
 

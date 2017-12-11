@@ -2,7 +2,6 @@ class Gillbus
   # not a request, neither a response part
   # just a params record for SearchTrips
   class PassengerDiscount < BaseRequest
-
     def self.wrap(passenger_or_params)
       return passenger_or_params if passenger_or_params.is_a? self
       new(passenger_or_params)

@@ -1,6 +1,5 @@
 class Gillbus
   class Trip
-
     extend Fields
     include UpdateAttrs
 
@@ -183,6 +182,5 @@ class Gillbus
       instance.data = doc
       instance
     end
-
   end
 end

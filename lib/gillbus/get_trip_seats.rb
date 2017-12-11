@@ -4,7 +4,6 @@ class Gillbus
     Gillbus.register self, :get_trip_seats
 
     class Request < BaseRequest
-
       def path; '/online2/getTripSeats' end
 
       # tripId
@@ -30,11 +29,9 @@ class Gillbus
           backCarriageId: back_carriage_id
         )
       end
-
     end
 
     class Response < BaseResponse
-
       SEGMENT_REGEX = /SEGMENT_(?<number>\d+)_SEAT/
 
       field :seats, [Seat], key: 'SEAT'
@@ -54,7 +51,6 @@ class Gillbus
           end
         end
       end
-
     end
 
   end

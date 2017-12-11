@@ -1,7 +1,6 @@
 require "test_helper"
 
 class BuyBookingTest < Minitest::Test
-
   def response
     Gillbus::BuyBooking::Response.parse_string(File.read('test/responses/buyBooking.xml'))
   end
@@ -28,5 +27,4 @@ class BuyBookingTest < Minitest::Test
     assert response.ticket.confirmation
     assert_equal [123456, 654321], response.ticket.position_numbers
   end
-
 end

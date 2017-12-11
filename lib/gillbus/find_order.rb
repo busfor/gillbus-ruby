@@ -4,7 +4,6 @@ class Gillbus
     Gillbus.register self, :find_order
 
     class Request < BaseRequest
-
       def path; '/online2/findOrder' end
 
       # orderId
@@ -25,7 +24,6 @@ class Gillbus
           locale: translated_locale(locale),
         )
       end
-
     end
 
     class Response < BaseResponse
@@ -33,5 +31,4 @@ class Gillbus
     end
 
   end
-
 end

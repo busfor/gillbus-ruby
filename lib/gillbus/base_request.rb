@@ -2,7 +2,6 @@ require 'date'
 
 class Gillbus
   class BaseRequest
-
     def initialize(attrs={})
       attrs.each do |k, v|
         send "#{k}=", v
@@ -98,6 +97,5 @@ class Gillbus
       end
       hash
     end
-
   end
 end

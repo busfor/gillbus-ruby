@@ -1,7 +1,6 @@
 require 'test_helper'
 
 class GetTripSeatsTest < Minitest::Test
-
   def get_trip_seats
     Gillbus::GetTripSeats::Response.parse_string(File.read('test/responses/getTripSeats.xml'))
   end

@@ -4,7 +4,6 @@ class Gillbus
     Gillbus.register self, :session_login
 
     class Request < BaseRequest
-
       def initialize(password:, locale: nil)
         super
       end
@@ -19,13 +18,10 @@ class Gillbus
       def params
         compact(locale: translated_locale(locale))
       end
-
     end
 
     class Response < BaseResponse
-
       field :logged, :bool
-
     end
 
   end

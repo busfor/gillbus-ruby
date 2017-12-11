@@ -1,7 +1,6 @@
 require 'test_helper'
 
 class ErrorTest < Minitest::Test
-
   def error_response
     Gillbus::SessionLogin::Response.parse_string(File.read('test/responses/error.xml'))
   end
@@ -28,5 +27,4 @@ class ErrorTest < Minitest::Test
   def test_malformed_2_errorness
     assert malformed_response_2.error?
   end
-
 end

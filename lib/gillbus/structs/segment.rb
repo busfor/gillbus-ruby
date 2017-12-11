@@ -1,6 +1,5 @@
 class Gillbus
   class Segment
-
     extend Fields
     include UpdateAttrs
 
@@ -169,6 +168,5 @@ class Gillbus
       instance.data = doc
       instance
     end
-
   end
 end

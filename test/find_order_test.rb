@@ -1,7 +1,6 @@
 require 'test_helper'
 
 class FindOrderTest < Minitest::Test
-
   def find_order
     Gillbus::FindOrder::Response.parse_string(File.read('test/responses/findOrder.xml'))
   end

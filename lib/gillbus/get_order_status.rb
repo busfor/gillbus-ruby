@@ -4,7 +4,6 @@ class Gillbus
     Gillbus.register self, :get_order_status
 
     class Request < BaseRequest
-
       def path; '/online2/getOrderStatus' end
 
       # orderNumber
@@ -16,7 +15,6 @@ class Gillbus
           orderNumber: order_number.is_a?(Array) ? order_number.join(";") : order_number,
         )
       end
-
     end
 
     class Response < BaseResponse
@@ -24,5 +22,4 @@ class Gillbus
     end
 
   end
-
 end

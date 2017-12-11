@@ -1,6 +1,5 @@
 class Gillbus
   class ReturnCause
-
     extend Fields
     include UpdateAttrs
 
@@ -18,6 +17,5 @@ class Gillbus
         Monetize.parse(val, doc[:_currency])
       end
     end
-
   end
 end
