@@ -10,6 +10,6 @@ class AllCommissionsTest < Minitest::Test
   end
 
   def test_in_out_value
-    assert_equal "3", response.tickets.first.all_commissions.first.in_out_type
+    assert_equal '3', response.tickets.first.all_commissions.first.in_out_type
   end
 end

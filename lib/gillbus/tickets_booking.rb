@@ -140,7 +140,7 @@ class Gillbus
         # Величина скидки в валюте продажи для пассажира с порядковым номером 0…N.
         attr_accessor :discount
 
-        def params(prefix="")
+        def params(prefix='')
           compact(
             birthday: date(birthday),
             ISIC: isic,

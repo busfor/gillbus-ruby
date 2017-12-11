@@ -19,10 +19,10 @@ class Gillbus
 
     def self.parse(data, instance=new)
       # ugly
-      if data["MESSAGE"]
-        instance.error_code = data["MESSAGE"]["CODE"].to_i
-        instance.error_message = data["MESSAGE"]["TEXT"]
-        instance.external_error_message = data["MESSAGE"]["EXT_TEXT"]
+      if data['MESSAGE']
+        instance.error_code = data['MESSAGE']['CODE'].to_i
+        instance.error_message = data['MESSAGE']['TEXT']
+        instance.external_error_message = data['MESSAGE']['EXT_TEXT']
       else
         super(data, instance)
       end
@@ -34,8 +34,8 @@ class Gillbus
     def self.parse_string(xml_string)
       xml = MultiXml.parse(xml_string)
       # <DATA/> is a valid response
-      xml.key?("DATA") or return ParseError.new(xml_string)
-      data = xml["DATA"] || {}
+      xml.key?('DATA') or return ParseError.new(xml_string)
+      data = xml['DATA'] || {}
       parse(data)
     rescue MultiXml::ParseError, ArgumentError
       ParseError.new(xml_string)

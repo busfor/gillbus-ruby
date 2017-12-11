@@ -150,11 +150,11 @@ class Gillbus
     # => "643"
     field :currency_code
 
-    field :tariffs, [:tariff], key: "TARIFF"
+    field :tariffs, [:tariff], key: 'TARIFF'
 
-    field :points, [Point], key: "POINT"
+    field :points, [Point], key: 'POINT'
 
-    field :segments, [Segment], key: "SEGMENT"
+    field :segments, [Segment], key: 'SEGMENT'
 
     field :options, TripOptions, key: 'OPTIONS'
 

@@ -63,12 +63,12 @@ class Gillbus
     end
 
     def string(val)
-      return if val == "null"
+      return if val == 'null'
       val
     end
 
     def bool(val)
-      val == "true"
+      val == 'true'
     end
 
     def yesno_bool(val)
@@ -92,7 +92,7 @@ class Gillbus
     end
 
     def datetime(val)
-      ActiveSupport::TimeZone["Europe/Kiev"].parse(val)
+      ActiveSupport::TimeZone['Europe/Kiev'].parse(val)
     end
 
     def decimal(val)

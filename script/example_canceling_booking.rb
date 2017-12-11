@@ -6,8 +6,8 @@ require 'pry'
 require 'logger'
 require 'securerandom'
 
-GILLBUS_SERVER = "http://mdc.demo.gillbus.com"
-GILLBUS_PASSWORD = "3DVG/x1AOk+xwNlAEXytMCxZMsb73r39DOg97k8b8c4YaMrlOar071diefS0IyZT"
+GILLBUS_SERVER = 'http://mdc.demo.gillbus.com'
+GILLBUS_PASSWORD = '3DVG/x1AOk+xwNlAEXytMCxZMsb73r39DOg97k8b8c4YaMrlOar071diefS0IyZT'
 
 driver = Faraday.new(url: GILLBUS_SERVER) { |c|
   c.response :logger, Logger.new(STDOUT), bodies: true
@@ -24,8 +24,8 @@ g = Gillbus.new(driver: driver).login(
 
 cities = g.get_cities.cities
 
-kiiv_id = cities.find {|c| c.name == "Киев" }.id
-lviv_id = cities.find {|c| c.name == "Львов" }.id
+kiiv_id = cities.find {|c| c.name == 'Киев' }.id
+lviv_id = cities.find {|c| c.name == 'Львов' }.id
 
 
 # searchTrips
@@ -63,5 +63,5 @@ tb = g.tickets_booking(
 # отмена отложенной продажи
 order_number = tb.tickets.first.order_number
 canceling = g.cancel_order(order_number: order_number, cancel_reason: 'no_reason')
-puts "canceling: " + canceling.inspect
-puts "success? " + canceling.order_cancel.confirmation.inspect
+puts 'canceling: ' + canceling.inspect
+puts 'success? ' + canceling.order_cancel.confirmation.inspect

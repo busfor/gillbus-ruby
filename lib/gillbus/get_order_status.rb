@@ -12,7 +12,7 @@ class Gillbus
 
       def params
         compact(
-          orderNumber: order_number.is_a?(Array) ? order_number.join(";") : order_number,
+          orderNumber: order_number.is_a?(Array) ? order_number.join(';') : order_number,
         )
       end
     end

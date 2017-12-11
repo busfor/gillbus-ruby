@@ -1,5 +1,5 @@
-require "gillbus/version"
-require "faraday"
+require 'gillbus/version'
+require 'faraday'
 
 class Gillbus
   # driver: e.g. Faraday.new(url: 'http://demo.gillbus.com')
@@ -28,7 +28,7 @@ class Gillbus
       http_response = driver.public_send( request.method, request.path, request.params, headers )
       request_time_end = Time.now
       result = response_class.parse_string(http_response.body.force_encoding('utf-8'))
-      if cookie_string = http_response.headers["Set-Cookie"]
+      if cookie_string = http_response.headers['Set-Cookie']
         returned_session_id = CGI::Cookie.parse(cookie_string)['JSESSIONID'].first
         self.session_id = returned_session_id
       end

@@ -24,30 +24,30 @@ class Gillbus
 
     def list(items)
       return if items.nil?
-      Array(items).join(";")
+      Array(items).join(';')
     end
 
     def date(date)
       return if date.nil?
-      date.strftime("%d.%m.%Y")
+      date.strftime('%d.%m.%Y')
     end
 
     def bool(bool)
       return if bool.nil?
-      bool ? "1" : "0"
+      bool ? '1' : '0'
     end
 
     def translated_locale(locale)
       return if locale.nil?
       {
-        "ru" => "rus",
-        "en" => "lat",
-        "uk" => "ukr",
-        "th" => "tai",
-        "pl" => "pol",
+        'ru' => 'rus',
+        'en' => 'lat',
+        'uk' => 'ukr',
+        'th' => 'tai',
+        'pl' => 'pol',
 
         # temporary, until changed in busfor
-        "ua" => "ukr",
+        'ua' => 'ukr',
       }[ locale.to_s ] || locale.to_s
     end
 

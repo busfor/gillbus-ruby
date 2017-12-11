@@ -5,8 +5,8 @@ require 'gillbus'
 require 'pry'
 require 'securerandom'
 
-GILLBUS_SERVER = "http://mdc.demo.gillbus.com"
-GILLBUS_PASSWORD = "3DVG/x1AOk+xwNlAEXytMCxZMsb73r39DOg97k8b8c4YaMrlOar071diefS0IyZT"
+GILLBUS_SERVER = 'http://mdc.demo.gillbus.com'
+GILLBUS_PASSWORD = '3DVG/x1AOk+xwNlAEXytMCxZMsb73r39DOg97k8b8c4YaMrlOar071diefS0IyZT'
 
 require 'logger'
 
@@ -25,8 +25,8 @@ g = Gillbus.new(driver: driver).login(
 
 cities = g.get_cities.cities
 
-kiiv_id = cities.find {|c| c.name == "Киев" }.id
-lviv_id = cities.find {|c| c.name == "Львов" }.id
+kiiv_id = cities.find {|c| c.name == 'Киев' }.id
+lviv_id = cities.find {|c| c.name == 'Львов' }.id
 
 
 # searchTrips
@@ -75,14 +75,14 @@ response = g.buy_booking(
   ticket_numbers: ticket_numbers,
   order_ids: [order_id, order_id]
 )
-p "confirmation: " + response.ticket.confirmation.inspect
-p "ticket_numbers: " + response.ticket.position_numbers.inspect
+p 'confirmation: ' + response.ticket.confirmation.inspect
+p 'ticket_numbers: ' + response.ticket.position_numbers.inspect
 
 # getOrderTicket
 ot = g.get_order_ticket order_id: order_id, base64: true
 
-filename = order_id + ".pdf"
-puts "saving " + filename
+filename = order_id + '.pdf'
+puts 'saving ' + filename
 File.open filename, 'wb' do |f|
   f << ot.ticket
 end

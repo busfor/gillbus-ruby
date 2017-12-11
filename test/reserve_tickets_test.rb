@@ -7,11 +7,11 @@ class ReserveTicketsTest < Minitest::Test
   end
 
   def test_number
-    assert_equal("8472", reserve_tickets.tickets.first.ticket_number)
+    assert_equal('8472', reserve_tickets.tickets.first.ticket_number)
   end
 
   def test_total
-    assert_equal(Money.new(110_00, "UAH"), reserve_tickets.tickets.first.total_amount)
+    assert_equal(Money.new(110_00, 'UAH'), reserve_tickets.tickets.first.total_amount)
   end
 
   def test_date_to_pay

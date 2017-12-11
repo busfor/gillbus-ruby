@@ -10,7 +10,7 @@ class FindOrderTest < Minitest::Test
   end
 
   def test_number
-    assert_equal("14482", find_order.tickets.first.ticket_number)
+    assert_equal('14482', find_order.tickets.first.ticket_number)
   end
 
   def test_total
@@ -26,11 +26,11 @@ class FindOrderTest < Minitest::Test
   end
 
   def test_comission_vat_value
-    assert_equal("18", find_order.tickets.last.commissions.first.vat_value)
+    assert_equal('18', find_order.tickets.last.commissions.first.vat_value)
   end
 
   def test_vat_value
-    assert_equal("0", find_order.tickets.first.vat_value)
+    assert_equal('0', find_order.tickets.first.vat_value)
   end
 
   def test_comission_currency

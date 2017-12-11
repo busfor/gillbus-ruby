@@ -25,9 +25,9 @@ class SearchTripsRequestTest < Minitest::Test
     )
 
     expected_params = {
-      startDateSearch: "04.02.2013",
-      selectedModes: "3;8",
-      roundTrip: "1",
+      startDateSearch: '04.02.2013',
+      selectedModes: '3;8',
+      roundTrip: '1',
       passenger0birthday: '01.01.1990',
       passenger0studentTicket: 'STUDENTTICKET#1',
       passenger0studentYear: 1,
@@ -81,8 +81,8 @@ class SearchTripsResponseTest < Minitest::Test
   def test_fields_parsing
     response = get_successful_search_trips
     assert_equal Date.new(2014,8,23), response.trips.first.start_date
-    assert_equal Money.new(1410_00, "RUB"), response.trips.first.total_cost
-    assert_equal Money.new(1410_00, "RUB"), response.trips.first.tariffs.first.cost
+    assert_equal Money.new(1410_00, 'RUB'), response.trips.first.total_cost
+    assert_equal Money.new(1410_00, 'RUB'), response.trips.first.tariffs.first.cost
     assert_equal 'Europe/Moscow', response.trips.first.start_timezone
     assert_equal 'Europe/Moscow', response.trips.first.end_timezone
     assert_equal true, response.trips.first.fake_time_in_road

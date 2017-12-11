@@ -8,5 +8,5 @@ class Gillbus::ParseError
   attr_accessor :request_time
   def error?; true; end
   def error_code; 0; end
-  def error_message; "Malformed response"; end
+  def error_message; 'Malformed response'; end
 end

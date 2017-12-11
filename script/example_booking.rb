@@ -6,8 +6,8 @@ require 'pry'
 require 'logger'
 require 'securerandom'
 
-GILLBUS_SERVER = "http://mdc.demo.gillbus.com"
-GILLBUS_PASSWORD = "3DVG/x1AOk+xwNlAEXytMCxZMsb73r39DOg97k8b8c4YaMrlOar071diefS0IyZT"
+GILLBUS_SERVER = 'http://mdc.demo.gillbus.com'
+GILLBUS_PASSWORD = '3DVG/x1AOk+xwNlAEXytMCxZMsb73r39DOg97k8b8c4YaMrlOar071diefS0IyZT'
 
 driver = Faraday.new(url: GILLBUS_SERVER) { |c|
   c.response :logger, Logger.new(STDOUT), bodies: true
@@ -24,8 +24,8 @@ g = Gillbus.new(driver: driver).login(
 
 cities = g.get_cities.cities
 
-kiiv_id = cities.find {|c| c.name == "Киев" }.id
-lviv_id = cities.find {|c| c.name == "Львов" }.id
+kiiv_id = cities.find {|c| c.name == 'Киев' }.id
+lviv_id = cities.find {|c| c.name == 'Львов' }.id
 
 
 # searchTrips
@@ -53,8 +53,8 @@ order_id = SecureRandom.uuid
 
 puts "making order: #{order_id}"
 passengers = [
-  { first_name: 'Иван', last_name: 'Иванов', passport: "123" },
-  { first_name: 'Петр', last_name: 'Петров', passport: "123" }
+  { first_name: 'Иван', last_name: 'Иванов', passport: '123' },
+  { first_name: 'Петр', last_name: 'Петров', passport: '123' }
 ]
 
 tb = g.tickets_booking(
@@ -69,13 +69,13 @@ tb = g.tickets_booking(
 g = Gillbus.new(driver: driver).login(password: GILLBUS_PASSWORD, locale: :ru)
 
 # buyTickets
-puts "confirmation: " + g.buy_tickets(order_id: order_id).ticket.confirmation.inspect
+puts 'confirmation: ' + g.buy_tickets(order_id: order_id).ticket.confirmation.inspect
 
 # getOrderTicket
 ot = g.get_order_ticket order_id: order_id, base64: true
 
-filename = order_id + ".pdf"
-puts "saving " + filename
+filename = order_id + '.pdf'
+puts 'saving ' + filename
 File.open filename, 'wb' do |f|
   f << ot.ticket
 end
