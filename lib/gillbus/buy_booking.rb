@@ -43,7 +43,7 @@ class Gillbus
           paymentMethod: payment_method,
           ticketCount: ticket_count,
           **numbers,
-          **orders
+          **orders,
         )
       end
     end

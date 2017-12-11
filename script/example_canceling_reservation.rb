@@ -18,7 +18,7 @@ driver = Faraday.new(url: GILLBUS_SERVER) { |c|
 
 g = Gillbus.new(driver: driver).login(
   password: GILLBUS_PASSWORD,
-  locale: :ru
+  locale: :ru,
 )
 
 # getCities
@@ -52,14 +52,14 @@ order_id = SecureRandom.uuid
 puts "making order: #{order_id}"
 passengers = [
   { first_name: 'Иван', last_name: 'Иванов' },
-  { first_name: 'Петр', last_name: 'Петров' }
+  { first_name: 'Петр', last_name: 'Петров' },
 ]
 
 rt = g.reserve_tickets(
   order_id: order_id,
   mail_address: 'ivan@mail.ru',
   note: 'test',
-  passengers: passengers
+  passengers: passengers,
 )
 
 # отмена брони

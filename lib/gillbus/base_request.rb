@@ -87,7 +87,7 @@ class Gillbus
           else
             item
           end
-        }
+        },
       )
     end
 

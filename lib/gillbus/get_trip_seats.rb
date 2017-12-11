@@ -25,7 +25,7 @@ class Gillbus
         compact(
           tripId: trip_id,
           carriageId: carriage_id,
-          backCarriageId: back_carriage_id
+          backCarriageId: back_carriage_id,
         )
       end
     end

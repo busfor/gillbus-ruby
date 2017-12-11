@@ -20,7 +20,7 @@ class SearchTripsRequestTest < Minitest::Test
           student_year: 2,
           isic: 'ISIC#2',
           with_seat: false,
-        }
+        },
       ],
     )
 
@@ -111,29 +111,29 @@ class SearchTripsResponseTest < Minitest::Test
 
     services = {
       1 => 'Кофе',
-      15 => 'Wi-Fi'
+      15 => 'Wi-Fi',
     }
     luggage_options = [
       'В стоимость входит провоз 2 единиц багажа свыше 80 кг.',
       'Ручная кладь 20см x 40см x 30см входит в стоимость билета.',
-      'Превышение по багажу оплачивается в размере 1% от стоимости тарифа.'
+      'Превышение по багажу оплачивается в размере 1% от стоимости тарифа.',
     ]
     seating_options = [
-      'Свободная рассадка.'
+      'Свободная рассадка.',
     ]
     technical_stops = [
-      'Технические остановки осуществляются каждые 2-3 часа.'
+      'Технические остановки осуществляются каждые 2-3 часа.',
     ]
     critical_info = [
-      'ВНИМАНИЕ: Особые условия паспортного режима пересечения пропускного пункта (только с паспортами РБ и РФ).'
+      'ВНИМАНИЕ: Особые условия паспортного режима пересечения пропускного пункта (только с паспортами РБ и РФ).',
     ]
     resource_options = [
-      'Посадка начинается за 10 мин.'
+      'Посадка начинается за 10 мин.',
     ]
     other_options = [
       'Переправа',
       'Трансфер',
-      'Cкидка при покупке раунд-трипа'
+      'Cкидка при покупке раунд-трипа',
     ]
 
     assert_equal services.values, options.services.map(&:name)
@@ -170,7 +170,7 @@ class SearchTripsResponseTest < Minitest::Test
   def test_faking_response
     trip = Gillbus::Trip.new(
       id: '12345',
-      start_date: Date.today
+      start_date: Date.today,
     )
     assert_equal '12345', trip.id
     assert_equal Date.today, trip.start_date

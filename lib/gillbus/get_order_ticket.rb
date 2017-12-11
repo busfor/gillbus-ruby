@@ -39,7 +39,7 @@ class Gillbus
           orderNumber: order_number,
           base64: base64,
           as: as,
-          locale: translated_locale(locale)
+          locale: translated_locale(locale),
         )
       end
     end

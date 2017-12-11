@@ -43,7 +43,7 @@ class LockSeatsRequestTest < Minitest::Test
       segments_seat_ids: {
         0 => ['12', '13'],
         1 => ['14', '15'],
-      }
+      },
     )
     assert_equal({
       tripId: '2457369573939592570',

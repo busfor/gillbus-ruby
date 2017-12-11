@@ -27,7 +27,7 @@ class Gillbus
         doc: doc,
         instance: instance,
         fields: field_definitions,
-        parent: parent
+        parent: parent,
       ).parse
       instance
     end

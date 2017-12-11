@@ -69,7 +69,7 @@ class Gillbus
           note: note,
           ticketLocale: translated_locale(ticket_locale),
           sendTo: send_to,
-          **pax
+          **pax,
         )
 
       end

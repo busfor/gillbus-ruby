@@ -11,7 +11,7 @@ class BuyBookingTest < Minitest::Test
       payment_method: Gillbus::BuyBooking::Request::METHOD_NOCASH,
       ticket_count: 2,
       ticket_numbers: ['123456', '654321'],
-      order_ids: ['53ec1fc6-e42a-42b2-b94f-1d5b47466526', '53ec1fc6-e42a-42b2-b94f-1d5b47466526']
+      order_ids: ['53ec1fc6-e42a-42b2-b94f-1d5b47466526', '53ec1fc6-e42a-42b2-b94f-1d5b47466526'],
     )
     assert_equal({
       paymentMethod: 3,
