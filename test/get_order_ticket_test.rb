@@ -6,6 +6,6 @@ class GetOrderTicketTest < Minitest::Test
   end
 
   def test_ticket
-    assert_equal( 'base64 string', get_order_ticket.ticket)
+    assert_equal('base64 string', get_order_ticket.ticket)
   end
 end

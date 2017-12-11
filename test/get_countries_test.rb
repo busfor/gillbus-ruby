@@ -6,6 +6,6 @@ class GetCountriesTest < Minitest::Test
   end
 
   def test_countries
-    assert_equal( 'Австрия', get_countries.countries.first.name)
+    assert_equal('Австрия', get_countries.countries.first.name)
   end
 end

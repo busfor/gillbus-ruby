@@ -37,7 +37,7 @@ class Gillbus
         studentYear: student_year,
         ISIC: isic,
         withSeat: bool(with_seat),
-      ).map {|k, v| [:"#{prefix}#{k}", v] }.to_h
+      ).map { |k, v| [:"#{prefix}#{k}", v] }.to_h
     end
   end
 end

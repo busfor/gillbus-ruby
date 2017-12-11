@@ -61,7 +61,7 @@ class LockSeatsResponseTest < Minitest::Test
   end
 
   def test_lock_seats
-    assert_equal( 899, lock_seats.time_limit)
+    assert_equal(899, lock_seats.time_limit)
   end
 
   def test_dictionary

@@ -154,7 +154,7 @@ class Gillbus
             citizenship: citizenship,
             gender: gender,
             discountValue: discount.to_f.to_s,
-          ).map {|k, v| [:"#{prefix}#{k}", v] }.to_h
+          ).map { |k, v| [:"#{prefix}#{k}", v] }.to_h
         end
 
         def document_type_to_int(value)

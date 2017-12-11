@@ -6,6 +6,6 @@ class GetCitiesTest < Minitest::Test
   end
 
   def test_cities
-    assert_equal( 'Афины', get_cities.cities.first.name)
+    assert_equal('Афины', get_cities.cities.first.name)
   end
 end

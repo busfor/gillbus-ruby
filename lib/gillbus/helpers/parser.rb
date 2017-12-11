@@ -36,7 +36,7 @@ class Gillbus
     def make_one_or_many(type, val)
       # [:type]
       if type.is_a? Array
-        array(val).map {|v| make_one type.first, v }
+        array(val).map { |v| make_one type.first, v }
       # :type
       else
         make_one type, val

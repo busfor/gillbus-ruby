@@ -25,8 +25,8 @@ g = Gillbus.new(driver: driver).login(
 
 cities = g.get_cities.cities
 
-kiiv_id = cities.find {|c| c.name == 'Киев' }.id
-odessa_id = cities.find {|c| c.name == 'Львов' }.id
+kiiv_id = cities.find { |c| c.name == 'Киев' }.id
+odessa_id = cities.find { |c| c.name == 'Львов' }.id
 
 
 # searchTrips

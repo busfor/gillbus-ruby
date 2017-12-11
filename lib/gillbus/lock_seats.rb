@@ -34,10 +34,10 @@ class Gillbus
       attr_accessor :segments_seat_ids
 
       def params
-        seats = Array(seat_ids).map.with_index {|id, n| [:"seatId#{n}", id] }.to_h
-        back_seats = Array(back_seat_ids).map.with_index {|id, n| [:"backSeatId#{n}", id] }.to_h
+        seats = Array(seat_ids).map.with_index { |id, n| [:"seatId#{n}", id] }.to_h
+        back_seats = Array(back_seat_ids).map.with_index { |id, n| [:"backSeatId#{n}", id] }.to_h
         segments_seats = Hash(segments_seat_ids).map do |segment, seat_ids|
-          Array(seat_ids).map.with_index {|id, n| [:"segment#{segment}seatId#{n}", id] }.to_h
+          Array(seat_ids).map.with_index { |id, n| [:"segment#{segment}seatId#{n}", id] }.to_h
         end.reduce(&:merge).to_h
 
         compact(
