@@ -38,8 +38,14 @@ class Gillbus
     # => "22:50"
     field :start_time, :time
 
+    # => "Europe/Moscow"
+    field :start_timezone
+
     # => "08:00"
     field :end_time, :time
+
+    # => "Europe/Kiev"
+    field :end_timezone
 
     # => "Сетра S 315 НDH"
     field :bus_model
@@ -140,7 +146,9 @@ class Gillbus
     field :options, TripOptions, key: 'OPTIONS'
 
     def start_at
-      ActiveSupport::TimeZone["Europe/Kiev"].parse("#{data["START_DATE"]} #{data["START_TIME"]}")
+      timezone = data['START_TIMEZONE'] || 'Europe/Kiev'
+      datetime_string = "#{data['START_DATE']} #{data['START_TIME']}"
+      ActiveSupport::TimeZone[timezone].parse(datetime_string)
     end
 
     parser do

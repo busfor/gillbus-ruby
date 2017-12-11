@@ -160,7 +160,9 @@ class Gillbus
     field :options, TripOptions, key: 'OPTIONS'
 
     def start_at
-      ActiveSupport::TimeZone["Europe/Kiev"].parse("#{data["START_DATE"]} #{data["START_TIME"]}")
+      timezone = data['START_TIMEZONE'] || 'Europe/Kiev'
+      datetime_string = "#{data['START_DATE']} #{data['START_TIME']}"
+      ActiveSupport::TimeZone[timezone].parse(datetime_string)
     end
 
     parser do
