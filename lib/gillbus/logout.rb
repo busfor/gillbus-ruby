@@ -1,6 +1,5 @@
 class Gillbus
   module Logout
-
     Gillbus.register self, :logout
 
     class Request < BaseRequest
@@ -10,6 +9,5 @@ class Gillbus
     class Response < BaseResponse
       field :logout, :bool
     end
-
   end
 end

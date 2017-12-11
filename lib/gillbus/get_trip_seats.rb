@@ -1,6 +1,5 @@
 class Gillbus
   module GetTripSeats
-
     Gillbus.register self, :get_trip_seats
 
     class Request < BaseRequest
@@ -52,6 +51,5 @@ class Gillbus
         end
       end
     end
-
   end
 end

@@ -1,6 +1,5 @@
 class Gillbus
   module GetTimeTable
-
     Gillbus.register self, :get_time_table
 
     class Request < BaseRequest
@@ -26,6 +25,5 @@ class Gillbus
     class Response < BaseResponse
       field :trips, [TimetableTrip], key: 'TRIP'
     end
-
   end
 end

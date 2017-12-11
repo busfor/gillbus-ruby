@@ -1,6 +1,5 @@
 class Gillbus
   module CancelOrder
-
     Gillbus.register self, :cancel_order
 
     class Request < BaseRequest
@@ -43,6 +42,5 @@ class Gillbus
 
       field :order_cancel, OrderCancel
     end
-
   end
 end

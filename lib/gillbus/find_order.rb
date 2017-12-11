@@ -1,6 +1,5 @@
 class Gillbus
   module FindOrder
-
     Gillbus.register self, :find_order
 
     class Request < BaseRequest
@@ -29,6 +28,5 @@ class Gillbus
     class Response < BaseResponse
       field :tickets, [Ticket], key: 'TICKET'
     end
-
   end
 end

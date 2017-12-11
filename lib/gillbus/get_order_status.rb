@@ -1,6 +1,5 @@
 class Gillbus
   module GetOrderStatus
-
     Gillbus.register self, :get_order_status
 
     class Request < BaseRequest
@@ -20,6 +19,5 @@ class Gillbus
     class Response < BaseResponse
       field :tickets, [Ticket], key: 'TICKET'
     end
-
   end
 end

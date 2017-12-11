@@ -1,6 +1,5 @@
 class Gillbus
   module GetBusImage
-
     Gillbus.register self, :get_bus_image
 
     class Request < BaseRequest

@@ -1,6 +1,5 @@
 class Gillbus
   module TicketsBooking
-
     Gillbus.register self, :tickets_booking
 
     class Request < BaseRequest
@@ -175,6 +174,5 @@ class Gillbus
     class Response < BaseResponse
       field :tickets, [Ticket], key: 'TICKET'
     end
-
   end
 end

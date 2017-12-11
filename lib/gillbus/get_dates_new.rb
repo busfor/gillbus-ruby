@@ -1,6 +1,5 @@
 class Gillbus
   module GetDatesNew
-
     Gillbus.register self, :get_dates_new
 
     class Request < BaseRequest
@@ -28,6 +27,5 @@ class Gillbus
     class Response < BaseResponse
       field :items, [Item], key: 'ITEM'
     end
-
   end
 end

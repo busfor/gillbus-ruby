@@ -1,6 +1,5 @@
 class Gillbus
   module BuyTickets
-
     Gillbus.register self, :buy_tickets
 
     class Request < BaseRequest
@@ -26,6 +25,5 @@ class Gillbus
 
       field :ticket, TicketConfirmation
     end
-
   end
 end

@@ -1,6 +1,5 @@
 class Gillbus
   module SearchTrips
-
     Gillbus.register self, :search_trips
 
     class Request < BaseRequest
@@ -128,6 +127,5 @@ class Gillbus
       field :completed, :bool
       field :trips, [Trip], key: 'TRIP'
     end
-
   end
 end

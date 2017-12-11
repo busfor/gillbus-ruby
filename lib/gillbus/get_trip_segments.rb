@@ -3,7 +3,6 @@ class Gillbus
   # Возвращает список остановочных пунктов следования рейса
   # Если список остановочных пунктов отсутствует, то ресурс не предоставляет возможности получения маршрута следования.
   module GetTripSegments
-
     Gillbus.register self, :get_trip_segments
 
     class Request < BaseRequest
@@ -21,6 +20,5 @@ class Gillbus
     class Response < BaseResponse
       field :points, [Point], key: 'POINT'
     end
-
   end
 end

@@ -1,6 +1,5 @@
 class Gillbus
   module SessionLogin
-
     Gillbus.register self, :session_login
 
     class Request < BaseRequest
@@ -23,6 +22,5 @@ class Gillbus
     class Response < BaseResponse
       field :logged, :bool
     end
-
   end
 end

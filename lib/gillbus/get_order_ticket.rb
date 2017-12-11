@@ -1,7 +1,6 @@
 require 'base64'
 class Gillbus
   module GetOrderTicket
-
     Gillbus.register self, :get_order_ticket
 
     class Request < BaseRequest
@@ -54,6 +53,5 @@ class Gillbus
         end
       end
     end
-
   end
 end

@@ -1,6 +1,5 @@
 class Gillbus
   module LockSeats
-
     Gillbus.register self, :lock_seats
 
     class Request < BaseRequest
@@ -74,6 +73,5 @@ class Gillbus
         end
       end
     end
-
   end
 end

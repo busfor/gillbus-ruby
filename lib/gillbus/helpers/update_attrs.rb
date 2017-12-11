@@ -1,6 +1,5 @@
 class Gillbus
   module UpdateAttrs
-
     def initialize(attrs={})
       update_attrs attrs if attrs
     end
@@ -10,6 +9,5 @@ class Gillbus
         public_send "#{k}=", v
       end
     end
-
   end
 end

@@ -1,6 +1,5 @@
 class Gillbus
   module GetCountries
-
     Gillbus.register self, :get_countries
 
     class Request < BaseRequest
@@ -17,6 +16,5 @@ class Gillbus
     class Response < BaseResponse
       field :countries, [Country], key: 'COUNTRY'
     end
-
   end
 end

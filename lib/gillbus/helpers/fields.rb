@@ -13,7 +13,6 @@ class Gillbus
   #
   #     MyClass.parse(hash)
   module Fields
-
     def parser_class
       if defined? @parser_class
         @parser_class || Gillbus::Parser
@@ -47,7 +46,5 @@ class Gillbus
       field_definitions << {name: name, key: key, type: type, root: root}
       attr_accessor name
     end
-
-
   end
 end
