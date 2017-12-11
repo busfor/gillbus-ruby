@@ -13,14 +13,17 @@ class BuyBookingTest < Minitest::Test
       ticket_numbers: ['123456', '654321'],
       order_ids: ['53ec1fc6-e42a-42b2-b94f-1d5b47466526', '53ec1fc6-e42a-42b2-b94f-1d5b47466526'],
     )
-    assert_equal({
-      paymentMethod: 3,
-      ticketCount: 2,
-      ticketNumber0: '123456',
-      ticketNumber1: '654321',
-      orderId0: '53ec1fc6-e42a-42b2-b94f-1d5b47466526',
-      orderId1: '53ec1fc6-e42a-42b2-b94f-1d5b47466526',
-    }, request.params)
+    assert_equal(
+      {
+        paymentMethod: 3,
+        ticketCount: 2,
+        ticketNumber0: '123456',
+        ticketNumber1: '654321',
+        orderId0: '53ec1fc6-e42a-42b2-b94f-1d5b47466526',
+        orderId1: '53ec1fc6-e42a-42b2-b94f-1d5b47466526',
+      },
+      request.params,
+    )
   end
 
   def test_response

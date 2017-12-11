@@ -37,7 +37,6 @@ trips = g.search_trips(
   start_date_search: tomorrow,
   ticket_count: 2,
   selected_modes: [ :bus, :connections ],
-  ],
 ).trips
 
 trip_id = trips.find { |trip| trip.segments.present? }.id

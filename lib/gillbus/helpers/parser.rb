@@ -52,8 +52,6 @@ class Gillbus
       end
     end
 
-    private
-
     # nil => []
     # [] => []
     # {} => [{}]
@@ -83,11 +81,10 @@ class Gillbus
       Date.strptime(val, '%d.%m.%Y')
     end
 
+    # rubocop:disable Style/GuardClause, Style/IfUnlessModifier
     def time(val)
       if val =~ /^ ( \d\d:\d\d ) (?: :\d\d )? $/x
         $1
-      else
-        nil
       end
     end
 

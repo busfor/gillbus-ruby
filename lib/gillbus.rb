@@ -28,7 +28,8 @@ class Gillbus
       http_response = driver.public_send(request.method, request.path, request.params, headers)
       request_time_end = Time.now
       result = response_class.parse_string(http_response.body.force_encoding('utf-8'))
-      if cookie_string = http_response.headers['Set-Cookie']
+      cookie_string = http_response.headers['Set-Cookie']
+      if cookie_string
         returned_session_id = CGI::Cookie.parse(cookie_string)['JSESSIONID'].first
         self.session_id = returned_session_id
       end

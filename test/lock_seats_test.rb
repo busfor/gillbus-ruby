@@ -5,9 +5,10 @@ class LockSeatsRequestTest < Minitest::Test
     request = Gillbus::LockSeats::Request.new(
       trip_id: '2457369573939592570',
     )
-    assert_equal({
-      tripId: '2457369573939592570',
-    }, request.params)
+    assert_equal(
+      { tripId: '2457369573939592570' },
+      request.params,
+    )
   end
 
   def test_lock_params_with_seats
@@ -15,11 +16,14 @@ class LockSeatsRequestTest < Minitest::Test
       trip_id: '2457369573939592570',
       seat_ids: ['12', '13'],
     )
-    assert_equal({
-      tripId: '2457369573939592570',
-      seatId0: '12',
-      seatId1: '13',
-    }, request.params)
+    assert_equal(
+      {
+        tripId: '2457369573939592570',
+        seatId0: '12',
+        seatId1: '13',
+      },
+      request.params,
+    )
   end
 
   def test_lock_params_with_back_seats
@@ -28,13 +32,16 @@ class LockSeatsRequestTest < Minitest::Test
       seat_ids: ['12', '13'],
       back_seat_ids: ['14', '15'],
     )
-    assert_equal({
-      tripId: '2457369573939592570',
-      seatId0: '12',
-      seatId1: '13',
-      backSeatId0: '14',
-      backSeatId1: '15',
-    }, request.params)
+    assert_equal(
+      {
+        tripId: '2457369573939592570',
+        seatId0: '12',
+        seatId1: '13',
+        backSeatId0: '14',
+        backSeatId1: '15',
+      },
+      request.params,
+    )
   end
 
   def test_lock_params_with_segments_seats
@@ -45,13 +52,16 @@ class LockSeatsRequestTest < Minitest::Test
         1 => ['14', '15'],
       },
     )
-    assert_equal({
-      tripId: '2457369573939592570',
-      segment0seatId0: '12',
-      segment0seatId1: '13',
-      segment1seatId0: '14',
-      segment1seatId1: '15',
-    }, request.params)
+    assert_equal(
+      {
+        tripId: '2457369573939592570',
+        segment0seatId0: '12',
+        segment0seatId1: '13',
+        segment1seatId0: '14',
+        segment1seatId1: '15',
+      },
+      request.params,
+    )
   end
 end
 
