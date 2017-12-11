@@ -5,8 +5,8 @@ require 'gillbus'
 require 'pry'
 require 'securerandom'
 
-GILLBUS_SERVER = 'http://mdc.demo.gillbus.com'
-GILLBUS_PASSWORD = '3DVG/x1AOk+xwNlAEXytMCxZMsb73r39DOg97k8b8c4YaMrlOar071diefS0IyZT'
+GILLBUS_SERVER = 'http://mdc.demo.gillbus.com'.freeze
+GILLBUS_PASSWORD = '3DVG/x1AOk+xwNlAEXytMCxZMsb73r39DOg97k8b8c4YaMrlOar071diefS0IyZT'.freeze
 
 require 'logger'
 

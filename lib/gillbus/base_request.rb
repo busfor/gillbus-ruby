@@ -76,7 +76,7 @@ class Gillbus
       connections_only: 9,
       # 13 - автобусно-лодочный микс
       bus_boat: 13,
-    }
+    }.freeze
 
     def modes(items)
       list(

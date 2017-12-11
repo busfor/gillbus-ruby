@@ -57,7 +57,7 @@ class Gillbus
         5 => :thursday,
         6 => :friday,
         7 => :saturday,
-      }
+      }.freeze
 
       def days_of_week(value)
         return unless instance.frequency == 3
