@@ -13,6 +13,7 @@ class Gillbus
   attr_reader :driver
   # JSESSIONID сессии API gillbus
   attr_accessor :session_id
+  attr_accessor :timezone
 
   def login(password:, locale: nil)
     session_login password: password, locale: locale
