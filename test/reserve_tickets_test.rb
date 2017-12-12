@@ -17,4 +17,13 @@ class ReserveTicketsTest < Minitest::Test
   def test_date_to_pay
     assert_equal(DateTime.new(2013, 5, 22, 20, 30, 0, '+3'), reserve_tickets.tickets.first.date_to_pay)
   end
+
+  def test_date_to_pay_with_timezone
+    tickets = Gillbus::ReserveTickets::Response.parse_string(
+      File.read('test/responses/reserveTickets.xml'),
+      timezone: 'Europe/Moscow',
+    )
+    assert_equal(DateTime.new(2013, 5, 22, 20, 30, 0, '+4'), tickets.tickets.first.date_to_pay)
+    assert_equal('MSK', tickets.tickets.first.date_to_pay.zone)
+  end
 end

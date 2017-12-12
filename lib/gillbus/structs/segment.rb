@@ -163,7 +163,8 @@ class Gillbus
     # to hold unserialized data
     attr_accessor :data
 
-    def self.parse(doc, _ = nil, _ = nil)
+    # rubocop:disable Lint/UnusedMethodArgument
+    def self.parse(doc, instance: nil, parent: nil, options: {})
       instance = super
       instance.data = doc
       instance
