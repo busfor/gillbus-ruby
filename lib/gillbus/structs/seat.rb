@@ -1,6 +1,5 @@
 class Gillbus
   class Seat
-
     extend Fields
     include UpdateAttrs
 
@@ -33,6 +32,5 @@ class Gillbus
     def isle?
       type == 0 || type.nil?
     end
-
   end
 end

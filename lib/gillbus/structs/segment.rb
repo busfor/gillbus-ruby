@@ -1,6 +1,5 @@
 class Gillbus
   class Segment
-
     extend Fields
     include UpdateAttrs
 
@@ -137,11 +136,11 @@ class Gillbus
     # => "643"
     field :currency_code
 
-    field :tariffs, [:tariff], key: "TARIFF"
+    field :tariffs, [:tariff], key: 'TARIFF'
 
-    field :points, [Point], key: "POINT"
+    field :points, [Point], key: 'POINT'
 
-    field :segments, [Segment], key: "SEGMENT"
+    field :segments, [Segment], key: 'SEGMENT'
 
     field :options, TripOptions, key: 'OPTIONS'
 
@@ -164,11 +163,11 @@ class Gillbus
     # to hold unserialized data
     attr_accessor :data
 
+    # rubocop:disable Lint/UnusedMethodArgument
     def self.parse(doc, instance: nil, parent: nil, options: {})
       instance = super
       instance.data = doc
       instance
     end
-
   end
 end

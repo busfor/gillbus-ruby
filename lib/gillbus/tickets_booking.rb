@@ -1,10 +1,8 @@
 class Gillbus
   module TicketsBooking
-
     Gillbus.register self, :tickets_booking
 
     class Request < BaseRequest
-
       def path; '/online2/ticketsBooking' end
 
       # orderId
@@ -16,7 +14,12 @@ class Gillbus
       attr_accessor :terminal_number
 
       # applyDiscount (не обязательный)
-      # Если при поиске рейсов не были указаны скидочные данные но есть возможность их применить при оформлении отложенной продажи (параметр CAN_DISCOUNT = true при поиске рейсов), то для применения скидочных данных необходимо этот параметр установить в true. Если на оформляемый рейс действуют скидки, то стоимость тарифа может быть пересчитана по переданным данным в параметрах passenger(0 - N)studentTicket, passenger(0 - N)birthday, passenger(0 - N)ISIC. По умолчанию false (скидочные данные не применяются ).
+      # Если при поиске рейсов не были указаны скидочные данные но есть возможность их применить
+      # при оформлении отложенной продажи (параметр CAN_DISCOUNT = true при поиске рейсов),
+      # то для применения скидочных данных необходимо этот параметр установить в true.
+      # Если на оформляемый рейс действуют скидки, то стоимость тарифа может быть пересчитана
+      # по переданным данным в параметрах passenger(0 - N)studentTicket, passenger(0 - N)birthday,
+      # passenger(0 - N)ISIC. По умолчанию false (скидочные данные не применяются ).
       attr_accessor :apply_discount
 
       # paymentMethod (не обязательный)
@@ -40,7 +43,8 @@ class Gillbus
       attr_accessor :phone_number
 
       # mailAddress (не обязательный)
-      # Адрес электронной почты пассажира. Если указан, то на него будет отправлен маршрутный лист соответствующий форме утвержденной с перевозчиком.
+      # Адрес электронной почты пассажира.
+      # Если указан, то на него будет отправлен маршрутный лист соответствующий форме утвержденной с перевозчиком.
       attr_accessor :mail_address
 
       # note (не обязательный)
@@ -48,7 +52,8 @@ class Gillbus
       attr_accessor :note
 
       # ticketLocale (не обязательный)
-      # Язык, на котором будут возвращены данные для печати билета. Если язык не передан или ошибочный, то будет установлен язык переданный при вызове команды входа в систему.
+      # Язык, на котором будут возвращены данные для печати билета.
+      # Если язык не передан или ошибочный, то будет установлен язык переданный при вызове команды входа в систему.
       # rus – русский;
       # ukr – украинский; lat – английский.
       attr_accessor :ticket_locale
@@ -71,14 +76,12 @@ class Gillbus
           note: note,
           ticketLocale: translated_locale(ticket_locale),
           sendTo: send_to,
-          **pax
+          **pax,
         )
-
       end
 
       # not a request, just a record for BookTickets
       class Passenger < BaseRequest
-
         # passenger0studentTicket... passengerNstudentTicket (не обязательный)
         # Номер студенческого билета пассажира с порядковым номером 0... N.
 
@@ -103,11 +106,13 @@ class Gillbus
         attr_accessor :second_name
 
         # passenger0tariffShortName... passengerNtariffShortName (не обязательный)
-        # Краткое обозначение тарифа, полученное при поиске рейсов в списке тарифов, по указанным passenger0studentTicket, passenger0birthday, passenger0ISIC.
+        # Краткое обозначение тарифа, полученное при поиске рейсов в списке тарифов,
+        # по указанным passenger0studentTicket, passenger0birthday, passenger0ISIC.
         attr_accessor :tariff_short_name
 
         # passenger0tariffCost... passengerNtariffCost (не обязательный)
-        # Стоимость тарифа, полученное при поиске рейсов в списке тарифов, с кратким обозначением passenger0tariffShortName с порядковым номером 0...N.
+        # Стоимость тарифа, полученное при поиске рейсов в списке тарифов,
+        # с кратким обозначением passenger0tariffShortName с порядковым номером 0...N.
         attr_accessor :tariff_cost
 
         # passenger0documentType... passengerNdocumentType (не обязательный)
@@ -142,7 +147,7 @@ class Gillbus
         # Величина скидки в валюте продажи для пассажира с порядковым номером 0…N.
         attr_accessor :discount
 
-        def params(prefix="")
+        def params(prefix = '')
           compact(
             birthday: date(birthday),
             ISIC: isic,
@@ -157,7 +162,7 @@ class Gillbus
             citizenship: citizenship,
             gender: gender,
             discountValue: discount.to_f.to_s,
-          ).map {|k, v| [:"#{prefix}#{k}", v] }.to_h
+          ).map { |k, v| [:"#{prefix}#{k}", v] }.to_h
         end
 
         def document_type_to_int(value)
@@ -177,6 +182,5 @@ class Gillbus
     class Response < BaseResponse
       field :tickets, [Ticket], key: 'TICKET'
     end
-
   end
 end

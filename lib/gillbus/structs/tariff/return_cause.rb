@@ -1,7 +1,6 @@
 class Gillbus
   class Tariff
     class ReturnCause
-
       extend Fields
       include UpdateAttrs
 
@@ -9,9 +8,10 @@ class Gillbus
 
       field :cause, :string
 
-    def self.parse(doc, instance: nil, parent: nil, options: {})
+      # rubocop:disable Lint/UnusedMethodArgument
+      def self.parse(doc, instance: nil, parent: nil, options: {})
         instance = super
-        if doc.kind_of? Hash
+        if doc.is_a? Hash
           instance.cause = doc['__content__']
           instance.lossless = doc['lossless'] == 'true'
         else

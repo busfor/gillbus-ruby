@@ -1,4 +1,4 @@
-require "test_helper"
+require 'test_helper'
 
 class ReturnPositionTest < Minitest::Test
   def test_request
@@ -7,10 +7,13 @@ class ReturnPositionTest < Minitest::Test
       system_numbers: [123456],
     )
 
-    assert_equal({
-      ticketCount: 1,
-      systemNumber0: 123456,
-    }, request.params)
+    assert_equal(
+      {
+        ticketCount: 1,
+        systemNumber0: 123456,
+      },
+      request.params,
+    )
   end
 
   def test_success_response

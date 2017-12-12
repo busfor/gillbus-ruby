@@ -1,8 +1,7 @@
-require "gillbus/version"
-require "faraday"
+require 'gillbus/version'
+require 'faraday'
 
 class Gillbus
-
   # driver: e.g. Faraday.new(url: 'http://demo.gillbus.com')
   def initialize(driver:, session_id: nil, timezone: nil)
     @driver = driver
@@ -20,17 +19,18 @@ class Gillbus
     self
   end
 
-  def self.register klass, method_name
+  def self.register(klass, method_name)
     define_method method_name do |*args|
       request_class = klass::Request
       response_class = klass::Response
       request = request_class.new(*args)
-      headers = {'Cookie' => "JSESSIONID=#{session_id}"} if session_id
+      headers = { 'Cookie' => "JSESSIONID=#{session_id}" } if session_id
       request_time_start = Time.now
-      http_response = driver.public_send( request.method, request.path, request.params, headers )
+      http_response = driver.public_send(request.method, request.path, request.params, headers)
       request_time_end = Time.now
       result = response_class.parse_string(http_response.body.force_encoding('utf-8'), timezone: timezone)
-      if cookie_string = http_response.headers["Set-Cookie"]
+      cookie_string = http_response.headers['Set-Cookie']
+      if cookie_string
         returned_session_id = CGI::Cookie.parse(cookie_string)['JSESSIONID'].first
         self.session_id = returned_session_id
       end

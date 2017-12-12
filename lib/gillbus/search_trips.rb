@@ -1,10 +1,8 @@
 class Gillbus
   module SearchTrips
-
     Gillbus.register self, :search_trips
 
     class Request < BaseRequest
-
       def path; '/online2/searchTrips' end
 
       # selectedModes (не обязательный)
@@ -13,11 +11,14 @@ class Gillbus
       attr_accessor :selected_modes
 
       # connectionIds (не обязательный)
-      # Список предполагаемых идентификаторов пересадочных пунктов, разделенных “;”. Используется если выбран вид транспорта 8, 9.
+      # Список предполагаемых идентификаторов пересадочных пунктов, разделенных “;”.
+      # Используется если выбран вид транспорта 8, 9.
       attr_accessor :connection_ids
 
       # tripFullSale (не обязательный)
-      # Признак определяющий количество возвращаемых рейсов. Если true, то возвращаются заказные и регулярные рейсы. Если false, то возвращаются только регулярные рейсы.
+      # Признак определяющий количество возвращаемых рейсов.
+      # Если true, то возвращаются заказные и регулярные рейсы.
+      # Если false, то возвращаются только регулярные рейсы.
       attr_accessor :trip_full_sale
 
       # fullSearch (не обязательный)
@@ -123,13 +124,11 @@ class Gillbus
           PassengerDiscount.wrap(p).params("passenger#{i}")
         end.reduce({}, :merge)
       end
-
     end
 
     class Response < BaseResponse
       field :completed, :bool
       field :trips, [Trip], key: 'TRIP'
     end
-
   end
 end

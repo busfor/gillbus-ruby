@@ -1,7 +1,6 @@
-# FIXME it's possible I got currency for some fields wrong.
+# FIXME: it's possible I got currency for some fields wrong.
 class Gillbus
   class Commission
-
     extend Fields
     include UpdateAttrs
 
@@ -14,7 +13,9 @@ class Gillbus
     # Collecting description
     field :description
 
-    # type of commission according to tariff (1 - inside tariff, 2 - outside of tariff, 3 - inside of tariff type II) NB: only in ALL_COMMISSIONS
+    # type of commission according to tariff
+    # (1 - inside tariff, 2 - outside of tariff, 3 - inside of tariff type II)
+    # NB: only in ALL_COMMISSIONS
     field :in_out_type
 
     # Value of collecting in sale currency
@@ -59,6 +60,5 @@ class Gillbus
         Monetize.parse(val, doc['CURRENCY'])
       end
     end
-
   end
 end

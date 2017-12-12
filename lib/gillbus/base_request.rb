@@ -2,8 +2,7 @@ require 'date'
 
 class Gillbus
   class BaseRequest
-
-    def initialize(attrs={})
+    def initialize(attrs = {})
       attrs.each do |k, v|
         send "#{k}=", v
       end
@@ -25,31 +24,31 @@ class Gillbus
 
     def list(items)
       return if items.nil?
-      Array(items).join(";")
+      Array(items).join(';')
     end
 
     def date(date)
       return if date.nil?
-      date.strftime("%d.%m.%Y")
+      date.strftime('%d.%m.%Y')
     end
 
     def bool(bool)
       return if bool.nil?
-      bool ? "1" : "0"
+      bool ? '1' : '0'
     end
 
     def translated_locale(locale)
       return if locale.nil?
       {
-        "ru" => "rus",
-        "en" => "lat",
-        "uk" => "ukr",
-        "th" => "tai",
-        "pl" => "pol",
+        'ru' => 'rus',
+        'en' => 'lat',
+        'uk' => 'ukr',
+        'th' => 'tai',
+        'pl' => 'pol',
 
         # temporary, until changed in busfor
-        "ua" => "ukr",
-      }[ locale.to_s ] || locale.to_s
+        'ua' => 'ukr',
+      }[locale.to_s] || locale.to_s
     end
 
     MODES = {
@@ -77,27 +76,26 @@ class Gillbus
       connections_only: 9,
       # 13 - автобусно-лодочный микс
       bus_boat: 13,
-    }
+    }.freeze
 
     def modes(items)
       list(
-        Array(items).map { |item|
+        Array(items).map do |item|
           if item.is_a? Symbol
-            MODES[item] or
-              fail ArgumentError, "unknown search mode #{item.inspect}", caller
+            MODES[item] ||
+              raise(ArgumentError, "unknown search mode #{item.inspect}", caller)
           else
             item
           end
-        }
+        end,
       )
     end
 
     def compact(hash)
-      hash.each do |k,v|
+      hash.each do |k, v|
         hash.delete k if v.nil?
       end
       hash
     end
-
   end
 end

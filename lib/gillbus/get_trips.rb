@@ -1,6 +1,5 @@
 class Gillbus
   module GetTrips
-
     Gillbus.register self, :get_trips
 
     class Request < BaseRequest
@@ -8,6 +7,5 @@ class Gillbus
     end
 
     Response = Gillbus::SearchTrips::Response
-
   end
 end

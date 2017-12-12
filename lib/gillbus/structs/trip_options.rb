@@ -1,6 +1,5 @@
 class Gillbus
   class TripOptions
-
     extend Fields
     include UpdateAttrs
 

@@ -1,10 +1,8 @@
 class Gillbus
   module LockSeats
-
     Gillbus.register self, :lock_seats
 
     class Request < BaseRequest
-
       def path; '/online2/lockSeats' end
 
       # tripId
@@ -12,11 +10,13 @@ class Gillbus
       attr_accessor :trip_id
 
       # carriageId (не обязательный)
-      # ИД вагона, для которого нужно получить карту мест. По- умолчанию первый попавшийся. Только для железнодорожных рейсов.
+      # ИД вагона, для которого нужно получить карту мест.
+      # По- умолчанию первый попавшийся. Только для железнодорожных рейсов.
       attr_accessor :carriage_id
 
       # backCarriageId (не обязательный)
-      # ИД вагона обратного рейса, для которого нужно получить карту мест. По-умолчанию первый попавшийся. Только для железнодорожных рейсов.
+      # ИД вагона обратного рейса, для которого нужно получить карту мест.
+      # По-умолчанию первый попавшийся. Только для железнодорожных рейсов.
       attr_accessor :back_carriage_id
 
       # segment0carriageId...segmentNcarriageId (не обязательный)
@@ -36,10 +36,10 @@ class Gillbus
       attr_accessor :segments_seat_ids
 
       def params
-        seats = Array(seat_ids).map.with_index {|id, n| [:"seatId#{n}", id] }.to_h
-        back_seats = Array(back_seat_ids).map.with_index {|id, n| [:"backSeatId#{n}", id] }.to_h
+        seats = Array(seat_ids).map.with_index { |id, n| [:"seatId#{n}", id] }.to_h
+        back_seats = Array(back_seat_ids).map.with_index { |id, n| [:"backSeatId#{n}", id] }.to_h
         segments_seats = Hash(segments_seat_ids).map do |segment, seat_ids|
-          Array(seat_ids).map.with_index {|id, n| [:"segment#{segment}seatId#{n}", id] }.to_h
+          Array(seat_ids).map.with_index { |id, n| [:"segment#{segment}seatId#{n}", id] }.to_h
         end.reduce(&:merge).to_h
 
         compact(
@@ -54,7 +54,6 @@ class Gillbus
     end
 
     class Response < BaseResponse
-
       # seat lock, time limit, in seconds
       field :time_limit, :milliseconds
       # [{Symbol => Boolean}] необходимые для ввода типы документов?
@@ -75,8 +74,6 @@ class Gillbus
           result
         end
       end
-
     end
-
   end
 end

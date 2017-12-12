@@ -1,6 +1,5 @@
 class Gillbus
   class Point
-
     extend Fields
     include UpdateAttrs
 

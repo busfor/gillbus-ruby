@@ -1,7 +1,6 @@
 require 'test_helper'
 
 class GetTripSeatsTest < Minitest::Test
-
   def get_trip_seats
     Gillbus::GetTripSeats::Response.parse_string(File.read('test/responses/getTripSeats.xml'))
   end
@@ -18,9 +17,9 @@ class GetTripSeatsTest < Minitest::Test
     seats = get_trip_seats.seats
     max_x = seats.map(&:x).max
     max_y = seats.map(&:y).max
-    assert_equal( 70, seats.size )
-    assert_equal( 4, max_y )
-    assert_equal( 13, max_x )
+    assert_equal(70, seats.size)
+    assert_equal(4, max_y)
+    assert_equal(13, max_x)
   end
 
   def test_seats_with_segments

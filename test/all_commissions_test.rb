@@ -1,7 +1,6 @@
 require 'test_helper'
 
 class AllCommissionsTest < Minitest::Test
-
   def response
     Gillbus::FindOrder::Response.parse_string(File.read('test/responses/ticketsBookingAllCommissions.xml'))
   end
@@ -11,6 +10,6 @@ class AllCommissionsTest < Minitest::Test
   end
 
   def test_in_out_value
-    assert_equal "3", response.tickets.first.all_commissions.first.in_out_type
+    assert_equal '3', response.tickets.first.all_commissions.first.in_out_type
   end
 end

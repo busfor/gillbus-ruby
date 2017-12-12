@@ -1,7 +1,6 @@
 require 'test_helper'
 
 class SearchTripsRequestTest < Minitest::Test
-
   def test_params
     req = Gillbus::SearchTrips::Request.new(
       start_date_search: Date.new(2013, 2, 4),
@@ -21,14 +20,14 @@ class SearchTripsRequestTest < Minitest::Test
           student_year: 2,
           isic: 'ISIC#2',
           with_seat: false,
-        }
+        },
       ],
     )
 
     expected_params = {
-      startDateSearch: "04.02.2013",
-      selectedModes: "3;8",
-      roundTrip: "1",
+      startDateSearch: '04.02.2013',
+      selectedModes: '3;8',
+      roundTrip: '1',
       passenger0birthday: '01.01.1990',
       passenger0studentTicket: 'STUDENTTICKET#1',
       passenger0studentYear: 1,
@@ -43,11 +42,9 @@ class SearchTripsRequestTest < Minitest::Test
 
     assert_equal expected_params, req.params
   end
-
 end
 
 class SearchTripsResponseTest < Minitest::Test
-
   def get_empty_search_trips
     Gillbus::SearchTrips::Response.parse_string(File.read('test/responses/searchTrips-empty.xml'))
   end
@@ -83,9 +80,9 @@ class SearchTripsResponseTest < Minitest::Test
 
   def test_fields_parsing
     response = get_successful_search_trips
-    assert_equal Date.new(2014,8,23), response.trips.first.start_date
-    assert_equal Money.new(1410_00, "RUB"), response.trips.first.total_cost
-    assert_equal Money.new(1410_00, "RUB"), response.trips.first.tariffs.first.cost
+    assert_equal Date.new(2014, 8, 23), response.trips.first.start_date
+    assert_equal Money.new(1410_00, 'RUB'), response.trips.first.total_cost
+    assert_equal Money.new(1410_00, 'RUB'), response.trips.first.tariffs.first.cost
     assert_equal 'Europe/Moscow', response.trips.first.start_timezone
     assert_equal 'Europe/Moscow', response.trips.first.end_timezone
     assert_equal true, response.trips.first.fake_time_in_road
@@ -114,29 +111,29 @@ class SearchTripsResponseTest < Minitest::Test
 
     services = {
       1 => 'Кофе',
-      15 => 'Wi-Fi'
+      15 => 'Wi-Fi',
     }
     luggage_options = [
       'В стоимость входит провоз 2 единиц багажа свыше 80 кг.',
       'Ручная кладь 20см x 40см x 30см входит в стоимость билета.',
-      'Превышение по багажу оплачивается в размере 1% от стоимости тарифа.'
+      'Превышение по багажу оплачивается в размере 1% от стоимости тарифа.',
     ]
     seating_options = [
-      'Свободная рассадка.'
+      'Свободная рассадка.',
     ]
     technical_stops = [
-      'Технические остановки осуществляются каждые 2-3 часа.'
+      'Технические остановки осуществляются каждые 2-3 часа.',
     ]
     critical_info = [
-      'ВНИМАНИЕ: Особые условия паспортного режима пересечения пропускного пункта (только с паспортами РБ и РФ).'
+      'ВНИМАНИЕ: Особые условия паспортного режима пересечения пропускного пункта (только с паспортами РБ и РФ).',
     ]
     resource_options = [
-      'Посадка начинается за 10 мин.'
+      'Посадка начинается за 10 мин.',
     ]
     other_options = [
       'Переправа',
       'Трансфер',
-      'Cкидка при покупке раунд-трипа'
+      'Cкидка при покупке раунд-трипа',
     ]
 
     assert_equal services.values, options.services.map(&:name)
@@ -173,7 +170,7 @@ class SearchTripsResponseTest < Minitest::Test
   def test_faking_response
     trip = Gillbus::Trip.new(
       id: '12345',
-      start_date: Date.today
+      start_date: Date.today,
     )
     assert_equal '12345', trip.id
     assert_equal Date.today, trip.start_date
@@ -188,5 +185,4 @@ class SearchTripsResponseTest < Minitest::Test
     assert_equal true, response.trips.first.fake_time_in_road
     assert_equal 2, response.trips.first.segments.size
   end
-
 end

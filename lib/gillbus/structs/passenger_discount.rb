@@ -2,7 +2,6 @@ class Gillbus
   # not a request, neither a response part
   # just a params record for SearchTrips
   class PassengerDiscount < BaseRequest
-
     def self.wrap(passenger_or_params)
       return passenger_or_params if passenger_or_params.is_a? self
       new(passenger_or_params)
@@ -31,14 +30,14 @@ class Gillbus
     # с предоставлением места, если такой имеется.
     attr_accessor :with_seat
 
-    def params(prefix="")
+    def params(prefix = '')
       compact(
         birthday: date(birthday),
         studentTicket: student_ticket,
         studentYear: student_year,
         ISIC: isic,
         withSeat: bool(with_seat),
-      ).map {|k, v| [:"#{prefix}#{k}", v] }.to_h
+      ).map { |k, v| [:"#{prefix}#{k}", v] }.to_h
     end
   end
 end

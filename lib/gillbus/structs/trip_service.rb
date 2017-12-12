@@ -1,6 +1,5 @@
 class Gillbus
   class TripService
-
     extend Fields
     include UpdateAttrs
 
@@ -9,6 +8,5 @@ class Gillbus
 
     # название услуги в автобусе
     field :name, :string, key: '__content__'
-
   end
 end

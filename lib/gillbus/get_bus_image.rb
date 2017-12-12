@@ -1,10 +1,8 @@
 class Gillbus
   module GetBusImage
-
     Gillbus.register self, :get_bus_image
 
     class Request < BaseRequest
-
       def path; '/online2/getBusImage' end
 
       # busId
@@ -16,7 +14,6 @@ class Gillbus
           busId: bus_id,
         )
       end
-
     end
 
     class Image

@@ -1,6 +1,5 @@
 class Gillbus
   module GetAllCities
-
     Gillbus.register self, :get_all_cities
 
     class Request < BaseRequest
@@ -32,6 +31,5 @@ class Gillbus
     class Response < BaseResponse
       field :cities, [City], key: 'CITY'
     end
-
   end
 end

@@ -1,10 +1,8 @@
 class Gillbus
   module GetCities
-
     Gillbus.register self, :get_cities
 
     class Request < BaseRequest
-
       def path; '/online2/getCities' end
 
       attr_accessor :start_city_id
@@ -14,7 +12,6 @@ class Gillbus
           startCityId: start_city_id,
         }
       end
-
     end
 
     class City
@@ -29,6 +26,5 @@ class Gillbus
     class Response < BaseResponse
       field :cities, [City], key: 'CITY'
     end
-
   end
 end

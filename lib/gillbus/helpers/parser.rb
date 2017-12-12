@@ -3,7 +3,6 @@ require 'active_support/time'
 
 class Gillbus
   class Parser
-
     attr_accessor :doc
     attr_accessor :instance
     attr_accessor :fields
@@ -33,12 +32,12 @@ class Gillbus
       instance
     end
 
-  private
+    private
 
     def make_one_or_many(type, val)
       # [:type]
       if type.is_a? Array
-        array(val).map {|v| make_one type.first, v }
+        array(val).map { |v| make_one type.first, v }
       # :type
       else
         make_one type, val
@@ -54,8 +53,6 @@ class Gillbus
       end
     end
 
-    private
-
     # nil => []
     # [] => []
     # {} => [{}]
@@ -65,12 +62,12 @@ class Gillbus
     end
 
     def string(val)
-      return if val == "null"
+      return if val == 'null'
       val
     end
 
     def bool(val)
-      val == "true"
+      val == 'true'
     end
 
     def yesno_bool(val)
@@ -85,22 +82,20 @@ class Gillbus
       Date.strptime(val, '%d.%m.%Y')
     end
 
+    # rubocop:disable Style/GuardClause, Style/IfUnlessModifier
     def time(val)
       if val =~ /^ ( \d\d:\d\d ) (?: :\d\d )? $/x
         $1
-      else
-        nil
       end
     end
 
     def datetime(val)
-      tz = @options[:timezone] || "Europe/Kiev"
+      tz = @options[:timezone] || 'Europe/Kiev'
       ActiveSupport::TimeZone[tz].parse(val)
     end
 
     def decimal(val)
       BigDecimal.new(val)
     end
-
   end
 end

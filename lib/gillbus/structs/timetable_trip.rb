@@ -42,11 +42,11 @@ class Gillbus
     # => "1"
     field :trip_mode, :int
 
-    field :segments, [TimetableSegment], key: "SEGMENT"
+    field :segments, [TimetableSegment], key: 'SEGMENT'
 
-    field :days_of_week, :days_of_week, key: "DAY_OR_DATE"
+    field :days_of_week, :days_of_week, key: 'DAY_OR_DATE'
 
-    field :dates, :dates, key: "DAY_OR_DATE"
+    field :dates, :dates, key: 'DAY_OR_DATE'
 
     parser do
       DAYS_INTO_WEEK = {
@@ -57,7 +57,7 @@ class Gillbus
         5 => :thursday,
         6 => :friday,
         7 => :saturday,
-      }
+      }.freeze
 
       def days_of_week(value)
         return unless instance.frequency == 3
