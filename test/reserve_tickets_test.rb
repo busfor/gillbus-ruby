@@ -26,4 +26,9 @@ class ReserveTicketsTest < Minitest::Test
     assert_equal(DateTime.new(2013, 5, 22, 20, 30, 0, '+4'), tickets.tickets.first.date_to_pay)
     assert_equal('MSK', tickets.tickets.first.date_to_pay.zone)
   end
+
+  def test_working_without_options
+    xml = YAML.load(File.read('test/responses/reserveTickets.yml'))
+    Gillbus::ReserveTickets::Response.parse(xml) # should not raise error
+  end
 end

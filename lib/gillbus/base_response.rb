@@ -17,7 +17,7 @@ class Gillbus
       !error_code.nil?
     end
 
-    def self.parse(data, instance: new, options: options)
+    def self.parse(data, instance: new, options: {})
       # ugly
       if data['MESSAGE']
         instance.error_code = data['MESSAGE']['CODE'].to_i
