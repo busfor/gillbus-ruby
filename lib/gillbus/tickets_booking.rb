@@ -147,6 +147,11 @@ class Gillbus
         # Величина скидки в валюте продажи для пассажира с порядковым номером 0…N.
         attr_accessor :discount
 
+
+        attr_accessor :insurance
+
+        attr_accessor :insurance_id
+
         def params(prefix = '')
           compact(
             birthday: date(birthday),
@@ -162,6 +167,8 @@ class Gillbus
             citizenship: citizenship,
             gender: gender,
             discountValue: discount.to_f.to_s,
+            insurance: insurance,
+            insuranceId: insurance_id,
           ).map { |k, v| [:"#{prefix}#{k}", v] }.to_h
         end
 

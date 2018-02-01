@@ -1,3 +1,3 @@
 class Gillbus
-  VERSION = '0.16.10'.freeze
+  VERSION = '0.17.1'.freeze
 end

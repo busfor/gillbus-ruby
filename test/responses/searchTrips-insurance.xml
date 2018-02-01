@@ -1,0 +1,633 @@
+<DATA>
+    <COMPLETED>true</COMPLETED>
+    <TRIP>
+        <ID>6299289524871907719</ID>
+        <RES_ID>0</RES_ID>
+        <NUMBER>ЗНМ002/01 Киев - Херсон</NUMBER>
+        <START_CITY_NAME>Киев</START_CITY_NAME>
+        <END_CITY_NAME>Николаев</END_CITY_NAME>
+        <START_TIMEZONE>Europe/Kiev</START_TIMEZONE>
+        <END_TIMEZONE>Europe/Kiev</END_TIMEZONE>
+        <START_DATE>07.02.2018</START_DATE>
+        <END_DATE>07.02.2018</END_DATE>
+        <START_TIME>12:00</START_TIME>
+        <END_TIME>19:00</END_TIME>
+        <BUS_MODEL>Mercedes Sprinter(CB)</BUS_MODEL>
+        <BUS_CLASS/>
+        <BUS_ID/>
+        <BUS_FLOORS_NUMBER>1</BUS_FLOORS_NUMBER>
+        <PLATFORM/>
+        <TRIP_SEATS_MAP>true</TRIP_SEATS_MAP>
+        <SHOW_PICKUP_DROPOFF>false</SHOW_PICKUP_DROPOFF>
+        <BRANDED>false</BRANDED>
+        <HAS_TRANSFER>false</HAS_TRANSFER>
+        <PLACES_COUNT>18</PLACES_COUNT>
+        <FREE_PLACES_COUNT>9</FREE_PLACES_COUNT>
+        <FREE_BUSY_PLACES>9/18</FREE_BUSY_PLACES>
+        <CARRIER_ID>44A40567B7C20165E0530300F00AE0C5</CARRIER_ID>
+        <CARRIER_NAME>"Заброцька Н.Н." ФЛП</CARRIER_NAME>
+        <TIME_IN_ROAD>07:00</TIME_IN_ROAD>
+        <FAKE_TIME_IN_ROAD>false</FAKE_TIME_IN_ROAD>
+        <STATION_BEGIN_ID>34C23D90432478D2E0530300F00A43D5</STATION_BEGIN_ID>
+        <STATION_BEGIN_NAME>Автостанция "Киев" (Центральный железнодорожный вокзал)</STATION_BEGIN_NAME>
+        <STATION_BEGIN_ADDRESS>метро Вокзальная; улица Симона Петлюры; дом 32</STATION_BEGIN_ADDRESS>
+        <STATION_END_ID>44CEBC33E73F38F4E0530300F00A636E</STATION_END_ID>
+        <STATION_END_NAME>Остановка Николаев</STATION_END_NAME>
+        <STATION_END_ADDRESS>улица Садовая</STATION_END_ADDRESS>
+        <RESERVATION_ENABLED>true</RESERVATION_ENABLED>
+        <SALE_ENABLED>true</SALE_ENABLED>
+        <RETURN_ENABLED>false</RETURN_ENABLED>
+        <TIME_FOR_CANCEL>40</TIME_FOR_CANCEL>
+        <TRIP_FULL_SALE>false</TRIP_FULL_SALE>
+        <CAN_DISCOUNT>true</CAN_DISCOUNT>
+        <INTERNATIONAL>false</INTERNATIONAL>
+        <JOIN_BOOK_BUY>true</JOIN_BOOK_BUY>
+        <TRIP_MODE>1</TRIP_MODE>
+        <CUSTOM_STATUS>0</CUSTOM_STATUS>
+        <SPECIAL_CONDITIONS/>
+        <REDIRECT_URL/>
+        <IMAGE_URL>null</IMAGE_URL>
+        <START_POINT_TYPE>null</START_POINT_TYPE>
+        <VEHICLE_DESCRIPTION>null</VEHICLE_DESCRIPTION>
+        <VEHICLE_FEATURES>null</VEHICLE_FEATURES>
+        <TOTAL_COST>963.39</TOTAL_COST>
+        <CURRENCY>RUB</CURRENCY>
+        <CURRENCY_CODE>643</CURRENCY_CODE>
+        <TARIFF>
+            <SHORT_NAME>Y1</SHORT_NAME>
+            <FULL_NAME>Базовый тариф </FULL_NAME>
+            <START_DATE>01.12.2017</START_DATE>
+            <END_DATE/>
+            <DESCRIPTION>Базовый тариф в одном направлении
+</DESCRIPTION>
+            <TIME_TO_BUY_RESERVED>24</TIME_TO_BUY_RESERVED>
+            <TIME_TO_STOP_BOOKING>10</TIME_TO_STOP_BOOKING>
+            <TIME_TO_PAY_RESERVATION>06.02.2018 13:21:52</TIME_TO_PAY_RESERVATION>
+            <COST>963.39</COST>
+            <INSURANCE_COST>100</INSURANCE_COST>
+            <INSURANCE_ID>1</INSURANCE_ID>
+            <INSURANCE_SUM>100000</INSURANCE_SUM>
+            <INSURANCE_CUR>RUB</INSURANCE_CUR>
+            <AFTER_DISPATCH_NO_RETURN>true</AFTER_DISPATCH_NO_RETURN>
+            <PASSENGER_BIRTHDAY/>
+            <PASSENGER_ISIC_NUMBER/>
+            <PASSENGER_STUDENT_TICKET/>
+            <NOTE/>
+            <RETURN_CAUSE>Добровольно,  более чем за 2 ч., до отправления рейса. Возвращается 100% стоимости тарифа. Ориентировочная сумма возврата 802.82</RETURN_CAUSE>
+            <RETURN_CAUSE>Добровольно,  более чем за 10 мин.,  менее чем за 2 ч., до отправления рейса. Удерживается при возврате: 15% тарифа. Ориентировочная сумма возврата 661.15</RETURN_CAUSE>
+            <RETURN_CAUSE>Добровольно,  менее чем за 10 мин., до отправления рейса. Удерживается при возврате: 25% тарифа. Ориентировочная сумма возврата 566.7</RETURN_CAUSE>
+            <RETURN_CAUSE>Принудительно, при отмене рейса, при непредоставлении места, при т/с более низкого класса. Возвращается 100% стоимости билета. Ориентировочная сумма возврата 963.39</RETURN_CAUSE>
+            <PROMOTE>false</PROMOTE>
+            <IS_EXCLUSIVE_PRICE>false</IS_EXCLUSIVE_PRICE>
+        </TARIFF>
+        <POINT>
+            <NUMBER>0</NUMBER>
+            <GEOGRAPHY_NAME>Киев</GEOGRAPHY_NAME>
+            <NAME>Автостанция "Киев" (Центральный железнодорожный вокзал)</NAME>
+            <ADDRESS>метро Вокзальная; улица Симона Петлюры; дом 32</ADDRESS>
+            <TIMEZONE>Europe/Kiev</TIMEZONE>
+            <ARRIVAL_DATE>07.02.2018</ARRIVAL_DATE>
+            <ARRIVAL_TIME/>
+            <DISPATCH_DATE>07.02.2018</DISPATCH_DATE>
+            <DISPATCH_TIME>12:00</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>0</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL>Mercedes Sprinter(CB)</BUSMODEL>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>1</NUMBER>
+            <GEOGRAPHY_NAME>Первомайск</GEOGRAPHY_NAME>
+            <NAME>Первомайск, Автостанция</NAME>
+            <ADDRESS/>
+            <TIMEZONE>Europe/Kiev</TIMEZONE>
+            <ARRIVAL_DATE>07.02.2018</ARRIVAL_DATE>
+            <ARRIVAL_TIME>16:20</ARRIVAL_TIME>
+            <DISPATCH_DATE>07.02.2018</DISPATCH_DATE>
+            <DISPATCH_TIME>16:25</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>0.3</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>2</NUMBER>
+            <GEOGRAPHY_NAME>Вознесенск</GEOGRAPHY_NAME>
+            <NAME>ВОЗНЕСЕНСК_АС</NAME>
+            <ADDRESS/>
+            <TIMEZONE>Europe/Kiev</TIMEZONE>
+            <ARRIVAL_DATE>07.02.2018</ARRIVAL_DATE>
+            <ARRIVAL_TIME>17:20</ARRIVAL_TIME>
+            <DISPATCH_DATE>07.02.2018</DISPATCH_DATE>
+            <DISPATCH_TIME>17:25</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>0.7</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL>Mercedes Sprinter(CB)</BUSMODEL>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>3</NUMBER>
+            <GEOGRAPHY_NAME>Николаев</GEOGRAPHY_NAME>
+            <NAME>Остановка Николаев</NAME>
+            <ADDRESS>улица Садовая</ADDRESS>
+            <TIMEZONE>Europe/Kiev</TIMEZONE>
+            <ARRIVAL_DATE>07.02.2018</ARRIVAL_DATE>
+            <ARRIVAL_TIME>19:00</ARRIVAL_TIME>
+            <DISPATCH_DATE>07.02.2018</DISPATCH_DATE>
+            <DISPATCH_TIME>19:05</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>1</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL>Mercedes Sprinter(CB)</BUSMODEL>
+            <AGREED>true</AGREED>
+        </POINT>
+    </TRIP>
+    <TRIP>
+        <ID>-5328757668125522911</ID>
+        <RES_ID>0</RES_ID>
+        <NUMBER>ЗНМ002/02 Киев - Херсон</NUMBER>
+        <START_CITY_NAME>Киев</START_CITY_NAME>
+        <END_CITY_NAME>Николаев</END_CITY_NAME>
+        <START_TIMEZONE>Europe/Kiev</START_TIMEZONE>
+        <END_TIMEZONE>Europe/Kiev</END_TIMEZONE>
+        <START_DATE>07.02.2018</START_DATE>
+        <END_DATE>07.02.2018</END_DATE>
+        <START_TIME>15:00</START_TIME>
+        <END_TIME>21:55</END_TIME>
+        <BUS_MODEL>Mercedes Sprinter(CB)</BUS_MODEL>
+        <BUS_CLASS/>
+        <BUS_ID/>
+        <BUS_FLOORS_NUMBER>1</BUS_FLOORS_NUMBER>
+        <PLATFORM/>
+        <TRIP_SEATS_MAP>true</TRIP_SEATS_MAP>
+        <SHOW_PICKUP_DROPOFF>false</SHOW_PICKUP_DROPOFF>
+        <BRANDED>false</BRANDED>
+        <HAS_TRANSFER>false</HAS_TRANSFER>
+        <PLACES_COUNT>18</PLACES_COUNT>
+        <FREE_PLACES_COUNT>10</FREE_PLACES_COUNT>
+        <FREE_BUSY_PLACES>10/18</FREE_BUSY_PLACES>
+        <CARRIER_ID>44A40567B7C20165E0530300F00AE0C5</CARRIER_ID>
+        <CARRIER_NAME>"Заброцька Н.Н." ФЛП</CARRIER_NAME>
+        <TIME_IN_ROAD>06:55</TIME_IN_ROAD>
+        <FAKE_TIME_IN_ROAD>false</FAKE_TIME_IN_ROAD>
+        <STATION_BEGIN_ID>34C23D90432478D2E0530300F00A43D5</STATION_BEGIN_ID>
+        <STATION_BEGIN_NAME>Автостанция "Киев" (Центральный железнодорожный вокзал)</STATION_BEGIN_NAME>
+        <STATION_BEGIN_ADDRESS>метро Вокзальная; улица Симона Петлюры; дом 32</STATION_BEGIN_ADDRESS>
+        <STATION_END_ID>44CEBC33E73F38F4E0530300F00A636E</STATION_END_ID>
+        <STATION_END_NAME>Остановка Николаев</STATION_END_NAME>
+        <STATION_END_ADDRESS>улица Садовая</STATION_END_ADDRESS>
+        <RESERVATION_ENABLED>true</RESERVATION_ENABLED>
+        <SALE_ENABLED>true</SALE_ENABLED>
+        <RETURN_ENABLED>false</RETURN_ENABLED>
+        <TIME_FOR_CANCEL>40</TIME_FOR_CANCEL>
+        <TRIP_FULL_SALE>false</TRIP_FULL_SALE>
+        <CAN_DISCOUNT>true</CAN_DISCOUNT>
+        <INTERNATIONAL>false</INTERNATIONAL>
+        <JOIN_BOOK_BUY>true</JOIN_BOOK_BUY>
+        <TRIP_MODE>1</TRIP_MODE>
+        <CUSTOM_STATUS>0</CUSTOM_STATUS>
+        <SPECIAL_CONDITIONS/>
+        <REDIRECT_URL/>
+        <IMAGE_URL>null</IMAGE_URL>
+        <START_POINT_TYPE>null</START_POINT_TYPE>
+        <VEHICLE_DESCRIPTION>null</VEHICLE_DESCRIPTION>
+        <VEHICLE_FEATURES>null</VEHICLE_FEATURES>
+        <TOTAL_COST>963.39</TOTAL_COST>
+        <CURRENCY>RUB</CURRENCY>
+        <CURRENCY_CODE>643</CURRENCY_CODE>
+        <TARIFF>
+            <SHORT_NAME>Y1</SHORT_NAME>
+            <FULL_NAME>Базовый тариф </FULL_NAME>
+            <START_DATE>01.12.2017</START_DATE>
+            <END_DATE/>
+            <DESCRIPTION>Базовый тариф в одном направлении
+</DESCRIPTION>
+            <TIME_TO_BUY_RESERVED>24</TIME_TO_BUY_RESERVED>
+            <TIME_TO_STOP_BOOKING>10</TIME_TO_STOP_BOOKING>
+            <TIME_TO_PAY_RESERVATION>06.02.2018 13:21:52</TIME_TO_PAY_RESERVATION>
+            <COST>963.39</COST>
+            <INSURANCE_COST>100</INSURANCE_COST>
+            <INSURANCE_ID>1</INSURANCE_ID>
+            <INSURANCE_SUM>100000</INSURANCE_SUM>
+            <INSURANCE_CUR>RUB</INSURANCE_CUR>
+            <AFTER_DISPATCH_NO_RETURN>true</AFTER_DISPATCH_NO_RETURN>
+            <PASSENGER_BIRTHDAY/>
+            <PASSENGER_ISIC_NUMBER/>
+            <PASSENGER_STUDENT_TICKET/>
+            <NOTE/>
+            <RETURN_CAUSE>Добровольно,  более чем за 2 ч., до отправления рейса. Возвращается 100% стоимости тарифа. Ориентировочная сумма возврата 802.82</RETURN_CAUSE>
+            <RETURN_CAUSE>Добровольно,  более чем за 10 мин.,  менее чем за 2 ч., до отправления рейса. Удерживается при возврате: 15% тарифа. Ориентировочная сумма возврата 661.15</RETURN_CAUSE>
+            <RETURN_CAUSE>Добровольно,  менее чем за 10 мин., до отправления рейса. Удерживается при возврате: 25% тарифа. Ориентировочная сумма возврата 566.7</RETURN_CAUSE>
+            <RETURN_CAUSE>Принудительно, при отмене рейса, при непредоставлении места, при т/с более низкого класса. Возвращается 100% стоимости билета. Ориентировочная сумма возврата 963.39</RETURN_CAUSE>
+            <PROMOTE>false</PROMOTE>
+            <IS_EXCLUSIVE_PRICE>false</IS_EXCLUSIVE_PRICE>
+        </TARIFF>
+        <POINT>
+            <NUMBER>0</NUMBER>
+            <GEOGRAPHY_NAME>Киев</GEOGRAPHY_NAME>
+            <NAME>Автостанция "Киев" (Центральный железнодорожный вокзал)</NAME>
+            <ADDRESS>метро Вокзальная; улица Симона Петлюры; дом 32</ADDRESS>
+            <TIMEZONE>Europe/Kiev</TIMEZONE>
+            <ARRIVAL_DATE>07.02.2018</ARRIVAL_DATE>
+            <ARRIVAL_TIME/>
+            <DISPATCH_DATE>07.02.2018</DISPATCH_DATE>
+            <DISPATCH_TIME>15:00</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>0</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>1</NUMBER>
+            <GEOGRAPHY_NAME>Первомайск</GEOGRAPHY_NAME>
+            <NAME>Первомайск, Автостанция</NAME>
+            <ADDRESS/>
+            <TIMEZONE>Europe/Kiev</TIMEZONE>
+            <ARRIVAL_DATE>07.02.2018</ARRIVAL_DATE>
+            <ARRIVAL_TIME>19:20</ARRIVAL_TIME>
+            <DISPATCH_DATE>07.02.2018</DISPATCH_DATE>
+            <DISPATCH_TIME>19:25</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>0.3</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL>Mercedes Sprinter(CB)</BUSMODEL>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>2</NUMBER>
+            <GEOGRAPHY_NAME>Вознесенск</GEOGRAPHY_NAME>
+            <NAME>ВОЗНЕСЕНСК_АС</NAME>
+            <ADDRESS/>
+            <TIMEZONE>Europe/Kiev</TIMEZONE>
+            <ARRIVAL_DATE>07.02.2018</ARRIVAL_DATE>
+            <ARRIVAL_TIME>20:20</ARRIVAL_TIME>
+            <DISPATCH_DATE>07.02.2018</DISPATCH_DATE>
+            <DISPATCH_TIME>20:25</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>0.7</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>3</NUMBER>
+            <GEOGRAPHY_NAME>Николаев</GEOGRAPHY_NAME>
+            <NAME>Остановка Николаев</NAME>
+            <ADDRESS>улица Садовая</ADDRESS>
+            <TIMEZONE>Europe/Kiev</TIMEZONE>
+            <ARRIVAL_DATE>07.02.2018</ARRIVAL_DATE>
+            <ARRIVAL_TIME>21:55</ARRIVAL_TIME>
+            <DISPATCH_DATE>07.02.2018</DISPATCH_DATE>
+            <DISPATCH_TIME>22:00</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>1</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+    </TRIP>
+    <TRIP>
+        <ID>8879332125090923201</ID>
+        <RES_ID>0</RES_ID>
+        <NUMBER>ЗНМ004/2200 Киев - Херсон</NUMBER>
+        <START_CITY_NAME>Киев</START_CITY_NAME>
+        <END_CITY_NAME>Николаев</END_CITY_NAME>
+        <START_TIMEZONE>Europe/Kiev</START_TIMEZONE>
+        <END_TIMEZONE>Europe/Kiev</END_TIMEZONE>
+        <START_DATE>07.02.2018</START_DATE>
+        <END_DATE>08.02.2018</END_DATE>
+        <START_TIME>22:00</START_TIME>
+        <END_TIME>04:55</END_TIME>
+        <BUS_MODEL>Mercedes Sprinter(CB)</BUS_MODEL>
+        <BUS_CLASS/>
+        <BUS_ID/>
+        <BUS_FLOORS_NUMBER>1</BUS_FLOORS_NUMBER>
+        <PLATFORM/>
+        <TRIP_SEATS_MAP>true</TRIP_SEATS_MAP>
+        <SHOW_PICKUP_DROPOFF>false</SHOW_PICKUP_DROPOFF>
+        <BRANDED>false</BRANDED>
+        <HAS_TRANSFER>false</HAS_TRANSFER>
+        <PLACES_COUNT>18</PLACES_COUNT>
+        <FREE_PLACES_COUNT>10</FREE_PLACES_COUNT>
+        <FREE_BUSY_PLACES>10/18</FREE_BUSY_PLACES>
+        <CARRIER_ID>44A40567B7C20165E0530300F00AE0C5</CARRIER_ID>
+        <CARRIER_NAME>"Заброцька Н.Н." ФЛП</CARRIER_NAME>
+        <TIME_IN_ROAD>06:55</TIME_IN_ROAD>
+        <FAKE_TIME_IN_ROAD>false</FAKE_TIME_IN_ROAD>
+        <STATION_BEGIN_ID>34C23D90432478D2E0530300F00A43D5</STATION_BEGIN_ID>
+        <STATION_BEGIN_NAME>Автостанция "Киев" (Центральный железнодорожный вокзал)</STATION_BEGIN_NAME>
+        <STATION_BEGIN_ADDRESS>метро Вокзальная; улица Симона Петлюры; дом 32</STATION_BEGIN_ADDRESS>
+        <STATION_END_ID>44CEBC33E73F38F4E0530300F00A636E</STATION_END_ID>
+        <STATION_END_NAME>Остановка Николаев</STATION_END_NAME>
+        <STATION_END_ADDRESS>улица Садовая</STATION_END_ADDRESS>
+        <RESERVATION_ENABLED>true</RESERVATION_ENABLED>
+        <SALE_ENABLED>true</SALE_ENABLED>
+        <RETURN_ENABLED>false</RETURN_ENABLED>
+        <TIME_FOR_CANCEL>40</TIME_FOR_CANCEL>
+        <TRIP_FULL_SALE>false</TRIP_FULL_SALE>
+        <CAN_DISCOUNT>true</CAN_DISCOUNT>
+        <INTERNATIONAL>false</INTERNATIONAL>
+        <JOIN_BOOK_BUY>true</JOIN_BOOK_BUY>
+        <TRIP_MODE>1</TRIP_MODE>
+        <CUSTOM_STATUS>0</CUSTOM_STATUS>
+        <SPECIAL_CONDITIONS/>
+        <REDIRECT_URL/>
+        <IMAGE_URL>null</IMAGE_URL>
+        <START_POINT_TYPE>null</START_POINT_TYPE>
+        <VEHICLE_DESCRIPTION>null</VEHICLE_DESCRIPTION>
+        <VEHICLE_FEATURES>null</VEHICLE_FEATURES>
+        <TOTAL_COST>963.39</TOTAL_COST>
+        <CURRENCY>RUB</CURRENCY>
+        <CURRENCY_CODE>643</CURRENCY_CODE>
+        <TARIFF>
+            <SHORT_NAME>Y1</SHORT_NAME>
+            <FULL_NAME>Базовый тариф </FULL_NAME>
+            <START_DATE>01.12.2017</START_DATE>
+            <END_DATE/>
+            <DESCRIPTION>Базовый тариф в одном направлении
+</DESCRIPTION>
+            <TIME_TO_BUY_RESERVED>24</TIME_TO_BUY_RESERVED>
+            <TIME_TO_STOP_BOOKING>10</TIME_TO_STOP_BOOKING>
+            <TIME_TO_PAY_RESERVATION>06.02.2018 13:21:52</TIME_TO_PAY_RESERVATION>
+            <COST>963.39</COST>
+            <INSURANCE_COST>100</INSURANCE_COST>
+            <INSURANCE_ID>1</INSURANCE_ID>
+            <INSURANCE_SUM>100000</INSURANCE_SUM>
+            <INSURANCE_CUR>RUB</INSURANCE_CUR>
+            <AFTER_DISPATCH_NO_RETURN>true</AFTER_DISPATCH_NO_RETURN>
+            <PASSENGER_BIRTHDAY/>
+            <PASSENGER_ISIC_NUMBER/>
+            <PASSENGER_STUDENT_TICKET/>
+            <NOTE/>
+            <RETURN_CAUSE>Добровольно,  более чем за 2 ч., до отправления рейса. Возвращается 100% стоимости тарифа. Ориентировочная сумма возврата 802.82</RETURN_CAUSE>
+            <RETURN_CAUSE>Добровольно,  более чем за 10 мин.,  менее чем за 2 ч., до отправления рейса. Удерживается при возврате: 15% тарифа. Ориентировочная сумма возврата 661.15</RETURN_CAUSE>
+            <RETURN_CAUSE>Добровольно,  менее чем за 10 мин., до отправления рейса. Удерживается при возврате: 25% тарифа. Ориентировочная сумма возврата 566.7</RETURN_CAUSE>
+            <RETURN_CAUSE>Принудительно, при отмене рейса, при непредоставлении места, при т/с более низкого класса. Возвращается 100% стоимости билета. Ориентировочная сумма возврата 963.39</RETURN_CAUSE>
+            <PROMOTE>false</PROMOTE>
+            <IS_EXCLUSIVE_PRICE>false</IS_EXCLUSIVE_PRICE>
+        </TARIFF>
+        <POINT>
+            <NUMBER>0</NUMBER>
+            <GEOGRAPHY_NAME>Киев</GEOGRAPHY_NAME>
+            <NAME>Автостанция "Киев" (Центральный железнодорожный вокзал)</NAME>
+            <ADDRESS>метро Вокзальная; улица Симона Петлюры; дом 32</ADDRESS>
+            <TIMEZONE>Europe/Kiev</TIMEZONE>
+            <ARRIVAL_DATE>07.02.2018</ARRIVAL_DATE>
+            <ARRIVAL_TIME/>
+            <DISPATCH_DATE>07.02.2018</DISPATCH_DATE>
+            <DISPATCH_TIME>22:00</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>0</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>1</NUMBER>
+            <GEOGRAPHY_NAME>Первомайск</GEOGRAPHY_NAME>
+            <NAME>Первомайск, Автостанция</NAME>
+            <ADDRESS/>
+            <TIMEZONE>Europe/Kiev</TIMEZONE>
+            <ARRIVAL_DATE>08.02.2018</ARRIVAL_DATE>
+            <ARRIVAL_TIME>02:20</ARRIVAL_TIME>
+            <DISPATCH_DATE>08.02.2018</DISPATCH_DATE>
+            <DISPATCH_TIME>02:25</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>0.3</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>2</NUMBER>
+            <GEOGRAPHY_NAME>Вознесенск</GEOGRAPHY_NAME>
+            <NAME>ВОЗНЕСЕНСК_АС</NAME>
+            <ADDRESS/>
+            <TIMEZONE>Europe/Kiev</TIMEZONE>
+            <ARRIVAL_DATE>08.02.2018</ARRIVAL_DATE>
+            <ARRIVAL_TIME>03:20</ARRIVAL_TIME>
+            <DISPATCH_DATE>08.02.2018</DISPATCH_DATE>
+            <DISPATCH_TIME>03:25</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>0.7</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>3</NUMBER>
+            <GEOGRAPHY_NAME>Николаев</GEOGRAPHY_NAME>
+            <NAME>Остановка Николаев</NAME>
+            <ADDRESS>улица Садовая</ADDRESS>
+            <TIMEZONE>Europe/Kiev</TIMEZONE>
+            <ARRIVAL_DATE>08.02.2018</ARRIVAL_DATE>
+            <ARRIVAL_TIME>04:55</ARRIVAL_TIME>
+            <DISPATCH_DATE>08.02.2018</DISPATCH_DATE>
+            <DISPATCH_TIME>05:00</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>1</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+    </TRIP>
+    <TRIP>
+        <ID>-5501158095088564811</ID>
+        <RES_ID>0</RES_ID>
+        <NUMBER>ГФС798 Киев - Коблево</NUMBER>
+        <START_CITY_NAME>Киев</START_CITY_NAME>
+        <END_CITY_NAME>Николаев</END_CITY_NAME>
+        <START_TIMEZONE>Europe/Kiev</START_TIMEZONE>
+        <END_TIMEZONE>Europe/Kiev</END_TIMEZONE>
+        <START_DATE>07.02.2018</START_DATE>
+        <END_DATE>08.02.2018</END_DATE>
+        <START_TIME>22:05</START_TIME>
+        <END_TIME>06:35</END_TIME>
+        <BUS_MODEL>Neoplan(Free)</BUS_MODEL>
+        <BUS_CLASS/>
+        <BUS_ID/>
+        <BUS_FLOORS_NUMBER>1</BUS_FLOORS_NUMBER>
+        <PLATFORM/>
+        <TRIP_SEATS_MAP>true</TRIP_SEATS_MAP>
+        <SHOW_PICKUP_DROPOFF>false</SHOW_PICKUP_DROPOFF>
+        <BRANDED>false</BRANDED>
+        <HAS_TRANSFER>false</HAS_TRANSFER>
+        <PLACES_COUNT>49</PLACES_COUNT>
+        <FREE_PLACES_COUNT>2</FREE_PLACES_COUNT>
+        <FREE_BUSY_PLACES>2/49</FREE_BUSY_PLACES>
+        <CARRIER_ID>BC60941886E44FF4E040A8C063030BC9</CARRIER_ID>
+        <CARRIER_NAME>"Гаджиєв Ф.С." ООО</CARRIER_NAME>
+        <TIME_IN_ROAD>08:30</TIME_IN_ROAD>
+        <FAKE_TIME_IN_ROAD>false</FAKE_TIME_IN_ROAD>
+        <STATION_BEGIN_ID>340BDB5553BD51BCE0530300F00A4622</STATION_BEGIN_ID>
+        <STATION_BEGIN_NAME>Автовокзал "Центральный"</STATION_BEGIN_NAME>
+        <STATION_BEGIN_ADDRESS>площадь Демеевская; дом 3</STATION_BEGIN_ADDRESS>
+        <STATION_END_ID>928F32EDA50D026FE040A8C01E02395E</STATION_END_ID>
+        <STATION_END_NAME>Автовокзал "Центральный"</STATION_END_NAME>
+        <STATION_END_ADDRESS>проспект Богоявленский; дом 21</STATION_END_ADDRESS>
+        <RESERVATION_ENABLED>true</RESERVATION_ENABLED>
+        <SALE_ENABLED>true</SALE_ENABLED>
+        <RETURN_ENABLED>false</RETURN_ENABLED>
+        <TIME_FOR_CANCEL>40</TIME_FOR_CANCEL>
+        <TRIP_FULL_SALE>false</TRIP_FULL_SALE>
+        <CAN_DISCOUNT>true</CAN_DISCOUNT>
+        <INTERNATIONAL>false</INTERNATIONAL>
+        <JOIN_BOOK_BUY>true</JOIN_BOOK_BUY>
+        <TRIP_MODE>1</TRIP_MODE>
+        <CUSTOM_STATUS>0</CUSTOM_STATUS>
+        <SPECIAL_CONDITIONS/>
+        <REDIRECT_URL/>
+        <IMAGE_URL>null</IMAGE_URL>
+        <START_POINT_TYPE>null</START_POINT_TYPE>
+        <VEHICLE_DESCRIPTION>null</VEHICLE_DESCRIPTION>
+        <VEHICLE_FEATURES>null</VEHICLE_FEATURES>
+        <TOTAL_COST>698.12</TOTAL_COST>
+        <CURRENCY>RUB</CURRENCY>
+        <CURRENCY_CODE>643</CURRENCY_CODE>
+        <TARIFF>
+            <SHORT_NAME>Y</SHORT_NAME>
+            <FULL_NAME>Базовый тариф</FULL_NAME>
+            <START_DATE/>
+            <END_DATE/>
+            <DESCRIPTION>Базовый тариф стоимости проезда одного пассажиров в одном направлении
+До вартості квитка входить вартість провозу двух місць багажу розміром 60*40*40 см та вагою до 25 кг. Додатковий багаж перевозиться при наявності вільного місця в багажному відділенні автобуса, вартість провозу додаткового багажу 10% від вартості проїзду</DESCRIPTION>
+            <TIME_TO_BUY_RESERVED>48</TIME_TO_BUY_RESERVED>
+            <TIME_TO_STOP_BOOKING>12</TIME_TO_STOP_BOOKING>
+            <TIME_TO_PAY_RESERVATION>07.02.2018 11:05:00</TIME_TO_PAY_RESERVATION>
+            <COST>698.12</COST>
+            <INSURANCE_COST>70</INSURANCE_COST>
+            <INSURANCE_ID>1</INSURANCE_ID>
+            <INSURANCE_SUM>70000</INSURANCE_SUM>
+            <INSURANCE_CUR>RUB</INSURANCE_CUR>
+            <AFTER_DISPATCH_NO_RETURN>true</AFTER_DISPATCH_NO_RETURN>
+            <PASSENGER_BIRTHDAY/>
+            <PASSENGER_ISIC_NUMBER/>
+            <PASSENGER_STUDENT_TICKET/>
+            <NOTE/>
+            <RETURN_CAUSE>Добровольно,  более чем за 2 ч., до отправления рейса. Возвращается 100% стоимости тарифа. Ориентировочная сумма возврата 628.3</RETURN_CAUSE>
+            <RETURN_CAUSE>Добровольно,  более чем за 10 мин., до отправления рейса. Удерживается при возврате: 15% тарифа. Ориентировочная сумма возврата 523.59</RETURN_CAUSE>
+            <RETURN_CAUSE>В стоимость билета не входит оплата за провоз багажа! Оплачивается дополнительно 10% от тарифа. Удерживается при возврате: 100% тарифа. Ориентировочная сумма возврата -61.2</RETURN_CAUSE>
+            <RETURN_CAUSE>Принудительно, при отмене рейса, при непредоставлении места, при т/с более низкого класса. Возвращается 100% стоимости билета. Ориентировочная сумма возврата 698.12</RETURN_CAUSE>
+            <PROMOTE>false</PROMOTE>
+            <IS_EXCLUSIVE_PRICE>false</IS_EXCLUSIVE_PRICE>
+        </TARIFF>
+        <POINT>
+            <NUMBER>0</NUMBER>
+            <GEOGRAPHY_NAME>Киев</GEOGRAPHY_NAME>
+            <NAME>Автовокзал "Центральный"</NAME>
+            <ADDRESS>площадь Демеевская; дом 3</ADDRESS>
+            <TIMEZONE>Europe/Kiev</TIMEZONE>
+            <ARRIVAL_DATE>07.02.2018</ARRIVAL_DATE>
+            <ARRIVAL_TIME/>
+            <DISPATCH_DATE>07.02.2018</DISPATCH_DATE>
+            <DISPATCH_TIME>22:05</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>0</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>1</NUMBER>
+            <GEOGRAPHY_NAME>Умань</GEOGRAPHY_NAME>
+            <NAME>Автовокзал "Умань"</NAME>
+            <ADDRESS>улица Киевская; дом 1</ADDRESS>
+            <TIMEZONE>Europe/Kiev</TIMEZONE>
+            <ARRIVAL_DATE>08.02.2018</ARRIVAL_DATE>
+            <ARRIVAL_TIME>01:20</ARRIVAL_TIME>
+            <DISPATCH_DATE>08.02.2018</DISPATCH_DATE>
+            <DISPATCH_TIME>01:30</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>2</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>2</NUMBER>
+            <GEOGRAPHY_NAME>Первомайск</GEOGRAPHY_NAME>
+            <NAME>Автовокзал Первомайск</NAME>
+            <ADDRESS>улица Советская; дом 8</ADDRESS>
+            <TIMEZONE>Europe/Kiev</TIMEZONE>
+            <ARRIVAL_DATE>08.02.2018</ARRIVAL_DATE>
+            <ARRIVAL_TIME>03:35</ARRIVAL_TIME>
+            <DISPATCH_DATE>08.02.2018</DISPATCH_DATE>
+            <DISPATCH_TIME>03:36</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>3</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>3</NUMBER>
+            <GEOGRAPHY_NAME>Южноукраинск</GEOGRAPHY_NAME>
+            <NAME>Южноукраїнськ АС</NAME>
+            <ADDRESS>Вул. Дружби народів,27</ADDRESS>
+            <TIMEZONE>Europe/Kiev</TIMEZONE>
+            <ARRIVAL_DATE>08.02.2018</ARRIVAL_DATE>
+            <ARRIVAL_TIME>04:25</ARRIVAL_TIME>
+            <DISPATCH_DATE>08.02.2018</DISPATCH_DATE>
+            <DISPATCH_TIME>04:26</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>4</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>4</NUMBER>
+            <GEOGRAPHY_NAME>Вознесенск</GEOGRAPHY_NAME>
+            <NAME>Вознесенськ АС</NAME>
+            <ADDRESS>Вул. Жовтневої Революції, 148</ADDRESS>
+            <TIMEZONE>Europe/Kiev</TIMEZONE>
+            <ARRIVAL_DATE>08.02.2018</ARRIVAL_DATE>
+            <ARRIVAL_TIME>04:55</ARRIVAL_TIME>
+            <DISPATCH_DATE>08.02.2018</DISPATCH_DATE>
+            <DISPATCH_TIME>05:05</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>5</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>5</NUMBER>
+            <GEOGRAPHY_NAME>Николаев</GEOGRAPHY_NAME>
+            <NAME>Автовокзал "Центральный"</NAME>
+            <ADDRESS>проспект Богоявленский; дом 21</ADDRESS>
+            <TIMEZONE>Europe/Kiev</TIMEZONE>
+            <ARRIVAL_DATE>08.02.2018</ARRIVAL_DATE>
+            <ARRIVAL_TIME>06:35</ARRIVAL_TIME>
+            <DISPATCH_DATE>08.02.2018</DISPATCH_DATE>
+            <DISPATCH_TIME/>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>6</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+    </TRIP>
+</DATA>
