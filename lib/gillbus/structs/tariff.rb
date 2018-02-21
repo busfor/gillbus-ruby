@@ -50,9 +50,19 @@ class Gillbus
 
     field :is_exclusive_price, :bool
 
+    field :insurance_id, :int
+
+    field :insurance_cost, :insurance_money
+
+    field :insurance_sum, :insurance_money
+
     parser do
       def money(val)
         Monetize.parse(val, doc[:_currency])
+      end
+
+      def insurance_money(val)
+        Monetize.parse(val, doc['INSURANCE_CUR'])
       end
 
       def string_with_possible_attributes(val)
