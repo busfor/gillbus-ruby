@@ -261,6 +261,9 @@ class Gillbus
     # Minutes to pay booked ticket
     field :minutes_for_buyout, :int
 
+    # Ticket type: i.e. bus ticket, insurance, etc
+    field :service_type
+
     parser do
       def ticket_status(value)
         {
