@@ -158,7 +158,7 @@ class Gillbus
 
     field :options, TripOptions, key: 'OPTIONS'
 
-    field :bus_photos, [BusPhoto], key: 'BUS_PHOTO'
+    field :bus_images, [BusPhoto], key: 'BUS_PHOTO'
 
     def start_at
       timezone = data['START_TIMEZONE'] || 'Europe/Kiev'
