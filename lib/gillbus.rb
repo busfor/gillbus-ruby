@@ -51,9 +51,9 @@ class Gillbus
   require 'gillbus/structs/point'
   require 'gillbus/structs/tariff/return_cause'
   require 'gillbus/structs/tariff'
+  require 'gillbus/structs/bus_photo'
   require 'gillbus/structs/segment'
   require 'gillbus/structs/timetable_segment'
-  require 'gillbus/structs/bus_photo'
   require 'gillbus/structs/trip'
   require 'gillbus/structs/timetable_trip'
 
