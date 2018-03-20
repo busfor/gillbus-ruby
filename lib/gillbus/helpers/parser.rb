@@ -18,21 +18,29 @@ class Gillbus
 
     def parse
       fields.each do |name:, key:, type:, root:|
-        raw_value =
-          if key.is_a?(Regexp)
-            doc.select { |k| k =~ key }
-          elsif root
-            doc[root] && doc[root][key]
+        value =
+          if type == :datetime_combined
+            datetime_combined(key)
           else
-            doc[key]
+            raw_value = fetch_value(key: key, root: root)
+            make_one_or_many(type, raw_value)
           end
-        value = make_one_or_many(type, raw_value)
         instance.send "#{name}=", value unless value.nil?
       end
       instance
     end
 
     private
+
+    def fetch_value(key:, root:)
+      if key.is_a?(Regexp)
+        doc.select { |k| k =~ key }
+      elsif root
+        doc[root] && doc[root][key]
+      else
+        doc[key]
+      end
+    end
 
     def make_one_or_many(type, val)
       # [:type]
@@ -90,8 +98,18 @@ class Gillbus
     end
 
     def datetime(val)
-      tz = @options[:timezone] || 'Europe/Kiev'
-      ActiveSupport::TimeZone[tz].parse(val)
+      ActiveSupport::TimeZone[default_timezone].parse(val)
+    end
+
+    def datetime_combined(key)
+      date_string = doc["#{key}_DATE"]
+      time_string = doc["#{key}_TIME"]
+      timezone = doc["#{key}_TIMEZONE"] || default_timezone
+      ActiveSupport::TimeZone[timezone].parse("#{date_string} #{time_string}")
+    end
+
+    def default_timezone
+      @options[:timezone] || 'Europe/Kiev'
     end
 
     def decimal(val)

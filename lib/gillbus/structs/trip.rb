@@ -160,11 +160,7 @@ class Gillbus
 
     field :bus_photos, [BusPhoto], key: 'BUS_PHOTO'
 
-    def start_at
-      timezone = data['START_TIMEZONE'] || 'Europe/Kiev'
-      datetime_string = "#{data['START_DATE']} #{data['START_TIME']}"
-      ActiveSupport::TimeZone[timezone].parse(datetime_string)
-    end
+    field :start_at, :datetime_combined, key: 'START'
 
     parser do
       def money(val)
