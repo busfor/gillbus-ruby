@@ -162,6 +162,8 @@ class Gillbus
 
     field :start_at, :datetime_combined, key: 'START'
 
+    field :end_at, :datetime_combined, key: 'END'
+
     parser do
       def money(val)
         Monetize.parse(val, doc['CURRENCY'])
