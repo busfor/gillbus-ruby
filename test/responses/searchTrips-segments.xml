@@ -57,7 +57,9 @@
             <START_DATE>26.06.2015</START_DATE>
             <END_DATE>26.06.2015</END_DATE>
             <START_TIME>08:30</START_TIME>
+            <START_TIMEZONE>Europe/Moscow</START_TIMEZONE>
             <END_TIME>15:30</END_TIME>
+            <END_TIMEZONE>Europe/Kiev</END_TIMEZONE>
             <BUS_MODEL>Neoplan(Free)</BUS_MODEL>
             <BUS_CLASS/>
             <TRIP_SEATS_MAP>true</TRIP_SEATS_MAP>

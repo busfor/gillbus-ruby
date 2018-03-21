@@ -109,6 +109,16 @@ class SearchTripsResponseTest < Minitest::Test
     assert_equal trip2_start_at, response.trips[1].start_at
   end
 
+  def test_end_at_parsing
+    response = get_successful_search_trips
+
+    trip1_end_at = ActiveSupport::TimeZone['Europe/Moscow'].parse('24.08.2014 06:30')
+    trip2_end_at = ActiveSupport::TimeZone['Europe/Kiev'].parse('24.08.2014 08:40')
+
+    assert_equal trip1_end_at, response.trips[0].end_at
+    assert_equal trip2_end_at, response.trips[1].end_at
+  end
+
   def test_options_parsing
     response = get_successful_search_trips
     options = response.trips.first.options
@@ -182,12 +192,35 @@ class SearchTripsResponseTest < Minitest::Test
 
   def test_trips_with_segments
     response = get_trips_with_segments
+
     assert response.completed
     assert_equal 2, response.trips.size
-    assert_equal 'Europe/Kiev', response.trips.first.start_timezone
-    assert_equal 'Europe/Kiev', response.trips.first.end_timezone
-    assert_equal true, response.trips.first.fake_time_in_road
-    assert_equal 2, response.trips.first.segments.size
+
+    trip = response.trips.first
+    assert_equal 'Europe/Kiev', trip.start_timezone
+    assert_equal 'Europe/Kiev', trip.end_timezone
+    assert_equal true, trip.fake_time_in_road
+    assert_equal 2, trip.segments.size
+  end
+
+  def test_trip_segments_parsing
+    response = get_trips_with_segments
+    assert response.completed
+
+    segments = response.trips.first.segments
+    assert_equal 2, segments.size
+
+    segment1_start_at = ActiveSupport::TimeZone['Europe/Moscow'].parse('26.06.2015 08:30')
+    segment1_end_at = ActiveSupport::TimeZone['Europe/Kiev'].parse('26.06.2015 15:30')
+
+    assert_equal segment1_start_at, segments[0].start_at
+    assert_equal segment1_end_at, segments[0].end_at
+
+    segment2_start_at = ActiveSupport::TimeZone['Europe/Kiev'].parse('26.06.2015 22:40')
+    segment2_end_at = ActiveSupport::TimeZone['Europe/Kiev'].parse('27.06.2015 16:00')
+
+    assert_equal segment2_start_at, segments[1].start_at
+    assert_equal segment2_end_at, segments[1].end_at
   end
 
   def test_trips_with_insurance
