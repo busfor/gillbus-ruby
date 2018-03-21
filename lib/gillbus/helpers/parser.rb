@@ -104,7 +104,7 @@ class Gillbus
     def datetime_combined(key)
       date_string = doc["#{key}_DATE"]
       time_string = doc["#{key}_TIME"]
-      timezone = doc["#{key}_TIMEZONE"] || default_timezone
+      timezone = doc["#{key}_TIMEZONE"].presence || default_timezone
       ActiveSupport::TimeZone[timezone].parse("#{date_string} #{time_string}")
     end
 
