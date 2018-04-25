@@ -182,6 +182,9 @@ class Gillbus
     # The return amount from the VAT from common tariff in currency in which the tariff is brought.
     field :return_total_tariff_vat_in_currency, :tariff_money
 
+    # Общий заработок агента
+    field :total_agent_income, :money
+
     # The description of the returning conditions
     field :return_condition
 
