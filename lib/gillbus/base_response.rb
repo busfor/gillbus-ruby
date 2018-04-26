@@ -34,11 +34,11 @@ class Gillbus
     def self.parse_string(xml_string, **options)
       xml = MultiXml.parse(xml_string)
       # <DATA/> is a valid response
-      return ParseError.new(xml_string) unless xml.key?('DATA')
+      return ParseError.new(xml_string, 'DATA attribute missing') unless xml.key?('DATA')
       data = xml['DATA'] || {}
       parse(data, instance: new, options: options)
-    rescue MultiXml::ParseError, ArgumentError
-      ParseError.new(xml_string)
+    rescue MultiXml::ParseError, ArgumentError => e
+      ParseError.new(xml_string, e.message)
     end
   end
 end
