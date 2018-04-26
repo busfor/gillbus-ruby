@@ -22,6 +22,7 @@ class ErrorTest < Minitest::Test
 
   def test_malformed_errorness
     assert malformed_response.error?
+    assert_equal "Malformed response: Not Terminated: text not terminated at 0:10", malformed_response.error_message
   end
 
   def test_malformed_2_errorness
