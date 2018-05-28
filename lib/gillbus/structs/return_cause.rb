@@ -14,7 +14,7 @@ class Gillbus
 
     parser do
       def money(val)
-        Monetize.parse(val, doc[:_currency])
+        Monetize.parse(val, parent.sale_cur_code)
       end
     end
   end

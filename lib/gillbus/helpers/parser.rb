@@ -3,6 +3,11 @@ require 'active_support/time'
 
 class Gillbus
   class Parser
+    NULL_CONST = 'null'.freeze
+    TRUE_CONST = 'true'.freeze
+    FALSE_CONST = 'false'.freeze
+    YES_CONST = 'Y'.freeze
+
     attr_accessor :doc
     attr_accessor :instance
     attr_accessor :fields
@@ -45,6 +50,9 @@ class Gillbus
     def make_one_or_many(type, val)
       # [:type]
       if type.is_a? Array
+        if val.is_a?(Array) && val[0].is_a?(Hash) && val[1].is_a?(String) # hack to handle attribute parsing by Ox
+          val = [val]
+        end
         array(val).map { |v| make_one type.first, v }
       # :type
       else
@@ -70,16 +78,16 @@ class Gillbus
     end
 
     def string(val)
-      return if val == 'null'
+      return if val == NULL_CONST
       val
     end
 
     def bool(val)
-      val == 'true'
+      val == TRUE_CONST
     end
 
     def yesno_bool(val)
-      val == 'Y'
+      val == YES_CONST
     end
 
     def int(val)

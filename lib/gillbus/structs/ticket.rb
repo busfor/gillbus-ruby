@@ -256,7 +256,7 @@ class Gillbus
     # Array of commissions only for us (with additional fields)
     field :all_commissions, [Commission], key: 'COMMISSION', root: 'ALL_COMMISSIONS'
 
-    field :return_causes, [:return_cause], key: 'RETURN_CAUSE'
+    field :return_causes, [ReturnCause], key: 'RETURN_CAUSE'
 
     # Date to pay reserved ticket
     field :date_to_pay, :datetime
