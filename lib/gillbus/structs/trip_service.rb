@@ -13,7 +13,7 @@ class Gillbus
       instance = new
       if doc.is_a?(Array)
         raise "Bad doc #{doc.inspect}" unless doc.size == 2
-        instance.id = doc.first.fetch('ID')
+        instance.id = doc.first.fetch('ID').to_i
         instance.name = doc.last
       elsif doc.is_a?(Hash) #legacy data made with MultiXML
         instance.id = doc.fetch('ID')
