@@ -1,6 +1,8 @@
 class Gillbus
   class Tariff
     class ReturnCause
+      LOSSLESS = 'lossless'.freeze
+
       extend Fields
       include UpdateAttrs
 
@@ -13,7 +15,7 @@ class Gillbus
         instance = new
         if doc.is_a?(Array)
           raise ArgumentError, "Unable to parse Tariff::ReturnCause: #{doc.inspect}" unless doc.size == 2
-          instance.lossless = doc.first == {'lossless' => 'true'}
+          instance.lossless = doc.first[LOSSLESS] == Parser::TRUE_CONST
           instance.cause = doc.last
         else
           instance.cause = doc

@@ -5,7 +5,6 @@ class Gillbus
   class Parser
     NULL_CONST = 'null'.freeze
     TRUE_CONST = 'true'.freeze
-    FALSE_CONST = 'false'.freeze
     YES_CONST = 'Y'.freeze
     DATE_FORMAT_CONST = '%d.%m.%Y'.freeze
     TIME_FORMAT_REGEXP = /^ ( \d\d:\d\d ) (?: :\d\d )? $/x.freeze
