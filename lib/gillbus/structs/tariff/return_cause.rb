@@ -12,7 +12,7 @@ class Gillbus
       def self.parse(doc, instance: nil, parent: nil, options: {})
         instance = new
         if doc.is_a?(Array)
-          raise "Bad doc #{doc.inspect}" unless doc.size == 2
+          raise ArgumentError, "Unable to parse Tariff::ReturnCause: #{doc.inspect}" unless doc.size == 2
           instance.lossless = doc.first == {'lossless' => 'true'}
           instance.cause = doc.last
         else

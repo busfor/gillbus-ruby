@@ -12,14 +12,14 @@ class Gillbus
     def self.parse(doc, instance: nil, parent: nil, options: {})
       instance = new
       if doc.is_a?(Array)
-        raise "Bad doc #{doc.inspect}" unless doc.size == 2
+        raise ArgumentError, "Unable to parse TripService: #{doc.inspect}" unless doc.size == 2
         instance.id = doc.first.fetch('ID').to_i
         instance.name = doc.last
       elsif doc.is_a?(Hash) #legacy data made with MultiXML
         instance.id = doc.fetch('ID')
         instance.name = doc.fetch('__content__')
       else
-        raise "Bad doc #{doc.inspect}"
+        raise ArgumentError, "Unable to parse TripService: #{doc.inspect}"
       end
       instance
     end
