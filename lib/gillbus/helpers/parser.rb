@@ -7,6 +7,9 @@ class Gillbus
     TRUE_CONST = 'true'.freeze
     FALSE_CONST = 'false'.freeze
     YES_CONST = 'Y'.freeze
+    DATE_FORMAT_CONST = '%d.%m.%Y'.freeze
+    TIME_FORMAT_REGEXP = /^ ( \d\d:\d\d ) (?: :\d\d )? $/x.freeze
+    DEFAULT_TIMEZONE = 'Europe/Kiev'.freeze
 
     attr_accessor :doc
     attr_accessor :instance
@@ -95,12 +98,12 @@ class Gillbus
     end
 
     def date(val)
-      Date.strptime(val, '%d.%m.%Y')
+      Date.strptime(val, DATE_FORMAT_CONST)
     end
 
     # rubocop:disable Style/GuardClause, Style/IfUnlessModifier
     def time(val)
-      if val =~ /^ ( \d\d:\d\d ) (?: :\d\d )? $/x
+      if val =~ TIME_FORMAT_REGEXP
         $1
       end
     end
@@ -117,7 +120,7 @@ class Gillbus
     end
 
     def default_timezone
-      @options[:timezone] || 'Europe/Kiev'
+      @options[:timezone] || DEFAULT_TIMEZONE
     end
 
     def decimal(val)
