@@ -84,7 +84,7 @@ class SearchTripsResponseTest < Minitest::Test
 
   def test_fields_parsing
     response = get_successful_search_trips
-    assert_equal '-3451212695530327295', response.trips.first.id
+    assert_equal '3451212695530327295', response.trips.first.id
     assert_equal Date.new(2014, 8, 23), response.trips.first.start_date
     assert_equal Money.new(1410_00, 'RUB'), response.trips.first.total_cost
     assert_equal Money.new(1410_00, 'RUB'), response.trips.first.tariffs.first.cost
