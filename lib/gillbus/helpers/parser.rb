@@ -52,8 +52,11 @@ class Gillbus
     def make_one_or_many(type, val)
       # [:type]
       if type.is_a? Array
-        if val.is_a?(Array) && val[0].is_a?(Hash) && val[1].is_a?(String) # hack to handle attribute parsing by Ox
-          val = [val]
+        if val.is_a?(Array) && val[0].is_a?(Hash)
+          first = val[0]
+          second = val[1]
+          val = [val] if first.has_key?('__content__') # other hack to handle legacy data
+          val = [val] if second.is_a?(String) # hack to handle attribute parsing by Ox
         end
         array(val).map { |v| make_one type.first, v }
       # :type
