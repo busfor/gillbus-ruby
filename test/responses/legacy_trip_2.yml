@@ -1,0 +1,217 @@
+---
+ID: '3436521222122325532'
+RES_ID: '0'
+NUMBER: STAGE - ATM 002 Москва - Киев
+START_CITY_NAME: Москва
+END_CITY_NAME: Киев Автовокзал "Центральный"
+START_TIMEZONE: 
+END_TIMEZONE: 
+START_DATE: 10.06.2017
+END_DATE: 11.06.2017
+START_TIME: '21:20'
+END_TIME: '15:30'
+BUS_MODEL: 'Неоплан '
+BUS_CLASS: 
+BUS_ID: 
+PLATFORM: 
+TRIP_SEATS_MAP: 'true'
+SHOW_PICKUP_DROPOFF: 'false'
+BRANDED: 'false'
+HAS_TRANSFER: 'false'
+PLACES_COUNT: '49'
+FREE_PLACES_COUNT: '10'
+FREE_BUSY_PLACES: 10/49
+CARRIER_ID: 4A5DC2609C320E39E0530300F00A7BFB
+CARRIER_NAME: '"АТМ Транс" ООО'
+TIME_IN_ROAD: '18:10'
+FAKE_TIME_IN_ROAD: 'false'
+STATION_BEGIN_ID: 3206819326B763A8E0530300F00AA4FB
+STATION_BEGIN_NAME: Международный автовокзал "Южные Ворота"
+STATION_BEGIN_ADDRESS: '19-й км МКАД, владение 20, стр. 1, Москва, Россия
+
+'
+STATION_END_ID: 1C7DB38A37BCCE21E0508E5B35570395
+STATION_END_NAME: Центральный автовокзал
+STATION_END_ADDRESS: проспект Науки; дом 1/2
+RESERVATION_ENABLED: 'false'
+SALE_ENABLED: 'true'
+RETURN_ENABLED: 'false'
+TIME_FOR_CANCEL: '40'
+TRIP_FULL_SALE: 'false'
+CAN_DISCOUNT: 'true'
+RECOMMENDED: 'false'
+INTERNATIONAL: 'true'
+JOIN_BOOK_BUY: 'true'
+TRIP_MODE: '1'
+SPECIAL_CONDITIONS: 
+IMAGE_URL: 'null'
+START_POINT_TYPE: 'null'
+VEHICLE_DESCRIPTION: 'null'
+VEHICLE_FEATURES: 'null'
+TOTAL_COST: '1044.95'
+CURRENCY: RUB
+CURRENCY_CODE: '643'
+TARIFF:
+  SHORT_NAME: Y
+  FULL_NAME: Базовый тариф
+  START_DATE: 
+  END_DATE: 
+  DESCRIPTION: |+
+    Базовый тариф стоимости проезда одного пассажиров в одном направлении
+    В стоимость  билета включена стоимость перевозки одного места багажа, весом до 30 кг., на 1 лицо и ручной поклажи весом до 5 кг. размером до 60х40х20 см. При превышении данных лимитов относительно веса и размеров, берется доплата как за дополнительный багаж. Дополнительный багаж перевозится при наличии свободного места в багажном отделении автобуса, за который берется доплата в размере 10 % от стоимости билета за одно дополнительное багажное место.
+
+  TIME_TO_BUY_RESERVED: '24'
+  TIME_TO_STOP_BOOKING: '48'
+  TIME_TO_PAY_RESERVATION: 
+  COST: '1044.95'
+  INSURANCE_COST: '0'
+  INSURANCE_ID: 
+  INSURANCE_SUM: '0'
+  INSURANCE_CUR: 
+  AFTER_DISPATCH_NO_RETURN: 'true'
+  PASSENGER_BIRTHDAY: 
+  PASSENGER_ISIC_NUMBER: 
+  PASSENGER_STUDENT_TICKET: 
+  NOTE: 
+  RETURN_CAUSE:
+  - max_time: '10'
+    min_time: "-1440000"
+    percent: '0'
+    __content__: Принудительно, при отмене рейса. Ориентировочная сумма возврата 1044.95RUB
+  - max_time: '10'
+    min_time: '10'
+    percent: '45.00'
+    __content__: Добровільно ДБ 4, менш ніж за 10 хвилин до відправлення рейсу. Ориентировочная
+      сумма возврата 574.72RUB
+  - max_time: '120'
+    min_time: '10'
+    percent: '35.00'
+    __content__: ДБ 3, не менш ніж за 10 хвилин до відправлення рейсу. Ориентировочная
+      сумма возврата 679.21RUB
+  - max_time: '1440'
+    min_time: '120'
+    percent: '25.00'
+    __content__: Добровольно,  более чем за 2 ч., до отправления рейса. Ориентировочная
+      сумма возврата 783.71RUB
+  - min_time: '1440'
+    percent: '15.00'
+    __content__: не менше ніж за 24 години до відправлення рейсу. Ориентировочная
+      сумма возврата 888.2RUB
+  PROMOTE: 'false'
+POINT:
+- NUMBER: '0'
+  GEOGRAPHY_NAME: Москва
+  NAME: Международный автовокзал "Южные Ворота"
+  ADDRESS: '19-й км МКАД, владение 20, стр. 1, Москва, Россия
+
+'
+  TIMEZONE: 
+  ARRIVAL_DATE: 10.06.2017
+  ARRIVAL_TIME: 
+  DISPATCH_DATE: 10.06.2017
+  DISPATCH_TIME: '21:20'
+  CHECK_POINT: 'false'
+  DISTANCE: '0'
+  TRANSFER_POINT: 'false'
+  PLATFORM: 
+  BUSMODEL: 'Неоплан '
+- NUMBER: '1'
+  GEOGRAPHY_NAME: Москва
+  NAME: Автостанция "Красногвардейская"
+  ADDRESS: метро Красногвардейская; бульвар Ореховый; дом 24к1Г
+  TIMEZONE: 
+  ARRIVAL_DATE: 10.06.2017
+  ARRIVAL_TIME: '21:40'
+  DISPATCH_DATE: 10.06.2017
+  DISPATCH_TIME: '22:00'
+  CHECK_POINT: 'false'
+  DISTANCE: '5'
+  TRANSFER_POINT: 'false'
+  PLATFORM: 
+  BUSMODEL: 'Неоплан '
+- NUMBER: '2'
+  GEOGRAPHY_NAME: Орел
+  NAME: Автовокзал "Орел"
+  ADDRESS: улица  Автовокзальная; дом 1
+  TIMEZONE: 
+  ARRIVAL_DATE: 11.06.2017
+  ARRIVAL_TIME: '05:05'
+  DISPATCH_DATE: 11.06.2017
+  DISPATCH_TIME: '05:30'
+  CHECK_POINT: 'false'
+  DISTANCE: '371'
+  TRANSFER_POINT: 'false'
+  PLATFORM: 
+  BUSMODEL: 'Неоплан '
+- NUMBER: '3'
+  GEOGRAPHY_NAME: Железногорск
+  NAME: Автовокзал   "Железногорск"
+  ADDRESS: улица  Советской Армии; дом 8
+  TIMEZONE: 
+  ARRIVAL_DATE: 11.06.2017
+  ARRIVAL_TIME: '07:20'
+  DISPATCH_DATE: 11.06.2017
+  DISPATCH_TIME: '07:30'
+  CHECK_POINT: 'false'
+  DISTANCE: '466'
+  TRANSFER_POINT: 'false'
+  PLATFORM: 
+  BUSMODEL: 'Неоплан '
+- NUMBER: '4'
+  GEOGRAPHY_NAME: Хомутовка
+  NAME: АС
+  ADDRESS: ул. Ленина, 5
+  TIMEZONE: 
+  ARRIVAL_DATE: 11.06.2017
+  ARRIVAL_TIME: '08:45'
+  DISPATCH_DATE: 11.06.2017
+  DISPATCH_TIME: '08:50'
+  CHECK_POINT: 'false'
+  DISTANCE: '534'
+  TRANSFER_POINT: 'false'
+  PLATFORM: 
+  BUSMODEL: 'Неоплан '
+- NUMBER: '5'
+  GEOGRAPHY_NAME: Бачевск КПП(Украина-Россия)
+  NAME: 
+  ADDRESS: 
+  TIMEZONE: 
+  ARRIVAL_DATE: 11.06.2017
+  ARRIVAL_TIME: '09:05'
+  DISPATCH_DATE: 11.06.2017
+  DISPATCH_TIME: '09:45'
+  CHECK_POINT: 'true'
+  DISTANCE: '557'
+  TRANSFER_POINT: 'false'
+  PLATFORM: 
+  BUSMODEL: 'Неоплан '
+- NUMBER: '6'
+  GEOGRAPHY_NAME: Глухов
+  NAME: Остановка Глухов
+  ADDRESS: улица Путивльская; дом 39А
+  TIMEZONE: 
+  ARRIVAL_DATE: 11.06.2017
+  ARRIVAL_TIME: '10:15'
+  DISPATCH_DATE: 11.06.2017
+  DISPATCH_TIME: '10:35'
+  CHECK_POINT: 'false'
+  DISTANCE: '594'
+  TRANSFER_POINT: 'false'
+  PLATFORM: 
+  BUSMODEL: 'Неоплан '
+- NUMBER: '7'
+  GEOGRAPHY_NAME: Киев
+  NAME: Центральный автовокзал
+  ADDRESS: проспект Науки; дом 1/2
+  TIMEZONE: 
+  ARRIVAL_DATE: 11.06.2017
+  ARRIVAL_TIME: '15:30'
+  DISPATCH_DATE: 11.06.2017
+  DISPATCH_TIME: '16:00'
+  CHECK_POINT: 'false'
+  DISTANCE: '914'
+  TRANSFER_POINT: 'false'
+  PLATFORM: 
+  BUSMODEL: 'Неоплан '
+EXTRA_CHARGE: '0.0'
+

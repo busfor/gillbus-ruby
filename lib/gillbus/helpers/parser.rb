@@ -3,6 +3,13 @@ require 'active_support/time'
 
 class Gillbus
   class Parser
+    NULL_CONST = 'null'.freeze
+    TRUE_CONST = 'true'.freeze
+    YES_CONST = 'Y'.freeze
+    DATE_FORMAT_CONST = '%d.%m.%Y'.freeze
+    TIME_FORMAT_REGEXP = /^ ( \d\d:\d\d ) (?: :\d\d )? $/x.freeze
+    DEFAULT_TIMEZONE = 'Europe/Kiev'.freeze
+
     attr_accessor :doc
     attr_accessor :instance
     attr_accessor :fields
@@ -45,6 +52,9 @@ class Gillbus
     def make_one_or_many(type, val)
       # [:type]
       if type.is_a? Array
+        if val.is_a?(Array) && val[0].is_a?(Hash) && !val[0].has_key?('__content__')
+          val = [val] if val[1].is_a?(String) # hack to handle attribute parsing by Ox
+        end
         array(val).map { |v| make_one type.first, v }
       # :type
       else
@@ -70,16 +80,16 @@ class Gillbus
     end
 
     def string(val)
-      return if val == 'null'
+      return if val == NULL_CONST
       val
     end
 
     def bool(val)
-      val == 'true'
+      val == TRUE_CONST
     end
 
     def yesno_bool(val)
-      val == 'Y'
+      val == YES_CONST
     end
 
     def int(val)
@@ -87,12 +97,12 @@ class Gillbus
     end
 
     def date(val)
-      Date.strptime(val, '%d.%m.%Y')
+      Date.strptime(val, DATE_FORMAT_CONST)
     end
 
     # rubocop:disable Style/GuardClause, Style/IfUnlessModifier
     def time(val)
-      if val =~ /^ ( \d\d:\d\d ) (?: :\d\d )? $/x
+      if val =~ TIME_FORMAT_REGEXP
         $1
       end
     end
@@ -109,7 +119,7 @@ class Gillbus
     end
 
     def default_timezone
-      @options[:timezone] || 'Europe/Kiev'
+      @options[:timezone] || DEFAULT_TIMEZONE
     end
 
     def decimal(val)

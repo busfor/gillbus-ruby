@@ -181,6 +181,7 @@ class Gillbus
     def self.parse(doc, instance: nil, parent: nil, options: {})
       instance = super
       instance.data = doc
+      instance.options = TripOptions.build_blank if instance.options.nil?
       instance
     end
   end

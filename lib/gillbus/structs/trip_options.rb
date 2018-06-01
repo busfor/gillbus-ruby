@@ -39,5 +39,13 @@ class Gillbus
         vals.include?('BUSFOR_RECOMMEND')
       end
     end
+
+    def self.build_blank
+      options = new
+      field_definitions.each do |name:, type:, key:, root:|
+        options.send(:"#{name}=", []) if type.is_a?(Array)
+      end
+      options
+    end
   end
 end

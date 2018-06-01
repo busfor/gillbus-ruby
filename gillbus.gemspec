@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'faraday'
   spec.add_dependency 'monetize'
   spec.add_dependency 'money'
-  spec.add_dependency 'multi_xml'
+  spec.add_dependency 'ox', '~> 2.9'
 
   spec.add_development_dependency 'bundler', '~> 1.6'
   spec.add_development_dependency 'minitest'
