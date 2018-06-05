@@ -25,7 +25,9 @@ class Gillbus
       request_class = klass::Request
       response_class = klass::Response
       request = request_class.new(*args)
-      headers = { 'Cookie' => "JSESSIONID=#{session_id}" } if session_id
+      headers = {}
+      headers['Cookie'] = "JSESSIONID=#{session_id}" if session_id
+      headers['Accept-Encoding'] = 'gzip'
       request_time_start = Time.now
       http_response = driver.public_send(request.method, request.path, request.params, headers)
       request_time_end = Time.now
