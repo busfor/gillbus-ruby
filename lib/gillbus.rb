@@ -96,4 +96,5 @@ class Gillbus
   require 'gillbus/get_order_status'
   require 'gillbus/logout'
   require 'gillbus/return_position'
+  require 'gillbus/return_position_forced'
 end
