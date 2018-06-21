@@ -6,7 +6,7 @@ class Gillbus
       def path; '/online2/returnPositionForced'; end
     end
 
-    class Response < BaseResponse
+    class Response < ::Gillbus::ReturnPosition::Response
       class ReturnPositionForced < ::Gillbus::ReturnPosition::Response::ReturnPosition
       end
     end
