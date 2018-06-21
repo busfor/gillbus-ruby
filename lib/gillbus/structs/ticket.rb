@@ -1,5 +1,15 @@
 class Gillbus
   class Ticket
+    STATUS_MAPPING = {
+      '1' => :reserved,     # ticket booked;
+      '2' => :ticketed,     # ticket sold;
+      '3' => :ordered,      # the booking, that waiting for the confirmation;
+      '4' => :returned,     # ticket returned;
+      '5' => :canceled,     # booking cancelled;
+      '6' => :voided,       # ticket cancelled;
+      '8' => :booked,       # the sale, that waiting for the confirmation
+    }.freeze
+
     extend Fields
     include UpdateAttrs
 
@@ -273,15 +283,7 @@ class Gillbus
 
     parser do
       def ticket_status(value)
-        {
-          '1' => :reserved,     # ticket booked;
-          '2' => :ticketed,     # ticket sold;
-          '3' => :ordered,      # the booking, that waiting for the confirmation;
-          '4' => :returned,     # ticket returned;
-          '5' => :canceled,     # booking cancelled;
-          '6' => :voided,       # ticket cancelled;
-          '8' => :booked,       # the sale, that waiting for the confirmation
-        }[value]
+        ::Gillbus::Ticket::STATUS_MAPPING[value]
       end
 
       def money(val)
