@@ -9,6 +9,8 @@ class Gillbus
     class Response < ::Gillbus::ReturnPosition::Response
       class ReturnPositionForced < ::Gillbus::ReturnPosition::Response::ReturnPosition
       end
+
+      field :return_positions, [::Gillbus::ReturnPosition::Response::ReturnPosition], key: 'RETURN_POSITION'
     end
   end
 end
