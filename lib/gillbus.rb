@@ -65,6 +65,7 @@ class Gillbus
 
   require 'gillbus/structs/seat'
   require 'gillbus/structs/item'
+  require 'gillbus/structs/carrier'
 
   require 'gillbus/parse_error'
   require 'gillbus/base_request'
@@ -97,4 +98,5 @@ class Gillbus
   require 'gillbus/logout'
   require 'gillbus/return_position'
   require 'gillbus/return_position_forced'
+  require 'gillbus/get_carriers'
 end
