@@ -97,4 +97,5 @@ class Gillbus
   require 'gillbus/logout'
   require 'gillbus/return_position'
   require 'gillbus/return_position_forced'
+  require 'gillbus/get_carriers'
 end
