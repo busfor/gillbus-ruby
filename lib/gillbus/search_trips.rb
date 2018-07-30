@@ -91,6 +91,9 @@ class Gillbus
 
       attr_accessor :insurance_id
 
+      # extendedSearch	number	Признак отображения в результате поиска соседних городов
+      attr_accessor :extended_search
+
       def params
         compact(
           selectedModes:       modes(selected_modes),
@@ -107,6 +110,7 @@ class Gillbus
           onlyBranded:         bool(only_branded),
           tripOptions:         bool(trip_options),
           insuranceId:         insurance_id,
+          extendedSearch:      extended_search,
           **passengers_data,
         )
       end
@@ -132,6 +136,7 @@ class Gillbus
     class Response < BaseResponse
       field :completed, :bool
       field :trips, [Trip], key: 'TRIP'
+      field :nearby_cities, [NearbyTrip], key: 'CITY', root: 'NEARBY_CITIES'
     end
   end
 end
