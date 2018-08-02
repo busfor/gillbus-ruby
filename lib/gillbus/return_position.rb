@@ -33,8 +33,8 @@ class Gillbus
         field :reason_id
         field :date
         field :failures
-        field :returned_amount, :returned_money
-        field :detained_amount, :detained_money
+        field :returned_amount
+        field :detained_amount
       end
 
       field :return_positions, [ReturnPosition], key: 'RETURN_POSITION'
