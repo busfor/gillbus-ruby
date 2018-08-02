@@ -34,17 +34,7 @@ class Gillbus
         field :date
         field :failures
         field :returned_amount, :returned_money
-        field :retained_amount, :retained_money
-
-        parser do
-          def returned_money(val)
-            Monetize.parse(val, doc['RETURNED_CURRENCY'])
-          end
-
-          def retained_money(val)
-            Monetize.parse(val, doc['RETAINED_CURRENCY'])
-          end
-        end
+        field :detained_amount, :detained_money
       end
 
       field :return_positions, [ReturnPosition], key: 'RETURN_POSITION'
