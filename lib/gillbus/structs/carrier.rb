@@ -5,6 +5,7 @@ class Gillbus
 
     field :id
     field :name
+    field :legal_name
     field :inn
   end
 end
