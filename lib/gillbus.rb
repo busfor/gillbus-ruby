@@ -66,6 +66,7 @@ class Gillbus
   require 'gillbus/structs/seat'
   require 'gillbus/structs/item'
   require 'gillbus/structs/carrier'
+  require 'gillbus/structs/nearby_trip'
 
   require 'gillbus/parse_error'
   require 'gillbus/base_request'
