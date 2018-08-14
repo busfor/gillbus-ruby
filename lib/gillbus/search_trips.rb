@@ -136,7 +136,7 @@ class Gillbus
     class Response < BaseResponse
       field :completed, :bool
       field :trips, [Trip], key: 'TRIP'
-      field :nearby_cities, [NearbyTrip], key: 'CITY', root: 'NEARBY_CITIES'
+      field :nearby_cities, [NearbyTrip], key: 'TRIP', root: 'NEARBY_CITIES'
     end
   end
 end
