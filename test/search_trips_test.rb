@@ -243,7 +243,7 @@ class SearchTripsResponseTest < Minitest::Test
   def test_trips_with_nearby_cities
     response = get_trips_with_nearby_cities
     assert response.completed
-    trip = response.nearby_cities.first
+    trip = response.nearby_trips.first
     assert_equal 'Москва', trip.start_city_name
     assert_equal 'Санкт-Петербург', trip.end_city_name
     assert_equal '1200 RUB'.to_money, trip.total_cost
