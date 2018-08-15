@@ -25,6 +25,9 @@ class Gillbus
     # => "Europe/Moscow"
     field :end_timezone
 
+    # => 0
+    field :distance_to_end
+
     # => "22:50"
     field :start_time, :time # XXX
 
