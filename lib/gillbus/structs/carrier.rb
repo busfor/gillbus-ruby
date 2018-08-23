@@ -3,9 +3,9 @@ class Gillbus
     extend Fields
     include UpdateAttrs
 
-    field :id
-    field :name
-    field :legal_name
+    field :id, key: 'CARRIER_ID'
+    field :name, key: 'CARRIER_NAME'
+    field :legal_name, key: 'CARRIER_LEGAL_NAME'
     field :inn
   end
 end
