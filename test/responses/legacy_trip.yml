@@ -1,0 +1,120 @@
+---
+ID: '386911730793662069'
+RES_ID: '0'
+NUMBER: TEST - Москва-Брянск
+START_CITY_NAME: Москва
+END_CITY_NAME: Брянск
+START_TIMEZONE: 
+END_TIMEZONE: 
+START_DATE: 29.12.2017
+END_DATE: 29.12.2017
+START_TIME: '07:00'
+END_TIME: '13:30'
+BUS_MODEL: SCANIA C
+BUS_CLASS: 
+BUS_ID: 
+BUS_FLOORS_NUMBER: '1'
+PLATFORM: 
+TRIP_SEATS_MAP: 'true'
+SHOW_PICKUP_DROPOFF: 'false'
+BRANDED: 'false'
+HAS_TRANSFER: 'false'
+PLACES_COUNT: '51'
+FREE_PLACES_COUNT: '20'
+FREE_BUSY_PLACES: 20/51
+CARRIER_ID: 39E2022747F26FA1E0530300F00A8A55
+CARRIER_NAME: '"Региональные Автобусные Маршруты" ООО'
+TIME_IN_ROAD: '06:30'
+FAKE_TIME_IN_ROAD: 'false'
+STATION_BEGIN_ID: 34C0A393C480628CE0530300F00AE18E
+STATION_BEGIN_NAME: Киевский вокзал
+STATION_BEGIN_ADDRESS: пл. Киевского Вокзала, д. 1
+STATION_END_ID: 357C66C2E3907C1CE0530300F00A3A4E
+STATION_END_NAME: Брянск, ж/д вокзал
+STATION_END_ADDRESS: ул. Речная д. 1
+RESERVATION_ENABLED: 'true'
+SALE_ENABLED: 'true'
+RETURN_ENABLED: 'false'
+TIME_FOR_CANCEL: '40'
+TRIP_FULL_SALE: 'false'
+CAN_DISCOUNT: 'true'
+INTERNATIONAL: 'false'
+JOIN_BOOK_BUY: 'true'
+TRIP_MODE: '1'
+CUSTOM_STATUS: '0'
+SPECIAL_CONDITIONS: 
+REDIRECT_URL: 
+IMAGE_URL: 'null'
+START_POINT_TYPE: 'null'
+VEHICLE_DESCRIPTION: 'null'
+VEHICLE_FEATURES: 'null'
+TOTAL_COST: '550.0'
+CURRENCY: RUB
+CURRENCY_CODE: '643'
+TARIFF:
+  SHORT_NAME: Y
+  FULL_NAME: Базовый тариф
+  START_DATE: 
+  END_DATE: 
+  DESCRIPTION: 'Базовый тариф стоимости проезда одного пассажиров в одном направлении
+
+'
+  TIME_TO_BUY_RESERVED: '2'
+  TIME_TO_STOP_BOOKING: '2'
+  TIME_TO_PAY_RESERVATION: 06.12.2017 18:25:39
+  COST: '550'
+  INSURANCE_COST: '0'
+  INSURANCE_ID: 
+  INSURANCE_SUM: '0'
+  INSURANCE_CUR: 
+  AFTER_DISPATCH_NO_RETURN: 'true'
+  PASSENGER_BIRTHDAY: 
+  PASSENGER_ISIC_NUMBER: 
+  PASSENGER_STUDENT_TICKET: 
+  NOTE: 
+  RETURN_CAUSE:
+  - lossless: 'true'
+    __content__: Без потерь,  более чем за 2 ч., до отправления рейса. Возвращается
+      100% стоимости тарифа. Ориентировочная сумма возврата 550
+  - 'Добровольно,  менее чем за 2 ч., до отправления рейса. Удерживается при возврате:
+    15% тарифа. Ориентировочная сумма возврата 425'
+  - 'Возврат маршрутной квитанции в случае опоздания к отправлению (стоимость не возвращается).
+    Удерживается при возврате: 100% тарифа. Ориентировочная сумма возврата 0'
+  - Возврат маршрутной квитанции по отмене отправления т/с, задержки отправления т/с
+    более чем на час и непредставления пассажиру указанного в билете места. СРОК ОБРАЩЕНИЯ
+    для возврата билета 24 часа с времени отправления. . Возвращается 100% стоимости
+    билета. Ориентировочная сумма возврата 550
+  PROMOTE: 'false'
+  IS_EXCLUSIVE_PRICE: 'false'
+POINT:
+- NUMBER: '0'
+  GEOGRAPHY_NAME: Москва
+  NAME: Киевский вокзал
+  ADDRESS: пл. Киевского Вокзала, д. 1
+  TIMEZONE: 
+  ARRIVAL_DATE: 29.12.2017
+  ARRIVAL_TIME: 
+  DISPATCH_DATE: 29.12.2017
+  DISPATCH_TIME: '07:00'
+  CHECK_POINT: 'false'
+  DISTANCE: '0'
+  TRANSFER_POINT: 'false'
+  PLATFORM: 
+  BUSMODEL: 
+  AGREED: 'true'
+- NUMBER: '1'
+  GEOGRAPHY_NAME: Брянск
+  NAME: Остановка Брянск
+  ADDRESS: улица Речная; дом 1
+  TIMEZONE: 
+  ARRIVAL_DATE: 29.12.2017
+  ARRIVAL_TIME: '13:30'
+  DISPATCH_DATE: 29.12.2017
+  DISPATCH_TIME: 
+  CHECK_POINT: 'false'
+  DISTANCE: '390'
+  TRANSFER_POINT: 'false'
+  PLATFORM: 
+  BUSMODEL: 
+  AGREED: 'true'
+EXTRA_CHARGE: '0.0'
