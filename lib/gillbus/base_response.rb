@@ -13,11 +13,15 @@ class Gillbus
     attr_accessor :external_error_message
     attr_accessor :request_time
 
+    attr_accessor :raw_xml # make accessible for logging and debuging
+
     def error?
       !error_code.nil?
     end
 
     def self.parse(data, instance: new, options: {})
+      instance.raw_xml = options[:raw_xml] if options[:raw_xml]
+
       # ugly
       if data['MESSAGE']
         instance.error_code = data['MESSAGE']['CODE'].to_i
@@ -36,7 +40,7 @@ class Gillbus
       # <DATA/> is a valid response
       return ParseError.new(xml_string, 'DATA attribute missing') unless xml.key?('DATA')
       data = xml['DATA'] || {}
-      parse(data, instance: new, options: options)
+      parse(data, instance: new, options: options.merge(raw_xml: xml_string))
     rescue Ox::ParseError, ArgumentError => e
       ParseError.new(xml_string, e.message)
     end
