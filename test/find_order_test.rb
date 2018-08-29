@@ -36,4 +36,8 @@ class FindOrderTest < Minitest::Test
   def test_comission_currency
     assert_equal(Money.new(51_55, 'RUB'), find_order2.tickets.last.commissions.last.value)
   end
+
+  def test_online_refund
+    assert_equal(true, find_order.tickets.first.is_online_refund)
+  end
 end

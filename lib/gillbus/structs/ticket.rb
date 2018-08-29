@@ -281,6 +281,8 @@ class Gillbus
 
     field :end_at, :datetime_combined, key: 'END'
 
+    field :is_online_refund, :bool
+
     parser do
       def ticket_status(value)
         ::Gillbus::Ticket::STATUS_MAPPING[value]
