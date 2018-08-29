@@ -113,6 +113,7 @@
             <APPROXIMATE_AMOUNT>20.46</APPROXIMATE_AMOUNT>
             <CAUSE>Принудительно. Отмена рейса</CAUSE>
         </RETURN_CAUSE>
+        <IS_ONLINE_REFUND>true</IS_ONLINE_REFUND>
         <COMMISSION>
             <TYPE>2</TYPE>
             <CODE>YS</CODE>
@@ -260,6 +261,7 @@
             <APPROXIMATE_AMOUNT>20.46</APPROXIMATE_AMOUNT>
             <CAUSE>Принудительно. Отмена рейса</CAUSE>
         </RETURN_CAUSE>
+        <IS_ONLINE_REFUND>false</IS_ONLINE_REFUND>
         <COMMISSION>
             <TYPE>2</TYPE>
             <CODE>YS</CODE>
