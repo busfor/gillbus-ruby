@@ -136,6 +136,9 @@ class Gillbus
     # => "643"
     field :currency_code
 
+    # => true
+    field :has_transfer, :bool
+
     field :tariffs, [:tariff], key: 'TARIFF'
 
     field :points, [Point], key: 'POINT'
