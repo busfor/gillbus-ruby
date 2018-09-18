@@ -66,7 +66,7 @@ class Gillbus
   require 'gillbus/structs/seat'
   require 'gillbus/structs/item'
   require 'gillbus/structs/carrier'
-  require 'gillbus/structs/nearby_trip'
+  require 'gillbus/structs/nearby_cities_trip'
 
   require 'gillbus/parse_error'
   require 'gillbus/base_request'
@@ -81,6 +81,7 @@ class Gillbus
   require 'gillbus/get_time_table'
   require 'gillbus/get_dates_new'
   require 'gillbus/search_trips'
+  require 'gillbus/search_nearby_trips'
   require 'gillbus/get_trips'
   require 'gillbus/get_trip_seats'
   require 'gillbus/get_bus_image'

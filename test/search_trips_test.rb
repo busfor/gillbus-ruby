@@ -65,10 +65,6 @@ class SearchTripsResponseTest < Minitest::Test
     Gillbus::SearchTrips::Response.parse_string(File.read('test/responses/searchTrips-insurance.xml'))
   end
 
-  def get_trips_with_nearby_cities
-    Gillbus::SearchTrips::Response.parse_string(File.read('test/responses/searchTrips-nearby.xml'))
-  end
-
   def test_empty_completed
     response = get_empty_search_trips
     assert response.completed
@@ -238,16 +234,5 @@ class SearchTripsResponseTest < Minitest::Test
     assert_equal '100 RUB'.to_money, tariff.insurance_cost
     assert_equal 1, tariff.insurance_id
     assert_equal '100000 RUB'.to_money, tariff.insurance_sum
-  end
-
-  def test_trips_with_nearby_cities
-    response = get_trips_with_nearby_cities
-    assert response.completed
-    trip = response.nearby_trips.first
-    assert_equal 'Москва', trip.start_city_name
-    assert_equal 'Санкт-Петербург', trip.end_city_name
-    assert_equal '1200 RUB'.to_money, trip.total_cost
-    assert_equal '"Авто-Транс-Ком" ООО ', trip.carrier_name
-    assert_equal '21:30', trip.start_time
   end
 end
