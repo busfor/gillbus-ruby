@@ -81,6 +81,7 @@ class Gillbus
   require 'gillbus/get_time_table'
   require 'gillbus/get_dates_new'
   require 'gillbus/search_trips'
+  require 'gillbus/search_nearby_trips'
   require 'gillbus/get_trips'
   require 'gillbus/get_trip_seats'
   require 'gillbus/get_bus_image'
