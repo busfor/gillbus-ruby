@@ -2,13 +2,13 @@ require 'test_helper'
 
 class SearchNearbyTripsRequestTest < Minitest::Test
   def get_trips_with_nearby_cities
-    Gillbus::SearchNearbyTrips::Response.parse_string(File.read('test/responses/searchTripsNearby.xml'))
+    Gillbus::SearchTripNearbyCities::Response.parse_string(File.read('test/responses/searchTripsNearby.xml'))
   end
 
   def test_trips_with_nearby_cities
     response = get_trips_with_nearby_cities
     assert response.completed
-    trip = response.nearby_trips.first
+    trip = response.trips.first
     assert_equal 'Москва', trip.start_city_name
     assert_equal 'Ярославль', trip.end_city_name
     assert_equal '465.5 RUB'.to_money, trip.total_cost

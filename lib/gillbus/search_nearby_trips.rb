@@ -1,6 +1,6 @@
 class Gillbus
-  module SearchNearbyTrips
-    Gillbus.register self, :search_nearby_trips
+  module SearchTripNearbyCities
+    Gillbus.register self, :search_nearby_cities_trips
 
     class Request < BaseRequest
       def path; '/online2/searchTripNearbyCities' end
@@ -33,8 +33,7 @@ class Gillbus
 
     class Response < BaseResponse
       field :completed, :bool
-      field :trips, [Trip], key: 'TRIP'
-      field :nearby_trips, [NearbyTrip], key: 'TRIP', root: 'NEARBY_CITIES'
+      field :trips, [NearbyCitiesTrip], key: 'TRIP', root: 'NEARBY_CITIES'
     end
   end
 end

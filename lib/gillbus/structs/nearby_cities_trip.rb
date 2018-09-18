@@ -1,6 +1,6 @@
 # результаты поиска по соседним городам, берется из кеша и содержит меньше данных, чем поездка из выдачи
 class Gillbus
-  class NearbyTrip
+  class NearbyCitiesTrip
     extend Fields
     include UpdateAttrs
 
