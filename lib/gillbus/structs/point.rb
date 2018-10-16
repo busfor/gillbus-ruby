@@ -33,5 +33,7 @@ class Gillbus
     # Признак наличия пересадки в пункте
     # => "false"
     field :transfer_point, :bool
+
+    field :distance, :int
   end
 end

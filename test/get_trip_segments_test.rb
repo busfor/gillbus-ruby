@@ -13,5 +13,6 @@ class GetTripSegmentsTest < Minitest::Test
     assert_equal('Ж/Д вокзал Львів', points.first.name)
     assert_equal('Щецин', points.last.geography_name)
     assert_equal('Автовокзал', points.last.name)
+    assert_equal(1055, points.last.distance)
   end
 end
