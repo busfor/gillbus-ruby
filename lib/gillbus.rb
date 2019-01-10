@@ -26,7 +26,7 @@ class Gillbus
       response_class = klass::Response
       request = request_class.new(*args)
       headers = {}
-      headers['Cookie'] = "JSESSIONID=#{session_id}" if session_id
+      headers['Cookie'] = self.class.make_cookies(session_id) if session_id
       headers['Accept-Encoding'] = 'gzip'
       request_time_start = Time.now
       http_response = driver.public_send(request.method, request.path, request.params, headers)
@@ -34,12 +34,30 @@ class Gillbus
       result = response_class.parse_string(http_response.body.force_encoding('utf-8'), timezone: timezone)
       cookie_string = http_response.headers['Set-Cookie']
       if cookie_string
-        returned_session_id = CGI::Cookie.parse(cookie_string)['JSESSIONID'].first
-        self.session_id = returned_session_id
+        self.session_id = self.class.make_session_id(CGI::Cookie.parse(cookie_string))
       end
       result.session_id = session_id
       result.request_time = request_time_end - request_time_start
       result
+    end
+  end
+
+  def self.make_cookies(session_id)
+    if session_id.include?('|')
+      session_id, gclb = session_id.split('|')
+      "JSESSIONID=#{session_id}; GCLB=#{gclb}"
+    else
+      "JSESSIONID=#{session_id}"
+    end
+  end
+
+  def self.make_session_id(parsed_cookies)
+    gclb = parsed_cookies['GCLB'].first
+    session_id = parsed_cookies['JSESSIONID'].first
+    if gclb.present?
+      [session_id, gclb].join('|')
+    else
+      session_id
     end
   end
 
