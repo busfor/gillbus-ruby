@@ -89,8 +89,6 @@ class Gillbus
       # По умолчанию услуги не возвращаются.
       attr_accessor :trip_options
 
-      attr_accessor :insurance_id
-
       def params
         compact(
           selectedModes:       modes(selected_modes),
@@ -106,7 +104,6 @@ class Gillbus
           waitTimeout:         wait_timeout,
           onlyBranded:         bool(only_branded),
           tripOptions:         bool(trip_options),
-          insuranceId:         insurance_id,
           **passengers_data,
         )
       end

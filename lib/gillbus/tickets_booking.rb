@@ -148,9 +148,6 @@ class Gillbus
         attr_accessor :discount
 
 
-        attr_accessor :insurance_id
-        attr_accessor :insurance_cost
-
         def params(prefix = '')
           compact(
             birthday: date(birthday),
@@ -166,8 +163,6 @@ class Gillbus
             citizenship: citizenship,
             gender: gender,
             discountValue: discount.to_f.to_s,
-            insuranceId: insurance_id,
-            insurance: insurance_cost,
           ).map { |k, v| [:"#{prefix}#{k}", v] }.to_h
         end
 
