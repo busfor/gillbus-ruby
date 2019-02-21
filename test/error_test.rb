@@ -22,7 +22,7 @@ class ErrorTest < Minitest::Test
 
   def test_malformed_errorness
     assert malformed_response.error?
-    assert_equal "Malformed response: invalid format, expected < at line 1, column 1 [parse.c:146]\n", malformed_response.error_message
+    assert malformed_response.error_message.include?("Malformed response: invalid format")
   end
 
   def test_malformed_2_errorness
