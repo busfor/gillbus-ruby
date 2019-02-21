@@ -30,6 +30,10 @@ class Gillbus
     # признак рекомендованого рейса, передается как <PROMO><ITEM>BUSFOR_RECOMMEND</ITEM></PROMO>
     field :busfor_recommend, :recommend_bool, root: 'PROMO', key: 'ITEM'
 
+    # опции, связанные с билетами
+    # элемент с ID="7" означает электронный билет
+    field :tickets, [TicketsOption], root: 'TICKETS', key: 'TICKET'
+
     parser do # better not to let flag value out of this gem
       def adertising_bool(vals)
         vals.include?('ADVERTISING')
