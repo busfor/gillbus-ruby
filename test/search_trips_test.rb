@@ -156,7 +156,8 @@ class SearchTripsResponseTest < Minitest::Test
     assert_equal luggage_options, options.luggage
     assert_equal seating_options, options.seating
     assert_equal technical_stops, options.technical_stops
-    assert_equal critical_info, options.critical_info
+    assert_equal critical_info, options.critical_info.map(&:text)
+    assert_equal [nil], options.critical_info.map(&:id)
     assert_equal resource_options, options.resource_options
     assert_equal other_options, options.other
     assert options.advertising

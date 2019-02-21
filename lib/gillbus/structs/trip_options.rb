@@ -16,7 +16,7 @@ class Gillbus
     field :technical_stops, [:string], root: 'TECHNICAL_STOP', key: 'ITEM'
 
     # критичная информация о рейсе
-    field :critical_info, [:string], root: 'CRITICAL_INFO', key: 'ITEM'
+    field :critical_info, [TripOption], root: 'CRITICAL_INFO', key: 'ITEM'
 
     # опции полученные от внешних ресурсов
     field :resource_options, [:string], root: 'RESOURCE_TRIP_OPTION', key: 'ITEM'
