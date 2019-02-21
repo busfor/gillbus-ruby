@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'money'
   spec.add_dependency 'ox', '~> 2.9'
 
-  spec.add_development_dependency 'bundler'
+  spec.add_development_dependency 'bundler', '~> 1.6'
   spec.add_development_dependency 'minitest'
   spec.add_development_dependency 'pry'
   spec.add_development_dependency 'rake'
