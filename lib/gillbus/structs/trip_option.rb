@@ -13,6 +13,10 @@ class Gillbus
       instance = new
       if doc.is_a?(String)
         instance.text = doc
+      elsif doc.is_a?(Array)
+        raise ArgumentError, "Unable to parse TripOption: #{doc.inspect}" unless doc.size == 2
+        instance.id = doc.first.fetch('ID').to_i
+        instance.text = doc.last
       elsif doc.is_a?(Hash) #legacy data made with MultiXML
         instance.id = doc.fetch('ID')
         instance.text = doc.fetch('__content__')

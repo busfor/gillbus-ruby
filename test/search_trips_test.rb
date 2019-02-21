@@ -141,7 +141,9 @@ class SearchTripsResponseTest < Minitest::Test
     ]
     critical_info = [
       'ВНИМАНИЕ: Особые условия паспортного режима пересечения пропускного пункта (только с паспортами РБ и РФ).',
+      'ЭЛЕКТРОННЫЙ БИЛЕТ. Печать билета не требуется!',
     ]
+    critical_info_ids = [nil, 7]
     resource_options = [
       'Посадка начинается за 10 мин.',
     ]
@@ -157,7 +159,7 @@ class SearchTripsResponseTest < Minitest::Test
     assert_equal seating_options, options.seating
     assert_equal technical_stops, options.technical_stops
     assert_equal critical_info, options.critical_info.map(&:text)
-    assert_equal [nil], options.critical_info.map(&:id)
+    assert_equal critical_info_ids, options.critical_info.map(&:id)
     assert_equal resource_options, options.resource_options
     assert_equal other_options, options.other
     assert options.advertising
