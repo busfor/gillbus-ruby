@@ -134,6 +134,9 @@
                 <ITEM>BUSFOR_RECOMMEND</ITEM>
                 <ITEM>ADVERTISING</ITEM>
             </PROMO>
+            <TICKETS>
+                <TICKET ID="7">ЭЛЕКТРОННЫЙ БИЛЕТ. Печать билета не требуется!</TICKET>
+            </TICKETS>
         </OPTIONS>
     </TRIP>
     <TRIP>

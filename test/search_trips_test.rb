@@ -150,6 +150,10 @@ class SearchTripsResponseTest < Minitest::Test
       'Трансфер',
       'Cкидка при покупке раунд-трипа',
     ]
+    titckets_options = [
+      'ЭЛЕКТРОННЫЙ БИЛЕТ. Печать билета не требуется!',
+    ]
+    titckets_options_ids = [7]
 
     assert_equal services.values, options.services.map(&:name)
     assert_equal services.keys, options.services.map(&:id)
@@ -159,6 +163,8 @@ class SearchTripsResponseTest < Minitest::Test
     assert_equal critical_info, options.critical_info
     assert_equal resource_options, options.resource_options
     assert_equal other_options, options.other
+    assert_equal titckets_options, options.tickets.map(&:text)
+    assert_equal titckets_options_ids, options.tickets.map(&:id)
     assert options.advertising
     assert options.busfor_recommend
   end
