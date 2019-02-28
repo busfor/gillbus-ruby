@@ -6,6 +6,10 @@ class Gillbus
     # => "393409381686201016"
     field :id
 
+    # Уникальный идентификатор
+    # => "20e4e7c8f5b75506b7447a108d362c0d"
+    field :static_trip_id
+
     # Идентификатор стороннего поставщика. 0 - gillbus
     # => "0"
     field :res_id
