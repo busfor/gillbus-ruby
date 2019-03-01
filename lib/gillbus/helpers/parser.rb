@@ -40,12 +40,15 @@ class Gillbus
     private
 
     def fetch_value(key:, root:)
+      target_doc = root ? doc[root] : doc
+      return unless target_doc
+
       if key.is_a?(Regexp)
-        doc.select { |k| k =~ key }
-      elsif root
-        doc[root] && doc[root][key]
+        target_doc.select { |k| k =~ key }
+      elsif key.is_a?(Array)
+        key.map { |k| Array(target_doc[k]) }.inject(&:+)
       else
-        doc[key]
+        target_doc[key]
       end
     end
 
