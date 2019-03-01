@@ -84,6 +84,8 @@ class Gillbus
 
     def string(val)
       return if val == NULL_CONST
+      # если это тег с атрибутами - возвращаем только содержимое тега
+      return val.last if val.is_a?(Array) && val.size == 2
       val
     end
 
