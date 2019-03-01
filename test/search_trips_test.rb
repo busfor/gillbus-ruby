@@ -53,6 +53,10 @@ class SearchTripsResponseTest < Minitest::Test
     Gillbus::SearchTrips::Response.parse_string(File.read('test/responses/searchTrips-prod.xml'))
   end
 
+  def get_successful_search_trips_with_new_options_format
+    Gillbus::SearchTrips::Response.parse_string(File.read('test/responses/searchTrips-new-options-format.xml'))
+  end
+
   def get_successful_search_trips_with_bad_data
     Gillbus::SearchTrips::Response.parse_string(File.read('test/responses/searchTrips-prod-invalid.xml'))
   end
@@ -122,6 +126,55 @@ class SearchTripsResponseTest < Minitest::Test
 
   def test_options_parsing
     response = get_successful_search_trips
+    options = response.trips.first.options
+
+    services = {
+      1 => 'Кофе',
+      15 => 'Wi-Fi',
+    }
+    luggage_options = [
+      'В стоимость входит провоз 2 единиц багажа свыше 80 кг.',
+      'Ручная кладь 20см x 40см x 30см входит в стоимость билета.',
+      'Превышение по багажу оплачивается в размере 1% от стоимости тарифа.',
+    ]
+    seating_options = [
+      'Свободная рассадка.',
+    ]
+    technical_stops = [
+      'Технические остановки осуществляются каждые 2-3 часа.',
+    ]
+    critical_info = [
+      'ВНИМАНИЕ: Особые условия паспортного режима пересечения пропускного пункта (только с паспортами РБ и РФ).',
+    ]
+    resource_options = [
+      'Посадка начинается за 10 мин.',
+    ]
+    other_options = [
+      'Переправа',
+      'Трансфер',
+      'Cкидка при покупке раунд-трипа',
+    ]
+    titckets_options = [
+      'ЭЛЕКТРОННЫЙ БИЛЕТ. Печать билета не требуется!',
+    ]
+    titckets_options_ids = [7]
+
+    assert_equal services.values, options.services.map(&:name)
+    assert_equal services.keys, options.services.map(&:id)
+    assert_equal luggage_options, options.luggage
+    assert_equal seating_options, options.seating
+    assert_equal technical_stops, options.technical_stops
+    assert_equal critical_info, options.critical_info
+    assert_equal resource_options, options.resource_options
+    assert_equal other_options, options.other
+    assert_equal titckets_options, options.tickets.map(&:text)
+    assert_equal titckets_options_ids, options.tickets.map(&:id)
+    assert options.advertising
+    assert options.busfor_recommend
+  end
+
+  def test_new_options_format
+    response = get_successful_search_trips_with_new_options_format
     options = response.trips.first.options
 
     services = {

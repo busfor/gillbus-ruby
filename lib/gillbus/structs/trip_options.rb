@@ -3,45 +3,91 @@ class Gillbus
     extend Fields
     include UpdateAttrs
 
-    # услуги на рейсе (Wi-Fi, розетки и т.п.)
-    field :services, [TripService], root: 'TRIP_SERVICES', key: 'TRIP_SERVICE'
+    # Услуги на рейсе (Wi-Fi, розетки и т.п.)
+    field :services, [TripService],
+      root: 'TRIP_SERVICES',
+      key: 'TRIP_SERVICE'
 
-    # условия по багажу на рейсе
-    field :luggage, [:string], root: 'LUGGAGE', key: 'ITEM'
+    # Условия по багажу на рейсе.
+    # Поддерживаются старый и новый форматы:
+    #   <LUGGAGE>
+    #     <ITEM>Text</ITEM>
+    #     <LUGGAG ID="1">Text</LUGGAG>
+    #   </LUGGAGE>
+    field :luggage, [:string],
+      root: 'LUGGAGE',
+      key: ['ITEM', 'LUGGAG']
 
-    # условия рассадки на рейсе
-    field :seating, [:string], root: 'SEATING', key: 'ITEM'
+    # Условия рассадки на рейсе.
+    # Поддерживаются старый и новый форматы:
+    #   <SEATING>
+    #     <ITEM>Text</ITEM>
+    #     <SEATIN ID="1">Text</SEATIN>
+    #   </SEATING>
+    field :seating, [:string],
+      root: 'SEATING',
+      key: ['ITEM', 'SEATIN']
 
-    # информация о технических остановках
-    field :technical_stops, [:string], root: 'TECHNICAL_STOP', key: 'ITEM'
+    # Информация о технических остановках.
+    # Поддерживаются старый и новый форматы:
+    #   <TECHNICAL_STOP>
+    #     <ITEM>Text</ITEM>
+    #     <TECHNICAL_STO ID="1">Text</TECHNICAL_STO>
+    #   </TECHNICAL_STOP>
+    field :technical_stops, [:string],
+      root: 'TECHNICAL_STOP',
+      key: ['ITEM', 'TECHNICAL_STO']
 
-    # критичная информация о рейсе
-    field :critical_info, [:string], root: 'CRITICAL_INFO', key: 'ITEM'
+    # Критичная информация о рейсе.
+    # Поддерживаются старый и новый форматы:
+    #   <CRITICAL_INFO>
+    #     <ITEM>Text</ITEM>
+    #     <CRITICAL_INF ID="1">Text</CRITICAL_INF>
+    #   </CRITICAL_INFO>
+    field :critical_info, [:string],
+      root: 'CRITICAL_INFO',
+      key: ['ITEM', 'CRITICAL_INF']
 
-    # опции полученные от внешних ресурсов
-    field :resource_options, [:string], root: 'RESOURCE_TRIP_OPTION', key: 'ITEM'
+    # Опции полученные от внешних ресурсов.
+    # Поддерживаются старый и новый форматы:
+    #   <RESOURCE_TRIP_OPTION>
+    #     <ITEM>Text</ITEM>
+    #     <RESOURCE_TRIP_OPTIO ID="1">Text</RESOURCE_TRIP_OPTIO>
+    #   </RESOURCE_TRIP_OPTION>
+    field :resource_options, [:string],
+      root: 'RESOURCE_TRIP_OPTION',
+      key: ['ITEM', 'RESOURCE_TRIP_OPTIO']
 
-    # информация, отмеченная как "прочее"
-    field :other, [:string], root: 'OTHER', key: 'ITEM'
+    # Информация, отмеченная как "прочее".
+    # Поддерживаются старый и новый форматы:
+    #   <OTHER>
+    #     <ITEM>Text</ITEM>
+    #     <OTHE ID="1">Text</OTHE>
+    #   </OTHER>
+    field :other, [:string],
+      root: 'OTHER',
+      key: ['ITEM', 'OTHE']
 
-    # признак рекламируемого рейса, передается как <PROMO><ITEM>ADVERTISING</ITEM></PROMO>
-    field :advertising, :adertising_bool, root: 'PROMO', key: 'ITEM'
+    # Поддерживаются старый и новый форматы:
+    #   <PROMO>
+    #     <ITEM>Text</ITEM>
+    #     <PROM ID="1">Text</PROM>
+    #   </PROMO>
+    field :promo, [:string],
+      root: 'PROMO',
+      key: ['ITEM', 'PROM']
 
-    # признак рекомендованого рейса, передается как <PROMO><ITEM>BUSFOR_RECOMMEND</ITEM></PROMO>
-    field :busfor_recommend, :recommend_bool, root: 'PROMO', key: 'ITEM'
+    # Опции, связанные с билетами.
+    field :tickets, [TicketsOption],
+      root: 'TICKETS',
+      key: 'TICKET'
 
-    # опции, связанные с билетами
-    # элемент с ID="7" означает электронный билет
-    field :tickets, [TicketsOption], root: 'TICKETS', key: 'TICKET'
+    def advertising
+      promo.include?('ADVERTISING')
+    end
 
-    parser do # better not to let flag value out of this gem
-      def adertising_bool(vals)
-        vals.include?('ADVERTISING')
-      end
-
-      def recommend_bool(vals)
-        vals.include?('BUSFOR_RECOMMEND')
-      end
+    def busfor_recommend
+      promo.include?('BUSFOR_RECOMMEND')
     end
 
     def self.build_blank
