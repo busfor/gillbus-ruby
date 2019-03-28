@@ -28,6 +28,7 @@ class Gillbus
       headers = {}
       headers['Cookie'] = self.class.make_cookies(session_id) if session_id
       headers['Accept-Encoding'] = 'gzip'
+      headers['Host'] = driver.host
       request_time_start = Time.now
       http_response = driver.public_send(request.method, request.path, request.params, headers)
       request_time_end = Time.now
