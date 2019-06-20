@@ -128,7 +128,7 @@ class Gillbus
     end
 
     def decimal(val)
-      BigDecimal.new(val)
+      BigDecimal(val)
     end
   end
 end
