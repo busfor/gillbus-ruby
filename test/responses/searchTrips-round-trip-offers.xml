@@ -1,0 +1,2016 @@
+<DATA>
+    <COMPLETED>true</COMPLETED>
+    <TRIP>
+        <ID>-4235896926646811086</ID>
+        <STATIC_TRIP_ID>a4aba71393e79295b41903586909dee0</STATIC_TRIP_ID>
+        <TRIP_ROUTE_ID>8343CED5D0190974E0530300F00A215D</TRIP_ROUTE_ID>
+        <RES_ID>0</RES_ID>
+        <NUMBER>DAV001 Киев - Бургас</NUMBER>
+        <START_CITY_NAME>Киев</START_CITY_NAME>
+        <END_CITY_NAME>Бургас</END_CITY_NAME>
+        <START_TIMEZONE>Europe/Kiev</START_TIMEZONE>
+        <END_TIMEZONE>Europe/Sofia</END_TIMEZONE>
+        <START_DATE>25.06.2019</START_DATE>
+        <END_DATE>26.06.2019</END_DATE>
+        <START_TIME>07:00</START_TIME>
+        <END_TIME>12:30</END_TIME>
+        <BUS_MODEL>MAH A-32(free)</BUS_MODEL>
+        <BUS_CLASS/>
+        <BUS_ID/>
+        <BUS_FLOORS_NUMBER>1</BUS_FLOORS_NUMBER>
+        <PLATFORM/>
+        <TRIP_SEATS_MAP>true</TRIP_SEATS_MAP>
+        <SHOW_PICKUP_DROPOFF>false</SHOW_PICKUP_DROPOFF>
+        <BRANDED>false</BRANDED>
+        <HAS_TRANSFER>false</HAS_TRANSFER>
+        <PLACES_COUNT>57</PLACES_COUNT>
+        <FREE_PLACES_COUNT>17</FREE_PLACES_COUNT>
+        <FREE_BUSY_PLACES>17/57</FREE_BUSY_PLACES>
+        <CARRIER_ID>830A8CFE4F9B77C2E0530300F00A4012</CARRIER_ID>
+        <CARRIER_NAME>ДАВ клуб"ООО</CARRIER_NAME>
+        <CARRIER_LEGAL_NAME>"ДАВ клуб" ООО</CARRIER_LEGAL_NAME>
+        <TIME_IN_ROAD>29:30</TIME_IN_ROAD>
+        <FAKE_TIME_IN_ROAD>false</FAKE_TIME_IN_ROAD>
+        <RES_POINT_BEGIN_ID>F714D2364BEB44CAE040B859605235DC</RES_POINT_BEGIN_ID>
+        <POINT_BEGIN_ID>1136784</POINT_BEGIN_ID>
+        <STATION_BEGIN_ID>F714D2364BEB44CAE040B859605235DC</STATION_BEGIN_ID>
+        <STATION_BEGIN_NAME>Остановка "метро Дворец Украина"</STATION_BEGIN_NAME>
+        <STATION_BEGIN_ADDRESS>метро Дворец Украина; улица Большая Васильковская; дом 116</STATION_BEGIN_ADDRESS>
+        <RES_POINT_END_ID>50BBE0721F5B6446E0530300F00A9409</RES_POINT_END_ID>
+        <POINT_END_ID>1173867</POINT_END_ID>
+        <STATION_END_ID>50BBE0721F5B6446E0530300F00A9409</STATION_END_ID>
+        <STATION_END_NAME>Остановка "АЗС Ромпетрол"</STATION_END_NAME>
+        <STATION_END_ADDRESS>бульвар Струга</STATION_END_ADDRESS>
+        <RESERVATION_ENABLED>true</RESERVATION_ENABLED>
+        <SALE_ENABLED>true</SALE_ENABLED>
+        <RETURN_ENABLED>true</RETURN_ENABLED>
+        <TIME_FOR_CANCEL>40</TIME_FOR_CANCEL>
+        <TRIP_FULL_SALE>false</TRIP_FULL_SALE>
+        <CAN_DISCOUNT>true</CAN_DISCOUNT>
+        <INTERNATIONAL>true</INTERNATIONAL>
+        <JOIN_BOOK_BUY>true</JOIN_BOOK_BUY>
+        <TRIP_MODE>1</TRIP_MODE>
+        <CUSTOM_STATUS>0</CUSTOM_STATUS>
+        <SPECIAL_CONDITIONS/>
+        <REDIRECT_URL/>
+        <IMAGE_URL>null</IMAGE_URL>
+        <START_POINT_TYPE>null</START_POINT_TYPE>
+        <VEHICLE_DESCRIPTION>null</VEHICLE_DESCRIPTION>
+        <VEHICLE_FEATURES>null</VEHICLE_FEATURES>
+        <TOTAL_COST>1943.50</TOTAL_COST>
+        <CURRENCY>UAH</CURRENCY>
+        <CURRENCY_CODE>980</CURRENCY_CODE>
+        <TECH_AGREEMENT>false</TECH_AGREEMENT>
+        <CARRIER_CODE/>
+        <TARIFF>
+            <SHORT_NAME>R</SHORT_NAME>
+            <IS_BASE>false</IS_BASE>
+            <FULL_NAME>Прямой-обратный базовый</FULL_NAME>
+            <START_DATE>03.03.2019</START_DATE>
+            <END_DATE/>
+            <DESCRIPTION>Базовый тариф в обоих направлениях для одного пассажира
+В стоимость билета входит 1 ручная кладь размером 60x40x20 и весом до 5 кг, которая должна находиться в салоне автобуса пассажира. Дополнительный багаж или груз принимается к перевозке только при наличии свободного места в багажном отделении автобуса и стоит 10% от стоимости билета. При перевозке багажа и груза в багажном отделении автобуса, перевозчик несет ответственность только за наличие единицы багажа или груза, но не гарантирует сохранение его целостности и работоспособности. Перевозчик не берет на себя ответственность за незначительную или поверхностную порчу багажа. Перевозчик имеет право отказать в перевозке багажа или груза.</DESCRIPTION>
+            <TIME_TO_BUY_RESERVED>24</TIME_TO_BUY_RESERVED>
+            <TIME_TO_STOP_BOOKING>12</TIME_TO_STOP_BOOKING>
+            <TIME_TO_PAY_RESERVATION>24.06.2019 00:35:11</TIME_TO_PAY_RESERVATION>
+            <COST>1943.50</COST>
+            <INSURANCE_COST>0</INSURANCE_COST>
+            <INSURANCE_ID/>
+            <INSURANCE_SUM>0</INSURANCE_SUM>
+            <INSURANCE_CUR/>
+            <AFTER_DISPATCH_NO_RETURN>true</AFTER_DISPATCH_NO_RETURN>
+            <PASSENGER_BIRTHDAY/>
+            <PASSENGER_ISIC_NUMBER/>
+            <PASSENGER_STUDENT_TICKET/>
+            <NOTE/>
+            <WITHOUT_SEAT>N</WITHOUT_SEAT>
+            <RETURN_CAUSE>Добровольно, более чем за 7 дн., до отправления рейса Возвращается 100% стоимости тарифа. Ориентировочная сумма возврата 825.98 UAH</RETURN_CAUSE>
+            <RETURN_CAUSE>Добровольно, более чем за 72 ч., до отправления рейса Удерживается при возврате: 10% тарифа. Ориентировочная сумма возврата 728.81 UAH</RETURN_CAUSE>
+            <RETURN_CAUSE>Добровольно, более чем за 24 ч.,  менее чем за 72 ч., до отправления рейса Удерживается при возврате: 50% тарифа. Ориентировочная сумма возврата 340.11 UAH</RETURN_CAUSE>
+            <RETURN_CAUSE>Менее чем за 24 ч., до отправления рейса ВОЗВРАТ НЕ ДОПУСКАЕТСЯ Удерживается при возврате: 100% тарифа. Ориентировочная сумма возврата 0 UAH</RETURN_CAUSE>
+            <RETURN_CAUSE>Принудительно, при отмене рейса, при непредоставлении места. Возвращается 100% стоимости билета. Ориентировочная сумма возврата 971.75 UAH</RETURN_CAUSE>
+            <PROMOTE>false</PROMOTE>
+            <IS_EXCLUSIVE_PRICE>false</IS_EXCLUSIVE_PRICE>
+            <FREE_BOOKING>false</FREE_BOOKING>
+        </TARIFF>
+        <POINT>
+            <NUMBER>0</NUMBER>
+            <ID>1136784</ID>
+            <LOCATION_ID>1290</LOCATION_ID>
+            <GEOGRAPHY_NAME>Киев</GEOGRAPHY_NAME>
+            <NAME>Остановка "метро Дворец Украина"</NAME>
+            <ADDRESS>метро Дворец Украина; улица Большая Васильковская; дом 116</ADDRESS>
+            <TIMEZONE>Europe/Kiev</TIMEZONE>
+            <ARRIVAL_DATE>25.06.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME/>
+            <DISPATCH_DATE>25.06.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>07:00</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>0</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>1</NUMBER>
+            <ID>1402642</ID>
+            <LOCATION_ID>1516</LOCATION_ID>
+            <GEOGRAPHY_NAME>Белая Церковь</GEOGRAPHY_NAME>
+            <NAME>Остановка Белая Церковь (под мостом, на выезде из города)</NAME>
+            <ADDRESS>трасса М05</ADDRESS>
+            <TIMEZONE>Europe/Kiev</TIMEZONE>
+            <ARRIVAL_DATE>25.06.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>09:20</ARRIVAL_TIME>
+            <DISPATCH_DATE>25.06.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>09:30</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>1</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL>MAH A-32(free)</BUSMODEL>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>2</NUMBER>
+            <ID>1171247</ID>
+            <LOCATION_ID>1883</LOCATION_ID>
+            <GEOGRAPHY_NAME>Умань</GEOGRAPHY_NAME>
+            <NAME>Остановка "АЗС "WOG"</NAME>
+            <ADDRESS>улица Степана Бандеры; дом 1-Б</ADDRESS>
+            <TIMEZONE>Europe/Kiev</TIMEZONE>
+            <ARRIVAL_DATE>25.06.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>10:50</ARRIVAL_TIME>
+            <DISPATCH_DATE>25.06.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>11:00</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>2</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>3</NUMBER>
+            <ID>1171426</ID>
+            <LOCATION_ID>1664</LOCATION_ID>
+            <GEOGRAPHY_NAME>Одесса</GEOGRAPHY_NAME>
+            <NAME>Остановка Одесса</NAME>
+            <ADDRESS>Итальянский бульвар; дом 6</ADDRESS>
+            <TIMEZONE>Europe/Kiev</TIMEZONE>
+            <ARRIVAL_DATE>25.06.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>13:25</ARRIVAL_TIME>
+            <DISPATCH_DATE>25.06.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>13:30</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>3</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>4</NUMBER>
+            <ID>1404936</ID>
+            <LOCATION_ID>1668</LOCATION_ID>
+            <GEOGRAPHY_NAME>Измаил</GEOGRAPHY_NAME>
+            <NAME>Остановка "Бар Брос-Ангелес"</NAME>
+            <ADDRESS>трасса М-15</ADDRESS>
+            <TIMEZONE>Europe/Kiev</TIMEZONE>
+            <ARRIVAL_DATE>25.06.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>18:20</ARRIVAL_TIME>
+            <DISPATCH_DATE>25.06.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>18:30</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>4</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>5</NUMBER>
+            <ID>1173742</ID>
+            <LOCATION_ID>235339</LOCATION_ID>
+            <GEOGRAPHY_NAME>Балчик</GEOGRAPHY_NAME>
+            <NAME>Остановка "АЗС Лафи"</NAME>
+            <ADDRESS>улица Дунав; дом 48</ADDRESS>
+            <TIMEZONE>Europe/Sofia</TIMEZONE>
+            <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>06:00</ARRIVAL_TIME>
+            <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>06:00</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>6</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>6</NUMBER>
+            <ID>1403010</ID>
+            <LOCATION_ID>242877</LOCATION_ID>
+            <GEOGRAPHY_NAME>Албена</GEOGRAPHY_NAME>
+            <NAME>Остановка "Въезд на курорт" (перед шлагбаумом)</NAME>
+            <ADDRESS>Круг Албена; дом 9</ADDRESS>
+            <TIMEZONE>Europe/Sofia</TIMEZONE>
+            <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>07:20</ARRIVAL_TIME>
+            <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>07:20</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>7</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>7</NUMBER>
+            <ID>1402531</ID>
+            <LOCATION_ID>242878</LOCATION_ID>
+            <GEOGRAPHY_NAME>Кранево</GEOGRAPHY_NAME>
+            <NAME>Автобусная остановка "Топмаркет"</NAME>
+            <ADDRESS>республиканская дорога I-9</ADDRESS>
+            <TIMEZONE>Europe/Sofia</TIMEZONE>
+            <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>07:45</ARRIVAL_TIME>
+            <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>07:45</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>8</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>8</NUMBER>
+            <ID>1402532</ID>
+            <LOCATION_ID>242879</LOCATION_ID>
+            <GEOGRAPHY_NAME>Золотые пески</GEOGRAPHY_NAME>
+            <NAME>Автобусная остановка "Управление"</NAME>
+            <ADDRESS>республиканская дорога Е-87</ADDRESS>
+            <TIMEZONE>Europe/Sofia</TIMEZONE>
+            <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>08:00</ARRIVAL_TIME>
+            <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>08:00</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>9</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>9</NUMBER>
+            <ID>1403008</ID>
+            <LOCATION_ID>242883</LOCATION_ID>
+            <GEOGRAPHY_NAME>Св.-Св.-Константин-И-Елена</GEOGRAPHY_NAME>
+            <NAME>Остановка "Въезд на курорт" (перед шлагбаумом)</NAME>
+            <ADDRESS>улица 1-ва</ADDRESS>
+            <TIMEZONE>Europe/Sofia</TIMEZONE>
+            <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>08:10</ARRIVAL_TIME>
+            <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>08:10</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>10</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>10</NUMBER>
+            <ID>1173596</ID>
+            <LOCATION_ID>230090</LOCATION_ID>
+            <GEOGRAPHY_NAME>Варна</GEOGRAPHY_NAME>
+            <NAME>Остановка "Собор"</NAME>
+            <ADDRESS>улица Св. Св. Кирилла и Мефодия; дом 2</ADDRESS>
+            <TIMEZONE>Europe/Sofia</TIMEZONE>
+            <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>09:00</ARRIVAL_TIME>
+            <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>09:00</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>11</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>11</NUMBER>
+            <ID>1173595</ID>
+            <LOCATION_ID>242875</LOCATION_ID>
+            <GEOGRAPHY_NAME>Обзор</GEOGRAPHY_NAME>
+            <NAME>Автовокзал Обзор</NAME>
+            <ADDRESS>улица Рила</ADDRESS>
+            <TIMEZONE>Europe/Sofia</TIMEZONE>
+            <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>10:00</ARRIVAL_TIME>
+            <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>10:00</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>12</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>12</NUMBER>
+            <ID>1171191</ID>
+            <LOCATION_ID>242876</LOCATION_ID>
+            <GEOGRAPHY_NAME>Солнечный берег</GEOGRAPHY_NAME>
+            <NAME>Остановка "Диско Оранж"</NAME>
+            <ADDRESS>бульвар Несебр</ADDRESS>
+            <TIMEZONE>Europe/Sofia</TIMEZONE>
+            <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>10:30</ARRIVAL_TIME>
+            <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>10:30</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>13</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL>MAH A-32(free)</BUSMODEL>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>13</NUMBER>
+            <ID>1173744</ID>
+            <LOCATION_ID>229629</LOCATION_ID>
+            <GEOGRAPHY_NAME>Несебыр</GEOGRAPHY_NAME>
+            <NAME>Остановка "Отель Фиеста Панорама"</NAME>
+            <ADDRESS>улица Хан Крум; дом 40</ADDRESS>
+            <TIMEZONE>Europe/Sofia</TIMEZONE>
+            <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>11:00</ARRIVAL_TIME>
+            <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>11:00</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>14</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>14</NUMBER>
+            <ID>1404565</ID>
+            <LOCATION_ID>230721</LOCATION_ID>
+            <GEOGRAPHY_NAME>Равда</GEOGRAPHY_NAME>
+            <NAME>Остановка "Центральная площадь" (возле фонтана)</NAME>
+            <ADDRESS>улица Раковски; дом 22</ADDRESS>
+            <TIMEZONE>Europe/Sofia</TIMEZONE>
+            <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>11:30</ARRIVAL_TIME>
+            <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>11:30</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>15</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>15</NUMBER>
+            <ID>1404574</ID>
+            <LOCATION_ID>231156</LOCATION_ID>
+            <GEOGRAPHY_NAME>Поморие</GEOGRAPHY_NAME>
+            <NAME>Автовокзал "Новый город"</NAME>
+            <ADDRESS>улица Княз Борис I</ADDRESS>
+            <TIMEZONE>Europe/Sofia</TIMEZONE>
+            <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>12:00</ARRIVAL_TIME>
+            <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>12:00</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>16</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>16</NUMBER>
+            <ID>1173867</ID>
+            <LOCATION_ID>230178</LOCATION_ID>
+            <GEOGRAPHY_NAME>Бургас</GEOGRAPHY_NAME>
+            <NAME>Остановка "АЗС Ромпетрол"</NAME>
+            <ADDRESS>бульвар Струга</ADDRESS>
+            <TIMEZONE>Europe/Sofia</TIMEZONE>
+            <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>12:30</ARRIVAL_TIME>
+            <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>12:30</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>17</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <OPTIONS>
+            <TICKETS>
+                <TICKET ID="7">ЭЛЕКТРОННЫЙ БИЛЕТ. Печать билета не требуется!</TICKET>
+            </TICKETS>
+        </OPTIONS>
+    </TRIP>
+    <BACK_TRIP>
+        <ID>-4235896926646811086</ID>
+        <STATIC_TRIP_ID>eb6a973dd33d9b070dfa92c763577d8e</STATIC_TRIP_ID>
+        <TRIP_ROUTE_ID>83449ADB987E25A2E0530300F00AF086</TRIP_ROUTE_ID>
+        <RES_ID>0</RES_ID>
+        <NUMBER>DAV002 Бургас - Киев</NUMBER>
+        <START_CITY_NAME>Бургас</START_CITY_NAME>
+        <END_CITY_NAME>Киев</END_CITY_NAME>
+        <START_TIMEZONE/>
+        <END_TIMEZONE/>
+        <START_DATE>03.07.2019</START_DATE>
+        <END_DATE>04.07.2019</END_DATE>
+        <START_TIME>16:30</START_TIME>
+        <END_TIME>20:00</END_TIME>
+        <BUS_MODEL>MAH A-32(free)</BUS_MODEL>
+        <BUS_CLASS/>
+        <BUS_ID/>
+        <BUS_FLOORS_NUMBER>1</BUS_FLOORS_NUMBER>
+        <PLATFORM/>
+        <TRIP_SEATS_MAP>true</TRIP_SEATS_MAP>
+        <SHOW_PICKUP_DROPOFF>false</SHOW_PICKUP_DROPOFF>
+        <BRANDED>false</BRANDED>
+        <HAS_TRANSFER>false</HAS_TRANSFER>
+        <PLACES_COUNT>57</PLACES_COUNT>
+        <FREE_PLACES_COUNT>14</FREE_PLACES_COUNT>
+        <FREE_BUSY_PLACES>14/57</FREE_BUSY_PLACES>
+        <CARRIER_ID>830A8CFE4F9B77C2E0530300F00A4012</CARRIER_ID>
+        <CARRIER_NAME>ДАВ клуб"ООО</CARRIER_NAME>
+        <CARRIER_LEGAL_NAME>"ДАВ клуб" ООО</CARRIER_LEGAL_NAME>
+        <TIME_IN_ROAD>27:30</TIME_IN_ROAD>
+        <FAKE_TIME_IN_ROAD>false</FAKE_TIME_IN_ROAD>
+        <RES_POINT_BEGIN_ID>50BBE0721F5B6446E0530300F00A9409</RES_POINT_BEGIN_ID>
+        <POINT_BEGIN_ID>1173867</POINT_BEGIN_ID>
+        <STATION_BEGIN_ID>50BBE0721F5B6446E0530300F00A9409</STATION_BEGIN_ID>
+        <STATION_BEGIN_NAME>Остановка "АЗС Ромпетрол"</STATION_BEGIN_NAME>
+        <STATION_BEGIN_ADDRESS>бульвар Струга</STATION_BEGIN_ADDRESS>
+        <RES_POINT_END_ID>53F41B70DA9F691CE0530300F00AE931</RES_POINT_END_ID>
+        <POINT_END_ID>1136784</POINT_END_ID>
+        <STATION_END_ID>53F41B70DA9F691CE0530300F00AE931</STATION_END_ID>
+        <STATION_END_NAME>Остановка "метро Дворец Украина"</STATION_END_NAME>
+        <STATION_END_ADDRESS>метро Дворец Украина; улица Большая Васильковская; дом 116</STATION_END_ADDRESS>
+        <RESERVATION_ENABLED>true</RESERVATION_ENABLED>
+        <SALE_ENABLED>true</SALE_ENABLED>
+        <RETURN_ENABLED>true</RETURN_ENABLED>
+        <TRIP_FULL_SALE>false</TRIP_FULL_SALE>
+        <CAN_DISCOUNT>true</CAN_DISCOUNT>
+        <INTERNATIONAL>true</INTERNATIONAL>
+        <JOIN_BOOK_BUY>true</JOIN_BOOK_BUY>
+        <TRIP_MODE>1</TRIP_MODE>
+        <CUSTOM_STATUS>0</CUSTOM_STATUS>
+        <SPECIAL_CONDITIONS/>
+        <REDIRECT_URL/>
+        <IMAGE_URL>null</IMAGE_URL>
+        <START_POINT_TYPE>null</START_POINT_TYPE>
+        <VEHICLE_DESCRIPTION>null</VEHICLE_DESCRIPTION>
+        <VEHICLE_FEATURES>null</VEHICLE_FEATURES>
+        <POINT>
+            <NUMBER>0</NUMBER>
+            <ID>1173867</ID>
+            <LOCATION_ID>230178</LOCATION_ID>
+            <GEOGRAPHY_NAME>Бургас</GEOGRAPHY_NAME>
+            <NAME>Остановка "АЗС Ромпетрол"</NAME>
+            <ADDRESS>бульвар Струга</ADDRESS>
+            <TIMEZONE>Europe/Sofia</TIMEZONE>
+            <ARRIVAL_DATE>03.07.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME/>
+            <DISPATCH_DATE>03.07.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>16:30</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>0</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL>MAH A-32(free)</BUSMODEL>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>1</NUMBER>
+            <ID>1404574</ID>
+            <LOCATION_ID>231156</LOCATION_ID>
+            <GEOGRAPHY_NAME>Поморие</GEOGRAPHY_NAME>
+            <NAME>Автовокзал "Новый город"</NAME>
+            <ADDRESS>улица Княз Борис I</ADDRESS>
+            <TIMEZONE>Europe/Sofia</TIMEZONE>
+            <ARRIVAL_DATE>03.07.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>16:55</ARRIVAL_TIME>
+            <DISPATCH_DATE>03.07.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>17:00</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>1</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL>MAH A-32(free)</BUSMODEL>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>2</NUMBER>
+            <ID>1404565</ID>
+            <LOCATION_ID>230721</LOCATION_ID>
+            <GEOGRAPHY_NAME>Равда</GEOGRAPHY_NAME>
+            <NAME>Остановка "Центральная площадь" (возле фонтана)</NAME>
+            <ADDRESS>улица Раковски; дом 22</ADDRESS>
+            <TIMEZONE>Europe/Sofia</TIMEZONE>
+            <ARRIVAL_DATE>03.07.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>17:25</ARRIVAL_TIME>
+            <DISPATCH_DATE>03.07.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>17:30</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>2</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL>MAH A-32(free)</BUSMODEL>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>3</NUMBER>
+            <ID>1173744</ID>
+            <LOCATION_ID>229629</LOCATION_ID>
+            <GEOGRAPHY_NAME>Несебыр</GEOGRAPHY_NAME>
+            <NAME>Остановка "Отель Фиеста Панорама"</NAME>
+            <ADDRESS>улица Хан Крум; дом 40</ADDRESS>
+            <TIMEZONE>Europe/Sofia</TIMEZONE>
+            <ARRIVAL_DATE>03.07.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>17:55</ARRIVAL_TIME>
+            <DISPATCH_DATE>03.07.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>18:00</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>3</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL>MAH A-32(free)</BUSMODEL>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>4</NUMBER>
+            <ID>1171191</ID>
+            <LOCATION_ID>242876</LOCATION_ID>
+            <GEOGRAPHY_NAME>Солнечный берег</GEOGRAPHY_NAME>
+            <NAME>Остановка "Диско Оранж"</NAME>
+            <ADDRESS>бульвар Несебр</ADDRESS>
+            <TIMEZONE>Europe/Sofia</TIMEZONE>
+            <ARRIVAL_DATE>03.07.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>18:25</ARRIVAL_TIME>
+            <DISPATCH_DATE>03.07.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>18:30</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>4</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL>MAH A-32(free)</BUSMODEL>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>5</NUMBER>
+            <ID>1173595</ID>
+            <LOCATION_ID>242875</LOCATION_ID>
+            <GEOGRAPHY_NAME>Обзор</GEOGRAPHY_NAME>
+            <NAME>Автовокзал Обзор</NAME>
+            <ADDRESS>улица Рила</ADDRESS>
+            <TIMEZONE>Europe/Sofia</TIMEZONE>
+            <ARRIVAL_DATE>03.07.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>19:55</ARRIVAL_TIME>
+            <DISPATCH_DATE>03.07.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>20:00</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>5</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL>MAH A-32(free)</BUSMODEL>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>6</NUMBER>
+            <ID>1173596</ID>
+            <LOCATION_ID>230090</LOCATION_ID>
+            <GEOGRAPHY_NAME>Варна</GEOGRAPHY_NAME>
+            <NAME>Остановка "Собор"</NAME>
+            <ADDRESS>улица Св. Св. Кирилла и Мефодия; дом 2</ADDRESS>
+            <TIMEZONE>Europe/Sofia</TIMEZONE>
+            <ARRIVAL_DATE>03.07.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>20:55</ARRIVAL_TIME>
+            <DISPATCH_DATE>03.07.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>21:00</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>6</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL>MAH A-32(free)</BUSMODEL>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>7</NUMBER>
+            <ID>1403008</ID>
+            <LOCATION_ID>242883</LOCATION_ID>
+            <GEOGRAPHY_NAME>Св.-Св.-Константин-И-Елена</GEOGRAPHY_NAME>
+            <NAME>Остановка "Въезд на курорт" (перед шлагбаумом)</NAME>
+            <ADDRESS>улица 1-ва</ADDRESS>
+            <TIMEZONE>Europe/Sofia</TIMEZONE>
+            <ARRIVAL_DATE>03.07.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>21:15</ARRIVAL_TIME>
+            <DISPATCH_DATE>03.07.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>21:20</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>7</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL>MAH A-32(free)</BUSMODEL>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>8</NUMBER>
+            <ID>1402532</ID>
+            <LOCATION_ID>242879</LOCATION_ID>
+            <GEOGRAPHY_NAME>Золотые пески</GEOGRAPHY_NAME>
+            <NAME>Автобусная остановка "Управление"</NAME>
+            <ADDRESS>республиканская дорога Е-87</ADDRESS>
+            <TIMEZONE>Europe/Sofia</TIMEZONE>
+            <ARRIVAL_DATE>03.07.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>21:30</ARRIVAL_TIME>
+            <DISPATCH_DATE>03.07.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>21:30</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>8</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL>MAH A-32(free)</BUSMODEL>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>9</NUMBER>
+            <ID>1402531</ID>
+            <LOCATION_ID>242878</LOCATION_ID>
+            <GEOGRAPHY_NAME>Кранево</GEOGRAPHY_NAME>
+            <NAME>Автобусная остановка "Топмаркет"</NAME>
+            <ADDRESS>республиканская дорога I-9</ADDRESS>
+            <TIMEZONE>Europe/Sofia</TIMEZONE>
+            <ARRIVAL_DATE>03.07.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>21:45</ARRIVAL_TIME>
+            <DISPATCH_DATE>03.07.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>21:45</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>9</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL>MAH A-32(free)</BUSMODEL>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>10</NUMBER>
+            <ID>1403010</ID>
+            <LOCATION_ID>242877</LOCATION_ID>
+            <GEOGRAPHY_NAME>Албена</GEOGRAPHY_NAME>
+            <NAME>Остановка "Въезд на курорт" (перед шлагбаумом)</NAME>
+            <ADDRESS>Круг Албена; дом 9</ADDRESS>
+            <TIMEZONE>Europe/Sofia</TIMEZONE>
+            <ARRIVAL_DATE>03.07.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>22:00</ARRIVAL_TIME>
+            <DISPATCH_DATE>03.07.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>22:00</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>10</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL>MAH A-32(free)</BUSMODEL>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>11</NUMBER>
+            <ID>1173742</ID>
+            <LOCATION_ID>235339</LOCATION_ID>
+            <GEOGRAPHY_NAME>Балчик</GEOGRAPHY_NAME>
+            <NAME>Остановка "АЗС Лафи"</NAME>
+            <ADDRESS>улица Дунав; дом 48</ADDRESS>
+            <TIMEZONE>Europe/Sofia</TIMEZONE>
+            <ARRIVAL_DATE>03.07.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>23:20</ARRIVAL_TIME>
+            <DISPATCH_DATE>03.07.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>23:20</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>11</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL>MAH A-32(free)</BUSMODEL>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>12</NUMBER>
+            <ID>1404936</ID>
+            <LOCATION_ID>1668</LOCATION_ID>
+            <GEOGRAPHY_NAME>Измаил</GEOGRAPHY_NAME>
+            <NAME>Остановка "Бар Брос-Ангелес"</NAME>
+            <ADDRESS>трасса М-15</ADDRESS>
+            <TIMEZONE>Europe/Kiev</TIMEZONE>
+            <ARRIVAL_DATE>04.07.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>07:00</ARRIVAL_TIME>
+            <DISPATCH_DATE>04.07.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>07:00</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>13</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL>MAH A-32(free)</BUSMODEL>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>13</NUMBER>
+            <ID>1171426</ID>
+            <LOCATION_ID>1664</LOCATION_ID>
+            <GEOGRAPHY_NAME>Одесса</GEOGRAPHY_NAME>
+            <NAME>Остановка Одесса</NAME>
+            <ADDRESS>Итальянский бульвар; дом 6</ADDRESS>
+            <TIMEZONE>Europe/Kiev</TIMEZONE>
+            <ARRIVAL_DATE>04.07.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>11:30</ARRIVAL_TIME>
+            <DISPATCH_DATE>04.07.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>11:30</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>14</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL>MAH A-32(free)</BUSMODEL>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>14</NUMBER>
+            <ID>1403148</ID>
+            <LOCATION_ID>1664</LOCATION_ID>
+            <GEOGRAPHY_NAME>Одесса</GEOGRAPHY_NAME>
+            <NAME>Остановка "АЗС ОККО"</NAME>
+            <ADDRESS>Объездная дорога; дом 20</ADDRESS>
+            <TIMEZONE>Europe/Kiev</TIMEZONE>
+            <ARRIVAL_DATE>04.07.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>11:55</ARRIVAL_TIME>
+            <DISPATCH_DATE>04.07.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>12:00</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>14</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL>MAH A-32(free)</BUSMODEL>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>15</NUMBER>
+            <ID>1171247</ID>
+            <LOCATION_ID>1883</LOCATION_ID>
+            <GEOGRAPHY_NAME>Умань</GEOGRAPHY_NAME>
+            <NAME>Остановка "АЗС "WOG"</NAME>
+            <ADDRESS>улица Степана Бандеры; дом 1-Б</ADDRESS>
+            <TIMEZONE>Europe/Kiev</TIMEZONE>
+            <ARRIVAL_DATE>04.07.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>17:00</ARRIVAL_TIME>
+            <DISPATCH_DATE>04.07.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>17:00</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>15</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL>MAH A-32(free)</BUSMODEL>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>16</NUMBER>
+            <ID>1402642</ID>
+            <LOCATION_ID>1516</LOCATION_ID>
+            <GEOGRAPHY_NAME>Белая Церковь</GEOGRAPHY_NAME>
+            <NAME>Остановка Белая Церковь (под мостом, на выезде из города)</NAME>
+            <ADDRESS>трасса М05</ADDRESS>
+            <TIMEZONE>Europe/Kiev</TIMEZONE>
+            <ARRIVAL_DATE>04.07.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>18:30</ARRIVAL_TIME>
+            <DISPATCH_DATE>04.07.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>18:30</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>16</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL>MAH A-32(free)</BUSMODEL>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>17</NUMBER>
+            <ID>1136784</ID>
+            <LOCATION_ID>1290</LOCATION_ID>
+            <GEOGRAPHY_NAME>Киев</GEOGRAPHY_NAME>
+            <NAME>Остановка "метро Дворец Украина"</NAME>
+            <ADDRESS>метро Дворец Украина; улица Большая Васильковская; дом 116</ADDRESS>
+            <TIMEZONE>Europe/Kiev</TIMEZONE>
+            <ARRIVAL_DATE>04.07.2019</ARRIVAL_DATE>
+            <ARRIVAL_TIME>20:00</ARRIVAL_TIME>
+            <DISPATCH_DATE>04.07.2019</DISPATCH_DATE>
+            <DISPATCH_TIME>20:00</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>17</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL>MAH A-32(free)</BUSMODEL>
+            <AGREED>true</AGREED>
+        </POINT>
+        <OPTIONS>
+            <TICKETS>
+                <TICKET ID="7">ЭЛЕКТРОННЫЙ БИЛЕТ. Печать билета не требуется!</TICKET>
+            </TICKETS>
+        </OPTIONS>
+    </BACK_TRIP>
+    <TRIP>
+        <ID>002397870460317615198</ID>
+        <STATIC_TRIP_ID>a4aba71393e79295b41903586909dee0</STATIC_TRIP_ID>
+        <TRIP_ROUTE_ID>8343CED5D0190974E0530300F00A215D</TRIP_ROUTE_ID>
+        <RES_ID>0</RES_ID>
+        <ONE_WAY_PART>true</ONE_WAY_PART>
+        <NUMBER>DAV001 Киев - Бургас, PVS002 Бургас - Киев</NUMBER>
+        <START_CITY_NAME>Киев</START_CITY_NAME>
+        <END_CITY_NAME>Киев</END_CITY_NAME>
+        <START_TIMEZONE>Europe/Kiev</START_TIMEZONE>
+        <END_TIMEZONE>Europe/Sofia</END_TIMEZONE>
+        <START_DATE>25.06.2019</START_DATE>
+        <END_DATE>04.07.2019</END_DATE>
+        <START_TIME>07:00</START_TIME>
+        <END_TIME>19:30</END_TIME>
+        <BUS_MODEL>MAH A-32(free), Neoplan</BUS_MODEL>
+        <BUS_CLASS/>
+        <BUS_ID/>
+        <BUS_FLOORS_NUMBER>1</BUS_FLOORS_NUMBER>
+        <PLATFORM/>
+        <TRIP_SEATS_MAP>true</TRIP_SEATS_MAP>
+        <SHOW_PICKUP_DROPOFF>false</SHOW_PICKUP_DROPOFF>
+        <BRANDED>false</BRANDED>
+        <HAS_TRANSFER>false</HAS_TRANSFER>
+        <PLACES_COUNT>54</PLACES_COUNT>
+        <FREE_PLACES_COUNT>17</FREE_PLACES_COUNT>
+        <FREE_BUSY_PLACES>17/54</FREE_BUSY_PLACES>
+        <CARRIER_ID>830A8CFE4F9B77C2E0530300F00A4012</CARRIER_ID>
+        <CARRIER_NAME>ДАВ клуб"ООО, Корсар Авто/Пехотин В.С ФЛП</CARRIER_NAME>
+        <CARRIER_LEGAL_NAME>"ДАВ клуб" ООО, Корсар Авто/Пехотин В.С ФЛП/"Корсар Авто/Пехотин В.С." ФЛП</CARRIER_LEGAL_NAME>
+        <TIME_IN_ROAD>57:30</TIME_IN_ROAD>
+        <FAKE_TIME_IN_ROAD>false</FAKE_TIME_IN_ROAD>
+        <RES_POINT_BEGIN_ID>F714D2364BEB44CAE040B859605235DC</RES_POINT_BEGIN_ID>
+        <POINT_BEGIN_ID>1136784</POINT_BEGIN_ID>
+        <STATION_BEGIN_ID>F714D2364BEB44CAE040B859605235DC</STATION_BEGIN_ID>
+        <STATION_BEGIN_NAME>Остановка "метро Дворец Украина"</STATION_BEGIN_NAME>
+        <STATION_BEGIN_ADDRESS>метро Дворец Украина; улица Большая Васильковская; дом 116</STATION_BEGIN_ADDRESS>
+        <RES_POINT_END_ID>50BBE0721F5B6446E0530300F00A9409</RES_POINT_END_ID>
+        <POINT_END_ID>1173867</POINT_END_ID>
+        <STATION_END_ID>50BBE0721F5B6446E0530300F00A9409</STATION_END_ID>
+        <STATION_END_NAME>Остановка "метро Дворец Украина"</STATION_END_NAME>
+        <STATION_END_ADDRESS>метро Дворец Украина; улица Большая Васильковская; дом 116</STATION_END_ADDRESS>
+        <RESERVATION_ENABLED>true</RESERVATION_ENABLED>
+        <SALE_ENABLED>true</SALE_ENABLED>
+        <RETURN_ENABLED>true</RETURN_ENABLED>
+        <TIME_FOR_CANCEL>40</TIME_FOR_CANCEL>
+        <TRIP_FULL_SALE>false</TRIP_FULL_SALE>
+        <CAN_DISCOUNT>true</CAN_DISCOUNT>
+        <INTERNATIONAL>true</INTERNATIONAL>
+        <JOIN_BOOK_BUY>true</JOIN_BOOK_BUY>
+        <TRIP_MODE>8</TRIP_MODE>
+        <CUSTOM_STATUS>0</CUSTOM_STATUS>
+        <SPECIAL_CONDITIONS/>
+        <REDIRECT_URL/>
+        <IMAGE_URL>null</IMAGE_URL>
+        <START_POINT_TYPE>null</START_POINT_TYPE>
+        <VEHICLE_DESCRIPTION>null</VEHICLE_DESCRIPTION>
+        <VEHICLE_FEATURES>null</VEHICLE_FEATURES>
+        <TOTAL_COST>2184.7</TOTAL_COST>
+        <CURRENCY>UAH</CURRENCY>
+        <CURRENCY_CODE>980</CURRENCY_CODE>
+        <TECH_AGREEMENT>false</TECH_AGREEMENT>
+        <CARRIER_CODE/>
+        <SEGMENT>
+            <SEGMENT_NUMBER>0</SEGMENT_NUMBER>
+            <BACK_SEGMENT>false</BACK_SEGMENT>
+            <ID>-5056956079978819605</ID>
+            <STATIC_TRIP_ID>a4aba71393e79295b41903586909dee0</STATIC_TRIP_ID>
+            <TRIP_ROUTE_ID>8343CED5D0190974E0530300F00A215D</TRIP_ROUTE_ID>
+            <RES_ID>0</RES_ID>
+            <NUMBER>DAV001 Киев - Бургас</NUMBER>
+            <START_CITY_NAME>Киев</START_CITY_NAME>
+            <END_CITY_NAME>Бургас</END_CITY_NAME>
+            <START_TIMEZONE>Europe/Kiev</START_TIMEZONE>
+            <END_TIMEZONE>Europe/Sofia</END_TIMEZONE>
+            <START_DATE>25.06.2019</START_DATE>
+            <END_DATE>26.06.2019</END_DATE>
+            <START_TIME>07:00</START_TIME>
+            <END_TIME>12:30</END_TIME>
+            <BUS_MODEL>MAH A-32(free)</BUS_MODEL>
+            <BUS_CLASS/>
+            <BUS_ID/>
+            <BUS_FLOORS_NUMBER>1</BUS_FLOORS_NUMBER>
+            <PLATFORM/>
+            <TRIP_SEATS_MAP>true</TRIP_SEATS_MAP>
+            <SHOW_PICKUP_DROPOFF>false</SHOW_PICKUP_DROPOFF>
+            <BRANDED>false</BRANDED>
+            <HAS_TRANSFER>false</HAS_TRANSFER>
+            <PLACES_COUNT>57</PLACES_COUNT>
+            <FREE_PLACES_COUNT>17</FREE_PLACES_COUNT>
+            <FREE_BUSY_PLACES>17/57</FREE_BUSY_PLACES>
+            <CARRIER_ID>830A8CFE4F9B77C2E0530300F00A4012</CARRIER_ID>
+            <CARRIER_NAME>ДАВ клуб"ООО</CARRIER_NAME>
+            <CARRIER_LEGAL_NAME>"ДАВ клуб" ООО</CARRIER_LEGAL_NAME>
+            <TIME_IN_ROAD>29:30</TIME_IN_ROAD>
+            <FAKE_TIME_IN_ROAD>false</FAKE_TIME_IN_ROAD>
+            <RES_POINT_BEGIN_ID>F714D2364BEB44CAE040B859605235DC</RES_POINT_BEGIN_ID>
+            <POINT_BEGIN_ID>1136784</POINT_BEGIN_ID>
+            <STATION_BEGIN_ID>F714D2364BEB44CAE040B859605235DC</STATION_BEGIN_ID>
+            <STATION_BEGIN_NAME>Остановка "метро Дворец Украина"</STATION_BEGIN_NAME>
+            <STATION_BEGIN_ADDRESS>метро Дворец Украина; улица Большая Васильковская; дом 116</STATION_BEGIN_ADDRESS>
+            <RES_POINT_END_ID>50BBE0721F5B6446E0530300F00A9409</RES_POINT_END_ID>
+            <POINT_END_ID>1173867</POINT_END_ID>
+            <STATION_END_ID>50BBE0721F5B6446E0530300F00A9409</STATION_END_ID>
+            <STATION_END_NAME>Остановка "АЗС Ромпетрол"</STATION_END_NAME>
+            <STATION_END_ADDRESS>бульвар Струга</STATION_END_ADDRESS>
+            <RESERVATION_ENABLED>true</RESERVATION_ENABLED>
+            <SALE_ENABLED>true</SALE_ENABLED>
+            <RETURN_ENABLED>true</RETURN_ENABLED>
+            <TIME_FOR_CANCEL>40</TIME_FOR_CANCEL>
+            <TRIP_FULL_SALE>false</TRIP_FULL_SALE>
+            <CAN_DISCOUNT>true</CAN_DISCOUNT>
+            <INTERNATIONAL>true</INTERNATIONAL>
+            <JOIN_BOOK_BUY>true</JOIN_BOOK_BUY>
+            <TRIP_MODE>1</TRIP_MODE>
+            <CUSTOM_STATUS>0</CUSTOM_STATUS>
+            <SPECIAL_CONDITIONS/>
+            <REDIRECT_URL/>
+            <IMAGE_URL>null</IMAGE_URL>
+            <START_POINT_TYPE>null</START_POINT_TYPE>
+            <VEHICLE_DESCRIPTION>null</VEHICLE_DESCRIPTION>
+            <VEHICLE_FEATURES>null</VEHICLE_FEATURES>
+            <TOTAL_COST>986.7</TOTAL_COST>
+            <CURRENCY>UAH</CURRENCY>
+            <CURRENCY_CODE>980</CURRENCY_CODE>
+            <TECH_AGREEMENT>false</TECH_AGREEMENT>
+            <CARRIER_CODE/>
+            <TARIFF>
+                <SHORT_NAME>Y</SHORT_NAME>
+                <IS_BASE>true</IS_BASE>
+                <FULL_NAME>Базовый тариф</FULL_NAME>
+                <START_DATE>03.03.2019</START_DATE>
+                <END_DATE/>
+                <DESCRIPTION>Базовый тариф стоимости проезда одного пассажиров в одном направлении
+В стоимость билета входит 1 ручная кладь размером 60x40x20 и весом до 5 кг, которая должна находиться в салоне автобуса пассажира. Дополнительный багаж или груз принимается к перевозке только при наличии свободного места в багажном отделении автобуса и стоит 10% от стоимости билета. При перевозке багажа и груза в багажном отделении автобуса, перевозчик несет ответственность только за наличие единицы багажа или груза, но не гарантирует сохранение его целостности и работоспособности. Перевозчик не берет на себя ответственность за незначительную или поверхностную порчу багажа. Перевозчик имеет право отказать в перевозке багажа или груза.</DESCRIPTION>
+                <TIME_TO_BUY_RESERVED>24</TIME_TO_BUY_RESERVED>
+                <TIME_TO_STOP_BOOKING>12</TIME_TO_STOP_BOOKING>
+                <TIME_TO_PAY_RESERVATION>24.06.2019 00:35:11</TIME_TO_PAY_RESERVATION>
+                <COST>986.7</COST>
+                <INSURANCE_COST>0</INSURANCE_COST>
+                <INSURANCE_ID/>
+                <INSURANCE_SUM>0</INSURANCE_SUM>
+                <INSURANCE_CUR/>
+                <AFTER_DISPATCH_NO_RETURN>true</AFTER_DISPATCH_NO_RETURN>
+                <PASSENGER_BIRTHDAY/>
+                <PASSENGER_ISIC_NUMBER/>
+                <PASSENGER_STUDENT_TICKET/>
+                <NOTE/>
+                <WITHOUT_SEAT>N</WITHOUT_SEAT>
+                <RETURN_CAUSE>Добровольно, более чем за 7 дн., до отправления рейса Возвращается 100% стоимости тарифа. Ориентировочная сумма возврата 838.69 UAH</RETURN_CAUSE>
+                <RETURN_CAUSE>Добровольно, более чем за 72 ч., до отправления рейса Удерживается при возврате: 10% тарифа. Ориентировочная сумма возврата 740.02 UAH</RETURN_CAUSE>
+                <RETURN_CAUSE>Добровольно, более чем за 24 ч.,  менее чем за 72 ч., до отправления рейса Удерживается при возврате: 50% тарифа. Ориентировочная сумма возврата 345.34 UAH</RETURN_CAUSE>
+                <RETURN_CAUSE>Менее чем за 24 ч., до отправления рейса ВОЗВРАТ НЕ ДОПУСКАЕТСЯ Удерживается при возврате: 100% тарифа. Ориентировочная сумма возврата 0 UAH</RETURN_CAUSE>
+                <RETURN_CAUSE>Принудительно, при отмене рейса, при непредоставлении места. Возвращается 100% стоимости билета. Ориентировочная сумма возврата 986.7 UAH</RETURN_CAUSE>
+                <PROMOTE>false</PROMOTE>
+                <IS_EXCLUSIVE_PRICE>false</IS_EXCLUSIVE_PRICE>
+                <FREE_BOOKING>false</FREE_BOOKING>
+            </TARIFF>
+            <POINT>
+                <NUMBER>0</NUMBER>
+                <ID>1136784</ID>
+                <LOCATION_ID>1290</LOCATION_ID>
+                <GEOGRAPHY_NAME>Киев</GEOGRAPHY_NAME>
+                <NAME>Остановка "метро Дворец Украина"</NAME>
+                <ADDRESS>метро Дворец Украина; улица Большая Васильковская; дом 116</ADDRESS>
+                <TIMEZONE>Europe/Kiev</TIMEZONE>
+                <ARRIVAL_DATE>25.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME/>
+                <DISPATCH_DATE>25.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>07:00</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>0</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL/>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>1</NUMBER>
+                <ID>1402642</ID>
+                <LOCATION_ID>1516</LOCATION_ID>
+                <GEOGRAPHY_NAME>Белая Церковь</GEOGRAPHY_NAME>
+                <NAME>Остановка Белая Церковь (под мостом, на выезде из города)</NAME>
+                <ADDRESS>трасса М05</ADDRESS>
+                <TIMEZONE>Europe/Kiev</TIMEZONE>
+                <ARRIVAL_DATE>25.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>09:20</ARRIVAL_TIME>
+                <DISPATCH_DATE>25.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>09:30</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>1</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL>MAH A-32(free)</BUSMODEL>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>2</NUMBER>
+                <ID>1171247</ID>
+                <LOCATION_ID>1883</LOCATION_ID>
+                <GEOGRAPHY_NAME>Умань</GEOGRAPHY_NAME>
+                <NAME>Остановка "АЗС "WOG"</NAME>
+                <ADDRESS>улица Степана Бандеры; дом 1-Б</ADDRESS>
+                <TIMEZONE>Europe/Kiev</TIMEZONE>
+                <ARRIVAL_DATE>25.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>10:50</ARRIVAL_TIME>
+                <DISPATCH_DATE>25.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>11:00</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>2</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL/>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>3</NUMBER>
+                <ID>1171426</ID>
+                <LOCATION_ID>1664</LOCATION_ID>
+                <GEOGRAPHY_NAME>Одесса</GEOGRAPHY_NAME>
+                <NAME>Остановка Одесса</NAME>
+                <ADDRESS>Итальянский бульвар; дом 6</ADDRESS>
+                <TIMEZONE>Europe/Kiev</TIMEZONE>
+                <ARRIVAL_DATE>25.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>13:25</ARRIVAL_TIME>
+                <DISPATCH_DATE>25.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>13:30</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>3</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL/>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>4</NUMBER>
+                <ID>1404936</ID>
+                <LOCATION_ID>1668</LOCATION_ID>
+                <GEOGRAPHY_NAME>Измаил</GEOGRAPHY_NAME>
+                <NAME>Остановка "Бар Брос-Ангелес"</NAME>
+                <ADDRESS>трасса М-15</ADDRESS>
+                <TIMEZONE>Europe/Kiev</TIMEZONE>
+                <ARRIVAL_DATE>25.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>18:20</ARRIVAL_TIME>
+                <DISPATCH_DATE>25.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>18:30</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>4</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL/>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>5</NUMBER>
+                <ID>1173742</ID>
+                <LOCATION_ID>235339</LOCATION_ID>
+                <GEOGRAPHY_NAME>Балчик</GEOGRAPHY_NAME>
+                <NAME>Остановка "АЗС Лафи"</NAME>
+                <ADDRESS>улица Дунав; дом 48</ADDRESS>
+                <TIMEZONE>Europe/Sofia</TIMEZONE>
+                <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>06:00</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>06:00</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>6</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL/>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>6</NUMBER>
+                <ID>1403010</ID>
+                <LOCATION_ID>242877</LOCATION_ID>
+                <GEOGRAPHY_NAME>Албена</GEOGRAPHY_NAME>
+                <NAME>Остановка "Въезд на курорт" (перед шлагбаумом)</NAME>
+                <ADDRESS>Круг Албена; дом 9</ADDRESS>
+                <TIMEZONE>Europe/Sofia</TIMEZONE>
+                <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>07:20</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>07:20</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>7</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL/>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>7</NUMBER>
+                <ID>1402531</ID>
+                <LOCATION_ID>242878</LOCATION_ID>
+                <GEOGRAPHY_NAME>Кранево</GEOGRAPHY_NAME>
+                <NAME>Автобусная остановка "Топмаркет"</NAME>
+                <ADDRESS>республиканская дорога I-9</ADDRESS>
+                <TIMEZONE>Europe/Sofia</TIMEZONE>
+                <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>07:45</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>07:45</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>8</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL/>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>8</NUMBER>
+                <ID>1402532</ID>
+                <LOCATION_ID>242879</LOCATION_ID>
+                <GEOGRAPHY_NAME>Золотые пески</GEOGRAPHY_NAME>
+                <NAME>Автобусная остановка "Управление"</NAME>
+                <ADDRESS>республиканская дорога Е-87</ADDRESS>
+                <TIMEZONE>Europe/Sofia</TIMEZONE>
+                <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>08:00</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>08:00</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>9</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL/>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>9</NUMBER>
+                <ID>1403008</ID>
+                <LOCATION_ID>242883</LOCATION_ID>
+                <GEOGRAPHY_NAME>Св.-Св.-Константин-И-Елена</GEOGRAPHY_NAME>
+                <NAME>Остановка "Въезд на курорт" (перед шлагбаумом)</NAME>
+                <ADDRESS>улица 1-ва</ADDRESS>
+                <TIMEZONE>Europe/Sofia</TIMEZONE>
+                <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>08:10</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>08:10</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>10</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL/>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>10</NUMBER>
+                <ID>1173596</ID>
+                <LOCATION_ID>230090</LOCATION_ID>
+                <GEOGRAPHY_NAME>Варна</GEOGRAPHY_NAME>
+                <NAME>Остановка "Собор"</NAME>
+                <ADDRESS>улица Св. Св. Кирилла и Мефодия; дом 2</ADDRESS>
+                <TIMEZONE>Europe/Sofia</TIMEZONE>
+                <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>09:00</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>09:00</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>11</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL/>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>11</NUMBER>
+                <ID>1173595</ID>
+                <LOCATION_ID>242875</LOCATION_ID>
+                <GEOGRAPHY_NAME>Обзор</GEOGRAPHY_NAME>
+                <NAME>Автовокзал Обзор</NAME>
+                <ADDRESS>улица Рила</ADDRESS>
+                <TIMEZONE>Europe/Sofia</TIMEZONE>
+                <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>10:00</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>10:00</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>12</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL/>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>12</NUMBER>
+                <ID>1171191</ID>
+                <LOCATION_ID>242876</LOCATION_ID>
+                <GEOGRAPHY_NAME>Солнечный берег</GEOGRAPHY_NAME>
+                <NAME>Остановка "Диско Оранж"</NAME>
+                <ADDRESS>бульвар Несебр</ADDRESS>
+                <TIMEZONE>Europe/Sofia</TIMEZONE>
+                <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>10:30</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>10:30</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>13</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL>MAH A-32(free)</BUSMODEL>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>13</NUMBER>
+                <ID>1173744</ID>
+                <LOCATION_ID>229629</LOCATION_ID>
+                <GEOGRAPHY_NAME>Несебыр</GEOGRAPHY_NAME>
+                <NAME>Остановка "Отель Фиеста Панорама"</NAME>
+                <ADDRESS>улица Хан Крум; дом 40</ADDRESS>
+                <TIMEZONE>Europe/Sofia</TIMEZONE>
+                <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>11:00</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>11:00</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>14</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL/>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>14</NUMBER>
+                <ID>1404565</ID>
+                <LOCATION_ID>230721</LOCATION_ID>
+                <GEOGRAPHY_NAME>Равда</GEOGRAPHY_NAME>
+                <NAME>Остановка "Центральная площадь" (возле фонтана)</NAME>
+                <ADDRESS>улица Раковски; дом 22</ADDRESS>
+                <TIMEZONE>Europe/Sofia</TIMEZONE>
+                <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>11:30</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>11:30</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>15</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL/>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>15</NUMBER>
+                <ID>1404574</ID>
+                <LOCATION_ID>231156</LOCATION_ID>
+                <GEOGRAPHY_NAME>Поморие</GEOGRAPHY_NAME>
+                <NAME>Автовокзал "Новый город"</NAME>
+                <ADDRESS>улица Княз Борис I</ADDRESS>
+                <TIMEZONE>Europe/Sofia</TIMEZONE>
+                <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>12:00</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>12:00</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>16</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL/>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>16</NUMBER>
+                <ID>1173867</ID>
+                <LOCATION_ID>230178</LOCATION_ID>
+                <GEOGRAPHY_NAME>Бургас</GEOGRAPHY_NAME>
+                <NAME>Остановка "АЗС Ромпетрол"</NAME>
+                <ADDRESS>бульвар Струга</ADDRESS>
+                <TIMEZONE>Europe/Sofia</TIMEZONE>
+                <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>12:30</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>12:30</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>17</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL/>
+                <AGREED>true</AGREED>
+            </POINT>
+            <OPTIONS>
+                <TICKETS>
+                    <TICKET ID="7">ЭЛЕКТРОННЫЙ БИЛЕТ. Печать билета не требуется!</TICKET>
+                </TICKETS>
+            </OPTIONS>
+        </SEGMENT>
+        <SEGMENT>
+            <SEGMENT_NUMBER>1</SEGMENT_NUMBER>
+            <BACK_SEGMENT>true</BACK_SEGMENT>
+            <ID>-8536030942031626087</ID>
+            <STATIC_TRIP_ID>750b572625d292de7ef3dcb90daef010</STATIC_TRIP_ID>
+            <TRIP_ROUTE_ID>50BD87ABF0DE7ACEE0530300F00A0AD6</TRIP_ROUTE_ID>
+            <RES_ID>0</RES_ID>
+            <NUMBER>PVS002 Бургас - Киев</NUMBER>
+            <START_CITY_NAME>Бургас</START_CITY_NAME>
+            <END_CITY_NAME>Киев</END_CITY_NAME>
+            <START_TIMEZONE>Europe/Sofia</START_TIMEZONE>
+            <END_TIMEZONE>Europe/Kiev</END_TIMEZONE>
+            <START_DATE>03.07.2019</START_DATE>
+            <END_DATE>04.07.2019</END_DATE>
+            <START_TIME>15:30</START_TIME>
+            <END_TIME>19:30</END_TIME>
+            <BUS_MODEL>Neoplan</BUS_MODEL>
+            <BUS_CLASS/>
+            <BUS_ID/>
+            <BUS_FLOORS_NUMBER>1</BUS_FLOORS_NUMBER>
+            <PLATFORM/>
+            <TRIP_SEATS_MAP>true</TRIP_SEATS_MAP>
+            <SHOW_PICKUP_DROPOFF>false</SHOW_PICKUP_DROPOFF>
+            <BRANDED>false</BRANDED>
+            <HAS_TRANSFER>false</HAS_TRANSFER>
+            <PLACES_COUNT>54</PLACES_COUNT>
+            <FREE_PLACES_COUNT>18</FREE_PLACES_COUNT>
+            <FREE_BUSY_PLACES>18/54</FREE_BUSY_PLACES>
+            <CARRIER_ID>50AA33AA79487993E0530300F00A2C30</CARRIER_ID>
+            <CARRIER_NAME>Корсар Авто/Пехотин В.С ФЛП</CARRIER_NAME>
+            <CARRIER_LEGAL_NAME>Корсар Авто/Пехотин В.С ФЛП/"Корсар Авто/Пехотин В.С." ФЛП</CARRIER_LEGAL_NAME>
+            <TIME_IN_ROAD>28:00</TIME_IN_ROAD>
+            <FAKE_TIME_IN_ROAD>false</FAKE_TIME_IN_ROAD>
+            <RES_POINT_BEGIN_ID>50BBE0721F5B6446E0530300F00A9409</RES_POINT_BEGIN_ID>
+            <POINT_BEGIN_ID>1173867</POINT_BEGIN_ID>
+            <STATION_BEGIN_ID>50BBE0721F5B6446E0530300F00A9409</STATION_BEGIN_ID>
+            <STATION_BEGIN_NAME>Остановка "АЗС Ромпетрол"</STATION_BEGIN_NAME>
+            <STATION_BEGIN_ADDRESS>бульвар Струга</STATION_BEGIN_ADDRESS>
+            <RES_POINT_END_ID>144F0FBFC4DA304EE0508E5B35577C3A</RES_POINT_END_ID>
+            <POINT_END_ID>1136784</POINT_END_ID>
+            <STATION_END_ID>144F0FBFC4DA304EE0508E5B35577C3A</STATION_END_ID>
+            <STATION_END_NAME>Остановка "метро Дворец Украина"</STATION_END_NAME>
+            <STATION_END_ADDRESS>метро Дворец Украина; улица Большая Васильковская; дом 116</STATION_END_ADDRESS>
+            <RESERVATION_ENABLED>true</RESERVATION_ENABLED>
+            <SALE_ENABLED>true</SALE_ENABLED>
+            <RETURN_ENABLED>true</RETURN_ENABLED>
+            <TIME_FOR_CANCEL>40</TIME_FOR_CANCEL>
+            <TRIP_FULL_SALE>false</TRIP_FULL_SALE>
+            <CAN_DISCOUNT>true</CAN_DISCOUNT>
+            <INTERNATIONAL>true</INTERNATIONAL>
+            <JOIN_BOOK_BUY>true</JOIN_BOOK_BUY>
+            <TRIP_MODE>1</TRIP_MODE>
+            <CUSTOM_STATUS>0</CUSTOM_STATUS>
+            <SPECIAL_CONDITIONS/>
+            <REDIRECT_URL/>
+            <IMAGE_URL>null</IMAGE_URL>
+            <START_POINT_TYPE>null</START_POINT_TYPE>
+            <VEHICLE_DESCRIPTION>null</VEHICLE_DESCRIPTION>
+            <VEHICLE_FEATURES>null</VEHICLE_FEATURES>
+            <TOTAL_COST>1198</TOTAL_COST>
+            <CURRENCY>UAH</CURRENCY>
+            <CURRENCY_CODE>980</CURRENCY_CODE>
+            <TECH_AGREEMENT>false</TECH_AGREEMENT>
+            <CARRIER_CODE/>
+            <TARIFF>
+                <SHORT_NAME>Y</SHORT_NAME>
+                <IS_BASE>true</IS_BASE>
+                <FULL_NAME>Базовый тариф</FULL_NAME>
+                <START_DATE>29.05.2017</START_DATE>
+                <END_DATE/>
+                <DESCRIPTION>Базовый тариф стоимости проезда одного пассажиров в одном направлении
+</DESCRIPTION>
+                <TIME_TO_BUY_RESERVED>24</TIME_TO_BUY_RESERVED>
+                <TIME_TO_STOP_BOOKING>8</TIME_TO_STOP_BOOKING>
+                <TIME_TO_PAY_RESERVATION>24.06.2019 00:35:12</TIME_TO_PAY_RESERVATION>
+                <COST>1198</COST>
+                <INSURANCE_COST>0</INSURANCE_COST>
+                <INSURANCE_ID/>
+                <INSURANCE_SUM>0</INSURANCE_SUM>
+                <INSURANCE_CUR/>
+                <AFTER_DISPATCH_NO_RETURN>true</AFTER_DISPATCH_NO_RETURN>
+                <PASSENGER_BIRTHDAY/>
+                <PASSENGER_ISIC_NUMBER/>
+                <PASSENGER_STUDENT_TICKET/>
+                <NOTE/>
+                <WITHOUT_SEAT>N</WITHOUT_SEAT>
+                <RETURN_CAUSE>Добровольно, более чем за 72 ч., до отправления рейса Удерживается при возврате: 10% тарифа. Ориентировочная сумма возврата 838.6 UAH</RETURN_CAUSE>
+                <RETURN_CAUSE>Добровольно, более чем за 24 ч.,  менее чем за 72 ч., до отправления рейса Удерживается при возврате: 50% тарифа. Ориентировочная сумма возврата 359.4 UAH</RETURN_CAUSE>
+                <RETURN_CAUSE>Добровольно,  менее чем за 24 ч., до отправления рейса ВОЗВРАТ НЕ ДОПУСКАЕТСЯ Удерживается при возврате: 100% тарифа. Ориентировочная сумма возврата 0 UAH</RETURN_CAUSE>
+                <RETURN_CAUSE>Принудительно, при отмене рейса, при непредоставлении места. Возвращается 100% стоимости билета. Ориентировочная сумма возврата 1198 UAH</RETURN_CAUSE>
+                <PROMOTE>false</PROMOTE>
+                <IS_EXCLUSIVE_PRICE>false</IS_EXCLUSIVE_PRICE>
+                <FREE_BOOKING>false</FREE_BOOKING>
+            </TARIFF>
+            <OPTIONS>
+                <TICKETS>
+                    <TICKET ID="7">ЭЛЕКТРОННЫЙ БИЛЕТ. Печать билета не требуется!</TICKET>
+                </TICKETS>
+            </OPTIONS>
+        </SEGMENT>
+        <OPTIONS>
+            <TICKETS>
+                <TICKET ID="7">ЭЛЕКТРОННЫЙ БИЛЕТ. Печать билета не требуется!</TICKET>
+            </TICKETS>
+        </OPTIONS>
+    </TRIP>
+    <TRIP>
+        <ID>00-1064036951694228464</ID>
+        <STATIC_TRIP_ID>a4aba71393e79295b41903586909dee0</STATIC_TRIP_ID>
+        <TRIP_ROUTE_ID>8343CED5D0190974E0530300F00A215D</TRIP_ROUTE_ID>
+        <RES_ID>0</RES_ID>
+        <ONE_WAY_PART>true</ONE_WAY_PART>
+        <NUMBER>DAV001 Киев - Бургас, DAV002 Бургас - Киев</NUMBER>
+        <START_CITY_NAME>Киев</START_CITY_NAME>
+        <END_CITY_NAME>Киев</END_CITY_NAME>
+        <START_TIMEZONE>Europe/Kiev</START_TIMEZONE>
+        <END_TIMEZONE>Europe/Sofia</END_TIMEZONE>
+        <START_DATE>25.06.2019</START_DATE>
+        <END_DATE>04.07.2019</END_DATE>
+        <START_TIME>07:00</START_TIME>
+        <END_TIME>20:00</END_TIME>
+        <BUS_MODEL>MAH A-32(free)</BUS_MODEL>
+        <BUS_CLASS/>
+        <BUS_ID/>
+        <BUS_FLOORS_NUMBER>1</BUS_FLOORS_NUMBER>
+        <PLATFORM/>
+        <TRIP_SEATS_MAP>true</TRIP_SEATS_MAP>
+        <SHOW_PICKUP_DROPOFF>false</SHOW_PICKUP_DROPOFF>
+        <BRANDED>false</BRANDED>
+        <HAS_TRANSFER>false</HAS_TRANSFER>
+        <PLACES_COUNT>57</PLACES_COUNT>
+        <FREE_PLACES_COUNT>14</FREE_PLACES_COUNT>
+        <FREE_BUSY_PLACES>14/57</FREE_BUSY_PLACES>
+        <CARRIER_ID>830A8CFE4F9B77C2E0530300F00A4012</CARRIER_ID>
+        <CARRIER_NAME>ДАВ клуб"ООО</CARRIER_NAME>
+        <CARRIER_LEGAL_NAME>"ДАВ клуб" ООО</CARRIER_LEGAL_NAME>
+        <TIME_IN_ROAD>57:00</TIME_IN_ROAD>
+        <FAKE_TIME_IN_ROAD>false</FAKE_TIME_IN_ROAD>
+        <RES_POINT_BEGIN_ID>F714D2364BEB44CAE040B859605235DC</RES_POINT_BEGIN_ID>
+        <POINT_BEGIN_ID>1136784</POINT_BEGIN_ID>
+        <STATION_BEGIN_ID>F714D2364BEB44CAE040B859605235DC</STATION_BEGIN_ID>
+        <STATION_BEGIN_NAME>Остановка "метро Дворец Украина"</STATION_BEGIN_NAME>
+        <STATION_BEGIN_ADDRESS>метро Дворец Украина; улица Большая Васильковская; дом 116</STATION_BEGIN_ADDRESS>
+        <RES_POINT_END_ID>50BBE0721F5B6446E0530300F00A9409</RES_POINT_END_ID>
+        <POINT_END_ID>1173867</POINT_END_ID>
+        <STATION_END_ID>50BBE0721F5B6446E0530300F00A9409</STATION_END_ID>
+        <STATION_END_NAME>Остановка "метро Дворец Украина"</STATION_END_NAME>
+        <STATION_END_ADDRESS>метро Дворец Украина; улица Большая Васильковская; дом 116</STATION_END_ADDRESS>
+        <RESERVATION_ENABLED>true</RESERVATION_ENABLED>
+        <SALE_ENABLED>true</SALE_ENABLED>
+        <RETURN_ENABLED>true</RETURN_ENABLED>
+        <TIME_FOR_CANCEL>40</TIME_FOR_CANCEL>
+        <TRIP_FULL_SALE>false</TRIP_FULL_SALE>
+        <CAN_DISCOUNT>true</CAN_DISCOUNT>
+        <INTERNATIONAL>true</INTERNATIONAL>
+        <JOIN_BOOK_BUY>true</JOIN_BOOK_BUY>
+        <TRIP_MODE>8</TRIP_MODE>
+        <CUSTOM_STATUS>0</CUSTOM_STATUS>
+        <SPECIAL_CONDITIONS/>
+        <REDIRECT_URL/>
+        <IMAGE_URL>null</IMAGE_URL>
+        <START_POINT_TYPE>null</START_POINT_TYPE>
+        <VEHICLE_DESCRIPTION>null</VEHICLE_DESCRIPTION>
+        <VEHICLE_FEATURES>null</VEHICLE_FEATURES>
+        <TOTAL_COST>1973.4</TOTAL_COST>
+        <CURRENCY>UAH</CURRENCY>
+        <CURRENCY_CODE>980</CURRENCY_CODE>
+        <TECH_AGREEMENT>false</TECH_AGREEMENT>
+        <CARRIER_CODE/>
+        <SEGMENT>
+            <SEGMENT_NUMBER>0</SEGMENT_NUMBER>
+            <BACK_SEGMENT>false</BACK_SEGMENT>
+            <ID>-5056956079978819605</ID>
+            <STATIC_TRIP_ID>a4aba71393e79295b41903586909dee0</STATIC_TRIP_ID>
+            <TRIP_ROUTE_ID>8343CED5D0190974E0530300F00A215D</TRIP_ROUTE_ID>
+            <RES_ID>0</RES_ID>
+            <NUMBER>DAV001 Киев - Бургас</NUMBER>
+            <START_CITY_NAME>Киев</START_CITY_NAME>
+            <END_CITY_NAME>Бургас</END_CITY_NAME>
+            <START_TIMEZONE>Europe/Kiev</START_TIMEZONE>
+            <END_TIMEZONE>Europe/Sofia</END_TIMEZONE>
+            <START_DATE>25.06.2019</START_DATE>
+            <END_DATE>26.06.2019</END_DATE>
+            <START_TIME>07:00</START_TIME>
+            <END_TIME>12:30</END_TIME>
+            <BUS_MODEL>MAH A-32(free)</BUS_MODEL>
+            <BUS_CLASS/>
+            <BUS_ID/>
+            <BUS_FLOORS_NUMBER>1</BUS_FLOORS_NUMBER>
+            <PLATFORM/>
+            <TRIP_SEATS_MAP>true</TRIP_SEATS_MAP>
+            <SHOW_PICKUP_DROPOFF>false</SHOW_PICKUP_DROPOFF>
+            <BRANDED>false</BRANDED>
+            <HAS_TRANSFER>false</HAS_TRANSFER>
+            <PLACES_COUNT>57</PLACES_COUNT>
+            <FREE_PLACES_COUNT>17</FREE_PLACES_COUNT>
+            <FREE_BUSY_PLACES>17/57</FREE_BUSY_PLACES>
+            <CARRIER_ID>830A8CFE4F9B77C2E0530300F00A4012</CARRIER_ID>
+            <CARRIER_NAME>ДАВ клуб"ООО</CARRIER_NAME>
+            <CARRIER_LEGAL_NAME>"ДАВ клуб" ООО</CARRIER_LEGAL_NAME>
+            <TIME_IN_ROAD>29:30</TIME_IN_ROAD>
+            <FAKE_TIME_IN_ROAD>false</FAKE_TIME_IN_ROAD>
+            <RES_POINT_BEGIN_ID>F714D2364BEB44CAE040B859605235DC</RES_POINT_BEGIN_ID>
+            <POINT_BEGIN_ID>1136784</POINT_BEGIN_ID>
+            <STATION_BEGIN_ID>F714D2364BEB44CAE040B859605235DC</STATION_BEGIN_ID>
+            <STATION_BEGIN_NAME>Остановка "метро Дворец Украина"</STATION_BEGIN_NAME>
+            <STATION_BEGIN_ADDRESS>метро Дворец Украина; улица Большая Васильковская; дом 116</STATION_BEGIN_ADDRESS>
+            <RES_POINT_END_ID>50BBE0721F5B6446E0530300F00A9409</RES_POINT_END_ID>
+            <POINT_END_ID>1173867</POINT_END_ID>
+            <STATION_END_ID>50BBE0721F5B6446E0530300F00A9409</STATION_END_ID>
+            <STATION_END_NAME>Остановка "АЗС Ромпетрол"</STATION_END_NAME>
+            <STATION_END_ADDRESS>бульвар Струга</STATION_END_ADDRESS>
+            <RESERVATION_ENABLED>true</RESERVATION_ENABLED>
+            <SALE_ENABLED>true</SALE_ENABLED>
+            <RETURN_ENABLED>true</RETURN_ENABLED>
+            <TIME_FOR_CANCEL>40</TIME_FOR_CANCEL>
+            <TRIP_FULL_SALE>false</TRIP_FULL_SALE>
+            <CAN_DISCOUNT>true</CAN_DISCOUNT>
+            <INTERNATIONAL>true</INTERNATIONAL>
+            <JOIN_BOOK_BUY>true</JOIN_BOOK_BUY>
+            <TRIP_MODE>1</TRIP_MODE>
+            <CUSTOM_STATUS>0</CUSTOM_STATUS>
+            <SPECIAL_CONDITIONS/>
+            <REDIRECT_URL/>
+            <IMAGE_URL>null</IMAGE_URL>
+            <START_POINT_TYPE>null</START_POINT_TYPE>
+            <VEHICLE_DESCRIPTION>null</VEHICLE_DESCRIPTION>
+            <VEHICLE_FEATURES>null</VEHICLE_FEATURES>
+            <TOTAL_COST>986.7</TOTAL_COST>
+            <CURRENCY>UAH</CURRENCY>
+            <CURRENCY_CODE>980</CURRENCY_CODE>
+            <TECH_AGREEMENT>false</TECH_AGREEMENT>
+            <CARRIER_CODE/>
+            <TARIFF>
+                <SHORT_NAME>Y</SHORT_NAME>
+                <IS_BASE>true</IS_BASE>
+                <FULL_NAME>Базовый тариф</FULL_NAME>
+                <START_DATE>03.03.2019</START_DATE>
+                <END_DATE/>
+                <DESCRIPTION>Базовый тариф стоимости проезда одного пассажиров в одном направлении
+В стоимость билета входит 1 ручная кладь размером 60x40x20 и весом до 5 кг, которая должна находиться в салоне автобуса пассажира. Дополнительный багаж или груз принимается к перевозке только при наличии свободного места в багажном отделении автобуса и стоит 10% от стоимости билета. При перевозке багажа и груза в багажном отделении автобуса, перевозчик несет ответственность только за наличие единицы багажа или груза, но не гарантирует сохранение его целостности и работоспособности. Перевозчик не берет на себя ответственность за незначительную или поверхностную порчу багажа. Перевозчик имеет право отказать в перевозке багажа или груза.</DESCRIPTION>
+                <TIME_TO_BUY_RESERVED>24</TIME_TO_BUY_RESERVED>
+                <TIME_TO_STOP_BOOKING>12</TIME_TO_STOP_BOOKING>
+                <TIME_TO_PAY_RESERVATION>24.06.2019 00:35:11</TIME_TO_PAY_RESERVATION>
+                <COST>986.7</COST>
+                <INSURANCE_COST>0</INSURANCE_COST>
+                <INSURANCE_ID/>
+                <INSURANCE_SUM>0</INSURANCE_SUM>
+                <INSURANCE_CUR/>
+                <AFTER_DISPATCH_NO_RETURN>true</AFTER_DISPATCH_NO_RETURN>
+                <PASSENGER_BIRTHDAY/>
+                <PASSENGER_ISIC_NUMBER/>
+                <PASSENGER_STUDENT_TICKET/>
+                <NOTE/>
+                <WITHOUT_SEAT>N</WITHOUT_SEAT>
+                <RETURN_CAUSE>Добровольно, более чем за 7 дн., до отправления рейса Возвращается 100% стоимости тарифа. Ориентировочная сумма возврата 838.69 UAH</RETURN_CAUSE>
+                <RETURN_CAUSE>Добровольно, более чем за 72 ч., до отправления рейса Удерживается при возврате: 10% тарифа. Ориентировочная сумма возврата 740.02 UAH</RETURN_CAUSE>
+                <RETURN_CAUSE>Добровольно, более чем за 24 ч.,  менее чем за 72 ч., до отправления рейса Удерживается при возврате: 50% тарифа. Ориентировочная сумма возврата 345.34 UAH</RETURN_CAUSE>
+                <RETURN_CAUSE>Менее чем за 24 ч., до отправления рейса ВОЗВРАТ НЕ ДОПУСКАЕТСЯ Удерживается при возврате: 100% тарифа. Ориентировочная сумма возврата 0 UAH</RETURN_CAUSE>
+                <RETURN_CAUSE>Принудительно, при отмене рейса, при непредоставлении места. Возвращается 100% стоимости билета. Ориентировочная сумма возврата 986.7 UAH</RETURN_CAUSE>
+                <PROMOTE>false</PROMOTE>
+                <IS_EXCLUSIVE_PRICE>false</IS_EXCLUSIVE_PRICE>
+                <FREE_BOOKING>false</FREE_BOOKING>
+            </TARIFF>
+            <POINT>
+                <NUMBER>0</NUMBER>
+                <ID>1136784</ID>
+                <LOCATION_ID>1290</LOCATION_ID>
+                <GEOGRAPHY_NAME>Киев</GEOGRAPHY_NAME>
+                <NAME>Остановка "метро Дворец Украина"</NAME>
+                <ADDRESS>метро Дворец Украина; улица Большая Васильковская; дом 116</ADDRESS>
+                <TIMEZONE>Europe/Kiev</TIMEZONE>
+                <ARRIVAL_DATE>25.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME/>
+                <DISPATCH_DATE>25.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>07:00</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>0</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL/>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>1</NUMBER>
+                <ID>1402642</ID>
+                <LOCATION_ID>1516</LOCATION_ID>
+                <GEOGRAPHY_NAME>Белая Церковь</GEOGRAPHY_NAME>
+                <NAME>Остановка Белая Церковь (под мостом, на выезде из города)</NAME>
+                <ADDRESS>трасса М05</ADDRESS>
+                <TIMEZONE>Europe/Kiev</TIMEZONE>
+                <ARRIVAL_DATE>25.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>09:20</ARRIVAL_TIME>
+                <DISPATCH_DATE>25.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>09:30</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>1</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL>MAH A-32(free)</BUSMODEL>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>2</NUMBER>
+                <ID>1171247</ID>
+                <LOCATION_ID>1883</LOCATION_ID>
+                <GEOGRAPHY_NAME>Умань</GEOGRAPHY_NAME>
+                <NAME>Остановка "АЗС "WOG"</NAME>
+                <ADDRESS>улица Степана Бандеры; дом 1-Б</ADDRESS>
+                <TIMEZONE>Europe/Kiev</TIMEZONE>
+                <ARRIVAL_DATE>25.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>10:50</ARRIVAL_TIME>
+                <DISPATCH_DATE>25.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>11:00</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>2</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL/>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>3</NUMBER>
+                <ID>1171426</ID>
+                <LOCATION_ID>1664</LOCATION_ID>
+                <GEOGRAPHY_NAME>Одесса</GEOGRAPHY_NAME>
+                <NAME>Остановка Одесса</NAME>
+                <ADDRESS>Итальянский бульвар; дом 6</ADDRESS>
+                <TIMEZONE>Europe/Kiev</TIMEZONE>
+                <ARRIVAL_DATE>25.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>13:25</ARRIVAL_TIME>
+                <DISPATCH_DATE>25.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>13:30</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>3</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL/>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>4</NUMBER>
+                <ID>1404936</ID>
+                <LOCATION_ID>1668</LOCATION_ID>
+                <GEOGRAPHY_NAME>Измаил</GEOGRAPHY_NAME>
+                <NAME>Остановка "Бар Брос-Ангелес"</NAME>
+                <ADDRESS>трасса М-15</ADDRESS>
+                <TIMEZONE>Europe/Kiev</TIMEZONE>
+                <ARRIVAL_DATE>25.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>18:20</ARRIVAL_TIME>
+                <DISPATCH_DATE>25.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>18:30</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>4</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL/>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>5</NUMBER>
+                <ID>1173742</ID>
+                <LOCATION_ID>235339</LOCATION_ID>
+                <GEOGRAPHY_NAME>Балчик</GEOGRAPHY_NAME>
+                <NAME>Остановка "АЗС Лафи"</NAME>
+                <ADDRESS>улица Дунав; дом 48</ADDRESS>
+                <TIMEZONE>Europe/Sofia</TIMEZONE>
+                <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>06:00</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>06:00</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>6</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL/>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>6</NUMBER>
+                <ID>1403010</ID>
+                <LOCATION_ID>242877</LOCATION_ID>
+                <GEOGRAPHY_NAME>Албена</GEOGRAPHY_NAME>
+                <NAME>Остановка "Въезд на курорт" (перед шлагбаумом)</NAME>
+                <ADDRESS>Круг Албена; дом 9</ADDRESS>
+                <TIMEZONE>Europe/Sofia</TIMEZONE>
+                <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>07:20</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>07:20</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>7</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL/>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>7</NUMBER>
+                <ID>1402531</ID>
+                <LOCATION_ID>242878</LOCATION_ID>
+                <GEOGRAPHY_NAME>Кранево</GEOGRAPHY_NAME>
+                <NAME>Автобусная остановка "Топмаркет"</NAME>
+                <ADDRESS>республиканская дорога I-9</ADDRESS>
+                <TIMEZONE>Europe/Sofia</TIMEZONE>
+                <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>07:45</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>07:45</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>8</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL/>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>8</NUMBER>
+                <ID>1402532</ID>
+                <LOCATION_ID>242879</LOCATION_ID>
+                <GEOGRAPHY_NAME>Золотые пески</GEOGRAPHY_NAME>
+                <NAME>Автобусная остановка "Управление"</NAME>
+                <ADDRESS>республиканская дорога Е-87</ADDRESS>
+                <TIMEZONE>Europe/Sofia</TIMEZONE>
+                <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>08:00</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>08:00</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>9</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL/>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>9</NUMBER>
+                <ID>1403008</ID>
+                <LOCATION_ID>242883</LOCATION_ID>
+                <GEOGRAPHY_NAME>Св.-Св.-Константин-И-Елена</GEOGRAPHY_NAME>
+                <NAME>Остановка "Въезд на курорт" (перед шлагбаумом)</NAME>
+                <ADDRESS>улица 1-ва</ADDRESS>
+                <TIMEZONE>Europe/Sofia</TIMEZONE>
+                <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>08:10</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>08:10</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>10</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL/>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>10</NUMBER>
+                <ID>1173596</ID>
+                <LOCATION_ID>230090</LOCATION_ID>
+                <GEOGRAPHY_NAME>Варна</GEOGRAPHY_NAME>
+                <NAME>Остановка "Собор"</NAME>
+                <ADDRESS>улица Св. Св. Кирилла и Мефодия; дом 2</ADDRESS>
+                <TIMEZONE>Europe/Sofia</TIMEZONE>
+                <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>09:00</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>09:00</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>11</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL/>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>11</NUMBER>
+                <ID>1173595</ID>
+                <LOCATION_ID>242875</LOCATION_ID>
+                <GEOGRAPHY_NAME>Обзор</GEOGRAPHY_NAME>
+                <NAME>Автовокзал Обзор</NAME>
+                <ADDRESS>улица Рила</ADDRESS>
+                <TIMEZONE>Europe/Sofia</TIMEZONE>
+                <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>10:00</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>10:00</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>12</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL/>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>12</NUMBER>
+                <ID>1171191</ID>
+                <LOCATION_ID>242876</LOCATION_ID>
+                <GEOGRAPHY_NAME>Солнечный берег</GEOGRAPHY_NAME>
+                <NAME>Остановка "Диско Оранж"</NAME>
+                <ADDRESS>бульвар Несебр</ADDRESS>
+                <TIMEZONE>Europe/Sofia</TIMEZONE>
+                <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>10:30</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>10:30</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>13</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL>MAH A-32(free)</BUSMODEL>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>13</NUMBER>
+                <ID>1173744</ID>
+                <LOCATION_ID>229629</LOCATION_ID>
+                <GEOGRAPHY_NAME>Несебыр</GEOGRAPHY_NAME>
+                <NAME>Остановка "Отель Фиеста Панорама"</NAME>
+                <ADDRESS>улица Хан Крум; дом 40</ADDRESS>
+                <TIMEZONE>Europe/Sofia</TIMEZONE>
+                <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>11:00</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>11:00</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>14</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL/>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>14</NUMBER>
+                <ID>1404565</ID>
+                <LOCATION_ID>230721</LOCATION_ID>
+                <GEOGRAPHY_NAME>Равда</GEOGRAPHY_NAME>
+                <NAME>Остановка "Центральная площадь" (возле фонтана)</NAME>
+                <ADDRESS>улица Раковски; дом 22</ADDRESS>
+                <TIMEZONE>Europe/Sofia</TIMEZONE>
+                <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>11:30</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>11:30</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>15</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL/>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>15</NUMBER>
+                <ID>1404574</ID>
+                <LOCATION_ID>231156</LOCATION_ID>
+                <GEOGRAPHY_NAME>Поморие</GEOGRAPHY_NAME>
+                <NAME>Автовокзал "Новый город"</NAME>
+                <ADDRESS>улица Княз Борис I</ADDRESS>
+                <TIMEZONE>Europe/Sofia</TIMEZONE>
+                <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>12:00</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>12:00</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>16</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL/>
+                <AGREED>true</AGREED>
+            </POINT>
+            <POINT>
+                <NUMBER>16</NUMBER>
+                <ID>1173867</ID>
+                <LOCATION_ID>230178</LOCATION_ID>
+                <GEOGRAPHY_NAME>Бургас</GEOGRAPHY_NAME>
+                <NAME>Остановка "АЗС Ромпетрол"</NAME>
+                <ADDRESS>бульвар Струга</ADDRESS>
+                <TIMEZONE>Europe/Sofia</TIMEZONE>
+                <ARRIVAL_DATE>26.06.2019</ARRIVAL_DATE>
+                <ARRIVAL_TIME>12:30</ARRIVAL_TIME>
+                <DISPATCH_DATE>26.06.2019</DISPATCH_DATE>
+                <DISPATCH_TIME>12:30</DISPATCH_TIME>
+                <CHECK_POINT>false</CHECK_POINT>
+                <DISTANCE>17</DISTANCE>
+                <TRANSFER_POINT>false</TRANSFER_POINT>
+                <PLATFORM/>
+                <BUSMODEL/>
+                <AGREED>true</AGREED>
+            </POINT>
+            <OPTIONS>
+                <TICKETS>
+                    <TICKET ID="7">ЭЛЕКТРОННЫЙ БИЛЕТ. Печать билета не требуется!</TICKET>
+                </TICKETS>
+            </OPTIONS>
+        </SEGMENT>
+        <SEGMENT>
+            <SEGMENT_NUMBER>1</SEGMENT_NUMBER>
+            <BACK_SEGMENT>true</BACK_SEGMENT>
+            <ID>-3623916307223982514</ID>
+            <STATIC_TRIP_ID>eb6a973dd33d9b070dfa92c763577d8e</STATIC_TRIP_ID>
+            <TRIP_ROUTE_ID>83449ADB987E25A2E0530300F00AF086</TRIP_ROUTE_ID>
+            <RES_ID>0</RES_ID>
+            <NUMBER>DAV002 Бургас - Киев</NUMBER>
+            <START_CITY_NAME>Бургас</START_CITY_NAME>
+            <END_CITY_NAME>Киев</END_CITY_NAME>
+            <START_TIMEZONE>Europe/Sofia</START_TIMEZONE>
+            <END_TIMEZONE>Europe/Kiev</END_TIMEZONE>
+            <START_DATE>03.07.2019</START_DATE>
+            <END_DATE>04.07.2019</END_DATE>
+            <START_TIME>16:30</START_TIME>
+            <END_TIME>20:00</END_TIME>
+            <BUS_MODEL>MAH A-32(free)</BUS_MODEL>
+            <BUS_CLASS/>
+            <BUS_ID/>
+            <BUS_FLOORS_NUMBER>1</BUS_FLOORS_NUMBER>
+            <PLATFORM/>
+            <TRIP_SEATS_MAP>true</TRIP_SEATS_MAP>
+            <SHOW_PICKUP_DROPOFF>false</SHOW_PICKUP_DROPOFF>
+            <BRANDED>false</BRANDED>
+            <HAS_TRANSFER>false</HAS_TRANSFER>
+            <PLACES_COUNT>57</PLACES_COUNT>
+            <FREE_PLACES_COUNT>14</FREE_PLACES_COUNT>
+            <FREE_BUSY_PLACES>14/57</FREE_BUSY_PLACES>
+            <CARRIER_ID>830A8CFE4F9B77C2E0530300F00A4012</CARRIER_ID>
+            <CARRIER_NAME>ДАВ клуб"ООО</CARRIER_NAME>
+            <CARRIER_LEGAL_NAME>"ДАВ клуб" ООО</CARRIER_LEGAL_NAME>
+            <TIME_IN_ROAD>27:30</TIME_IN_ROAD>
+            <FAKE_TIME_IN_ROAD>false</FAKE_TIME_IN_ROAD>
+            <RES_POINT_BEGIN_ID>50BBE0721F5B6446E0530300F00A9409</RES_POINT_BEGIN_ID>
+            <POINT_BEGIN_ID>1173867</POINT_BEGIN_ID>
+            <STATION_BEGIN_ID>50BBE0721F5B6446E0530300F00A9409</STATION_BEGIN_ID>
+            <STATION_BEGIN_NAME>Остановка "АЗС Ромпетрол"</STATION_BEGIN_NAME>
+            <STATION_BEGIN_ADDRESS>бульвар Струга</STATION_BEGIN_ADDRESS>
+            <RES_POINT_END_ID>53F41B70DA9F691CE0530300F00AE931</RES_POINT_END_ID>
+            <POINT_END_ID>1136784</POINT_END_ID>
+            <STATION_END_ID>53F41B70DA9F691CE0530300F00AE931</STATION_END_ID>
+            <STATION_END_NAME>Остановка "метро Дворец Украина"</STATION_END_NAME>
+            <STATION_END_ADDRESS>метро Дворец Украина; улица Большая Васильковская; дом 116</STATION_END_ADDRESS>
+            <RESERVATION_ENABLED>true</RESERVATION_ENABLED>
+            <SALE_ENABLED>true</SALE_ENABLED>
+            <RETURN_ENABLED>true</RETURN_ENABLED>
+            <TIME_FOR_CANCEL>40</TIME_FOR_CANCEL>
+            <TRIP_FULL_SALE>false</TRIP_FULL_SALE>
+            <CAN_DISCOUNT>true</CAN_DISCOUNT>
+            <INTERNATIONAL>true</INTERNATIONAL>
+            <JOIN_BOOK_BUY>true</JOIN_BOOK_BUY>
+            <TRIP_MODE>1</TRIP_MODE>
+            <CUSTOM_STATUS>0</CUSTOM_STATUS>
+            <SPECIAL_CONDITIONS/>
+            <REDIRECT_URL/>
+            <IMAGE_URL>null</IMAGE_URL>
+            <START_POINT_TYPE>null</START_POINT_TYPE>
+            <VEHICLE_DESCRIPTION>null</VEHICLE_DESCRIPTION>
+            <VEHICLE_FEATURES>null</VEHICLE_FEATURES>
+            <TOTAL_COST>986.7</TOTAL_COST>
+            <CURRENCY>UAH</CURRENCY>
+            <CURRENCY_CODE>980</CURRENCY_CODE>
+            <TECH_AGREEMENT>false</TECH_AGREEMENT>
+            <CARRIER_CODE/>
+            <TARIFF>
+                <SHORT_NAME>Y</SHORT_NAME>
+                <IS_BASE>true</IS_BASE>
+                <FULL_NAME>Базовый тариф</FULL_NAME>
+                <START_DATE>03.03.2019</START_DATE>
+                <END_DATE/>
+                <DESCRIPTION>Базовый тариф стоимости проезда одного пассажиров в одном направлении
+В стоимость билета входит 1 ручная кладь размером 60x40x20 и весом до 5 кг, которая должна находиться в салоне автобуса пассажира. Дополнительный багаж или груз принимается к перевозке только при наличии свободного места в багажном отделении автобуса и стоит 10% от стоимости билета. При перевозке багажа и груза в багажном отделении автобуса, перевозчик несет ответственность только за наличие единицы багажа или груза, но не гарантирует сохранение его целостности и работоспособности. Перевозчик не берет на себя ответственность за незначительную или поверхностную порчу багажа. Перевозчик имеет право отказать в перевозке багажа или груза.</DESCRIPTION>
+                <TIME_TO_BUY_RESERVED>24</TIME_TO_BUY_RESERVED>
+                <TIME_TO_STOP_BOOKING>12</TIME_TO_STOP_BOOKING>
+                <TIME_TO_PAY_RESERVATION>24.06.2019 00:35:12</TIME_TO_PAY_RESERVATION>
+                <COST>986.7</COST>
+                <INSURANCE_COST>0</INSURANCE_COST>
+                <INSURANCE_ID/>
+                <INSURANCE_SUM>0</INSURANCE_SUM>
+                <INSURANCE_CUR/>
+                <AFTER_DISPATCH_NO_RETURN>true</AFTER_DISPATCH_NO_RETURN>
+                <PASSENGER_BIRTHDAY/>
+                <PASSENGER_ISIC_NUMBER/>
+                <PASSENGER_STUDENT_TICKET/>
+                <NOTE/>
+                <WITHOUT_SEAT>N</WITHOUT_SEAT>
+                <RETURN_CAUSE>Добровольно, более чем за 7 дн., до отправления рейса Возвращается 100% стоимости тарифа. Ориентировочная сумма возврата 838.69 UAH</RETURN_CAUSE>
+                <RETURN_CAUSE>Добровольно, более чем за 72 ч., до отправления рейса Удерживается при возврате: 10% тарифа. Ориентировочная сумма возврата 740.02 UAH</RETURN_CAUSE>
+                <RETURN_CAUSE>Добровольно, более чем за 24 ч.,  менее чем за 72 ч., до отправления рейса Удерживается при возврате: 50% тарифа. Ориентировочная сумма возврата 345.34 UAH</RETURN_CAUSE>
+                <RETURN_CAUSE>Менее чем за 24 ч., до отправления рейса ВОЗВРАТ НЕ ДОПУСКАЕТСЯ Удерживается при возврате: 100% тарифа. Ориентировочная сумма возврата 0 UAH</RETURN_CAUSE>
+                <RETURN_CAUSE>Принудительно, при отмене рейса, при непредоставлении места. Возвращается 100% стоимости билета. Ориентировочная сумма возврата 986.7 UAH</RETURN_CAUSE>
+                <PROMOTE>false</PROMOTE>
+                <IS_EXCLUSIVE_PRICE>false</IS_EXCLUSIVE_PRICE>
+                <FREE_BOOKING>false</FREE_BOOKING>
+            </TARIFF>
+            <OPTIONS>
+                <TICKETS>
+                    <TICKET ID="7">ЭЛЕКТРОННЫЙ БИЛЕТ. Печать билета не требуется!</TICKET>
+                </TICKETS>
+            </OPTIONS>
+        </SEGMENT>
+        <OPTIONS>
+            <TICKETS>
+                <TICKET ID="7">ЭЛЕКТРОННЫЙ БИЛЕТ. Печать билета не требуется!</TICKET>
+            </TICKETS>
+        </OPTIONS>
+    </TRIP>
+</DATA>

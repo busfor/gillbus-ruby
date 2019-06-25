@@ -69,6 +69,10 @@ class SearchTripsResponseTest < Minitest::Test
     Gillbus::SearchTrips::Response.parse_string(File.read('test/responses/searchTrips-insurance.xml'))
   end
 
+  def get_trips_with_round_trip_offers
+    Gillbus::SearchTrips::Response.parse_string(File.read('test/responses/searchTrips-round-trip-offers.xml'))
+  end
+
   def test_empty_completed
     response = get_empty_search_trips
     assert response.completed
@@ -293,5 +297,14 @@ class SearchTripsResponseTest < Minitest::Test
     assert_equal '100 RUB'.to_money, tariff.insurance_cost
     assert_equal 1, tariff.insurance_id
     assert_equal '100000 RUB'.to_money, tariff.insurance_sum
+  end
+
+  def test_trips_with_round_trip_offers
+    response = get_trips_with_round_trip_offers
+
+    assert response.completed
+    assert_equal 1, response.back_trips.count
+    assert_equal 3, response.trips.count
+    assert_equal response.back_trips.first.id, response.trips.first.id
   end
 end

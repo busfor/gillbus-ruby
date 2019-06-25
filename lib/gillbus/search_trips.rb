@@ -132,6 +132,7 @@ class Gillbus
     class Response < BaseResponse
       field :completed, :bool
       field :trips, [Trip], key: 'TRIP'
+      field :back_trips, [Trip], key: 'BACK_TRIP'
     end
   end
 end
