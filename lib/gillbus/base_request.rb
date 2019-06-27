@@ -45,6 +45,8 @@ class Gillbus
         'uk' => 'ukr',
         'th' => 'tai',
         'pl' => 'pol',
+        'cs' => 'ces',
+        'bg' => 'bul',
 
         # temporary, until changed in busfor
         'ua' => 'ukr',
