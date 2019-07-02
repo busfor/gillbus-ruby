@@ -13,6 +13,10 @@ class GetTripSeatsTest < Minitest::Test
     Gillbus::GetTripSeats::Response.parse_string(File.read('test/responses/getTripSeats-one-empty-segment.xml'))
   end
 
+  def get_trip_seats_with_back_seats
+    Gillbus::GetTripSeats::Response.parse_string(File.read('test/responses/getTripSeats-back-seats.xml'))
+  end
+
   def test_seats
     seats = get_trip_seats.seats
     max_x = seats.map(&:x).max
@@ -35,5 +39,19 @@ class GetTripSeatsTest < Minitest::Test
     assert_equal [0, 1], segments.keys
     assert [], segments[0]
     assert_equal 80, segments[1].size
+  end
+
+  def test_seats_with_back_seats
+    response = get_trip_seats_with_back_seats
+
+    assert_equal true, response.seats.count > 0
+    assert_equal true, response.back_seats.count > 0
+
+    back_seat = response.back_seats.first
+    assert_equal '4925214118', back_seat.id
+    assert_equal 'В1', back_seat.number
+    assert_equal 2, back_seat.type
+    assert_equal 0, back_seat.x
+    assert_equal 0, back_seat.y
   end
 end

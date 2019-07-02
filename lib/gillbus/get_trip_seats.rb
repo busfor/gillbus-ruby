@@ -38,6 +38,7 @@ class Gillbus
       SEGMENT_REGEX = /SEGMENT_(?<number>\d+)_SEAT/
 
       field :seats, [Seat], key: 'SEAT'
+      field :back_seats, [Seat], key: 'BACK_SEAT' # для round_trip offers
 
       field :segments, :segments, key: SEGMENT_REGEX
 
