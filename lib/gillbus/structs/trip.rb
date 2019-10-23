@@ -154,6 +154,9 @@ class Gillbus
     # => "643"
     field :currency_code
 
+    # => "1"
+    field :bus_floors_number, :int
+
     field :tariffs, [:tariff], key: 'TARIFF'
 
     field :points, [Point], key: 'POINT'
