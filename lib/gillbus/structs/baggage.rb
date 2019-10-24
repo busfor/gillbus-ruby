@@ -3,6 +3,9 @@ class Gillbus
     extend Fields
     include UpdateAttrs
 
+    # => "0"
+    field :segment_number, :int
+
     # => "true"
     field :is_buy, :bool
 
@@ -11,5 +14,7 @@ class Gillbus
 
     # => "2"
     field :baggage_limit, :int
+
+    field :segments, [Baggage], key: 'SEGMENT'
   end
 end
