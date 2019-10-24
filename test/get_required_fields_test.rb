@@ -1,5 +1,4 @@
 require 'test_helper'
-require 'pry'
 
 class GetCountriesTest < Minitest::Test
   def get_required_fields_without_baggage
