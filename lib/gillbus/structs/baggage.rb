@@ -1,7 +1,6 @@
 class Gillbus
   class Baggage
     extend Fields
-    include UpdateAttrs
 
     # => "0"
     field :segment_number, :int
