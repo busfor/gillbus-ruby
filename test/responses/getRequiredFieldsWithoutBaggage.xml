@@ -1,0 +1,23 @@
+<DATA>
+    <TIME_LIMIT>0</TIME_LIMIT>
+    <DICTIONARY>
+        <STUDENT_TICKET>false</STUDENT_TICKET>
+        <ISIC>false</ISIC>
+        <TARIFF_SHORT_NAME>false</TARIFF_SHORT_NAME>
+        <TARIFF_COST>false</TARIFF_COST>
+        <DOCUMENT_TYPE>true</DOCUMENT_TYPE>
+        <BAGGAGE_COUNT>true</BAGGAGE_COUNT>
+        <PHONE>true</PHONE>
+        <MAIL>true</MAIL>
+        <FIRSTNAME>true</FIRSTNAME>
+        <LASTNAME>true</LASTNAME>
+        <SECONDNAME>true</SECONDNAME>
+        <BIRTHDAY>true</BIRTHDAY>
+        <PASSPORT>true</PASSPORT>
+        <CITIZENSHIP>true</CITIZENSHIP>
+        <GENDER>true</GENDER>
+        <VISA>true</VISA>
+        <PASSDATE>true</PASSDATE>
+        <ONLY_LATIN_SYMBOLS>true</ONLY_LATIN_SYMBOLS>
+    </DICTIONARY>
+</DATA>
