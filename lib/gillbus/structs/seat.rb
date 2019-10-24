@@ -24,6 +24,7 @@ class Gillbus
 
     field :x, :int
     field :y, :int
+    field :z, :int
 
     def free?
       type == 3 || type == 9

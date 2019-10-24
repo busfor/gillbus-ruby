@@ -21,6 +21,11 @@ class Gillbus
       # Только для железнодорожных рейсов.
       attr_accessor :back_carriage_id
 
+      # floorNumber
+      # Номер этажа автобуса, если указан, то возвращается карта мест указанного этажа.
+      # Если задан неверно или не указан, то возвращается вся карта мест.
+      attr_accessor :floor_number
+
       # segment0carriageId...segmentNcarriageId (не обязательный)
       # ИД вагона сегмента рейса с порядковым нормеом 0...N, для которого нужно получить карту мест.
       # По-умолчанию первый попавшийся. Только для железнодорожных рейсов.
@@ -30,6 +35,7 @@ class Gillbus
           tripId: trip_id,
           carriageId: carriage_id,
           backCarriageId: back_carriage_id,
+          floorNumber: floor_number,
         )
       end
     end

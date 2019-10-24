@@ -42,6 +42,7 @@
         <CURRENCY>RUB</CURRENCY>
         <CURRENCY_CODE>643</CURRENCY_CODE>
         <REDIRECT_URL>http://example.com/123</REDIRECT_URL>
+        <BUS_FLOORS_NUMBER>0</BUS_FLOORS_NUMBER>
         <TARIFF>
             <SHORT_NAME>Y</SHORT_NAME>
             <FULL_NAME/>
@@ -177,6 +178,7 @@
         <TOTAL_COST>1410</TOTAL_COST>
         <CURRENCY>RUB</CURRENCY>
         <CURRENCY_CODE>643</CURRENCY_CODE>
+        <BUS_FLOORS_NUMBER>2</BUS_FLOORS_NUMBER>
         <TARIFF>
             <SHORT_NAME>Y</SHORT_NAME>
             <FULL_NAME/>
