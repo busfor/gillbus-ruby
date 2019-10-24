@@ -17,8 +17,8 @@ class GetTripSeatsTest < Minitest::Test
     Gillbus::GetTripSeats::Response.parse_string(File.read('test/responses/getTripSeats-back-seats.xml'))
   end
 
-  def get_trip_seats_with_two_storeys
-    Gillbus::GetTripSeats::Response.parse_string(File.read('test/responses/getTripSeats-two-storeys.xml'))
+  def get_trip_seats_with_two_floors
+    Gillbus::GetTripSeats::Response.parse_string(File.read('test/responses/getTripSeats-two-floors.xml'))
   end
 
   def test_seats
@@ -63,11 +63,11 @@ class GetTripSeatsTest < Minitest::Test
     assert_equal 0, back_seat.y
   end
 
-  def test_seats_with_back_seats_two_storeys
-    seats = get_trip_seats_with_two_storeys.seats
-    groupped_seats_by_storey = seats.group_by(&:z)
-    z0_seats_count = groupped_seats_by_storey[0]
-    z1_seats_count = groupped_seats_by_storey[1]
+  def test_seats_with_back_seats_two_floors
+    seats = get_trip_seats_with_two_floors.seats
+    groupped_seats_by_floor = seats.group_by(&:z)
+    z0_seats_count = groupped_seats_by_floor[0]
+    z1_seats_count = groupped_seats_by_floor[1]
 
     assert_equal true, z0_seats_count.count > 0
     assert_equal true, z1_seats_count.count > 0
