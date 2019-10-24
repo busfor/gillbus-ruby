@@ -16,6 +16,7 @@ class Gillbus
 
     class Response < BaseResponse
       field :dictionary, :bool_dict
+      field :baggage, Baggage
 
       parser do
         def bool_dict(val)
