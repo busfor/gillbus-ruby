@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class GetCountriesTest < Minitest::Test
+class GetRequiredFieldsTest < Minitest::Test
   def get_required_fields_without_baggage
     response_xml = File.read('test/responses/getRequiredFieldsWithoutBaggage.xml')
     Gillbus::GetRequiredFields::Response.parse_string(response_xml)
