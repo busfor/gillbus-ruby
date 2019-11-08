@@ -147,11 +147,29 @@ class Gillbus
         # Величина скидки в валюте продажи для пассажира с порядковым номером 0…N.
         attr_accessor :discount
 
+        # passenger0baggageCount... passengerNbaggageCount (не обязательный)
+        # На рейс без сегментов
+        # Количество мест багажа для пассажира с порядковым номером 0...N.
+        attr_accessor :baggage
+
+        # passenger0segment0baggageCount... passengerNsegmentMbaggageCount
+        # На рейс с сегментами
+        # Количество мест багажа для пассажира 0...N на сегмент 0...M
+        attr_accessor :segments_baggage
 
         attr_accessor :insurance_id
         attr_accessor :insurance_cost
 
         def params(prefix = '')
+          # [0, 1] => {'segment0baggageCount' => 0, 'segment1baggageCount' => 1}
+          prepared_baggage =
+            if segments_baggage
+              segments_baggage.map.with_index do |baggage_count, index|
+                ["segment#{index}baggageCount".to_sym, baggage_count]
+              end.to_h
+            else
+              {}
+            end
           compact(
             birthday: date(birthday),
             ISIC: isic,
@@ -168,6 +186,8 @@ class Gillbus
             discountValue: discount.to_f.to_s,
             insuranceId: insurance_id,
             insurance: insurance_cost,
+            baggageCount: baggage,
+            **prepared_baggage,
           ).map { |k, v| [:"#{prefix}#{k}", v] }.to_h
         end
 
