@@ -71,5 +71,6 @@
         <VAT>3.33</VAT>
         <CURRENCY>UAH</CURRENCY>
     </COMMISSION>
+    <IS_BAGGAGE>true</IS_BAGGAGE>
 </TICKET>
 </DATA>

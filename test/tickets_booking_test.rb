@@ -68,4 +68,11 @@ class TicketsBookingTest < Minitest::Test
     }
     assert_equal expected_params, request.params
   end
+
+  def test_parse_is_baggage_field
+    response = tickets_booking
+    ticket = response.tickets.first
+
+    assert_equal true, ticket.is_baggage
+  end
 end
