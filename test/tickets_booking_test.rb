@@ -31,10 +31,10 @@ class TicketsBookingTest < Minitest::Test
     request = Gillbus::TicketsBooking::Request.new(
       passengers: [
         {
-          baggage: 1,
+          baggage: [1],
         },
         {
-          baggage: 2,
+          baggage: [2],
         }
       ],
     )

@@ -162,7 +162,7 @@ class Gillbus
 
         def params(prefix = '')
           # [0, 1] => {'segment0baggageCount' => 0, 'segment1baggageCount' => 1}
-          prepared_baggage =
+          prepared_segments_baggage =
             if segments_baggage
               segments_baggage.map.with_index do |baggage_count, index|
                 ["segment#{index}baggageCount".to_sym, baggage_count]
@@ -186,8 +186,8 @@ class Gillbus
             discountValue: discount.to_f.to_s,
             insuranceId: insurance_id,
             insurance: insurance_cost,
-            baggageCount: baggage,
-            **prepared_baggage,
+            baggageCount: baggage&.first, # baggage используется для односегментных
+            **prepared_segments_baggage,
           ).map { |k, v| [:"#{prefix}#{k}", v] }.to_h
         end
 
