@@ -150,22 +150,22 @@ class Gillbus
         # passenger0baggageCount... passengerNbaggageCount (не обязательный)
         # На рейс без сегментов
         # Количество мест багажа для пассажира с порядковым номером 0...N.
-        attr_accessor :baggage
+        attr_accessor :luggage
 
         # passenger0segment0baggageCount... passengerNsegmentMbaggageCount
         # На рейс с сегментами
         # Количество мест багажа для пассажира 0...N на сегмент 0...M
-        attr_accessor :segments_baggage
+        attr_accessor :segments_luggage
 
         attr_accessor :insurance_id
         attr_accessor :insurance_cost
 
         def params(prefix = '')
           # [0, 1] => {'segment0baggageCount' => 0, 'segment1baggageCount' => 1}
-          prepared_segments_baggage =
-            if segments_baggage
-              segments_baggage.map.with_index do |baggage_count, index|
-                ["segment#{index}baggageCount".to_sym, baggage_count]
+          prepared_segments_luggage =
+            if segments_luggage
+              segments_luggage.map.with_index do |luggage_count, index|
+                ["segment#{index}baggageCount".to_sym, luggage_count]
               end.to_h
             else
               {}
@@ -186,8 +186,8 @@ class Gillbus
             discountValue: discount.to_f.to_s,
             insuranceId: insurance_id,
             insurance: insurance_cost,
-            baggageCount: baggage&.first, # baggage используется для односегментных
-            **prepared_segments_baggage,
+            baggageCount: luggage&.first, # luggage используется для односегментных
+            **prepared_segments_luggage,
           ).map { |k, v| [:"#{prefix}#{k}", v] }.to_h
         end
 

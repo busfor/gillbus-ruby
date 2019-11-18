@@ -87,7 +87,7 @@ class Gillbus
   require 'gillbus/structs/item'
   require 'gillbus/structs/carrier'
   require 'gillbus/structs/nearby_cities_trip'
-  require 'gillbus/structs/baggage'
+  require 'gillbus/structs/luggage'
 
   require 'gillbus/parse_error'
   require 'gillbus/base_request'

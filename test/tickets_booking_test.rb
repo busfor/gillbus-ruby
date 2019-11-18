@@ -13,7 +13,7 @@ class TicketsBookingTest < Minitest::Test
     assert_equal(Money.new(110_00, 'UAH'), tickets_booking.tickets.first.total_amount)
   end
 
-  def test_params_generation_with_no_baggage
+  def test_params_generation_with_no_luggage
     request = Gillbus::TicketsBooking::Request.new(
       passengers: [
         { },
@@ -27,14 +27,14 @@ class TicketsBookingTest < Minitest::Test
     assert_equal expected_params, request.params
   end
 
-  def test_params_generation_with_baggage_with_one_segment
+  def test_params_generation_with_luggage_with_one_segment
     request = Gillbus::TicketsBooking::Request.new(
       passengers: [
         {
-          baggage: [1],
+          luggage: [1],
         },
         {
-          baggage: [2],
+          luggage: [2],
         }
       ],
     )
@@ -51,10 +51,10 @@ class TicketsBookingTest < Minitest::Test
     request = Gillbus::TicketsBooking::Request.new(
       passengers: [
         {
-          segments_baggage: [0, 1],
+          segments_luggage: [0, 1],
         },
         {
-          segments_baggage: [1, 0],
+          segments_luggage: [1, 0],
         }
       ],
     )
@@ -69,10 +69,10 @@ class TicketsBookingTest < Minitest::Test
     assert_equal expected_params, request.params
   end
 
-  def test_parse_is_baggage_field
+  def test_parse_is_luggage_field
     response = tickets_booking
     ticket = response.tickets.first
 
-    assert_equal true, ticket.is_baggage
+    assert_equal true, ticket.is_luggage
   end
 end

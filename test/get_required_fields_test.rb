@@ -1,25 +1,25 @@
 require 'test_helper'
 
 class GetRequiredFieldsTest < Minitest::Test
-  def get_required_fields_without_baggage
-    response_xml = File.read('test/responses/getRequiredFieldsWithoutBaggage.xml')
+  def get_required_fields_without_luggage
+    response_xml = File.read('test/responses/getRequiredFieldsWithoutLuggage.xml')
     Gillbus::GetRequiredFields::Response.parse_string(response_xml)
   end
 
-  def get_required_fields_with_one_baggage
-    response_xml = File.read('test/responses/getRequiredFieldsWithOneBaggage.xml')
+  def get_required_fields_with_one_luggage
+    response_xml = File.read('test/responses/getRequiredFieldsWithOneLuggage.xml')
     Gillbus::GetRequiredFields::Response.parse_string(response_xml)
   end
 
-  def get_required_fields_with_two_baggage_segments
-    response_xml = File.read('test/responses/getRequiredFieldsWithTwoBaggageSegments.xml')
+  def get_required_fields_with_two_luggage_segments
+    response_xml = File.read('test/responses/getRequiredFieldsWithTwoLuggageSegments.xml')
     Gillbus::GetRequiredFields::Response.parse_string(response_xml)
   end
 
-  def test_required_fields_without_baggage
-    result = get_required_fields_without_baggage
+  def test_required_fields_without_luggage
+    result = get_required_fields_without_luggage
 
-    assert_nil result.baggage
+    assert_nil result.luggage
 
     dictionary = result.dictionary
     assert_equal false, dictionary[:student_ticket]
@@ -41,37 +41,37 @@ class GetRequiredFieldsTest < Minitest::Test
     assert_equal true, dictionary[:only_latin_symbols]
   end
 
-  def test_required_fields_with_one_baggage
-    result = get_required_fields_with_one_baggage
-    baggage = result.baggage
+  def test_required_fields_with_one_luggage
+    result = get_required_fields_with_one_luggage
+    luggage = result.luggage
 
-    assert_equal true, baggage.is_buy
-    assert_equal 50.5, baggage.baggage_tariff
+    assert_equal true, luggage.is_buy
+    assert_equal 50.5, luggage.luggage_tariff
 
-    assert_equal [], baggage.segments
-    assert_nil baggage.segment_number
+    assert_equal [], luggage.segments
+    assert_nil luggage.segment_number
   end
 
-  def test_required_fields_with_two_baggage_segments
-    result = get_required_fields_with_two_baggage_segments
-    baggage = result.baggage
+  def test_required_fields_with_two_luggage_segments
+    result = get_required_fields_with_two_luggage_segments
+    luggage = result.luggage
 
-    assert_nil baggage.is_buy
-    assert_nil baggage.baggage_tariff
-    assert_nil baggage.baggage_limit
+    assert_nil luggage.is_buy
+    assert_nil luggage.luggage_tariff
+    assert_nil luggage.luggage_limit
 
-    assert_equal 2, baggage.segments.count
-    first_baggage_segment = baggage.segments[0]
-    second_baggage_segment = baggage.segments[1]
+    assert_equal 2, luggage.segments.count
+    first_luggage_segment = luggage.segments[0]
+    second_luggage_segment = luggage.segments[1]
 
-    assert_equal 0, first_baggage_segment.segment_number
-    assert_equal true, first_baggage_segment.is_buy
-    assert_equal 70.7, first_baggage_segment.baggage_tariff
-    assert_equal 2, first_baggage_segment.baggage_limit
+    assert_equal 0, first_luggage_segment.segment_number
+    assert_equal true, first_luggage_segment.is_buy
+    assert_equal 70.7, first_luggage_segment.luggage_tariff
+    assert_equal 2, first_luggage_segment.luggage_limit
 
-    assert_equal 1, second_baggage_segment.segment_number
-    assert_equal false, second_baggage_segment.is_buy
-    assert_nil second_baggage_segment.baggage_tariff
-    assert_nil second_baggage_segment.baggage_limit
+    assert_equal 1, second_luggage_segment.segment_number
+    assert_equal false, second_luggage_segment.is_buy
+    assert_nil second_luggage_segment.luggage_tariff
+    assert_nil second_luggage_segment.luggage_limit
   end
 end

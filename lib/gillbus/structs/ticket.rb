@@ -283,7 +283,7 @@ class Gillbus
 
     field :is_online_refund, :bool
 
-    field :is_baggage, :bool
+    field :is_luggage, :bool, key: 'IS_BAGGAGE'
 
     parser do
       def ticket_status(value)
