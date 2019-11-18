@@ -283,6 +283,8 @@ class Gillbus
 
     field :is_online_refund, :bool
 
+    field :is_baggage, :bool
+
     parser do
       def ticket_status(value)
         ::Gillbus::Ticket::STATUS_MAPPING[value]
