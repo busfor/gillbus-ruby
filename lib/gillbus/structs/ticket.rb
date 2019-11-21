@@ -9,7 +9,7 @@ class Gillbus
       '5' => :canceled,        # booking canceled;
       '6' => :voided,          # ticket canceled;
       '8' => :booked,          # the sale, that waiting for the confirmation;
-      'e' => :ticketing_error, # source hasn't managed to process the ticket;
+      'e' => :ticketing_error, # resource failed to process this ticket;
     }.freeze
 
     extend Fields
