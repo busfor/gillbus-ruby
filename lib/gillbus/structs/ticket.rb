@@ -1,13 +1,15 @@
 class Gillbus
   class Ticket
     STATUS_MAPPING = {
-      '1' => :reserved,     # ticket booked;
-      '2' => :ticketed,     # ticket sold;
-      '3' => :ordered,      # the booking, that waiting for the confirmation;
-      '4' => :returned,     # ticket returned;
-      '5' => :canceled,     # booking cancelled;
-      '6' => :voided,       # ticket cancelled;
-      '8' => :booked,       # the sale, that waiting for the confirmation
+      '0' => :voiding,         # ticket in processing, interim status during refund;
+      '1' => :reserved,        # ticket booked;
+      '2' => :ticketed,        # ticket sold;
+      '3' => :ordered,         # the booking, that waiting for the confirmation;
+      '4' => :returned,        # ticket returned;
+      '5' => :canceled,        # booking canceled;
+      '6' => :voided,          # ticket canceled;
+      '8' => :booked,          # the sale, that waiting for the confirmation;
+      'e' => :ticketing_error, # resource failed to process this ticket;
     }.freeze
 
     extend Fields
@@ -32,8 +34,8 @@ class Gillbus
     # :ticketed    2 – ticket sold;
     # :ordered     3 – the booking, that waiting for the confirmation;
     # :returned    4 – ticket returned;
-    # :canceled    5 – booking cancelled;
-    # :voided      6 – ticket cancelled;
+    # :canceled    5 – booking canceled;
+    # :voided      6 – ticket canceled;
     # :booked      8 – the sale, that waiting for the confirmation
     field :ticket_status, :ticket_status
 
