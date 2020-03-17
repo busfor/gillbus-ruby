@@ -64,6 +64,15 @@ class Gillbus
       # отправлять ли email с листом бронирования пользователю
       attr_accessor :send_to
 
+      # идентификатор пользователя в системе BBC
+      attr_accessor :user_uuid
+
+      # ref заказа
+      attr_accessor :external_id
+
+      # ссылка на короткий ЛК
+      attr_accessor :return_link
+
       def params
         pax = (passengers || []).map.with_index { |p, i| Passenger.new(p).params("passenger#{i}") }.reduce({}, :merge)
         compact(
@@ -76,6 +85,9 @@ class Gillbus
           note: note,
           ticketLocale: translated_locale(ticket_locale),
           sendTo: send_to,
+          userUUID: user_uuid,
+          externalID: external_id,
+          returnLink: return_link,
           **pax,
         )
       end
