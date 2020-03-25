@@ -85,7 +85,7 @@ class Gillbus
           note: note,
           ticketLocale: translated_locale(ticket_locale),
           sendTo: send_to,
-          userUUID: user_uuid,
+          extCustomerUUID: user_uuid,
           externalID: external_id,
           returnLink: return_link,
           **pax,
