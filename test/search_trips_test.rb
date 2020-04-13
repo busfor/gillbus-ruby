@@ -6,6 +6,7 @@ class SearchTripsRequestTest < Minitest::Test
       start_date_search: Date.new(2013, 2, 4),
       selected_modes: [:avia, :connections],
       round_trip: true,
+      limit_segment_trip_show: 3,
       passengers: [
         {
           birthday: Date.parse('1990-01-01'),
@@ -28,6 +29,7 @@ class SearchTripsRequestTest < Minitest::Test
       startDateSearch: '04.02.2013',
       selectedModes: '3;8',
       roundTrip: '1',
+      limitSegmentTripShow: 3,
       passenger0birthday: '01.01.1990',
       passenger0studentTicket: 'STUDENTTICKET#1',
       passenger0studentYear: 1,
