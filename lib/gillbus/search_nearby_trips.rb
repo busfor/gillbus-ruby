@@ -23,10 +23,10 @@ class Gillbus
 
       def params
         compact(
-          startCityId:         start_city_id,
-          endCityId:           end_city_id,
-          startDateSearch:     date(start_date_search),
-          ticketCount:         ticket_count,
+          startCityId: start_city_id,
+          endCityId: end_city_id,
+          startDateSearch: date(start_date_search),
+          ticketCount: ticket_count,
         )
       end
     end

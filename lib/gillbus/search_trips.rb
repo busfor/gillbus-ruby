@@ -44,6 +44,11 @@ class Gillbus
       # Если false, то будут искаться рейсы только в одну сторону.
       attr_accessor :round_trip
 
+      # limitSegmentTripShow (опциональный параметр)
+      # Ограничение максимального количества сегментных рейсов.
+      # Если ничего не передано или передано число -1, то выдача не ограничена.
+      attr_accessor :limit_segment_trip_show
+
       # backStartDateSearch (обязательный если roundTrip=true)
       # Дата отправления, на которую будет произведен поиск обратных рейсов.
       attr_accessor :back_start_date_search
@@ -93,20 +98,21 @@ class Gillbus
 
       def params
         compact(
-          selectedModes:       modes(selected_modes),
-          connectionIds:       list(connection_ids),
-          tripFullSale:        bool(trip_full_sale),
-          fullSearch:          bool(full_search),
-          startCityId:         start_city_id,
-          endCityId:           end_city_id,
-          startDateSearch:     date(start_date_search),
-          roundTrip:           bool(round_trip),
+          selectedModes: modes(selected_modes),
+          connectionIds: list(connection_ids),
+          tripFullSale: bool(trip_full_sale),
+          fullSearch: bool(full_search),
+          startCityId: start_city_id,
+          endCityId: end_city_id,
+          startDateSearch: date(start_date_search),
+          roundTrip: bool(round_trip),
+          limitSegmentTripShow: limit_segment_trip_show,
           backStartDateSearch: date(back_start_date_search),
-          ticketCount:         ticket_count,
-          waitTimeout:         wait_timeout,
-          onlyBranded:         bool(only_branded),
-          tripOptions:         bool(trip_options),
-          insuranceId:         insurance_id,
+          ticketCount: ticket_count,
+          waitTimeout: wait_timeout,
+          onlyBranded: bool(only_branded),
+          tripOptions: bool(trip_options),
+          insuranceId: insurance_id,
           **passengers_data,
         )
       end
