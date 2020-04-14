@@ -46,7 +46,7 @@ class Gillbus
 
       # limitSegmentTripShow (опциональный параметр)
       # Ограничение максимального количества сегментных рейсов.
-      # Если ничего не передано, то выдача не ограничена.
+      # Если ничего не передано или передано число -1, то выдача не ограничена.
       attr_accessor :limit_segment_trip_show
 
       # backStartDateSearch (обязательный если roundTrip=true)
