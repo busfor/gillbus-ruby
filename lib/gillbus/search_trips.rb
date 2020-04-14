@@ -44,9 +44,9 @@ class Gillbus
       # Если false, то будут искаться рейсы только в одну сторону.
       attr_accessor :round_trip
 
-      # limitSegmentTripShow (не обязательный)
+      # limitSegmentTripShow (опциональный параметр)
       # Ограничение максимального количества сегментных рейсов.
-      # По умолчанию -1 - выдача не ограничена.
+      # Если ничего не передано, то выдача не ограничена.
       attr_accessor :limit_segment_trip_show
 
       # backStartDateSearch (обязательный если roundTrip=true)
