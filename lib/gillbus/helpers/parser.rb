@@ -46,10 +46,29 @@ class Gillbus
       if key.is_a?(Regexp)
         target_doc.select { |k| k =~ key }
       elsif key.is_a?(Array)
-        key.map { |k| Array(target_doc[k]) }.inject(&:+)
+        key.map { |k| ensure_array(target_doc[k]) }.inject(&:+)
       else
         target_doc[key]
       end
+    end
+
+    # Нужно удостовериться, что элемент завёрнут в массив,
+    # чтобы дальше эти массивы сложить в методе fetch_value.
+    # Есть нюанс, что при сложении ['Item'] + [{'ID'=>'1'}, 'Subitem'] получается
+    # ['Item', {'ID'=>'1'}, 'Subitem'], а нам надо ['Item', [{'ID'=>'1'}, 'Subitem']]
+    # Поэтому item_with_id заворачиваем во внешний массив
+    def ensure_array(val)
+      if is_item_with_id?(val)
+        [val]
+      else
+        Array(val)
+      end
+    end
+
+    # Детектит элементы вида <CRITICAL_INF ID="1">Text</CRITICAL_IND>,
+    # которые парсятся как [{'ID'=>'1'}, 'Text']
+    def is_item_with_id?(val)
+      val.is_a?(Array) && val.size == 2 && val.first.is_a?(Hash) && val.first.keys == ['ID']
     end
 
     def make_one_or_many(type, val)
