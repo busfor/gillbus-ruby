@@ -65,7 +65,7 @@ class Gillbus
       end
     end
 
-    # Детектит элементы вида <CRITICAL_INF ID="1">Text</CRITICAL_IND>,
+    # Детектит элементы вида <CRITICAL_INF ID="1">Text</CRITICAL_INF>,
     # которые парсятся как [{'ID'=>'1'}, 'Text']
     def is_item_with_id?(val)
       val.is_a?(Array) && val.size == 2 && val.first.is_a?(Hash) && val.first.keys == ['ID']
