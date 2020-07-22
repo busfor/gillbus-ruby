@@ -75,6 +75,10 @@ class SearchTripsResponseTest < Minitest::Test
     Gillbus::SearchTrips::Response.parse_string(File.read('test/responses/searchTrips-round-trip-offers.xml'))
   end
 
+  def get_trips_with_full_carriers_info
+    Gillbus::SearchTrips::Response.parse_string(File.read('test/responses/searchTrips-full-carriers-info.xml'))
+  end
+
   def test_empty_completed
     response = get_empty_search_trips
     assert response.completed
@@ -311,5 +315,16 @@ class SearchTripsResponseTest < Minitest::Test
     assert_equal 1, response.back_trips.count
     assert_equal 3, response.trips.count
     assert_equal response.back_trips.first.id, response.trips.first.id
+  end
+
+  def test_trips_with_full_carriers_info
+    response = get_trips_with_full_carriers_info
+    trip = response.trips.first
+
+    assert_equal "RU \"Еременчук Е.А.\" ИП", trip.carrier_legal_name
+    assert_equal "260802027265", trip.carrier_inn
+    assert_equal "г СНТ Лилия, Московская, Наро-фоминский", trip.carrier_address_fact
+    assert_equal "г СНТ Лилия, Московская, Наро-фоминский", trip.carrier_address_leg
+    assert_equal "316265100057314", trip.carrier_egrul_egis
   end
 end

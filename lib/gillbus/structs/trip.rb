@@ -71,6 +71,21 @@ class Gillbus
     # => "RU \"ПЕТРОКОМ - АВТО ПЛЮС\" ООО"
     field :carrier_name
 
+    # => "RU \"Еременчук Е.А.\" ИП"
+    field :carrier_legal_name
+
+    # => "260802027265"
+    field :carrier_inn
+
+    # => "г СНТ Лилия, Московская, Наро-фоминский"
+    field :carrier_address_fact
+
+    # => "г СНТ Лилия, Московская, Наро-фоминский"
+    field :carrier_address_leg
+
+    # => "316265100057314"
+    field :carrier_egrul_egis
+
     # => "09:10"
     field :time_in_road, :time
 
