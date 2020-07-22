@@ -1,0 +1,231 @@
+<DATA>
+    <COMPLETED>true</COMPLETED>
+    <TRIP>
+        <ID>-340796927707233606</ID>
+        <STATIC_TRIP_ID>5cdc47e62392904e080f164fa2698b43</STATIC_TRIP_ID>
+        <TRIP_ROUTE_ID>A016E31EC8C61A35E053E41C0CB99E98</TRIP_ROUTE_ID>
+        <RES_ID>0</RES_ID>
+        <NUMBER>MD_TEST - Москва - Краснодар Москва - Краснодар</NUMBER>
+        <START_CITY_NAME>Москва</START_CITY_NAME>
+        <END_CITY_NAME>Ростов-на-Дону</END_CITY_NAME>
+        <START_TIMEZONE>Europe/Moscow</START_TIMEZONE>
+        <END_TIMEZONE>Europe/Moscow</END_TIMEZONE>
+        <START_DATE>24.07.2020</START_DATE>
+        <END_DATE>25.07.2020</END_DATE>
+        <START_TIME>11:40</START_TIME>
+        <END_TIME>03:30</END_TIME>
+        <BUS_MODEL>Mercedes BENZ 0404 CARRUS</BUS_MODEL>
+        <BUS_CLASS/>
+        <BUS_ID/>
+        <BUS_FLOORS_NUMBER>1</BUS_FLOORS_NUMBER>
+        <PLATFORM/>
+        <TRIP_SEATS_MAP>true</TRIP_SEATS_MAP>
+        <SHOW_PICKUP_DROPOFF>false</SHOW_PICKUP_DROPOFF>
+        <BRANDED>false</BRANDED>
+        <HAS_TRANSFER>false</HAS_TRANSFER>
+        <PLACES_COUNT>60</PLACES_COUNT>
+        <FREE_PLACES_COUNT>53</FREE_PLACES_COUNT>
+        <FAKE_FREE_SEAT_COUNT>false</FAKE_FREE_SEAT_COUNT>
+        <FREE_BUSY_PLACES>53/60</FREE_BUSY_PLACES>
+        <CARRIER_ID>6C552CE3DBDC34E2E0530300F00AEA7B</CARRIER_ID>
+        <CARRIER_NAME>"Еременчук Е.А." ИП</CARRIER_NAME>
+        <CARRIER_LEGAL_NAME>RU "Еременчук Е.А." ИП</CARRIER_LEGAL_NAME>
+        <CARRIER_INN>260802027265</CARRIER_INN>
+        <CARRIER_ADDRESS_FACT>г СНТ Лилия, Московская, Наро-фоминский</CARRIER_ADDRESS_FACT>
+        <CARRIER_ADDRESS_LEG>г СНТ Лилия, Московская, Наро-фоминский</CARRIER_ADDRESS_LEG>
+        <CARRIER_EGRUL_EGIS>316265100057314</CARRIER_EGRUL_EGIS>
+        <TIME_IN_ROAD>15:50</TIME_IN_ROAD>
+        <FAKE_TIME_IN_ROAD>false</FAKE_TIME_IN_ROAD>
+        <RES_POINT_BEGIN_ID>9DD3E329EC8A3EE2E0530300F00A4CBA</RES_POINT_BEGIN_ID>
+        <POINT_BEGIN_ID>1409820</POINT_BEGIN_ID>
+        <STATION_BEGIN_ID>9DD3E329EC8A3EE2E0530300F00A4CBA</STATION_BEGIN_ID>
+        <STATION_BEGIN_NAME>Автовокзал Битца (ТРЦ "Шелковый Путь")</STATION_BEGIN_NAME>
+        <STATION_BEGIN_ADDRESS>Варшавское шоссе, 21 км, уч. 26</STATION_BEGIN_ADDRESS>
+        <RES_POINT_END_ID>4557C0CAC2CC3C79E0530300F00A06C8</RES_POINT_END_ID>
+        <POINT_END_ID>87348</POINT_END_ID>
+        <STATION_END_ID>4557C0CAC2CC3C79E0530300F00A06C8</STATION_END_ID>
+        <STATION_END_NAME>Автовокзал "Главный"</STATION_END_NAME>
+        <STATION_END_ADDRESS>проспект Сиверса; дом 1</STATION_END_ADDRESS>
+        <RESERVATION_ENABLED>true</RESERVATION_ENABLED>
+        <SALE_ENABLED>true</SALE_ENABLED>
+        <RETURN_ENABLED>true</RETURN_ENABLED>
+        <TIME_FOR_CANCEL>25</TIME_FOR_CANCEL>
+        <TRIP_FULL_SALE>false</TRIP_FULL_SALE>
+        <CAN_DISCOUNT>true</CAN_DISCOUNT>
+        <INTERNATIONAL>false</INTERNATIONAL>
+        <JOIN_BOOK_BUY>true</JOIN_BOOK_BUY>
+        <TRIP_MODE>1</TRIP_MODE>
+        <CUSTOM_STATUS>1</CUSTOM_STATUS>
+        <SPECIAL_CONDITIONS/>
+        <REDIRECT_URL/>
+        <TOTAL_COST>800</TOTAL_COST>
+        <CURRENCY>RUB</CURRENCY>
+        <CURRENCY_CODE>643</CURRENCY_CODE>
+        <TECH_AGREEMENT>false</TECH_AGREEMENT>
+        <CARRIER_CODE/>
+        <TARIFF>
+            <SHORT_NAME>Y</SHORT_NAME>
+            <IS_BASE>true</IS_BASE>
+            <FULL_NAME>Базовый тариф</FULL_NAME>
+            <START_DATE/>
+            <END_DATE/>
+            <DESCRIPTION>Базовый тариф стоимости проезда одного пассажира в одном направлении
+</DESCRIPTION>
+            <TIME_TO_BUY_RESERVED>2</TIME_TO_BUY_RESERVED>
+            <TIME_TO_STOP_BOOKING>2</TIME_TO_STOP_BOOKING>
+            <TIME_TO_PAY_RESERVATION>22.07.2020 12:51:03</TIME_TO_PAY_RESERVATION>
+            <COST>800</COST>
+            <INSURANCE_COST>0</INSURANCE_COST>
+            <INSURANCE_ID/>
+            <INSURANCE_SUM>0</INSURANCE_SUM>
+            <INSURANCE_CUR/>
+            <AFTER_DISPATCH_NO_RETURN>true</AFTER_DISPATCH_NO_RETURN>
+            <PASSENGER_BIRTHDAY/>
+            <PASSENGER_ISIC_NUMBER/>
+            <PASSENGER_STUDENT_TICKET/>
+            <NOTE/>
+            <WITHOUT_SEAT>N</WITHOUT_SEAT>
+            <RETURN_CAUSE>Возврат маршрутной квитанции более чем за 2 часа до отправления Удерживается при возврате: 5% тарифа. Ориентировочная сумма возврата 760 RUB</RETURN_CAUSE>
+            <RETURN_CAUSE>Возврат маршрутной квитанции в течение 2 часов до отправления Удерживается при возврате: 15% тарифа. Ориентировочная сумма возврата 680 RUB</RETURN_CAUSE>
+            <RETURN_CAUSE>Возврат маршрутной квитанции в случае опоздания к отправлению транспортного средства в течение 3 суток после отправления, при наличии справки из медицинского учреждения (по причине болезни) или акта о несчастном случае Удерживается при возврате: 25% тарифа. Ориентировочная сумма возврата 600 RUB</RETURN_CAUSE>
+            <RETURN_CAUSE>Возврат маршрутной квитанции в случае опоздания к отправлению транспортного средства в течение 3 часов Удерживается при возврате: 25% тарифа. Ориентировочная сумма возврата 600 RUB</RETURN_CAUSE>
+            <RETURN_CAUSE>Принудительно, при отмене рейса, при непредоставлении места, при т/с более низкого класса, задержка отправления т/с более чем на час. Возвращается 100% стоимости билета. Ориентировочная сумма возврата 800 RUB</RETURN_CAUSE>
+            <PROMOTE>false</PROMOTE>
+            <IS_EXCLUSIVE_PRICE>false</IS_EXCLUSIVE_PRICE>
+            <FREE_BOOKING>false</FREE_BOOKING>
+        </TARIFF>
+        <POINT>
+            <NUMBER>0</NUMBER>
+            <ID>1409820</ID>
+            <LOCATION_ID>244430</LOCATION_ID>
+            <GEOGRAPHY_NAME>Москва</GEOGRAPHY_NAME>
+            <NAME>Автовокзал Битца (ТРЦ "Шелковый Путь")</NAME>
+            <ADDRESS>Варшавское шоссе, 21 км, уч. 26</ADDRESS>
+            <TIMEZONE>Europe/Moscow</TIMEZONE>
+            <ARRIVAL_DATE>24.07.2020</ARRIVAL_DATE>
+            <ARRIVAL_TIME/>
+            <DISPATCH_DATE>24.07.2020</DISPATCH_DATE>
+            <DISPATCH_TIME>11:40</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>0</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>1</NUMBER>
+            <ID>1647236</ID>
+            <LOCATION_ID>55903</LOCATION_ID>
+            <GEOGRAPHY_NAME>Тула</GEOGRAPHY_NAME>
+            <NAME>Остановка "Памятник Три штыка"</NAME>
+            <ADDRESS>улица Ленина; дом 94</ADDRESS>
+            <TIMEZONE>Europe/Moscow</TIMEZONE>
+            <ARRIVAL_DATE>24.07.2020</ARRIVAL_DATE>
+            <ARRIVAL_TIME>14:30</ARRIVAL_TIME>
+            <DISPATCH_DATE>24.07.2020</DISPATCH_DATE>
+            <DISPATCH_TIME>14:35</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>182</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>2</NUMBER>
+            <ID>87015</ID>
+            <LOCATION_ID>41236</LOCATION_ID>
+            <GEOGRAPHY_NAME>Воронеж</GEOGRAPHY_NAME>
+            <NAME>Железнодорожный вокзал "Воронеж-1"</NAME>
+            <ADDRESS>площадь Генерала Черняховского; дом 1</ADDRESS>
+            <TIMEZONE>Europe/Moscow</TIMEZONE>
+            <ARRIVAL_DATE>24.07.2020</ARRIVAL_DATE>
+            <ARRIVAL_TIME>19:30</ARRIVAL_TIME>
+            <DISPATCH_DATE>24.07.2020</DISPATCH_DATE>
+            <DISPATCH_TIME>19:35</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>523</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>3</NUMBER>
+            <ID>924816</ID>
+            <LOCATION_ID>91587</LOCATION_ID>
+            <GEOGRAPHY_NAME>Богучар</GEOGRAPHY_NAME>
+            <NAME>Автовокзал Богучар</NAME>
+            <ADDRESS>улица Дзержинского; дом 239</ADDRESS>
+            <TIMEZONE>Europe/Moscow</TIMEZONE>
+            <ARRIVAL_DATE>24.07.2020</ARRIVAL_DATE>
+            <ARRIVAL_TIME>23:00</ARRIVAL_TIME>
+            <DISPATCH_DATE>24.07.2020</DISPATCH_DATE>
+            <DISPATCH_TIME>23:05</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>746</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>4</NUMBER>
+            <ID>1647237</ID>
+            <LOCATION_ID>52524</LOCATION_ID>
+            <GEOGRAPHY_NAME>Каменск-Шахтинский</GEOGRAPHY_NAME>
+            <NAME>Остановка Каменск-Шахтинский (трасса)</NAME>
+            <ADDRESS>трасса М-4 Дон, 932 км</ADDRESS>
+            <TIMEZONE>Europe/Moscow</TIMEZONE>
+            <ARRIVAL_DATE>25.07.2020</ARRIVAL_DATE>
+            <ARRIVAL_TIME>01:30</ARRIVAL_TIME>
+            <DISPATCH_DATE>25.07.2020</DISPATCH_DATE>
+            <DISPATCH_TIME>01:35</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>946</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>5</NUMBER>
+            <ID>1647238</ID>
+            <LOCATION_ID>243086</LOCATION_ID>
+            <GEOGRAPHY_NAME>Шахты</GEOGRAPHY_NAME>
+            <NAME>Остановка Шахты (трасса)</NAME>
+            <ADDRESS>трасса М-4 Дон, 994 км</ADDRESS>
+            <TIMEZONE>Europe/Moscow</TIMEZONE>
+            <ARRIVAL_DATE>25.07.2020</ARRIVAL_DATE>
+            <ARRIVAL_TIME>02:30</ARRIVAL_TIME>
+            <DISPATCH_DATE>25.07.2020</DISPATCH_DATE>
+            <DISPATCH_TIME>02:35</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>1022</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM/>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+        <POINT>
+            <NUMBER>6</NUMBER>
+            <ID>87348</ID>
+            <LOCATION_ID>52516</LOCATION_ID>
+            <GEOGRAPHY_NAME>Ростов-на-Дону</GEOGRAPHY_NAME>
+            <NAME>Автовокзал "Главный"</NAME>
+            <ADDRESS>проспект Сиверса; дом 1</ADDRESS>
+            <TIMEZONE>Europe/Moscow</TIMEZONE>
+            <ARRIVAL_DATE>25.07.2020</ARRIVAL_DATE>
+            <ARRIVAL_TIME>03:30</ARRIVAL_TIME>
+            <DISPATCH_DATE>25.07.2020</DISPATCH_DATE>
+            <DISPATCH_TIME>03:40</DISPATCH_TIME>
+            <CHECK_POINT>false</CHECK_POINT>
+            <DISTANCE>1075</DISTANCE>
+            <TRANSFER_POINT>false</TRANSFER_POINT>
+            <PLATFORM>26 </PLATFORM>
+            <BUSMODEL/>
+            <AGREED>true</AGREED>
+        </POINT>
+    </TRIP>
+</DATA>
