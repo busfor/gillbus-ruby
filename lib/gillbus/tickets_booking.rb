@@ -137,6 +137,7 @@ class Gillbus
         # :seaman_passport       6 - паспорт моряка
         # :birth_certificate     7 - свидетельство о рождении
         # :ussr_passport         8 - паспорт формы СССР
+        # :tax_id                9 - CPF для WL Бразилии
         attr_accessor :document_type
 
         # passenger0passport... passengerNpassport (обязательный для авиаперевозки)
@@ -212,6 +213,7 @@ class Gillbus
             seaman_passport: 6,
             birth_certificate: 7,
             ussr_passport: 8,
+            tax_id: 9,
           }[value.try(:to_sym)]
         end
       end
