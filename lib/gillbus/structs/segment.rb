@@ -82,6 +82,9 @@ class Gillbus
     # => "316265100057314"
     field :carrier_egrul_egis
 
+    # => "2514411332"
+    field :carrier_ogrn
+
     # => "09:10"
     field :time_in_road, :time
 
